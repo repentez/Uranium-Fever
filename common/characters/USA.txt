@@ -14,6 +14,7 @@ characters={
 			cost = 125
         }
     }
+
 	 USA_ceo_red_rocket = { 
         name = "Michael Winter"
         portraits = {
