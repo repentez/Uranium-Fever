@@ -1,0 +1,156 @@
+focus_tree = {
+	id = DON_starting
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = DON
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 2500 }
+	focus = {
+		id = DON_sovereigh_republic
+		icon = GFX_goal_unknown
+		cost = 3
+		x = 5
+		y = 0
+		completion_reward = {
+			add_ideas = DON_svobodnaya_novorossiya_idea_1
+			country_event = novorossia.4
+		}
+	}
+    focus = {
+		id = DON_development_a_new_government
+		icon = GFX_goal_unknown
+        relative_position_id = DON_sovereigh_republic
+        prerequisite = {
+            focus = DON_sovereigh_republic
+        }
+		cost = 3
+		x = 0
+		y = 1
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = DON_svobodnaya_novorossiya_idea_1
+				add_idea = DON_svobodnaya_novorossiya_idea_2
+			}
+			set_popularities = {
+	            democratic = 20
+	            neutrality = 5
+	            fascism = 5
+	            communism = 70
+            }
+		}
+	}
+    focus = {
+		id = DON_de_totalitarisation
+		icon = GFX_goal_unknown
+        relative_position_id = DON_sovereigh_republic
+        prerequisite = {
+            focus = DON_development_a_new_government
+        }
+		cost = 3
+		x = 0
+		y = 2
+        completion_reward = {
+			add_ideas = DON_decommunisation_idea
+			set_province_name = {
+                id = 6474
+                name = STATE_228_dec
+            }
+			set_province_name = {
+                id = 9461
+                name = STATE_227_dec
+            }
+			country_event = {
+				id = novorossia.1
+				days = 24
+			}
+		}
+	}
+    focus = {
+		id = DON_cpn_syezd
+		icon = GFX_goal_unknown
+        relative_position_id = DON_sovereigh_republic
+        prerequisite = {
+            focus = DON_de_totalitarisation
+        }
+		cost = 4
+		x = 0
+		y = 3
+		completion_reward = {
+			country_event = novorossia.3
+		}
+	}
+	focus = {
+		id = DON_sovereigh_novorossia
+		icon = GFX_goal_unknown
+        relative_position_id = DON_sovereigh_republic
+		available = {
+			always = no
+		}
+		mutually_exclusive = {
+			focus = DON_communist_ukraine
+		}
+        prerequisite = {
+            focus = DON_cpn_syezd
+        }
+		cost = 4
+		x = -2
+		y = 4
+	}
+	focus = {
+		id = DON_communist_ukraine
+		icon = GFX_goal_unknown
+        relative_position_id = DON_sovereigh_republic
+		available = {
+			always = no
+		}
+        prerequisite = {
+            focus = DON_cpn_syezd
+        }
+		cost = 4
+		x = 2
+		y = 4
+		completion_reward = {
+			set_party_name = {
+                ideology = communism
+                    name = DON_communism_party_cpu
+					long_name = DON_communism_party_cpu_long
+                }
+			DON = {
+                set_cosmetic_tag = DON_ukraine_ssr
+            }
+            every_state = {
+                limit = {
+                    is_controlled_by = UKR
+                    is_core_of = UKR
+                }
+                add_core_of = DON
+            }
+		}
+	}
+	focus = {
+		id = DON_annex_crimea
+		icon = GFX_goal_unknown
+        relative_position_id = DON_sovereigh_republic
+        prerequisite = {
+            focus = DON_sovereigh_novorossia
+			focus = DON_communist_ukraine
+        }
+		cost = 4
+		x = 0
+		y = 5
+		completion_reward = {
+			country_event = novorossia.5
+			annex_country = {
+                target = CRI
+                transfer_troops = yes
+            }
+		}
+	}
+}

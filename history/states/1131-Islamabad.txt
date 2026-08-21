@@ -1,0 +1,26 @@
+state={
+	id=1131
+	name="STATE_1131"
+	manpower = 690800
+	
+	state_category = large_city
+
+	history={
+		owner = PAK
+		add_core_of = PAK
+		add_core_of = KHL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                victory_points = {
+		10173 15 
+		}
+	}
+
+	provinces={
+		10173
+	}
+
+	local_supplies=0.0 
+}

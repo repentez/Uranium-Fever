@@ -1,0 +1,37 @@
+state={
+	id=1120
+	name="STATE_1120"
+
+	state_category = megalopolis
+
+	history = {
+		owner = DDR
+		add_core_of = DDR
+
+		victory_points = {
+			6521 50 # Berlin
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 5
+			anti_air_building = 5
+			air_base = 10
+			6521 = {
+                landmark_berlin_reichstag = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+            }
+		}
+	}
+	provinces={
+		6521 
+	}
+	manpower=1280303
+	buildings_max_level_factor=1
+	local_supplies=0
+}

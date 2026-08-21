@@ -1,0 +1,51 @@
+state = {
+	id = 61
+	name = "STATE_61"
+	manpower = 1910307
+
+
+	state_category = town
+
+	history = {
+
+		owner = DDR
+		add_core_of = DDR
+		add_core_of = MEK
+
+		victory_points = {
+			321 5 # Rostocj
+		}
+
+		victory_points = {
+			11305 3 # Lübeck
+		}
+
+		victory_points = {
+			9388 1 # Stralsund
+		}
+
+		victory_points = {
+			3258 1 # Neustrelitz 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			321 = {
+				naval_base = 6
+
+			}
+			9388 = { #Not exact match with historical location but has supplies
+				air_facility = 1 #Representing Peenemünde's Research Facilities
+			}
+			air_base = 8
+		}
+		
+	}
+
+	provinces={
+		268 293 321 349 3258 3340 9294 9388 11276 11305 13257 15835 15836 15837 
+	}
+
+	local_supplies=3.0 
+}

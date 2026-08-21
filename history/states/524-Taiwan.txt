@@ -1,0 +1,38 @@
+state = {
+	id = 524
+	name = "STATE_524"
+	manpower = 4592537
+	
+	state_category = city
+
+	resources = {
+		coal = 8 # 200,000 metric tons produced 
+		oil = 3 #1m barrels annually
+	}
+
+	history = {
+
+		owner = CHI
+		add_core_of = CHI
+		add_claim_by = PRC
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			air_base = 6
+			7186 = {
+				naval_base = 2
+			}
+		}
+
+		victory_points = {
+			7186 15 # Taipei
+		}
+
+	}
+	provinces = {
+		7186 15887 15888
+	}
+
+	local_supplies = 0.0 
+}

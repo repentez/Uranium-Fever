@@ -1,0 +1,27 @@
+state={
+	id=982
+	name="STATE_982"
+	resources={
+		rubber=2
+	}
+	provinces={
+		1238 1321 7391 7447 10190  
+	}
+	manpower = 24305021
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = RAS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			1321 3 
+		}
+
+	}
+}

@@ -1,0 +1,24 @@
+state={
+	id=990
+	name="STATE_990"
+	provinces={
+		1553 16127 16128 18858 18862
+	}
+	state_category = large_town
+	manpower = 1768002
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = MPU
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		victory_points = {
+			1553 5
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+}

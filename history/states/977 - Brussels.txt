@@ -1,0 +1,39 @@
+state = {
+	id = 977
+	name = "STATE_977" # Antwerpen
+	manpower = 1800000
+
+	resources={
+		coal = 2 
+	}
+	
+	state_category = metropolis
+
+	history = {
+
+		owner = EUC
+		add_core_of = BEL
+		add_core_of = EUC
+
+	    victory_points = { 
+			516 30 
+		}
+
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 1
+			6598 = {
+				naval_base = 8
+			}
+		}
+	
+	}
+
+	provinces = {
+		516 
+	}
+
+	local_supplies = 0.0 
+}

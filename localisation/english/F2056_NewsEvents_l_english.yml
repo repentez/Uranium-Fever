@@ -1,0 +1,8 @@
+﻿l_english:
+  F2056_news.1.t: "The [PAK.GetAdjective] Insurrection in Kashmir"
+  F2056_news.1.d: "At [GetDateText], a covert [PAK.GetAdjective]-led insurrection ignited across [RAJ.GetAdjective]-administered Kashmir. Spearheaded by elite operatives and local separatist cells, the movement began with synchronized attacks on police stations, communication hubs, and military outposts in the Srinagar and Pulwama regions. Backed by intelligence support and weapons funneled across the Line of Control, the insurgents aimed to destabilize [RAJ.GetAdjective] control and rally mass civilian unrest. Propaganda flooded Pakistani television, calling for a "Kashmiri Spring," while Pakistan officially denied involvement. As clashes escalated, [RAJ.GetName] launched sweeping counterinsurgency operations, plunging the region into its most volatile state since the Kargil conflict."
+  F2056_news.1.a: "A second Kashmir War?"
+  F2056_news.1.b: "We will now fully own Kashmir!"
+  F2056_news.1.c: "This will be put down with force!"
+  F2056_news.1.e: "The more cracks in China's sphere, the better."
+  F2056_news.1.f: "Get the leader of Pakistan over here now..."

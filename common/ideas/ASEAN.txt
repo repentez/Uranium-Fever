@@ -1,0 +1,96 @@
+ideas = {
+	country = {
+		ASEAN_Shadow_Government = {
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = AST_climate_disaster
+			
+			modifier = {
+
+			}
+		}
+		ASEAN_Uncheck_Raids = {
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = AST_climate_disaster
+			
+			modifier = {
+
+			}
+		}
+		ASEAN_Nation_Of_Milita = {
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = AST_climate_disaster
+			
+			modifier = {
+
+			}
+		}
+
+		ASEAN_Crime_Spike = {
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = AST_climate_disaster
+			
+			modifier = {
+
+			}
+		}
+
+		ASEAN_CommunistTerrorCells = {
+			
+			allowed = {
+				
+			}
+
+			allowed_civil_war = {
+				
+			}
+
+			removal_cost = -1
+
+			picture = Commie_Terror_Cells
+			
+			modifier = {
+				
+			}
+		}
+	}
+}

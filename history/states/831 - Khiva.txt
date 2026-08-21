@@ -1,0 +1,33 @@
+state = {
+
+	id = 831
+	name = "STATE_831" #Khiva
+
+	history = {
+	
+		victory_points = {
+			12465 1
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		
+		add_core_of = SOV
+		add_core_of = UZB
+		
+	}
+
+	provinces = {
+		12465
+	}
+	
+	manpower = 1999645
+	buildings_max_level_factor = 1.000
+	state_category = city
+
+	local_supplies = 0.0 
+}

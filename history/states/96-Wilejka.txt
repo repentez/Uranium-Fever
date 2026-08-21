@@ -1,0 +1,31 @@
+state={
+	id=96
+	name="STATE_96"
+	manpower = 1624500
+	
+	state_category = metropolis
+
+	resources = {
+		steel = 15
+	}
+	
+	history={
+		victory_points = {
+			11370 20
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = SOV
+		add_core_of = BLR
+	}
+
+	provinces={
+		11370 
+	}
+
+	local_supplies=0.0 
+}

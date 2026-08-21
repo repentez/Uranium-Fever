@@ -1,0 +1,24 @@
+
+state={
+	id=813
+	name="STATE_813"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4 #was: 5
+			industrial_complex = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		1694 4850 7741 7874 
+	}
+	manpower=1000204
+	buildings_max_level_factor=1.000
+	state_category= town
+}

@@ -1,0 +1,44 @@
+state = {
+	id = 244
+	name = "STATE_244" # Volkhov
+	manpower = 1668200
+	
+	state_category = large_town
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+
+			# Volkhov Hydroelectric Station
+			9197 = { dam = 1 }
+
+		}
+
+		victory_points = {
+			9098 1
+		}
+
+		victory_points = { #Viipuri
+			9206 3 
+		}
+		
+		victory_points = {
+			3140 1 
+		}
+		
+		victory_points = {
+			9197 1 # Volkhov
+		}
+	}
+
+	provinces = {
+		57 70 79 104 126 149 152 172 181 461 3060 3072 3120 3140 3142 3163 6095 6131 6139 6167 6169 6197 9082 9097 9098 9100 9105 9107 9150 9164 9184 9190 9197 9206 11032 11059 11062 11068 11080 11093 11139 11162 11165 11174 11186 14763 15637 15986 17432 18260 18261 18271 18274 18292  
+	}
+
+	local_supplies = 0.0 
+}

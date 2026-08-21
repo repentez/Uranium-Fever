@@ -1,0 +1,39 @@
+state = {
+	id = 972
+	name = "STATE_972"
+	manpower = 826000
+	
+	state_category = town
+	
+	resources = {
+		steel = 2
+	}
+	
+	history = {
+
+		owner = CZE
+		add_core_of = CZE
+
+		victory_points = { 
+			9569 5 
+		}
+		victory_points = { 
+			9541 3 
+		}
+
+		buildings = {
+		
+			infrastructure = 3
+			industrial_complex = 2
+			anti_air_building = 1
+
+		}
+
+	}
+
+	provinces = {
+		543 5283 9421 9541 9569 11556 
+	}
+	local_supplies = 0.0 
+
+}

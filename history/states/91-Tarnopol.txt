@@ -1,0 +1,35 @@
+state={
+	id=91
+	name="STATE_91" # Lwow
+	manpower = 2920103
+	
+	state_category = large_city
+
+	resources = {
+		steel = 16
+	}
+	
+	history={
+		owner = SOV
+		victory_points = {
+			11479 3
+		}
+		victory_points = {
+			6483 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 5
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+		6431 6460 6483 9425 9454 9468 11479 15683 18820 19164 19165 19168 19169 19174 19175 19178 
+	}
+
+	local_supplies=0.0 
+}

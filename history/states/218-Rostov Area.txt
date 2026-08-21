@@ -1,0 +1,41 @@
+
+state={
+	id=218
+	name="STATE_218"
+	manpower = 4308900
+	
+	state_category = large_town
+
+	history={
+		owner = SOV
+		victory_points = {
+			11476 1 # Millerovo
+		}
+
+		victory_points = {
+			775 1 # City of Volgodonsk only founded in 1950 to service the new reservoir
+		}
+
+		victory_points = {
+			9417 15 
+		}
+		buildings = {
+			infrastructure = 4 #was: 5
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 3
+			9417 ={
+				naval_base = 5
+			}
+			# Tsimlyanskoye Hydroelectric Station
+		    6490 = { dam = 1 }
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		426 449 484 500 509 585 775 3417 3431 3443 3464 3478 3519 3540 3587 3777 6417 6445 6468 6490 6544 6566 9415 9417 9430 9488 9516 9565 9581 11400 11403 11416 11418 11434 11450 11459 11476 11559 14777 15687 18304 18326 
+	}
+
+	local_supplies=3.0 
+}

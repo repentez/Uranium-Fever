@@ -1,0 +1,302 @@
+ideas = {
+	country = {
+	
+		#########################
+		# Economic Ideas  #
+		#########################
+		prc_The_Chinese_Depression = {
+			picture = prc_golden_era_image			
+		}
+
+		prc_golden_era = { #this will never be lost only increased!!!
+			picture = prc_golden_era_image
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.07
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		prc_One_Child = { #this will never be lost only increased!!!
+			picture = One_Child
+
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+        	    recruitable_population_factor = -0.10 
+            	monthly_population = -0.15 
+				political_power_factor = -0.05 
+				stability_factor = -0.05 
+				consumer_goods_factor = -0.05 
+				research_speed_factor = -0.05 
+			}
+		}  
+
+		prc_State_Corruption = { #this will never be lost only increased!!!
+			picture = PRC_corruption
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+						political_power_factor = -0.05 
+						political_power_cost = 0.1 
+						stability_factor = -0.05 
+						consumer_goods_factor = -0.05 
+						research_speed_factor = -0.05 
+					}
+		}
+
+		prc_Incompetent_Army = { 
+			picture = PRC_Army_Incompetent
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+		modifier = {
+            recruitable_population_factor = -0.10 
+			army_attack_factor = -0.10 
+            army_morale_factor = -0.15 
+            experience_loss_factor = 0.20 
+      	  	}
+		}
+
+		prc_Negotiator_Protesting = { # A Protest in Limbo
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+		stability_factor = -0.05
+		stability_weekly = -0.0010
+        consumer_goods_factor = 0.15
+        political_power_gain = -1.00  
+			}
+		}  
+
+		prc_Negotiator_Protesting3 = { #  Xin
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+		stability_factor = -0.05
+		stability_weekly = -0.0010
+        consumer_goods_factor = 0.15
+        political_power_gain = -1.00  
+			}
+		}
+
+		prc_Negotiator_Protesting2 = { # # Li Ming
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+		stability_factor = -0.05
+        political_power_gain = -1.00  
+			}
+		}    
+
+		prc_people_before_ideology = { # # Li Ming
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+		stability_factor = -0.05
+        political_power_gain = -0.50  
+		research_speed_factor = 0.05  
+			}
+		}    
+
+
+		prc_Police_Sent = { # Policed Protests
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+		modifier = {
+		stability_factor = -0.05
+		stability_weekly = -0.01
+        consumer_goods_factor = 0.03  
+        political_power_gain = -0.10  
+			}
+		} 
+
+		prc_student_outrage = { #this will never be lost only increased!!!
+			picture = prc_golden_era_image
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
+
+ #####################################
+ # Early Game Crisis Part 1: Strikes #
+ #####################################
+PRC_Strikes_Stage_1 = { 
+		picture = prc_strikes	
+		modifier = {
+			stability_weekly = -0.02
+			industrial_capacity_dockyard = -0.02
+			industrial_capacity_factory = -0.02
+			consumer_goods_factor = 0.02
+			production_speed_buildings_factor = -0.02
+			political_power_gain = -0.01
+			manpower = -0.005
+		}
+	}
+	
+	PRC_Strikes_Stage_2 = { 
+		picture = prc_strikes
+		modifier = {
+			stability_weekly = -0.04
+			industrial_capacity_dockyard = -0.04
+			industrial_capacity_factory = -0.04
+			consumer_goods_factor = 0.04
+			production_speed_buildings_factor = -0.04
+			political_power_gain = -0.02
+			manpower = -0.01
+			modifier = {
+				espionage_agency_power_gain = 0.1
+				allowed = { has_variable = { surveillance_level >= 1 } }
+			}
+		}
+	}
+	
+	PRC_Strikes_Stage_3 = { 
+		picture = prc_strikes
+		modifier = {
+			stability_weekly = -0.08
+			industrial_capacity_dockyard = -0.08
+			industrial_capacity_factory = -0.08
+			consumer_goods_factor = 0.08
+			production_speed_buildings_factor = -0.08
+			political_power_gain = -0.04
+			manpower = -0.02
+			modifier = {
+				trade_opinion_modifier = 0.05
+				construction_speed = -0.02
+				allowed = { has_variable = { surveillance_level >= 2 } }
+			}
+		}
+	}
+	
+	PRC_Strikes_Stage_4 = { 
+		picture = prc_strikes
+		modifier = {
+			stability_weekly = -0.12
+			industrial_capacity_dockyard = -0.12
+			industrial_capacity_factory = -0.12
+			consumer_goods_factor = 0.12
+			production_speed_buildings_factor = -0.12
+			political_power_gain = -0.06
+			manpower = -0.04
+			modifier = {
+				resource_efficiency = 0.05
+				consumer_goods_factor = -0.02
+				war_support = -0.05
+				allowed = { has_idea = beholder_surveillance }
+			}
+		}
+	}
+	
+	PRC_Strikes_Stage_5 = { 
+		picture = prc_strikes
+		modifier = {
+			stability_weekly = -0.16
+			industrial_capacity_dockyard = -0.16
+			industrial_capacity_factory = -0.16
+			consumer_goods_factor = 0.16
+			production_speed_buildings_factor = -0.16
+			political_power_gain = -0.08
+			manpower = -0.08
+			modifier = {
+				stability = 0.10
+				political_power_gain = 0.02
+				construction_speed = -0.05
+				allowed = { has_idea = beholder_economy_law }
+				}
+			}
+		}
+	}
+}

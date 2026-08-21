@@ -1,0 +1,22 @@
+﻿l_english: 
+ ### COSMETIC TAGS ###
+ DON_ukraine_ssr: "Ukrainian Soviet Federative Socialist Republic"
+ DON_ukraine_ssr_DEF: "the Ukrainian Soviet Federative Socialist Republic"
+ DON_ukraine_ssr_ADJ: "Ukrainian"
+
+ ### LEADERS ###
+
+ pro_ukrain_leader: "pro-ukrain"
+ pro_ukrain_leader_tt: "Dmitry Ovseenko is the Chairman of the Supreme Council of the Novorossiyan SSR. He is a typical representative of the party bureau and nomenklatura who was lucky enough to escape repression by the reformist wing of the CPSU. But unlike others, he advocates for the return of Novorossiya to the Ukrainian SSR, which in the recent past seemed very likely, but the collapse of the USSR and the gradual de-Sovietization of Ukraine destroyed his plans. He found himself in the wrong place at the wrong time."
+
+ ### Parties ###
+
+ DON_communism_party: "CPN"
+ DON_communism_party_long: "Communist Party of Novorossiya"
+ DON_communism_party_cpu: "CPU(B)"
+ DON_communism_party_cpu_long: "Communist Party of Ukraine (Bolsheviks)"
+
+ ### IDEAS ###
+
+ DON_young_soviet_republic_idea: "Young Soviet Socialist Republic"
+ DON_young_soviet_republic_tt: "The Novorossiyan SSR is the youngest republic in the Soviet Union. It was established in 2005 as a result of Novorossiya's separation from the Ukrainian SSR for economic reasons. The republic gradually developed and a state apparatus was formed, but just like 51 years ago. Every couple of years, the Ukrainian SSR demands the return of Novorossiya to Ukraine, either as an autonomous Soviet republic or under direct administration, but Moscow's response has always been negative. Perhaps Ukraine will take Novorossiya back, no matter how, but it will take it back."

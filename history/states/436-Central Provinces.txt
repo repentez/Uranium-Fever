@@ -1,0 +1,35 @@
+
+state={
+	id=436
+	name="STATE_436" # Central provinces, was Jabalpur
+	manpower = 43670900
+	
+	state_category = city
+	
+	resources={
+		chromium=4 # was: 6
+		coal = 7 #initial distribution
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = CIP
+
+		victory_points = {
+			4106 5
+		}
+		
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+	}
+
+	provinces={
+		1199 1949 2105 4106 4410 4883 4953 5040 5096 7080 7205 7938 8076 8120 10030 10332 10801 10807 10816 10872 11995 12080 12480 12743 12799 12854 13480 16075 16076 16077 16078 16079 16080 16084 18823 18825 18827 18828 18829 18907 18911 18912 18918 18919 18937 18942 18950 18971 18972 18973 18987 19007 
+	}
+
+	local_supplies=0.0 
+}

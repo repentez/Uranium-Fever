@@ -1,0 +1,33 @@
+state={
+	id=1108
+	name="STATE_1108"
+
+	state_category = metropolis
+
+	history = {
+
+		owner = SOV
+		add_core_of = DON
+		add_core_of = CRI
+		add_core_of = SOV
+
+		victory_points = {
+			3686 20 # Sevastopol
+		}
+
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+				3686 = {
+					naval_facility = 1 # Sevastopol Naval Facilties
+				}
+			air_base = 3
+		}
+	}
+	provinces={
+		3686 
+	}
+	manpower= 400174
+	buildings_max_level_factor=1
+	local_supplies=0
+}

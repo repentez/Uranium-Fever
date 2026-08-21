@@ -1,0 +1,23 @@
+
+state = {
+	id = 824
+	name = "STATE_824" # Yamalia
+	manpower = 160000
+	
+	state_category = pastoral
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+	}
+
+	provinces = {
+		4923 8027 10417 12805 14751 15970 15975 18656 
+	}
+
+	local_supplies = 0.0 
+}

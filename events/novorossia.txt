@@ -1,0 +1,109 @@
+add_namespace = novorossia
+
+country_event = {
+	id = novorossia.1
+	title = novorossia.1.t
+	desc = novorossia.1.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = novorossia.1.a
+        192 = {
+            transfer_state_to = UPA
+            set_demilitarized_zone = no
+        }
+        766 = {
+            transfer_state_to = UPA
+            set_demilitarized_zone = no
+        }
+        197 = {
+            transfer_state_to = UPA
+            set_demilitarized_zone = no
+        }
+        196 = {
+            transfer_state_to = UPA
+            set_demilitarized_zone = no
+        }
+        country_event = {
+            id = novorossia.2 # My Bandera is a war criminal
+            days = 10
+        }
+    }
+}
+country_event = {
+	id = novorossia.2
+	title = novorossia.2.t
+	desc = novorossia.2.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = novorossia.2.a
+        declare_war_on = {
+            target = UPA
+            type = annex_everything
+        }
+    }
+}
+country_event = {
+	id = novorossia.3
+	title = novorossia.3.t
+	desc = novorossia.3.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = novorossia.3.a
+    }
+    option = {
+        name = novorossia.3.b
+        DON = {
+            promote_character = DON_pavel_prudnikov
+        }
+        complete_national_focus = DON_communist_ukraine
+        add_war_support = 0.10
+    }
+    option = {
+        name = novorossia.3.c
+    }
+}
+country_event = {
+	id = novorossia.4
+	title = novorossia.4.t
+	desc = novorossia.4.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = novorossia.4.a
+        766 = {
+            set_demilitarized_zone = yes
+        }
+        192 = {
+            set_demilitarized_zone = yes
+        }
+        197 = {
+            set_demilitarized_zone = yes
+        }
+        196 = {
+            set_demilitarized_zone = yes
+        }
+    }
+}
+country_event = {
+	id = novorossia.5
+	title = novorossia.5.t
+	desc = novorossia.5.desc
+	picture = x
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+        name = novorossia.5.a
+    }
+}

@@ -1,0 +1,35 @@
+state={
+	id=1114
+	name="STATE_1114"
+
+	state_category = megalopolis
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+
+		victory_points = {
+			6380 50 
+		}
+
+		buildings = {
+			infrastructure = 5
+			arms_factory = 5
+			industrial_complex = 3
+			6380 = {
+                landmark_kremlin = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+            }	
+		}
+	}
+	provinces={
+		6380 6414 
+	}
+	manpower=  8800902
+	buildings_max_level_factor=1
+	local_supplies=0
+}

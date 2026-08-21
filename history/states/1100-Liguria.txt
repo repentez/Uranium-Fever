@@ -1,0 +1,20 @@
+state={
+	id=1100
+	name="STATE_1100"
+	provinces={
+		6788 11891 13586 13587 14476 14637 15619 
+	}
+	manpower=21010
+	buildings_max_level_factor=1
+	state_category = metropolis
+	local_supplies=0
+
+	history = {
+		owner = EUC
+		add_core_of = EUC
+		add_core_of = ITA
+		victory_points = {
+			6788 10 
+		}
+	}
+}

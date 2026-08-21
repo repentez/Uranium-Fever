@@ -1,0 +1,27 @@
+
+state={
+	id=210
+	name="STATE_210" # Nevel
+	manpower = 2600403
+	
+	state_category = metropolis
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 5 #was: 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = SOV
+		add_core_of = UZB
+		victory_points = {
+			1459 3 
+		}
+	}
+
+	provinces={
+		1459
+	}
+
+	local_supplies=0.0 
+}

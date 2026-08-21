@@ -1,0 +1,23 @@
+
+state={
+	id=12
+	name="STATE_12"
+	manpower = 663000
+	
+	state_category = town
+	
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+	}
+
+	provinces={
+		1229 1309 1391 1418 1662 7298 12619 
+	}
+
+	local_supplies=0.0 
+}

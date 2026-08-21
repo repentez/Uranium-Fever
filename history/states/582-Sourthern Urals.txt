@@ -1,0 +1,38 @@
+state = {
+	id = 582
+	name = "STATE_582"
+	resources = {
+		steel = 40.000
+		oil = 6.000
+	}
+
+	history = {
+
+		owner = SOV
+
+		buildings = {
+			infrastructure = 2 #was: 5
+		}
+
+		add_core_of = SOV
+		add_core_of = BSK
+
+		victory_points = {
+			4311 1 # Beloretsk
+		}
+		victory_points = {
+			4354 1 
+		}
+
+	}
+
+	provinces = {
+		1258 1378 4265 4311 4354 4383 7300 7373 10226 12200 14868 
+	}
+
+	manpower = 1000900
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

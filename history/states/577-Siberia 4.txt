@@ -1,0 +1,23 @@
+
+state = { 
+	id = 577 # Surgut
+	manpower = 300500
+	name = "STATE_577"
+	
+	state_category = rural
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+	}
+
+	provinces = {
+		4467 4542 12250 18653 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=191
+	name="STATE_191"
+
+	history={
+		owner = EST
+		controller = SOV
+		victory_points = {
+			9221 1 
+		}
+		victory_points = {
+			592 1 #Voru
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+
+		}
+		add_core_of = EST
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		592 627 835 6099 9221 9485 14605 14606 14608 
+	}
+	manpower=275400
+	buildings_max_level_factor=1.000
+	local_supplies=0.0 
+	state_category=town
+}

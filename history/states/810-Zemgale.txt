@@ -1,0 +1,38 @@
+
+state={
+	id=810
+	name="STATE_810"
+
+	history={
+		owner = SOV
+		victory_points = {
+			310 3 #Daugavpils
+		}
+		victory_points = {
+			222 1 #Rezekne
+		}
+		victory_points = {
+			3255 1 #Jekabpils
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 3
+			310 = {
+				bunker = 2
+
+			}
+
+		}
+		add_core_of = SOV
+		add_core_of = LAT
+
+	}
+
+	provinces={
+		222 310 319 341 3255 6459 9275 11358 14361 14586 14589 14590 14591 14592 14595 14596 15686 
+	}
+	manpower=760800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "tree_id": "Fallout",
+  "country_tag": "PRC",
+  "focuses": [],
+  "events": [],
+  "library": {},
+  "settings": {
+    "canvas": {
+      "frames_enabled": false,
+      "visualizer_lineage_mode": true,
+      "color_lines_by_lineage": true,
+      "auto_layout_enabled": false,
+      "icon_view_mode": true,
+      "icon_view_icon_max": 120,
+      "icon_view_show_background": true,
+      "title_outline_enabled": true,
+      "title_outline_thickness": 1,
+      "title_pill_mode": "image",
+      "title_pill_image_path": "B:\\\\SteamLibrary\\steamapps\\common\\Hearts of Iron IV\\gfx\\interface\\focusview\\titlebar\\focus_can_start_bg.dds",
+      "title_pill_padding": 8.0,
+      "note_defaults": {
+        "title_size": 11,
+        "body_size": 11,
+        "title_color": "#141414",
+        "text_color": "#1E1E1E",
+        "bg_color": "#FFF7D2",
+        "connection_color": "#5A5A5A",
+        "connection_width": 2
+      },
+      "note_connection_curve_strength": 1.0,
+      "title_outline_color": "#000000",
+      "prefer_pillow_tga": true,
+      "grid_visible": true,
+      "focus_title_font_size": 14,
+      "connection_line_width": 2,
+      "icon_supersample_scale": 1.0,
+      "title_pill_supersample_scale": 1.0,
+      "mutex_icon_supersample_scale": 1.0,
+      "mutex_icon_display_scale": 1.0,
+      "default_focus_color": null,
+      "undo_limit": 100,
+      "focus_color_overrides": {},
+      "notes_enabled": false,
+      "drag_to_link_mode": false
+    },
+    "preferences": {
+      "prefer_app_settings": false
+    }
+  },
+  "note_defaults": {
+    "title_size": 11,
+    "body_size": 11,
+    "title_color": "#141414",
+    "text_color": "#1E1E1E",
+    "bg_color": "#FFF7D2",
+    "connection_color": "#5A5A5A",
+    "connection_width": 2
+  },
+  "notes": [],
+  "note_connections": [],
+  "note_focus_links": [],
+  "note_event_links": [],
+  "event_focus_links": [],
+  "event_event_links": []
+}

@@ -1,0 +1,55 @@
+
+state={
+	id=812
+	name="STATE_812"
+
+	resources = {
+		steel = 10
+	}
+
+	history={
+		owner = EST
+		victory_points = {
+			3152 5 
+		}
+		victory_points = {
+			4640 1 #Narva
+		}
+		victory_points = {
+			11127 1 #Rakvere
+		}
+		buildings = {
+			infrastructure = 4 #was: 5
+			arms_factory = 2
+			industrial_complex = 3
+			3152 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+			4640 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = EST
+		add_core_of = SOV
+
+		SOV = {
+			set_province_controller = 249
+			set_province_controller = 456
+			set_province_controller = 11057
+			set_province_controller = 11443
+			set_province_controller = 4640
+		}
+
+	}
+
+	provinces={
+		249 456 567 1916 3152 4640 9079 11057 11127 11426 11443 14609 14610 
+	}
+	manpower=989809
+	buildings_max_level_factor=1.000
+	state_category=city
+}

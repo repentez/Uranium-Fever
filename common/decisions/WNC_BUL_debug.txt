@@ -1,0 +1,30 @@
+bul_debug_decisions_cat = {
+    BUL_balkanian_sfsr = {
+        allowed = {
+            original_tag = BUL
+        }
+        visible = {
+            original_tag = BUL
+        }
+        available = {
+            original_tag = BUL
+        }
+        complete_effect = {
+            BUL = {
+                set_cosmetic_tag = BUL_balkan_sfsr
+            }
+            every_state = {
+                limit = {
+                    is_core_of = YUG
+                }
+                add_core_of = YUG
+            }
+            every_state = {
+                limit = {
+                    is_core_of = ALB
+                }
+                add_core_of = ALB
+            }
+        }
+    }
+}

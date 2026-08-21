@@ -1,0 +1,23 @@
+state={
+	id=1115
+	name="STATE_1115"
+
+	state_category = large_town
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = GEO
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		654 672 772 3658 6674 9626 9632 11599 18338 18356 18357 
+	}
+	manpower= 2001000
+	buildings_max_level_factor=1
+	local_supplies=0
+}

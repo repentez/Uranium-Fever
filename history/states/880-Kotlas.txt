@@ -1,0 +1,28 @@
+
+state = {
+	id = 880
+	name = "STATE_880" # Kotlas
+	manpower = 3403061
+	
+	state_category = large_city
+
+	history = {
+		owner = SOV
+		victory_points = {
+			10671 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+		}
+		add_core_of = SOV
+		add_core_of = UZB
+	}
+
+	provinces = {
+		10671 18671 18680 
+	}
+
+	local_supplies = 0.0 
+}

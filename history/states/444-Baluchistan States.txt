@@ -1,0 +1,21 @@
+state={
+	id=444
+	name="STATE_444"
+	provinces={
+		2002 2032 12868 16037 16038 16039 16040 18895 19006 
+	}
+	manpower=21500402
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = KHL
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+
+	}
+}

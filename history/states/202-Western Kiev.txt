@@ -1,0 +1,35 @@
+
+state={
+	id=202
+	name="STATE_202"
+	manpower = 1707049
+	resources={
+		oil=8 # was: 14
+		aluminium=7 # was: 12
+	}
+	
+	state_category = city
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3 #was: 7
+			arms_factory = 1
+			industrial_complex = 1
+			18225 = {
+				nuclear_facility = 1
+			}
+		}
+		victory_points = {
+			18225 2 #Chernobyl
+		}
+		add_core_of = SOV
+		add_core_of = UKR
+	}
+
+	provinces={
+		504 582 3494 3543 6497 9465 9543 9568 11557 14532 15809 18219 18223 18225 18235
+	}
+
+	local_supplies=0.0 
+}

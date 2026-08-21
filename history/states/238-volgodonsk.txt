@@ -1,0 +1,23 @@
+
+state={
+	id=238
+	name="STATE_238"
+	manpower = 190000
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_core_of = ING
+	}
+
+	provinces={
+		670 18299 
+	}
+
+	local_supplies=0.0 
+}

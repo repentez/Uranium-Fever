@@ -1,0 +1,45 @@
+add_namespace = ASU_events
+
+country_event = {
+    id = ASU_events.1
+	title = ASU_events.1.t
+	desc = ASU_events.1_desc
+    hidden = no
+    
+    is_triggered_only = yes
+
+	option = {
+		name = ASU_events.1.a
+		ASU = {
+			complete_national_focus = ASU_No_Confidence_Vote
+		}	
+	}
+	option = {
+		name = ASU_events.1.b
+		ASU = {
+			complete_national_focus = ASU_Shareholders_No_Agreement
+		}	
+	}
+}
+
+country_event = {
+    id = ASU_events.2
+	title = ASU_events.2.t
+	desc = ASU_events.2_desc
+    hidden = no
+    
+    is_triggered_only = yes
+
+	option = {
+		name = ASU_events.2.a
+		ASU = {
+			complete_national_focus = ASU_Push_NAP
+		}	
+	}
+	option = {
+		name = ASU_events.2.b
+		ASU = {
+			complete_national_focus = ASU_Push_AP
+		}	
+	}
+}

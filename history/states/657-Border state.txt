@@ -1,0 +1,33 @@
+
+state={
+	id = 657
+	name = "STATE_657" # Birobidzhan
+	manpower = 1080003
+	resources = {
+		steel=18 # was: 24
+	}
+
+
+	state_category = large_city
+
+	history = {
+		owner = SOV
+		victory_points = {
+			1591 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 10
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+	}
+
+	provinces = {
+		1591 
+	}
+
+	local_supplies = 0.0 
+}

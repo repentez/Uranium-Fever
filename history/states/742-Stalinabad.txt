@@ -1,0 +1,35 @@
+state = {
+	id = 742
+	name = "STATE_742"
+
+	resources = {
+		steel = 5
+	}
+
+	history = {
+
+		owner = SOV
+		victory_points = {
+			1384 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+
+	}
+
+	provinces = {
+		1384 10205  
+	}
+	
+	manpower = 967000
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+
+	local_supplies = 0.0 
+}

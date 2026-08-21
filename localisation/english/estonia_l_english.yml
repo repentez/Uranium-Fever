@@ -1,0 +1,144 @@
+﻿l_english:
+  
+
+ #NATIONAL FOCUSES#
+ EST_restore_talinn_bunk:0 "Restore the Talinn Bunker"
+ EST_restore_talinn_bunk_desc:0 "Having fought for the Baltics back in the Great Patriotic War, and having to hold it from continued partisan resistance, the Soviets have had to fortify the region with a number of Bunkers meant to cement their control over what they consider rightful Soviet territory. But our brave fighters have since learned the art of fighting within these Soviet Bunkers."
+ 
+ EST_fortify_Parnu:0 "Fortify Parnu"
+ EST_fortify_Parnu_desc:0 "If we are to hold Estonia, we must make sure that the Soviets cannot take it. Parnu represents the last possible holdout for our forces, and we must be prepared for the worse case scenario."
+
+ EST_fortify_Rakvere:0 "Fortify Rakvere "
+ EST_fortify_Rakvere_desc:0 "We have managed to push the Soviets back east, now let us hold dig in and hold onto our land."
+
+ EST_fortify_Tartu:0 "Forify Tartu"
+ EST_fortify_Tartu_desc:0 " We have managed to push the Soviets to the south, liberating the majority of our rightful land. And now we shall fortify it so that they can never come back."
+ 
+ EST_fortify_Kuressaare:0 "Forify Kuressaare"
+ EST_fortify_Kuressaare_desc:0 "Let us hold dig in and hold onto our land. " 
+
+ EST_window_to_the_west:0 "Window to the West" 
+ EST_window_to_the_west_desc:0 " Estonia lies in a strategic position on the Baltic Sea, where we have been able to listen in to the linguistically similar Finnish Radio, which for decades have let Estonians slight access to the western world and developments in the United States and the European Commonwealth. This gave Estonians a position of prestige during the abortive attempts at reform and westernization in the 1980's. But still it has allowed us a position above many other Soviet subjects, one which in our time of need we can now leverage. "
+
+ EST_baltic_environmentalism:0 "Baltic Environmentalism" 
+ EST_baltic_environmentalism_desc:0 "We have always been a people who loved our land. But that love of our land allowed us to resist Soviet Occupation in surprising ways. Militia's formed hiding out in the woods that lived as one with nature by necessity. But opposition to Soviet-Industrialization by the common-man not willing to arm themselves has proven a surprise success in the past. We live in an era of relentless technological process- but we cannot save this land simply by adopting the ways of our enemies. We will save this land and its bounty."
+ 
+ EST_legacy_phosphorite_war:0 "Legacy of the Phosphorite War"
+ EST_legacy_phosphorite_war_desc:0 "Estonia lies home to one of Europes largest reserves of Phosphorite. And this lay at the heart of one of our greatest victories against the Soviet Occupiers. When they wished to come in here and take our resources away from us, we stood together, patriot and communist, and they stood down. The courage of those days lies as a rallying cry today. And that besides- phosphorite makes for good explosives. And explosives makes for good dead Soviets." 
+
+ EST_sustainable_energy_development:0 "Sustainable Energy Development"
+ EST_sustainable_energy_development_desc:0 "Our land is home to several peat bogs and shale oil deposits. Most of our oil reserves were exhausted by our foolish Soviet occupiers, but we are wiser. We have been at the forefront of several avenues of renewable energy research in the USSR. With skill and wisdom we can harness a source of fuel we can use to alleviate the global oil crisis- or at least how the global oil crisis impacts us."
+
+ EST_economic_recon:0 "Economic Restructuring"
+ EST_economic_recon_desc:0 "We have been under a planned economy while we've been under the USSR, which has been rife with corruption and beuracracy. We might not be able to revive a free market over night, but perhaps more practically we can mobilize what we have available to towards winning against the soviets. And furthermore if we don't we may very well fail."
+
+ EST_Institute_cap:0 "Institute Capitalist Reform"
+ EST_Institute_cap_desc:0 "With our factories mobilized there's a chance to make alliances with would-be business owners. We've ousted the old communist beauracrats, and there's a new class of would-be industrialists waiting in the wings to join us. Whether motivated by promises of wealth or patriotism, if they stand with us against Soviet occupation then we stand together."
+
+ EST_solicit_bis:0 "Solicit Business Support"
+ EST_solicit_bis_desc:0 "It's too early to tell if our economic policies truely constitute success thus far. But still those eager to shake off the yoke of communism are without end. They are a motley crew, risking not just their money, their property, but their very lives if we fail. But still they come from both other Soviet Republics, and from the Capitalist nations of Europe, willing to invest in our success."
+
+ EST_restore_contact:0 "Restore Contact with the Exiled Government"
+ EST_restore_contact_desc:0 "Ever since the Soviet Occupation, an Estonian Government in Exile has been operating within the European Commonwealth, initially composed of Estonian politicians and diplomats that fled the occupation, and various Estonian expats and businessmen. It has been a long time since it was formed, and it's changed faces more than a few time. But our uprising is the moment they've been waiting for."
+
+ EST_scandi_contact:0 "Scandinavian Contacts"
+ EST_scandi_contact_desc:0 "While most of Europe is currently distracted with other conflicts, the Scandinavians have a particular interest in our plight. We share a cultural bond, but more than that the specter of Soviet incursion is one they don't take lightly. While they might not have much to offer, we should still see what they might be willing to offer us."
+
+ EST_Soviet_exiles:0 "Garner Support from Soviet Exiles"
+ EST_Soviet_exiles_desc:0 "While we have our one Exiled Government from long ago, we're not alone in that regard. Whether it be from the last century or more recently, there's been a long stream of those looking to escape the USSR and Eastern Bloc, settling elsewhere in the west. While many would prefer to stay far away, others we could entice to join us, to strike a blow against the Communist Bear."
+
+ EST_Baltic_resist:0 "Encourage Baltic Resistance"
+ EST_Baltic_resist_desc:0 "Our victories have served as a rallying cry for those who wish for freedom from the Soviets, but particularly our neighbors in the Baltic. We've shown we can hold out this long. And we have like minded compatriots nearby. We should launch a campaign of resistance within Latvia and Lithuania, show them that together we can resist."
+
+ EST_spread_Metsavagi:0 "Spread Metsavagi to the Baltic"
+ EST_spread_Metsavagi_desc:0 "Similar bands to our Metsavagi have existed in other Baltic nations, and remnants of them still persist or could be rekindled. If we help bring them together, share our tactics, and rally their resistance we might inspire similar successes to our own."
+
+
+ EST_rally_to_the_cause:0 "Rally to the Cause"
+ EST_rally_to_the_cause_desc:0 "Our campaigns to the south have been a success, as the Soviets have been forced to shift their resources away from us. Furthermore the Latvians and Lithuanians yearn to breathe free once more. We stand together in solidarity now- their cause is our cause, their blood is our blood."
+
+
+ EST_unify_Metsavagi:0 "Unify Metsavagi Command"
+ EST_unify_Metsavagi_desc:0 "The resistance campaigns of our fellow Baltics have been a success. We just need to bring together our forces under a central command so we can better coordinate our resistance. And then we shall not simply free ourselves, we shall march to the south and free our Baltic brothers and restore their honor."
+
+
+ EST_Rally_european:0 "Rally European Commonwealth Exiles"
+ EST_Rally_european_desc:0 "The situation in the European Commonwealth has deteriorated so far past what any could have imagined a few years ago. We stand more isolated than ever. But we may not yet be alone. There's a number of highly skilled soldiers in the European military who would rather be fighting the Communists than each-other, and there are no small number of chances to do just that here."
+
+
+ EST_where_were_u:0 "Where were you when Estonia Bled?"
+ EST_where_were_u_desc:0 "Our uprising was thanks to the brave Metsavagi having spent decades alone in the wilderness standing against the Soviet Occupiers. Other Estonians simply stood to the side and kept their heads down. Others worse became collaborators, at best trying to work within a corrupt system to ease its burden, or at worst eagerly stepping on the necks of their countrymen."
+
+
+ EST_enlist_naval:0 "Enlist ESR Naval Assets"
+ EST_enlist_naval_desc:0 "The Estonian Soviet Republic was only afforded a small number of Naval ships but we could still seize some of them for use in our defense. While we could not really defeat the Soviet Navy we could at least harass them and make their job difficult. And we have a number of sailors eager to enlist to do just that."
+
+
+ EST_soviet_naval_doc:0 "Soviet Naval Doctrine"
+ EST_soviet_naval_doc_desc:0 "While we may be rightly suspicious of anything the Soviets touch, the fact of the matter is their military has dominated our country for a hundred years. We haven't got a choice at least in the short-term to incorporate some Soviet expertise amongst Estonian defectors, if we want to fight."
+
+
+ EST_enlist_air:0 "Enlist ESR Air Force"
+ EST_enlist_air_desc:0 "The Estonian Soviet Republic was afforded a small set of airplanes that have since been disbanded by the USSR, but there are still a number of reserves we could assemble in our fight. We can't defeat them outright, but we could do something to blunt the strength of the Red Air Force."
+
+
+ EST_soviet_air:0 "Soviet Air Force Doctrine"
+ EST_soviet_air_desc:0 "While we may be rightly suspicious of anything the Soviets touch, the fact of the matter is their military has dominated our country for a hundred years. We haven't got a choice at least in the short-term to incorporate some Soviet expertise amongst Estonian defectors, if we want to fight."
+
+
+ EST_absorb_ESR:0 "Absorb ESR Defectors"
+ EST_absorb_ESR_desc:0 "While the armed forces of the Estonian Soviet Republic were disbanded there are those sympathetic to our cause we could welcome in. This might be controversial amongst certain members of the movement, but we must all stand together. We need every man willing to fight against the Soviets, and we have men trained for war that are willing to join."
+
+
+
+ EST_soviet_army_doc:0 "Soviet Army Doctrine"
+ EST_soviet_army_doc_desc:0 "While we may be rightly suspicious of anything the Soviets touch, the fact of the matter is their military has dominated our country for a hundred years. We haven't got a choice at least in the short-term to incorporate some Soviet expertise amongst Estonian defectors, if we want to fight."
+
+ EST_commando_resist:0 "Commando Resistance"
+ EST_commando_resist_desc:0 "The Metsavagi are certainly expert resistance fighters, but they aren't truely a professional force. We should work to instill proper professionalism and discipline within our ranks as our resistance transitions into open conflict. We are a mouse fighting against a great bear, and so we must kill ten of theirs for every one of ours. Our forces must be better then theres, lean and mean."
+
+ EST_we_lived_for_est:0 "We lived for Estonia"
+ EST_we_lived_for_est_desc:0 "To fight for the Metsavagi is to live apart from society. To live in the woods amongst nature with whatever you can hunt and scavenge for. To know that death or the gulag awaits you if you fail. But there is one reason we have been able to find people nevertheless. Because we truely live. We alone can raise our heads high, without paying heed to our Soviet masters. We've lived this way for decades. Compared to all that's come before now, the fight ahead will be easy by comparison."
+
+ EST_we_died_for_est:0 "We died for Estonia"
+ EST_we_died_for_est_desc:0 "Life in eastern europe is much as it's always been. Nasty, brutish, and short. So too for our Metsavagi. Death is not something we fear. It is part of life. We are ready to die for our country. We are eager to die for our country. Now it is our job to make them die for their country."
+
+ EST_a_land_watered:0 "A Land Watered by the Blood of Patriots"
+ EST_a_land_watered_desc:0 "This has been the culmination of a century of occupation. What will be said after the next century? They will say that Estonia is a land watered by the blood of Patriots. Our enemy- the Red Tide, wants to destroy nationhood itself. If they win there will be no more Estonians. There will be no more Russians. There will be nothing but Communists from here until eternity. What then will they say of Estonia? What will they know of us, our struggle, our land, one hundred years from now? They will say that we lived for Estonia. That we died for Estonia. "
+
+ EST_legacy_of_sign:0 "Legacy of the Signal Battalion"
+ EST_legacy_of_sign_desc:0 "The last formal armed forces to fight the Soviets were an Estonian Signal Battalion, fighting alone as everyone else had laid down their arms. It's been a long time since- but this is a story we could yet rally around. And perhaps more pressingly- signal battalions are something that could be very useful in our fight."
+
+ EST_they_shall_know:0 "They shall know us by our shovels!"
+ EST_they_shall_know_desc:0 "A general once said, if forced between picking between a gun and a shovel, pick the shovel. You don't have reload a shovel. With the land we have taken we need to dig in, metaphorically and literally. The Reds will fear our aim. But they will know us by our shovels."
+
+ EST_if_you_need_a_gun:0 "If you need a gun, take it from the enemy!"
+ EST_if_you_need_a_gun_desc:0 "We are a small force in a small nation, with a small industry. We fight a big force from a big nation with a big industry. Quite simply there aren't enough guns to go around. But thankfully there's a simple solution. There are guns all around us. Right over there. That communist right there has a gun. A gun he's more than willing to share. He is a communist after all. he doesn't believe in private property. All you need to do is go over and take it from him."
+
+ EST_survival_kit:0 "Estonian Survival Kits"
+ EST_survival_kit_desc:0 "Life in Estonia isn't for the faint of heart. Life here takes a certain level of skill to survive. For those without- the right tools can help. We can harness this adaptability, and we ought to quick. Our troops require a lot more tools if they are going to survive Estonia, and we should help bring it to them."
+
+ EST_pillbug_machine:0 "Pillbug Machines"
+ EST_pillbug_machine_desc:0 "With the global oil crisis some are questioning the viability of large armored vehicles on modern warfare. But we might yet make use of them, if we adapt them properly. In our defensive war we can't really use the blitzkrieg tactics of old, but some have proposed we build machines that act as armored bunkers that can dig in and face the enemy."
+
+
+ EST_if_you_cant_fight_build:0 "If you can't fight, build!"
+ EST_if_you_cant_fight_build_desc:0 "While every true son of Estonia is eager to join us, not every man, woman, or child can be given a gun and thrown at the enemy. We're not Russians. But for those who want to help, we can have them help in building our future. Trenches, bunkers, factories, roads. All you need is a shovel in your hand, and a hatred of Communism in your heart."
+
+ EST_bunker_blues:0 "Bunker Blues"
+ EST_bunker_blues_desc:0 "We must be ready for if the war turns, and we have to go back to fighting underground. Both literally and figuratively. Extensive bunkers and tunnels line our territory. We can move some of our arms factories away from threat to bombing-campaigns from Soviet air-power."
+
+ EST_urban_jungles:0 "Urban Jungles"
+ EST_urban_jungles_desc:0 "We've taken the Talinn Bunker, and with it the city of Talinn. Now if we are to hold it, we must use the city to fight. We shall fight them in the streets, in the cafe's and bistro's, in the series of ugly identical communist housing blocks."
+
+ EST_HOLD_HOLD_HOLD:0 "Hold! Hold! Hold!"
+ EST_HOLD_HOLD_HOLD_desc:0 "Hold no matter what! Hold no matter the hordes of the Red Tide! Hold for your lives! Hold for the lives of your fellow Estonian! Hold for the lives of your children! Hold for the lives of every child for the next one hundred years! Hold! Hold! Hold!"
+
+ EST_minks_compromise:0 "The Minsk Compromise"
+ EST_minks_compromise_desc:0 "We've come this far, hordes of Soviets lay at our feet, but hordes still lay before us. They have come to us to negotiate. They've proposed an end to hostilities, and in addition we would be granted autonomous status- on par with other Soviet Satellites in Eastern Europe. Many would think that accepting would be a betrayal. In fact as a pre-condition our forces would have to be disbanded, and many of our best fighters, particularly the Metsavagi, would have to be disarmed and many would be exiled. But others think this may be the best we can hope for. "
+
+ EST_treaty_of_pskov:0 "The Treaty of Pskov"
+ EST_treaty_of_pskov_desc:0 "We've done it- we've not just liberated Estonia, we've not just liberated our Baltic brothers, but we have taken the fight to the Russians! Their morale has been shattered. It doesn't matter if your enemey has all the guns and tanks in the world, if their men drop them and flee at the first sight of you.While the USSR at first scoffed at the notion we would win, they then began to dread. Now they are willing to let us go no matter the cost. We have dealt a blow to a giant that will be felt for years to come. Some even joke about marching to Moscow."
+
+ EST_blood_of_patriots:0 "A Land Watered With the Blood of Patriots"
+

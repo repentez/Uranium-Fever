@@ -1,0 +1,8 @@
+bul_debug_decisions_cat = {
+    allowed = {
+        original_tag = BUL
+    }
+    visible = {
+        is_debug = yes
+    }
+}

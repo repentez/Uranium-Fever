@@ -1,0 +1,24 @@
+state = {
+	id = 875
+	name = "STATE_875" #Chukchi Peninsula
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = CKK
+		add_core_of = FER
+
+	}
+
+	provinces = {
+		1823 1839 4744 5936 5972 8654  
+	}
+	manpower = 40000
+	buildings_max_level_factor = 1
+	state_category = wasteland
+
+	local_supplies = 0.0 
+}

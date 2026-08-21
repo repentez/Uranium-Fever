@@ -1,0 +1,29 @@
+state={
+	id=322
+	name="STATE_322"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = PRC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	    victory_points = {
+			5033 5 
+		}
+		add_core_of = PRC
+		add_core_of = TIB
+	}
+
+	provinces={
+		2010 2014 2093 2098 4900 5011 5033 5094 7926 8068 8121 10755 10779 12784 14216 15524 16679 17014 17026 17034 17045 17984 18007 18017 18034 19432 19434 19435 19437 19438 19439 19443 19623 19627 19711 19712 
+	}
+	manpower=1722000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=2.0 
+}

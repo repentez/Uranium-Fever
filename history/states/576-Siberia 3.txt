@@ -1,0 +1,25 @@
+state = {
+	id = 576
+	name = "STATE_576" # Yeniseisk
+	manpower = 365000
+	
+	state_category = pastoral
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = KYR
+
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces = {
+		12430 12581 18638 18647 
+	}
+
+	local_supplies = 5.0 
+}

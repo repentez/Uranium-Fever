@@ -1,0 +1,8 @@
+novorossia_exit_from_ussr = {
+   228 = {
+      transfer_state_to = DON 
+   }
+   227 = {
+      transfer_state_to = DON 
+   }
+}

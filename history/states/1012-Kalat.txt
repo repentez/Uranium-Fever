@@ -1,0 +1,23 @@
+state={
+	id=1012
+	name="STATE_1012"
+	provinces={
+		1129 2076 7106 12708 16022 16041 16042 18855 18877 18886 19009
+	}
+	state_category = town
+	manpower = 480164
+
+	history = {
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = KHL
+
+		buildings = {
+			infrastructure = 2 #was: 5
+		}
+
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

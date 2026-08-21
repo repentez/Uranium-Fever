@@ -1,0 +1,24 @@
+
+state={
+	id=208
+	name="STATE_208" # Luga
+	manpower = 1689002
+	
+	state_category = large_town
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+		}
+		add_core_of = SOV
+		add_core_of = UZB
+	}
+
+	provinces={
+		12239 15570 18629 18659 18665
+	}
+
+	local_supplies=0.0 
+}

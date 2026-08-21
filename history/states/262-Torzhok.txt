@@ -1,0 +1,24 @@
+
+state = {
+	id = 262
+	name = "STATE_262" # Pechora
+	manpower = 899074
+	
+	state_category = town
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = UZB
+	}
+
+	provinces = {
+		7682 17962 18652 18669 
+	}
+
+	local_supplies = 0.0 
+}

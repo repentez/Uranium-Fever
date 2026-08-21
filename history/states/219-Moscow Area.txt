@@ -1,0 +1,32 @@
+
+state={
+	id=219
+	name="STATE_219"
+	manpower = 6700200
+	
+	state_category = metropolis
+	resources={
+		steel = 16 # was: 28
+		coal = 16 # initial distribution
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 4 #was: 8
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 10
+			3391 = {
+				land_facility = 1 # Mytischi
+			}
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		301 344 366 401 3259 3290 3327 3358 3391 6283 6290 6348 9235 9282 9302 9348 9378 9395 11217 11236 11282 11330 14457 18254 18279 18291 18293 18294 
+	}
+
+	local_supplies=6.0 
+}

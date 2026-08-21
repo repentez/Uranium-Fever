@@ -1,0 +1,1050 @@
+focus_tree = {
+	id = EST
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = EST
+		}
+	}
+    focus = {
+		id = EST_restore_talinn_bunk
+		icon = GFX_goal_generic_fortify_city
+		cost = 1
+		x = 15
+		y = 0
+         available = {
+        owns_state = 812
+    }
+		completion_reward = { 
+					812 = {
+				add_building_construction = {
+					type = bunker
+					province = 3152
+					level = 3
+					instant_build = yes
+				}
+			
+		}
+        random_owned_controlled_state = {
+				 prioritize = {
+					812
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}                                   
+            812 = {
+		         add_building_construction = {
+                    type = coastal_bunker
+                    level = 2
+                    instant_build = yes
+                    province = 3152
+                }
+            }
+            812 = {
+                       add_building_construction = {
+                    type = anti_air_building
+                    level = 1
+                    instant_build = yes
+                    province = 3152
+                }	
+            }
+
+	}
+
+}
+	focus = {
+		id = EST_window_to_the_west
+		icon = GFX_focus_usa_focus_on_europe
+		cost = 1
+        	prerequisite = {
+			focus = EST_restore_talinn_bunk
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		x = 13
+		y = 1
+		
+		completion_reward = {
+	        EST = {
+				add_opinion_modifier = {
+					target = EUC
+					modifier = large_increase
+				}
+            }
+			EUC = {
+				add_opinion_modifier = {
+					target = EST
+					modifier = large_increase
+				}
+
+		}
+                EST = {
+				add_opinion_modifier = {
+					target = USA
+					modifier = large_increase
+				}
+            }
+			USA = {
+				add_opinion_modifier = {
+					target = EST
+					modifier = large_increase
+				}
+
+		}
+        add_popularity = {
+        ideology = democratic
+        popularity = 0.1
+    }
+    }
+}
+	focus = {
+		id = EST_fortify_Parnu
+		icon = GFX_focus_PHI_fortify_corregidor
+		cost = 2
+           	prerequisite = {
+			focus = EST_restore_talinn_bunk
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		x = 11
+		y = 1
+	 available = {
+        owns_state = 13
+    }
+	
+		completion_reward = {
+							13 = {
+				add_building_construction = {
+					type = bunker
+					province = 3174
+					level = 3
+					instant_build = yes
+				}
+			
+		}
+        random_owned_controlled_state = {
+				 prioritize = {
+					13
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+                     province = 3174
+				}
+			}                                   
+            13 = {
+		         add_building_construction = {
+                    type = coastal_bunker
+                    level = 2
+                    instant_build = yes
+                    province = 3174
+                }
+            }
+            13= {
+                       add_building_construction = {
+                    type = anti_air_building
+                    level = 1
+                    instant_build = yes
+                    province = 3174
+                }	
+            }
+
+
+		}
+	}
+    	focus = {
+		id = EST_fortify_Rakvere
+		icon = GFX_focus_PHI_fortify_corregidor
+		cost = 2
+           	prerequisite = {
+			focus = EST_fortify_Parnu
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		x = 11
+		y = 2
+	 available = {
+        owns_state = 812
+    }
+	
+		completion_reward = {
+							812 = {
+				add_building_construction = {
+					type = bunker
+					province = 11127
+					level = 3
+					instant_build = yes
+				}
+			
+		}
+        random_owned_controlled_state = {
+				 prioritize = {
+					812
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+                     province = 11127
+				}
+			}                                   
+            812 = {
+		         add_building_construction = {
+                    type = coastal_bunker
+                    level = 2
+                    instant_build = yes
+                    province = 11127
+                }
+            }
+            812= {
+                       add_building_construction = {
+                    type = anti_air_building
+                    level = 1
+                    instant_build = yes
+                    province = 11127
+                }	
+            }
+
+
+		}
+	}    
+   	focus = {
+		id = EST_fortify_Kuressaare
+		icon = GFX_focus_PHI_fortify_corregidor
+		cost = 2
+           	prerequisite = {
+			focus = EST_fortify_Rakvere
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		x = 11
+		y = 3
+	 available = {
+        owns_state = 13
+    }
+	
+		completion_reward = {
+							13 = {
+				add_building_construction = {
+					type = bunker
+					province =  185
+					level = 3
+					instant_build = yes
+				}
+			
+		}
+        random_owned_controlled_state = {
+				prioritize = {
+					13
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+                     province =  185
+				}
+			}                                   
+            13 = {
+		        add_building_construction = {
+                    type = coastal_bunker
+                    level = 2
+                    instant_build = yes
+                    province =  185
+                }
+            }
+            13= {
+                add_building_construction = {
+                    type = anti_air_building
+                    level = 1
+                    instant_build = yes
+                    province = 185
+                }	
+            }
+
+
+		}
+	} 
+ 	focus = {
+		id = EST_fortify_Tartu
+		icon = GFX_focus_PHI_fortify_corregidor
+		cost = 2
+           	prerequisite = {
+			focus = EST_fortify_Kuressaare
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		x = 11
+		y = 4
+	 available = {
+        owns_state = 191
+    }
+	
+		completion_reward = {
+							191 = {
+				add_building_construction = {
+					type = bunker
+					province = 9221
+					level = 3
+					instant_build = yes
+				}
+			
+		}
+        random_owned_controlled_state = {
+				 prioritize = {
+					191
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+                     province =  9221
+				}
+			}                                   
+            191 = {
+		         add_building_construction = {
+                    type = coastal_bunker
+                    level = 2
+                    instant_build = yes
+                    province =  9221
+                }
+            }
+            191= {
+                       add_building_construction = {
+                    type = anti_air_building
+                    level = 1
+                    instant_build = yes
+                    province = 9221
+                }	
+            }
+
+
+		}
+	} 
+	focus = {
+		id = EST_economic_recon
+		icon = GFX_focus_generic_economic_recovery
+		cost = 3
+        	prerequisite = {
+			focus = EST_window_to_the_west
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		x = 13
+		y = 5
+		
+		completion_reward = {
+	    add_political_power = 25
+        add_ideas = tot_economic_mobilisation
+    }
+}
+	focus = {
+		id = EST_Institute_cap
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 3
+        	prerequisite = {
+			focus = EST_economic_recon
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		x = 13
+		y = 6
+		
+		completion_reward = {
+	    add_political_power = 25
+        
+    }
+}
+	focus = {
+		id = EST_solicit_bis
+		icon = GFX_focus_generic_support_the_left_right
+		cost = 3
+        prerequisite = {
+			focus = EST_Institute_cap
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+		x = 13
+		y = 7
+		
+		completion_reward = {
+	     add_offsite_building = {
+            type = industrial_complex
+            level = 5
+        }
+        add_offsite_building = {
+            type = dockyard
+            level = 1
+        }
+       
+    }
+        
+    }
+
+        focus = {
+        id = EST_baltic_environmentalism
+        icon = GFX_focus_SWE_beneath_sticks_and_stone
+         prerequisite = { focus = EST_economic_recon }
+        x = 11
+        y = 6
+        cost = 10
+
+        completion_reward = {
+            add_ideas = EST_baltic_environmentalism
+        }
+    }
+
+    focus = {
+        id = EST_legacy_phosphorite_war
+        icon = GFX_focus_BEL_legacy_of_the_great_war
+        prerequisite = { focus = EST_baltic_environmentalism }
+        x = 11
+        y = 7
+        cost = 10
+
+        completion_reward = {
+            add_ideas = EST_legacy_phosphorite_war
+                     add_tech_bonus = {
+                bonus = 0.5
+                uses = 1
+                category = artillery
+            }
+        }
+    }
+
+    focus = {
+        id = EST_sustainable_energy_development
+        icon = GFX_goal_generic_oil_refinery
+        prerequisite = { focus = EST_legacy_phosphorite_war }
+        x = 11
+        y = 8
+        cost = 10
+
+        completion_reward = {
+            
+            812 = {
+                add_resource = {
+                    type = oil
+                    amount = 2
+                }
+            }
+        }
+    }
+	   focus = {
+        id = EST_restore_contact
+        icon = GFX_focus_BEL_la_dame_blanche
+        prerequisite = { focus = EST_economic_recon }
+        x = 15
+        y = 6
+        cost = 10
+
+        completion_reward = {
+            recruit_character = EST_Rasmus_von_traj
+            recruit_character = EST_Martin_Rubbin
+            recruit_character = EST_Artjom_von_kettler
+   
+        }
+    }
+	  focus = {
+        id = EST_scandi_contact
+        icon = GFX_focus_EST_estonia_is_scandinavia
+        prerequisite = { focus = EST_restore_contact}
+        x = 15
+        y = 7
+        cost = 10
+
+        completion_reward = {
+          add_manpower = 1550
+
+        add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 1000
+        }
+        add_stability = 0.05
+        }
+        EST = {
+				add_opinion_modifier = {
+					target = SWE
+					modifier = large_increase
+				}
+            }
+			SWE = {
+				add_opinion_modifier = {
+					target = EST
+					modifier = large_increase
+				}
+
+		}
+        }
+    
+	  focus = {
+        id = EST_Soviet_exiles
+        icon = GFX_focus_generic_spur_communist_revolutions
+        prerequisite = { focus = EST_restore_contact}
+        x = 17
+        y = 7
+        cost = 10
+
+        completion_reward = {
+        add_war_support = 0.05
+        add_manpower = 1275
+        }
+    }
+	  focus = {
+        id = EST_Baltic_resist
+        icon = GFX_goal_generic_attack_allies
+        prerequisite = { focus = EST_Soviet_exiles}
+        x = 17
+        y = 8
+        cost = 10
+
+        completion_reward = {
+        SOV = { remove_state_core = 13 }
+        SOV = { remove_state_core = 812 }
+        SOV = { remove_state_core = 191 }
+
+		SOV = { remove_state_core = 808 }
+        SOV= { remove_state_core = 810 }
+        SOV = { remove_state_core = 190 }
+
+		SOV = { remove_state_core = 784 }
+        SOV = { remove_state_core = 815 }
+        SOV = { remove_state_core = 11 }
+		SOV = { remove_state_core = 188 }
+        }
+    }
+	 focus = {
+        id = EST_spread_Metsavagi
+        icon = GFX_enc_radio_civilian
+        prerequisite = { focus =  EST_Baltic_resist}
+        x = 17
+        y = 9
+        cost = 10
+
+        completion_reward = {
+            add_war_support = 0.10
+        }
+    }
+	 focus = {
+        id = EST_rally_to_the_cause
+        icon = GFX_rally_plp_war
+        prerequisite = { focus =  EST_spread_Metsavagi}
+        x = 17
+        y = 10
+        cost = 10
+
+        completion_reward = {
+	     13 = { set_resistance = 100 }
+        812 = { set_resistance = 100 }
+        191 = { set_resistance = 100 }
+        808 = { set_resistance = 100 }
+        810 = { set_resistance = 100 }
+        190 = { set_resistance = 100 }
+        784 = { set_resistance = 100 }
+        815 = { set_resistance = 100 }
+        11 = { set_resistance = 100 }
+        188 = { set_resistance = 100 }
+        }
+    }
+		 focus = {
+        id = EST_unify_Metsavagi
+        icon = GFX_limit_serfdome_laws
+        prerequisite = { focus =  EST_rally_to_the_cause }
+        x = 18
+        y = 11
+        cost = 10
+
+        completion_reward = {
+            add_war_support = 0.3
+            add_manpower = 300
+        }
+    }
+		  focus = {
+        id = EST_Rally_european
+        icon = GFX_focus_generic_surrender
+        prerequisite = { focus = EST_restore_contact}
+        x = 19
+        y = 7
+        cost = 10
+
+        completion_reward = {
+        add_manpower = 1000
+        recruit_character = EST_jean_le_grand
+        }
+    }
+		  focus = {
+        id = EST_where_were_u
+        icon = GFX_focus_RAJ_give_me_blood_and_i_will_grant_you_freedom
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 17
+        y = 1
+        cost = 10
+
+        completion_reward = {
+        army_experience = 10
+        navy_experience = 10
+        air_experience = 10
+        }
+    }
+				  focus = {
+        id = EST_enlist_air
+        icon = GFX_goal_generic_air_fighter
+        prerequisite = { focus = EST_where_were_u}
+        x = 17
+        y = 2
+        cost = 10
+
+        completion_reward = {
+         add_equipment_to_stockpile = {
+            type = fighter_equipment_1
+            amount = 100
+        }
+
+        air_experience = 25
+        }
+    }
+		 focus = {
+        id = EST_soviet_air
+        icon = GFX_focus_SOV_socialism_in_one_country
+        prerequisite = { focus = EST_enlist_air}
+        x = 17
+        y = 3
+        cost = 10
+
+        completion_reward = {
+         add_tech_bonus = {
+            name = air_doctrine_bonus
+            bonus = 0.5
+            uses = 2
+            category = air_doctrine
+        }
+
+        air_experience = 25
+        }
+    }
+			  focus = {
+        id = EST_absorb_ESR
+        icon = GFX_goal_CAN_c7a2_gun
+        prerequisite = { focus = EST_where_were_u}
+        x = 19
+        y = 2
+        cost = 10
+
+        completion_reward = {
+               add_manpower = 1550
+
+        add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 1000
+        }
+        }
+    }
+		  focus = {
+        id = EST_soviet_army_doc
+        icon = GFX_focus_SOV_organization_centralization_discipline
+        prerequisite = { focus = EST_absorb_ESR }
+        x = 19
+        y = 3
+        cost = 10
+
+        completion_reward = {
+          add_tech_bonus = {
+            name = army_doctrine_bonus
+            bonus = 0.5
+            uses = 2
+            category = land_doctrine
+        }
+
+        army_experience = 25
+        }
+    }
+		  focus = {
+        id = EST_enlist_naval
+        icon = GFX_focus_generic_merchant_fleet
+        prerequisite = { focus = EST_where_were_u}
+        x = 15
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        add_equipment_to_stockpile = {
+            type = convoy
+            amount = 20
+        }
+
+        add_equipment_to_stockpile = {
+            type = destroyer
+            amount = 5
+        }
+        
+    }
+}
+		  focus = {
+        id = EST_soviet_naval_doc
+        icon =GFX_focus_SMB_blue_water_fleet
+        prerequisite = { focus = EST_enlist_naval}
+        x = 15
+        y = 3
+        cost = 10
+
+        completion_reward = {
+          add_tech_bonus = {
+            name = naval_doctrine_bonus
+            bonus = 0.5
+            uses = 2
+            category = naval_doctrine
+        }
+
+        navy_experience = 25
+        }
+    }
+		  focus = {
+        id = EST_commando_resist
+        icon = GFX_focus_NORDIC_com_capstone_army
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 21
+        y = 1
+        cost = 10
+
+        completion_reward = {
+        recruit_character = EST_robin
+        add_war_support = 0.1
+        add_stability = 0.05
+        }
+    }
+			  focus = {
+        id = EST_we_lived_for_est
+        icon = GFX_focus_generic_support_the_left_right
+        prerequisite = { focus = EST_commando_resist }
+        x = 21
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        add_manpower = 2500
+        }
+    }
+				  focus = {
+        id = EST_we_died_for_est
+        icon = GFX_focus_RAJ_i_am_death
+        prerequisite = { focus = EST_we_lived_for_est}
+        x = 21
+        y = 3
+        cost = 10
+
+        completion_reward = {
+              army_experience = 10
+              add_command_power = 10
+        }
+    }
+					  focus = {
+        id = EST_a_land_watered
+        icon = GFX_focus_RAJ_red_in_the_shadows
+        prerequisite = { focus = EST_we_died_for_est}
+        x = 21
+        y = 4
+        cost = 10
+
+        completion_reward = {
+         add_ideas = EST_blood_of_patriots
+        }
+    }
+		  focus = {
+        id = EST_legacy_of_sign
+        icon = GFX_focus_generic_support_the_left_right
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 23
+        y = 1
+        cost = 10
+
+        completion_reward = {
+                add_tech_bonus = {
+            name = signal_recon_bonus
+            bonus = 1.0
+            uses = 2
+            category = land_doctrine
+        }
+
+        add_research_bonus = {
+            name = support_bonus
+            bonus = 0.5
+            uses = 2
+            category = support_tech
+        }
+        }
+    }
+			  focus = {
+        id = EST_they_shall_know
+        icon = GFX_focus_BEL_legacy_of_the_great_war
+        prerequisite = { focus =  EST_legacy_of_sign }
+        x = 23
+        y = 2
+        cost = 10
+
+        completion_reward = {
+            add_tech_bonus = {
+            name = EST_engineer_bonus
+            bonus = 1.0
+            uses = 1
+            category = land_doctrine
+            technology = engineer_company
+        }
+
+        }
+    }
+				  focus = {
+        id = EST_if_you_need_a_gun
+        icon =GFX_goal_CAN_grabbing_rifle
+        prerequisite = { focus =  EST_they_shall_know }
+        x = 23
+        y = 3
+        cost = 10
+
+        completion_reward = {
+            add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 200
+        }
+    }
+   
+
+        
+    }
+					  focus = {
+        id = EST_survival_kit
+        icon = GFX_focus_generic_bad_medical
+        prerequisite = { focus =  EST_if_you_need_a_gun}
+        x = 23
+        y = 4
+        cost = 10
+
+        completion_reward = {
+        
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 500
+        }
+
+        add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 1000
+        }
+
+        army_experience = 5
+        }
+    }
+		  focus = {
+        id = EST_if_you_cant_fight_build
+        icon =GFX_focus_PRC_bolshevik_urbanization_completed
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 25
+        y = 1
+        cost = 10
+
+        completion_reward = {
+
+     812 = {
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+        add_ideas = all_adults_serve
+      
+        }
+    }
+			  focus = {
+        id = EST_bunker_blues
+        icon =GFX_focus_BEL_koningshooikt_wavre_line
+        prerequisite = { focus =  EST_if_you_cant_fight_build}
+        x = 25
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        
+        add_offsite_building = {
+            type = industrial_complex
+            level = 4
+        }
+
+     
+        }
+    }
+				  focus = {
+        id = EST_pillbug_machine
+        icon =GFX_focus_generic_mechanized
+        prerequisite = { focus =  EST_if_you_need_a_gun }
+        x = 25
+        y = 4
+        cost = 10
+
+        completion_reward = {
+
+        add_tech_bonus = {
+            name = EST_tank_research
+            bonus = 0.5
+            uses = 2
+            category = armor
+        }
+
+        add_equipment_to_stockpile = {
+            type = armored_car_equipment_1
+            amount = 120
+        }
+
+        army_experience = 10
+        }
+    }
+			  focus = {
+        id = EST_urban_jungles
+        icon = GFX_focus_JAP_further_urban_investments
+        prerequisite = { focus = EST_restore_talinn_bunk }
+        x = 27
+        y = 1
+        cost = 10
+
+        completion_reward = {
+        
+     812 = {
+        add_building_construction = {
+            type = arms_factory
+            level = 2
+            instant_build = yes
+        }
+        add_building_construction = {
+            type = industrial_complex
+            level = 2
+            instant_build = yes
+        }
+    }
+        }
+    }
+				  focus = {
+        id = EST_HOLD_HOLD_HOLD
+        icon = GFX_rally_plp_war
+        prerequisite = { focus = EST_urban_jungles }
+        x = 27
+        y = 2
+        cost = 10
+
+        completion_reward = {
+        add_manpower = 250
+              add_equipment_to_stockpile = {
+            type = infantry_equipment_1
+            amount = 200
+        }
+        }
+    }
+					  focus = {
+        id = EST_minks_compromise
+        icon = GFX_goal_generic_dangerous_deal
+    
+    mutually_exclusive = {
+        focus =EST_treaty_of_pskov
+    }
+       available = {
+        tag = EST
+        SOV = { exists = yes }
+
+        has_war = yes
+    
+    }
+        x = 30
+        y = 0
+        cost = 5
+
+        completion_reward = {
+        
+        SOV = {
+            white_peace = EST
+        }
+
+        SOV = {
+            puppet = EST
+        }
+
+        EST = {
+            join_faction = SOV
+        }
+        }
+    }
+	focus = {
+        id = EST_treaty_of_pskov
+        icon = GFX_limit_serfdome_laws
+            
+    mutually_exclusive = {
+        focus = EST_minks_compromise
+    }
+     available = {
+        tag = EST
+        SOV = { exists = yes }
+        controls_state = 812
+        controls_state = 13
+        controls_state = 191
+        controls_state = 808
+              has_war = yes
+    }
+
+        x = 32
+        y = 0
+        cost = 5
+
+        completion_reward = {
+          SOV = {
+            white_peace = EST
+        }
+
+        if = {
+            limit = { SOV = { is_in_faction = yes } }
+            every_country = {
+                limit = { is_in_faction_with = SOV }
+                white_peace = EST
+            }
+        }
+        }
+    }
+}
+
+
+
+

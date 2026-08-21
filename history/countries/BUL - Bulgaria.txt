@@ -1,0 +1,53 @@
+﻿capital = 48
+
+#TROOPS
+oob = "BUL_1936" #VANILLA & DLC
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "BUL_1936_air_bba"
+	else = {
+		set_air_oob = "BUL_1936_air_legacy"
+	}
+}
+set_convoys = 5 #VANILLA & DLC
+
+recruit_character = BUL_nikul_vasilev
+
+add_ideas = {
+	BUL_BKP_idea
+	BUL_agricultural_crisis_1_idea
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1933.2.16"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 100
+}
+
+set_technology = { #VANILLA & DLC
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	basic_train = 1
+	tech_mountaineers = 1
+}
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "By Blood Alone"
+		}
+	}
+	set_technology = {
+		early_fighter = 1
+	}
+}

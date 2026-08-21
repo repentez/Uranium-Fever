@@ -1,0 +1,51 @@
+
+state={
+	id=381
+	name="STATE_381"
+	manpower = 331048
+
+	resources = {
+		coal = 7 #initial distributionn = with infra 12.6 / 1280 total
+	}
+
+	state_category = town
+	
+	history={
+		owner = USA
+        add_core_of = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			radar_station = 3
+			air_base = 3
+		}
+		victory_points = {
+			4723 3 #Cheyenne
+        }
+		victory_points = {
+			4820 1 #Gilette
+        }
+		victory_points = {
+			4610 1 #Sheridan
+        }
+		victory_points = {
+			10640 1 #Laramie
+        }
+		victory_points = {
+			10711 1 #Casper
+        }
+		victory_points = {
+			12633 1 #Rock Springs
+        }
+		victory_points = {
+			12651 1 #Jackson
+        }
+	}
+
+	provinces={
+		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12633 12561 12651 17290 17295 17296
+	}
+	
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=987
+	name="STATE_987" #
+	manpower = 890435
+	
+	state_category = town
+	
+	resources={
+
+	}
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1525 16124 
+	}
+
+	local_supplies=0.0 
+}

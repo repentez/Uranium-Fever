@@ -1,0 +1,24 @@
+
+state = {
+	id = 560
+	name = "STATE_560" # Nikolayevsk
+	manpower = 192500
+	
+	state_category = town
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = SOV
+		add_core_of = KYR
+	}
+
+	provinces = {
+		7706 14297 
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,27 @@
+state={
+	id=1119
+	name="STATE_1119"
+
+	state_category = town
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = KHA
+
+		victory_points = {
+			10580 2
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1816 10580 10649 15300 
+	}
+	manpower= 567200
+	buildings_max_level_factor=1
+	local_supplies=0
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 565
+	name = "STATE_565" # Bodaybo
+
+	manpower = 71000
+
+	state_category = rural
+
+	resources = {
+		steel = 10 # was: 32
+		chromium = 5 # was: 12
+	}
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = FER
+		add_core_of = BYA
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+
+	provinces = {
+		5270 5565 7786 
+	}
+
+	local_supplies = 5.0 
+}

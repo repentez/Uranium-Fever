@@ -1,0 +1,23 @@
+state={
+	id=1106
+	name="STATE_1106"
+
+	state_category = town
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = AZR
+		add_core_of = NAK
+
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		6997 18472 
+	}
+	manpower= 376034
+	buildings_max_level_factor=1
+	local_supplies=0
+}

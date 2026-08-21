@@ -1,0 +1,25 @@
+
+state={
+	id=590
+	name="STATE_590" # Akmolinsk
+	manpower = 1000620
+	
+	state_category = large_town
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+
+	}
+
+	provinces={
+		1223 1680 4238 4281 4309 7326 10211 10239 10633  
+	}
+
+	local_supplies=0.0 
+}

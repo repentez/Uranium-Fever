@@ -1,0 +1,41 @@
+
+state={
+	id=808
+	name="STATE_808"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			9340 5 
+		}
+		victory_points = {
+			6222 3 #Jelgava
+		}
+		victory_points = {
+			10493 1 #Valmiera
+		}
+		buildings = {
+			infrastructure = 4 #was: 5
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+			9340 = {
+				naval_base = 3
+			}
+
+		}
+		add_core_of = SOV
+		add_core_of = LAT
+
+	}
+
+	provinces={
+		265 1925 1940 3298 3388 6222 6342 7482 9240 9317 9340 9501 10323 10493 11222 11302 14594 14598 14612 
+	}
+	manpower=1302004
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,30 @@
+state={
+	id=1105
+	name="STATE_1105"
+
+	state_category = town
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = GEO
+		add_core_of = ADJ
+
+		victory_points = {
+			3653 3 
+		}
+
+		buildings = {
+			3653 = {
+				naval_base = 2
+				coastal_bunker = 1
+			}
+		}
+	}
+	provinces={
+		3653 16231 
+	}
+	manpower= 430105
+	buildings_max_level_factor=1
+	local_supplies=0
+}

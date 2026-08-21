@@ -1,0 +1,54 @@
+
+state={
+	id=387
+	name="STATE_387"
+	manpower = 693791
+	
+	state_category = town
+	
+	resources={
+		steel=25
+		chromium=2 
+		tungsten=28 
+	}
+
+	history={
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		victory_points = {
+			1789 1 #Idaho Falls
+		}
+		victory_points = {
+			4778 1 #Moscow
+		}
+		victory_points = {
+			9616 1 #Nampa
+		}
+		victory_points = {
+			10556 5 #Boise
+		}
+		victory_points = {
+			9695 1 #Twin Falls
+		}
+		victory_points = {
+			10672 1 #Rexburg
+		}
+		victory_points = {
+			12124 1 #Coeur d'Alene
+		}
+		victory_points = {
+			12535 3 #Pocatello
+		}
+	}
+
+	provinces={
+		1789 1832 3781 4778 7845 9616 9695 10556 10602 10672 12124 12535 12607 17307 
+	}
+	
+
+	local_supplies=7.0 
+}

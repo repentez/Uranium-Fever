@@ -1,0 +1,23 @@
+
+state = {
+	id = 829
+	name = "STATE_829" #Volga Germany
+	manpower = 1359053
+	
+	state_category = town
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SOV
+		add_core_of = UZB
+	}
+
+	provinces = {
+		14682 
+	}
+
+	local_supplies = 9.0 
+}

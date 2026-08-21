@@ -1,0 +1,30 @@
+state = {
+
+	id = 830
+	name = "STATE_830" #Bukhara
+
+
+	history = {
+	
+		owner = SOV
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 1
+		}
+		
+		add_core_of = SOV
+		add_core_of = UZB
+
+	}
+
+	provinces={
+		4499 10470 14649 18627 18684
+	}
+	manpower = 1689596
+	buildings_max_level_factor = 1.000
+	state_category = large_city
+
+	local_supplies = 2.0 
+}

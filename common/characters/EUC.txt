@@ -1,0 +1,50 @@
+characters={
+	EUC_European_Parliament = {
+			name = "European Parliament"
+			portraits = {
+				civilian = {
+					large="GFX_EUC_European_Parliament"
+				}
+			}
+		country_leader = {
+				ideology =Christian_Liberalism
+				expire ="2056.1.1.1"
+
+			}
+		}
+
+	EUC_lottie_fevre = {
+			name = "lottie Fevre"
+			portraits = {
+				civilian = {
+					large="GFX_EUC_lottie_fevre"
+				}
+			}
+		country_leader = {
+				ideology = Christian_Liberalism
+				expire ="2056.1.1.1"			
+			}
+		country_leader = {
+				ideology = right_wing_populism
+				expire ="2056.1.1.1"
+			}
+		country_leader = {
+				ideology = populist_conservatism
+				traits = { War_Hawk }
+			}
+		}
+
+	EUC_Antonio_Leclerc = {
+			name = "Antonio Leclerc"
+			portraits = {
+				civilian = {
+					large="GFX_EUC_lottie_fevre"
+				}
+			}
+		country_leader = {
+				ideology =MarxistLeninism
+				expire ="2056.1.1.1"
+
+			}
+		}
+	}

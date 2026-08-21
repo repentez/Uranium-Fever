@@ -1,0 +1,131 @@
+characters={
+	EST_kalju_kirsipuu={
+		name="Kalju Kirsipuu"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/EST_kalju_kirsipuu.png"
+			}
+		}
+		country_leader={
+			ideology = Military_Junta
+			expire="2088.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits={ old_guard }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+		EST_Martin_Rubbin={
+		name=" Minister Martin Rubbin "
+		portraits={
+
+				small="GFX_idea_EST_aleksander_jaakson"
+			}
+		}
+
+		advisor={
+			slot = high_command
+			idea_token = EST_alexander_jaakson
+			ledger = V
+			allowed = {
+				original_tag = EST
+			}
+		    traits  = {
+					smooth_talking_charmer 
+				}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	
+	EST_jean_le_grand={
+		name= " Jean le Grand "
+		portraits={
+			army={
+				large="leader_unknown.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer BALTIC_anti_bolshevik }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+
+		}
+
+	}
+	EST_Artjom_von_kettler={
+		name=" Artjom von kettler "
+		advisor={
+			slot = navy_chief
+	
+			allowed  = {
+					original_tag  = EST
+				}
+				traits  = {
+					navy_chief_maneuver_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		cost = 25
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_3"
+			}
+		}
+	}
+		EST_Rasmus_von_traj={
+		name=" Rasmus Von Traj  "
+		advisor={
+			slot = high_command
+			allowed  = {
+					original_tag  = EST
+				}
+				traits  = {
+					army_infantry_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		cost = 30
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_african_3"
+			}
+		}
+	}
+		EST_robin={
+			name=" Robin  "
+		advisor={
+			slot = army_chief
+
+			allowed  = {
+					original_tag  = EST
+				}
+				traits  = {
+					army_chief_organizational_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_generic_army_african_4"
+			}
+		}
+	}
+}

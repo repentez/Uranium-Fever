@@ -1,0 +1,33 @@
+state = {
+	id = 832
+	name = "STATE_832"
+
+	history = {
+	
+		owner = SOV
+		
+		victory_points = {
+			1493 1
+		}
+		
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+
+		}
+		
+		add_core_of = SOV
+		add_core_of = TMS
+
+	}
+
+	provinces = {
+		1493 1576 7635 10435 10485 12324 17294 18615 18624 
+	}
+	manpower = 1405071
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 4.0 
+	
+}

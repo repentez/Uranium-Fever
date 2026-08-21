@@ -1,0 +1,15 @@
+characters={
+	LEB_Karim_al_Rashid = {
+			name = "Karim al Rashid"
+			portraits = {
+				civilian = {
+					large="GFX_LEB_Karim_al_Rashid"
+				}
+			}
+		country_leader = {
+				ideology = islamic_fundamentalism
+				expire ="2058.1.1.1"
+
+			}
+		}
+	}

@@ -1,0 +1,30 @@
+state = {
+	id = 881
+	name = "STATE_881" # Karagandy
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = SOV
+		add_core_of = KAZ
+
+	}
+
+	provinces = {
+		1287 1375 4232 7350 7425 10104 10161 10268 10292 10308 12111 12152 12194 
+	}
+	manpower = 1901020
+
+	resources = {
+		steel = 10 # initial distribution
+	}
+
+	buildings_max_level_factor = 1.000
+	state_category = large_town
+
+	local_supplies = 0.0 
+}

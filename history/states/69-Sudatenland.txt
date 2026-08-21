@@ -1,0 +1,40 @@
+state = {
+	id = 69
+	name = "STATE_69"
+	manpower = 1450020 # was 2830000
+	
+	state_category = town
+	
+	resources = {
+		steel = 4 # was: 8
+	}
+	
+	history = {
+
+		victory_points = {
+			11432 1
+		}
+
+		victory_points = {
+			11401 3
+		}
+
+		owner = CZE
+		add_core_of = CZE
+
+		buildings = {
+
+			infrastructure = 3
+			industrial_complex = 1
+			anti_air_building = 1
+
+		}
+
+	}
+
+	provinces = {
+		469 3418 11401 11432 
+	}
+	local_supplies = 0.0 
+
+}

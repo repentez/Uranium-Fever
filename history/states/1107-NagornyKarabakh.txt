@@ -1,0 +1,23 @@
+state={
+	id=1107
+	name="STATE_1107"
+
+	state_category = rural
+
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = AZR
+		add_core_of = ARM
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1467 9715 18342 
+	}
+	manpower= 231905
+	buildings_max_level_factor=1
+	local_supplies=0
+}

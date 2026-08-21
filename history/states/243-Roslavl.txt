@@ -1,0 +1,23 @@
+
+state={
+	id=243
+	name="STATE_243"
+	manpower = 1750030
+	
+	state_category = rural
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = TAJ
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
+	}
+
+	provinces={
+		7224 12218 18662 18692 
+	}
+
+	local_supplies=0.0 
+}

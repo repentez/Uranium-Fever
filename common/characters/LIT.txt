@@ -1,0 +1,15 @@
+characters={
+	LIT_rimas_opcikas={
+		name="Rimas Opcikas"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/LIT_rimas_opcikas.png"
+			}
+		}
+		country_leader={
+			ideology = Military_Dictatorship
+			expire="2099.1.1.1"
+			id=-1
+		}
+	}
+}

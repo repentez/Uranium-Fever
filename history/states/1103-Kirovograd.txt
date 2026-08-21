@@ -1,0 +1,23 @@
+state={
+	id=1103
+	name="STATE_1103"
+
+	state_category = town
+
+	history = { 
+		owner = SOV 
+		add_core_of = SOV
+		add_core_of = UKR
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		409 434 3403 3452 3468 6451 6478 9573 11409 
+	}
+	manpower= 1300400
+	buildings_max_level_factor=1
+	local_supplies=0
+}

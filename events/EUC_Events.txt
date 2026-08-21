@@ -1,0 +1,314 @@
+add_namespace = EUC_Event_Collapse
+add_namespace = EUC_News_Collase
+add_namespace = eot_euc
+
+ country_event = { # Referedum Succeeds 
+	id = EUC_Event_Collapse.1
+	title = EUC_Event_Collapse.1.t
+	desc = EUC_Event_Collapse.1.desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			ITA = {
+				transfer_state = 158
+				transfer_state = 159
+				transfer_state = 850
+				transfer_state = 39
+				transfer_state = 161
+				transfer_state = 162
+				transfer_state = 157
+				transfer_state = 2
+				transfer_state = 117
+				transfer_state = 849
+				transfer_state = 156
+				transfer_state = 115
+				transfer_state = 160
+				set_cosmetic_tag = ITA_Provisional
+
+			}
+		}
+	}
+
+	option = { 
+		name = EUC_Event_Collapse.1.a
+		ai_chance = {
+			base = 10
+		}
+     }
+}
+
+ country_event = { # Anarchist Revolt
+	id = EUC_Event_Collapse.2
+	title = EUC_Event_Collapse.2.t
+	desc = EUC_Event_Collapse.2.desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			FSP = {
+				transfer_state = 159
+				transfer_state = 850
+				transfer_state = 39
+				transfer_state = 160
+			}
+		}
+	}
+
+	option = { 
+		name = EUC_Event_Collapse.2.a
+		ai_chance = {
+			base = 10
+		}
+     }
+}
+
+ country_event = { # Fascist Revolt
+	id = EUC_Event_Collapse.3
+	title = EUC_Event_Collapse.3.t
+	desc = EUC_Event_Collapse.3.desc
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			ITS = {
+				transfer_state = 161
+				transfer_state = 162
+				set_cosmetic_tag = ITS_Warlord
+			}
+		}
+	}
+
+	option = { 
+		name = EUC_Event_Collapse.2.a
+		ai_chance = {
+			base = 10
+		}
+     }
+}
+
+# Strikes In Paris Turn Violent
+country_event = {
+    id = eot_euc.4
+    title = eot_euc.4.t
+    desc = eot_euc.4.d
+    picture = GFX_todo
+
+    is_triggered_only = yes
+
+    immediate = {}
+
+    option = {
+        name = eot_euc.4.a
+        trigger = {}
+        ai_chance = { 			}
+            base = 10
+
+			16 = { 
+				damage_building = {
+				type = infrastructure
+				state = 16
+				damage = 4
+					}
+				damage_building = {
+				type =industrial_complex
+				damage = 4
+					}		
+				damage_building = {
+				type =arms_factory
+				damage = 2
+					}			
+			}
+    	}
+	}
+
+# Sepratist Coalition Forms In Paris
+country_event = {
+    id = eot_euc.5
+    title = eot_euc.5.t
+    desc = eot_euc.5.d
+    picture = GFX_todo
+
+    is_triggered_only = yes
+
+    immediate = {}
+
+    option = {
+        name = eot_euc.5.a
+        trigger = {}
+        ai_chance = {
+            base = 10
+        }
+    }
+}
+
+
+# Nationalists Expand The Coalition Federally
+country_event = {
+    id = eot_euc.6
+    title = eot_euc.6.t
+    desc = eot_euc.6.d
+    picture = GFX_todo
+
+    is_triggered_only = yes
+
+    immediate = {}
+
+    option = {
+        name = eot_euc.6.a
+        trigger = {}
+        ai_chance = {
+            base = 10
+        }
+    }
+}
+
+
+# Resource Crisis Continues To Skyrocket
+country_event = {
+    id = eot_euc.7
+    title = eot_euc.7.t
+    desc = eot_euc.7.d
+    picture = GFX_todo
+    is_triggered_only = yes
+
+    immediate = {}
+
+    option = {
+        name = eot_euc.7.a
+        trigger = {}
+        ai_chance = {
+            base = 10
+        }
+	EUC = {
+		add_stability = -0.15 # -15% Stability
+		set_political_power = -100 # Political Power
+	}
+    }
+}
+
+country_event = { # German Total Collapse
+    id = eot_euc.100
+    title = eot_euc.100.t
+    desc = eot_euc.100.d
+    picture = GFX_todo
+    is_triggered_only = yes
+
+    immediate = {}
+
+    option = {
+        name = eot_euc.100.a
+        trigger = {}
+        ai_chance = {
+            base = 10
+        }
+	BAY = {
+		transfer_state = 52
+		transfer_state = 53
+		transfer_state = 54
+	}
+	WUR = {
+		transfer_state = 50	
+		transfer_state = 978	
+	}
+	RHI = {
+		transfer_state = 42
+		transfer_state = 51
+	}
+	HES = {
+		transfer_state = 55
+	}
+	PRE = {
+		transfer_state = 57
+		transfer_state = 59
+		transfer_state = 56
+	}
+	DDR = {
+		transfer_state = 1101
+	}
+	DEN = {
+		transfer_state = 58
+		transfer_state = 909
+		transfer_state = 912
+		transfer_state = 99
+		transfer_state = 911
+		transfer_state = 37
+	}
+    }
+}
+
+country_event = { # German Total Collapse
+    id = eot_euc.101
+    title = eot_euc.101.t
+    desc = eot_euc.101.d
+    picture = GFX_todo
+    is_triggered_only = yes
+
+    immediate = {}
+
+    option = {
+        name = eot_euc.101.a
+        trigger = {}
+        ai_chance = {
+            base = 10
+        }
+			FSP = {
+				transfer_state = 159
+				transfer_state = 850
+				transfer_state = 39
+				transfer_state = 160
+			}
+			ITS = {
+				transfer_state = 161
+				transfer_state = 162
+				set_cosmetic_tag = ITS_Warlord
+			}
+			COR = {
+				transfer_state = 1
+			}
+			SPM = {
+				transfer_state = 114
+			}
+    }
+}
+
+country_event = { # German Total Collapse
+    id = eot_euc.102
+    title = eot_euc.102.t
+    desc = eot_euc.102.d
+    picture = GFX_todo
+    is_triggered_only = yes
+
+    immediate = {}
+
+    option = {
+        name = eot_euc.102.a
+        trigger = {}
+        ai_chance = {
+            base = 10
+        }
+			EUP = { 
+				transfer_state = 18
+				transfer_state = 17
+				transfer_state = 28
+				transfer_state = 1102
+				transfer_state = 785
+				transfer_state = 135
+			}
+			EUG = { 
+				transfer_state = 36
+				transfer_state = 7
+				transfer_state = 35
+				transfer_state = 977
+				transfer_state = 35
+				transfer_state = 6
+				transfer_state = 29
+				transfer_state = 34
+				transfer_state = 980
+				transfer_state = 8
+			}
+    }
+}

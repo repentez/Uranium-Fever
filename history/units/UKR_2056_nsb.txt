@@ -1,0 +1,290 @@
+division_template = {
+	name = "Pekhotnaya Diviziya"				# Infantry Division	
+	division_names_group = UKR_INF_01
+	regiments = {
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Tankovaya Diviziya"				# Armor Division	
+	division_names_group = UKR_ARM_01
+	regiments = {
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 1 }
+		modern_armor = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 525
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 18246
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 18220
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11479
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 3412
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11514
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9506
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3520
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3452
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 18220
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 525
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 18230
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 559
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 11411
+		division_template = "Pekhotnaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	### ARMOR ###
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 525
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 559
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 488
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 18220
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11479
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 3562
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+    division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 18246
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 525
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 3468
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 577
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 525
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 11504
+		division_template = "Tankovaya Diviziya"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+}

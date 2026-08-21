@@ -1,0 +1,37 @@
+state = {
+	id = 217
+	name = "STATE_217"
+	manpower = 2610309
+	
+	state_category = large_city
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+
+		victory_points = {
+			487 1
+		}
+
+		victory_points = {
+			3529 30 # Stalingrad
+		}
+
+		buildings = {
+			infrastructure = 4 #was: 7
+			arms_factory = 3
+			industrial_complex = 1
+			air_base = 10
+
+		    3555 = { dam = 1 }
+
+		}
+	}
+
+	provinces = {
+		487 498 518 520 533 544 578 579 3489 3503 3505 3517 3518 3529 3539 3555 3582 6454 6479 6503 6506 6527 6528 6541 6563 6575 6602 9436 9459 9464 9474 9475 9502 9504 9530 9540 11395 11423 11447 11451 11474 11484 11485 11501 11512 11527 11555 14441 17440 18311 18328 18333 18335  
+	}
+
+	local_supplies = 7.0 
+}

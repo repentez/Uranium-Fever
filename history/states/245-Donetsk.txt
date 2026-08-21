@@ -1,0 +1,31 @@
+state = {
+	id = 245
+	name = "STATE_245" # Millerovo
+	manpower = 435000
+	
+	state_category = town
+
+	history =  {
+
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = ADG
+
+		buildings = {
+			infrastructure = 2 #was: 5
+			industrial_complex = 1
+			
+		}
+		
+		victory_points = {
+			3720 1 
+		}
+
+	}
+
+	provinces = {
+		3720 6721 6738 9696 
+	}
+
+	local_supplies = 8.0 
+}

@@ -1,0 +1,55 @@
+add_namespace = wnc_soviet
+add_namespace = wnc_soviet_collapse
+
+country_event = {
+    id = wnc_soviet.1
+    title = wnc_soviet.1.t
+    desc = wnc_soviet.1.d
+    picture = GFX_todo
+
+    is_triggered_only = yes
+
+    option = {
+        name = wnc_soviet.1.a
+		add_stability = 0.05
+	}
+    option = {
+        name = wnc_soviet.1.b
+        SOV = {
+            promote_character = SOV_nikolay_petrov
+        }
+        set_country_flag = SOV_reformist_branch_cf
+        mark_focus_tree_layout_dirty = yes
+	}
+}
+country_event = {
+    id = wnc_soviet.2
+    title = wnc_soviet.2.t
+    desc = wnc_soviet.2.d
+    picture = GFX_todo
+
+    is_triggered_only = yes
+
+    option = {
+        name = wnc_soviet.2.a
+		add_stability = -0.05
+        add_war_support = -0.05
+	}
+}
+
+### NEWS ###
+news_event = {
+	id = wnc_soviet_collapse.1
+	title = wnc_soviet_collapse.1.t
+	desc = wnc_soviet_collapse.1.desc
+	picture = GFX_news_event_soviet_collapse_news_1
+	is_triggered_only = yes
+
+	immediate = {
+
+	}
+
+	option = {
+		name = wnc_soviet_collapse.1.a
+	}
+}

@@ -1,0 +1,45 @@
+focus_tree = {
+    id = mex_focus
+
+    @cabinet_time_tier_3 = 20
+    @cabinet_time_tier_4 = 40
+
+
+    country = {
+        factor = 0
+        modifier = {
+            add = 20
+            original_tag = MEX
+        }
+    }
+
+
+    focus = {
+        id = MEX_support_regime
+        icon = GFX_goal_USA_armed_forces
+        x = 20
+        y = 1
+        cost = 10
+       
+        completion_reward = {
+            
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+        focus = {
+        id = MEX_resist_regime
+        icon = GFX_goal_USA_armed_forces
+        x = 20
+        y = 1
+        cost = 10
+       
+        completion_reward = {
+            
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

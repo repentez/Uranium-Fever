@@ -1,0 +1,26 @@
+state = {
+	id = 876 
+	name = "STATE_876" #Udachny
+
+	history = {
+		owner = SOV
+
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+		add_core_of = SOV
+		add_core_of = KYR
+
+	}
+
+	provinces = {
+		1483 3374 10408 10660 14321 17558 18664 18698 
+	}
+	manpower = 750000
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+	local_supplies = 0.0 
+}

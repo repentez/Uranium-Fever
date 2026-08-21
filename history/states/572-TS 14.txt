@@ -1,0 +1,37 @@
+
+state={
+	id=572
+	name="STATE_572" # Chelyabinsk
+	manpower = 3720010
+	
+	resources = {
+		coal = 15 # initial distribution
+	}
+	state_category = large_town
+
+	history={
+		owner = SOV
+		victory_points = {
+			10256 3 # Magnitogorsk
+		}
+		victory_points = {
+			9292 5
+		}
+		victory_points = {
+			10329 1
+		}
+		buildings = {
+			infrastructure = 3 #was: 6
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		add_core_of = SOV
+	}
+
+	provinces={
+		1233 1334 4215 4411 7281 7285 7328 7401 9292 10185 10213 10256 10329 11223 12117 12157 12287 12584 14239 
+	}
+
+	local_supplies=0.0 
+}

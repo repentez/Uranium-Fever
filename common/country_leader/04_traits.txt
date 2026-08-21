@@ -1,0 +1,54 @@
+leader_traits = {
+	pro_ukrain_leader = {
+		random = no
+
+		custom_modifier_tooltip = pro_ukrain_leader_tt
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	War_Hawk = {
+		random = no
+		add_war_support = 0.10
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Ghoul = {
+		random = no
+
+		custom_modifier_tooltip = pro_ukrain_leader_tt
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	Ceo_of_red_rocket = {
+		random = no
+  
+		consumer_goods_factor = -0.10
+		local_resources_factor = 0.5
+
+
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		Ceo_of_Robco = {
+		random = no
+        production_speed_industrial_complex_factor = 0.10
+		consumer_goods_factor = -0.05
+		local_resources_factor = 0.15
+		political_power_gain = 0.15
+
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
