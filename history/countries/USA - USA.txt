@@ -5,7 +5,8 @@ oob = "USA_1936"
 starting_train_buffer = 5
 
 
-
+recruit_character =  USA_robert_house
+recruit_character = USA_ceo_red_rocket
 
 
 set_research_slots = 4
