@@ -8,6 +8,7 @@ tags={
 	"Events"
 	"Alternative History"
 }
+replace_path="common/characters"
 replace_path="common/bookmarks"
 replace_path="common/decisions"
 replace_path="common/ideas"
