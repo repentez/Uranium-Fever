@@ -1,4 +1,28 @@
 spriteTypes = {
+    ##LEADERS##
+
+    
+    	spriteType = {
+		name = "GFX_portrait_first_usa_president"
+		texturefile = "gfx/leaders/USA/USA_firts_president.png"
+	}
+	spriteType = {
+		name = "GFX_portraite_EST_Jean"
+		texturefile = "gfx/leaders/EST/EST_Jean.png"
+	}
+    #ADVISORS#
+     spriteType = {
+        name = "GFX_portraite_EST_Rasmus_advisor_small"
+        texturefile = "gfx/leaders/EST/EST_Rasmus_advisor.dds"
+    }
+    spriteType = {
+        name = "GFX_portraite_EST_Rasmus_advisor_small"
+        texturefile = "gfx/leaders/EST/EST_Rasmus_advisor.dds"
+    }
+    spriteType = {
+        name = "GFX_portraite_EST_Artjom_advisor_small"
+        texturefile = "gfx/leaders/EST/EST_Artjom_advisor.dds"
+    }
      spriteType = {
         name = "GFX_portraite_red_small"
         texturefile = "gfx/leaders/USA/portraite_red_rocket_ceo.png"
@@ -7,66 +31,5 @@ spriteTypes = {
         name = "GFX_portraite_House_small"
         texturefile = "gfx/leaders/USA/portrait_House.png"
     }
-    # Iran Leaders
-    spriteType = {
-        name = "GFX_PER_Zafar_Kordestani"
-        texturefile = "gfx/leaders/PER/Per_Ayatollah.dds"
-    }
-
-    # European Commonwealth Leaders
-    spriteType = {
-        name = "GFX_EUC_European_Parliament"
-        texturefile = "gfx/leaders/EUC/European_Parliament.tga"
-    }
-
-    spriteType = {
-        name = "GFX_EUC_lottie_fevre"
-        texturefile = "gfx/leaders/EUC/portrait_euc_lottie_fevre.png"
-    }
-
-    # Turkish Leaders
-    spriteType = {
-        name = "GFX_TUR_Halil_Kayal"
-        texturefile = "gfx/leaders/TUR/Halil_Kaya.dds"
-    }
-
-    #Israel Leaders
-    spriteType = {
-        name = "GFX_ISR_Avi_Adler"
-        texturefile = "gfx/leaders/ISR/Avi_Adler.dds"
-    }
-
-    #Lebanon Leaders
-    spriteType = {
-        name = "GFX_LEB_Karim_al_Rashid"
-        texturefile = "gfx/leaders/LEB/Karim_al_Rashid.dds"
-    }
-
-    # Myanmar Leaders
-    spriteType = {
-        name = "GFX_PDF_Bo_Sheng_Aung"
-        texturefile = "gfx/leaders/PDF/Bo_Sheng_Aung.tga"
-    }
-
-    spriteType = {
-        name = "GFX_TBA_Rebel_Militas"
-        texturefile = "gfx/leaders/TBA/Rebel_Militas.tga"
-    }
-
-    # Chinese Leaders
-    spriteType = {
-        name = "GFX_PRC_Cheng"
-        texturefile = "gfx/leaders/PRC/Cheng.tga"
-    }
-    spriteType = {
-        name = "GFX_PRC_Li_Ming"
-        texturefile = "gfx/leaders/CHI/Li_Ming.tga"
-    }
-
-    # South Sudan Leaders
-    spriteType = {
-        name = "GFX_portrait_SSU_malual_hothnyang"
-        texturefile = "gfx/leaders/SSU/SSU_Malual_Hothnyang.tga"
-    }    
 
 }

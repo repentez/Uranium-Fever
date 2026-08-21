@@ -362,7 +362,6 @@ focus_tree = {
 		
 		completion_reward = {
 	    add_political_power = 25
-        add_ideas = tot_economic_mobilisation
     }
 }
 	focus = {
@@ -472,6 +471,7 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
+        
             recruit_character = EST_Rasmus_von_traj
             recruit_character = EST_Martin_Rubbin
             recruit_character = EST_Artjom_von_kettler
@@ -583,7 +583,7 @@ focus_tree = {
         id = EST_unify_Metsavagi
         icon = GFX_limit_serfdome_laws
         prerequisite = { focus =  EST_rally_to_the_cause }
-        x = 18
+        x = 17
         y = 11
         cost = 10
 
@@ -888,7 +888,6 @@ focus_tree = {
             instant_build = yes
         }
     }
-        add_ideas = all_adults_serve
       
         }
     }

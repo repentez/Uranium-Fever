@@ -21,7 +21,7 @@ characters={
 			legacy_id=-1
 		}
 	}
-		EST_Martin_Rubbin={
+		EST_Martin_Rubbin= {
 		name=" Minister Martin Rubbin "
 		portraits={
 
@@ -30,7 +30,7 @@ characters={
 		}
 
 		advisor={
-			slot = high_command
+			slot = political_advisor
 			idea_token = EST_alexander_jaakson
 			ledger = V
 			allowed = {
@@ -46,10 +46,10 @@ characters={
 		}
 	
 	EST_jean_le_grand={
-		name= " Jean le Grand "
+		name= "Jean le Grand"
 		portraits={
 			army={
-				large="leader_unknown.dds"
+				large="GFX_portraite_EST_Jean"
 			}
 		}
 		corps_commander={
@@ -82,7 +82,7 @@ characters={
 		cost = 25
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_african_3"
+				small="GFX_portraite_EST_Artjom_advisor_small"
 			}
 		}
 	}
@@ -103,12 +103,12 @@ characters={
 		cost = 30
 		portraits={
 			army={
-				small="GFX_idea_generic_navy_african_3"
+				small="GFX_portraite_EST_Rasmus_advisor_small"
 			}
 		}
 	}
 		EST_robin={
-			name=" Robin  "
+			name="Robin"
 		advisor={
 			slot = army_chief
 
