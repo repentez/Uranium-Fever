@@ -6,14 +6,13 @@ state={
 	}
 
 	history={
-		owner = PRC
+		owner = MON
 		buildings = {
 			infrastructure = 1
 		}
 		victory_points = {
 			7843 1 #Ulaangom
 		}
-		add_core_of = PRC
 		add_core_of = MON
 	}
 	manpower=149000
