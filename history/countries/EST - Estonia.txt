@@ -7,8 +7,6 @@ declare_war_on = {
 	type = annex_everything
 }
 
-add_ideas = EST_defend_our_independence_idea
-add_ideas = EST_proud_small_nation
 add_ideas = EST_forest_brothers
 recruit_character = EST_kalju_kirsipuu
 
