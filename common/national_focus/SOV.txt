@@ -1,0 +1,1496 @@
+focus_tree = {
+	id = SOV_focuses
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = yes
+	continuous_focus_position = {
+		x = 50
+		y = 4000
+	}
+	focus = {
+		id = SOV_congress_cpsu_2060
+		icon = GFX_goal_unknown
+		cost = 8
+		prerequisite = {
+			focus = SOV_political_reforms_m
+		}
+		prerequisite = {
+			focus = SOV_change_economy
+		}
+		prerequisite = {
+			focus = SOV_ssrs_question
+		}
+		availalbe = {}
+		x = 11
+		y = 4
+		completion_reward = {
+			country_event = sovietunion.4
+		}
+	}
+	focus = {
+		id = SOV_militarist_in_power
+		icon = GFX_goal_unknown
+		cost = 8
+		prerequisite = {
+			focus = SOV_congress_cpsu_2060
+		}
+		availalbe = {
+			always = no
+			OR = {
+				has_country_leader = {
+					character = SOV_vasily_kozlov
+					ruling_only = yes
+				}
+				has_country_leader = {
+					character = SOV_ivan_yanov
+					ruling_only = yes
+				}
+			}
+		}
+		x = 14
+		y = 5
+	}
+	focus = {
+		id = SOV_reformists_power
+		icon = GFX_goal_unknown
+		cost = 8
+		prerequisite = {
+			focus = SOV_congress_cpsu_2060
+		}
+		availalbe = {
+			always = no
+			SOV = {
+				has_country_leader = {
+					character = SOV_matvey_anisimov
+					ruling_only = yes
+				}
+			}
+		}
+		mutually_exclusive = {
+			focus = SOV_militarist_in_power
+		}
+		x = 6
+		y = 5
+	}
+	focus = {
+		id = SOV_plan_of_defence_ussr
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = SOV_militarist_in_power
+		}
+		availalbe = {}
+		x = 11
+		y = 6
+	}
+	focus = {
+		id = SOV_nuclear_disaster
+		icon = GFX_goal_unknown
+		cost = 5
+		availalbe = {}
+		x = 9
+		y = 7
+		prerequisite = {
+			focus = SOV_plan_of_defence_ussr
+		}
+	}
+	focus = {
+		id = SOV_new_mbr
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = SOV_nuclear_disaster
+		}
+		availalbe = {}
+		x = 9
+		y = 8
+	}
+	focus = {
+		id = SOV_no_tallin_rodnichok
+		icon = GFX_goal_unknown
+		cost = 5
+		availalbe = {}
+		x = 11
+		y = 8
+		prerequisite = {
+			focus = SOV_plan_of_defence_ussr
+		}
+		completion_reward = {
+			812 = {
+				add_manpower = -500
+			}
+			13 = {
+				add_manpower = -500
+			}
+			191 = {
+				add_manpower = -500
+			}
+		}
+	}
+	focus = {
+		id = SOV_intervention_in_south_states
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = SOV_no_tallin_rodnichok
+		}
+		prerequisite = {
+			focus = SOV_new_mbr
+		}
+		availalbe = {}
+		x = 10
+		y = 9
+		completion_reward = {
+			set_country_flag = sov_intervention_dev_ct
+			unlock_decision_category_tooltip = sov_intervention_dev_cat
+		}
+	}
+	focus = {
+		id = SOV_integration_state
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = SOV_intervention_in_south_states
+		}
+		availalbe = {}
+		x = 10
+		y = 10
+	}
+	focus = {
+		id = SOV_ban_natbol
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = SOV_militarist_in_power
+		}
+		availalbe = {}
+		x = 14
+		y = 6
+		completion_reward = {
+			add_timed_idea = {
+				idea = SOV_ban_natbol_idea
+				days = 40
+			}
+			set_party_name = {
+				ideology = ultranationalism
+				name = SOV_BAN_NAHUY
+				long_name = SOV_BAN_NAHUY_long
+			}
+		}
+	}
+	focus = {
+		id = SOV_ideology_question_mil
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = SOV_ban_natbol
+		}
+		availalbe = {}
+		x = 14
+		y = 7
+	}
+	focus = {
+		id = SOV_konovalov_idea
+		icon = GFX_goal_unknown
+		cost = 8
+		availalbe = {}
+		x = 24
+		y = 8
+	}
+	focus = {
+		id = SOV_hell_march_start
+		icon = GFX_goal_unknown
+		cost = 8
+		prerequisite = {
+			focus = SOV_konovalov_idea
+		}
+		availalbe = {}
+		x = 24
+		y = 9
+	}
+	focus = {
+		id = SOV_agitprop
+		icon = GFX_goal_unknown
+		cost = 5
+		availalbe = {}
+		x = 13
+		y = 8
+		prerequisite = {
+			focus = SOV_ideology_question_mil
+		}
+	}
+	focus = {
+		id = SOV_return_of_artel
+		icon = GFX_goal_unknown
+		cost = 8
+		availalbe = {}
+		mutually_exclusive = {
+			focus = SOV_deficit_ah
+		}
+		x = 16
+		y = 6
+		prerequisite = {
+			focus = SOV_militarist_in_power
+		}
+		completion_reward = {
+			add_ideas = SOV_artel_idea
+		}
+	}
+	focus = {
+		id = SOV_stulinisation
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = SOV_return_of_artel
+		}
+		availalbe = {}
+		x = 16
+		y = 7
+	}
+	focus = {
+		id = SOV_deficit_ah
+		icon = GFX_goal_unknown
+		cost = 8
+		availalbe = {}
+		x = 18
+		y = 6
+		prerequisite = {
+			focus = SOV_militarist_in_power
+		}
+	}
+	focus = {
+		id = SOV_prioritet_military
+		icon = GFX_goal_unknown
+		cost = 5
+		prerequisite = {
+			focus = SOV_deficit_ah
+		}
+		availalbe = {}
+		x = 18
+		y = 7
+	}
+	focus = {
+		id = SOV_tensionity_time
+		icon = GFX_goal_unknown
+		cost = 6
+		prerequisite = {
+			focus = SOV_stulinisation
+			focus = SOV_prioritet_military
+		}
+		availalbe = {}
+		x = 17
+		y = 8
+	}
+	focus = {
+		id = SOV_update_gosplan
+		icon = GFX_goal_unknown
+		cost = 8
+		x = 42
+		y = 0
+		completion_reward = {
+			country_event = sovietunion_economy.1
+		}
+	}
+	focus = {
+		id = SOV_development_soviet_industry
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_minimum_privatisation
+			focus = SOV_nationalisation
+		}
+		cost = 5
+		x = -8
+		y = 2
+		completion_reward = {
+			country_event = sovietunion_economy.2
+		}
+	}
+	focus = {
+		id = SOV_minimum_privatisation
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_update_gosplan
+		}
+		mutually_exclusive = {
+			focus = SOV_nationalisation
+		}
+		cost = 6
+		x = -2
+		y = 1
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = SOV_privatisation_dm
+			}
+		}
+	}
+	focus = {
+		id = SOV_nationalisation
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_update_gosplan
+		}
+		cost = 6
+		x = 2
+		y = 1
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = SOV_nationalisation_dm
+			}
+		}
+	}
+	focus = {
+		id = SOV_atomic_energy
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_minimum_privatisation
+			focus = SOV_nationalisation
+		}
+		cost = 5
+		x = 0
+		y = 2
+		completion_reward = {
+			add_dynamic_modifier = {
+				modifier = SOV_atomic_energy_dm
+			}
+		}
+	}
+	focus = {
+		id = SOV_uranium
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_atomic_energy
+		}
+		cost = 5
+		x = -2
+		y = 3
+		completion_reward = {
+			572 = {
+				add_dynamic_modifier = {
+					modifier = SOV_uranium_ext
+				}
+			}
+			262 = {
+				add_dynamic_modifier = {
+					modifier = SOV_uranium_ext
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_development_uranium_extract
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_uranium
+		}
+		cost = 5
+		x = -2
+		y = 4
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+	}
+	focus = {
+		id = SOV_development_nuclear_fuel
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_uranium_extract
+		}
+		cost = 5
+		x = -2
+		y = 6
+	}
+	focus = {
+		id = SOV_buildings_new_aes
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_atomic_energy
+		}
+		cost = 6
+		x = 3
+		y = 3
+		completion_reward = {
+			set_country_flag = SOV_atomic_energy_dev_ct
+			unlock_decision_category_tooltip = sov_atomic_energy_dev_cat
+		}
+	}
+	focus = {
+		id = SOV_modernisation_leningrad_aes
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_buildings_new_aes
+		}
+		cost = 5
+		x = 3
+		y = 5
+		completion_reward = {
+			244 = {
+				add_dynamic_modifier = {
+					modifier = SOV_atomic_electrostation_new
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_water_resources_of_ussr
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_buildings_new_aes
+		}
+		cost = 5
+		x = 1
+		y = 4
+		completion_reward = {
+			set_country_flag = SOV_gidroenergy_dev_ct
+			unlock_decision_category_tooltip = sov_gidro_energy_dev_cat
+		}
+	}
+	focus = {
+		id = SOV_modernisation_of_ges
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_water_resources_of_ussr
+		}
+		cost = 5
+		x = 1
+		y = 6
+		completion_reward = {
+			increase_SOV_production_atomgpp_var = yes
+		}
+	}
+	focus = {
+		id = SOV_soviet_pc
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_minimum_privatisation
+			focus = SOV_nationalisation
+		}
+		cost = 5
+		x = 10
+		y = 2
+	}
+	focus = {
+		id = SOV_modernisation_pc
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_soviet_pc
+		}
+		cost = 6
+		x = 7
+		y = 3
+	}
+	focus = {
+		id = SOV_far_east_nii
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_modernisation_pc
+		}
+		cost = 5
+		x = 7
+		y = 4
+		completion_reward = {
+			244 = {
+				add_dynamic_modifier = {
+					modifier = SOV_computer_academy_new
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_development_leningrad_nii
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_far_east_nii
+		}
+		prerequisite = {
+			focus = SOV_modernisation_leningrad_aes
+		}
+		cost = 5
+		x = 7
+		y = 6
+	}
+	focus = {
+		id = SOV_bolshe_pc
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_far_east_nii
+		}
+		cost = 5
+		x = 9
+		y = 5
+	}
+	focus = {
+		id = SOV_civilian_pc
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_bolshe_pc
+		}
+		cost = 5
+		x = 9
+		y = 7
+	}
+	focus = {
+		id = SOV_modernisation_krasnoyarsk_aes
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_modernisation_leningrad_aes
+		}
+		cost = 5
+		x = 3
+		y = 6
+		completion_reward = {
+			568 = {
+				add_dynamic_modifier = {
+					modifier = SOV_atomic_electrostation_new
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_development_small_atomic_reactors
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_leningrad_nii
+		}
+		cost = 5
+		x = 7
+		y = 7
+	}
+	focus = {
+		id = SOV_soviet_robotechnics
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_soviet_pc
+		}
+		cost = 5
+		x = 14
+		y = 3
+	}
+	focus = {
+		id = SOV_development_new_robot_model
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_soviet_robotechnics
+		}
+		cost = 5
+		x = 14
+		y = 4
+	}
+	focus = {
+		id = SOV_subtition
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_new_robot_model
+		}
+		cost = 5
+		x = 14
+		y = 5
+	}
+	focus = {
+		id = SOV_industry_plan
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_soviet_industry
+		}
+		cost = 6
+		x = -13
+		y = 3
+		completion_reward = {
+			set_country_flag = SOV_industry_dev_ct
+			unlock_decision_category_tooltip = sov_industry_dev_cat
+		}
+	}
+	focus = {
+		id = SOV_development_kazakh_ssr
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_industry_plan
+		}
+		cost = 5
+		x = -13
+		y = 4
+	}
+	focus = {
+		id = SOV_development_uzbek_ssr
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_kazakh_ssr
+		}
+		cost = 5
+		x = -13
+		y = 5
+	}
+	focus = {
+		id = SOV_programm_vpk
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_industry_plan
+		}
+		cost = 5
+		x = -11
+		y = 4
+	}
+	focus = {
+		id = SOV_ctf
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_programm_vpk
+		}
+		cost = 5
+		x = -11
+		y = 5
+	}
+	focus = {
+		id = SOV_development_roads
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_soviet_industry
+		}
+		cost = 5
+		x = -6
+		y = 3
+		completion_reward = {
+			random_controlled_state = {
+				prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_controlled_state = {
+				prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_controlled_state = {
+				prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_controlled_state = {
+				prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_controlled_state = {
+				prioritize = { 219 252 195 653 570 }
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_infrastructure_plan
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_development_roads
+		}
+		cost = 5
+		x = -6
+		y = 4
+	}
+	focus = {
+		id = SOV_car_construct
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_infrastructure_plan
+		}
+		cost = 5
+		x = -6
+		y = 5
+	}
+	focus = {
+		id = SOV_find_oil
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_infrastructure_plan
+		}
+		cost = 6
+		x = -8
+		y = 5
+	}
+	focus = {
+		id = SOV_development_npz
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_update_gosplan
+		prerequisite = {
+			focus = SOV_find_oil
+		}
+		cost = 5
+		x = -8
+		y = 6
+	}
+	focus = {
+		id = SOV_soviet_army
+		icon = GFX_focus_generic_spur_communist_revolutions
+		cost = 8
+		x = 60
+		y = 0
+	}
+	focus = {
+		id = SOV_second_plan_of_militarisation
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_soviet_army
+		}
+		cost = 6
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = SOV_army_militarisation
+		icon = GFX_focus_SOV_organization_centralization_discipline
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_second_plan_of_militarisation
+		}
+		cost = 5
+		x = -2
+		y = 3
+	}
+	focus = {
+		id = SOV_use_robots_in_military
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_second_plan_of_militarisation
+		}
+		prerequisite = {
+			focus = SOV_soviet_robotechnics
+		}
+		cost = 5
+		x = -2
+		y = 4
+	}
+	focus = {
+		id = SOV_new_doctrine
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_second_plan_of_militarisation
+		}
+		cost = 5
+		x = 2
+		y = 2
+	}
+	focus = {
+		id = SOV_blitskrieg
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_new_doctrine
+		}
+		mutually_exclusive = {
+			focus = SOV_local_operations
+		}
+		cost = 5
+		x = 1
+		y = 3
+	}
+	focus = {
+		id = SOV_local_operations
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_new_doctrine
+		}
+		cost = 5
+		x = 3
+		y = 3
+	}
+	focus = {
+		id = SOV_experimental_tech
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_soviet_army
+		prerequisite = {
+			focus = SOV_blitskrieg
+		}
+		prerequisite = {
+			focus = SOV_local_operations
+		}
+		cost = 6
+		x = 2
+		y = 4
+	}
+	focus = {
+		id = SOV_foreigh_politic
+		icon = GFX_focus_SOV_socialism_in_one_country
+		cost = 8
+		x = 45
+		y = 10
+		completion_reward = {
+			country_event = sovietunion.3
+		}
+	}
+	focus = {
+		id = SOV_friendship_with_prc
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		cost = 5
+		x = -12
+		y = 1
+		completion_reward = {
+			country_event = sovietunion_foreigh.5
+		}
+		prerequisite = {
+			focus = SOV_foreigh_politic
+		}
+		mutually_exclusive = {
+			focus = SOV_meeting_in_usa
+		}
+	}
+	focus = {
+		id = SOV_non_agression_pact_prc
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_friendship_with_prc
+		}
+		cost = 5
+		x = -12
+		y = 2
+		completion_reward = {
+			diplomatic_relation = {
+				country = PRC
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	focus = {
+		id = SOV_no_bulgarian_totalit
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		cost = 5
+		x = -9
+		y = 3
+		completion_reward = {
+			unlock_decision_tooltip = SOV_loyality_regime_in_bulgaria
+		}
+		prerequisite = {
+			focus = SOV_yugoslav_wars
+		}
+	}
+	focus = {
+		id = SOV_meeting_in_usa
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		cost = 5
+		x = -15
+		y = 1
+		completion_reward = {
+			country_event = sovietunion_foreigh.4
+		}
+		mutually_exclusive = {
+			focus = SOV_friendship_with_prc
+		}
+		prerequisite = {
+			focus = SOV_foreigh_politic
+		}
+	}
+	focus = {
+		id = SOV_treaty_with_eastasia
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_meeting_in_usa
+		}
+		cost = 5
+		x = -15
+		y = 2
+		completion_reward = {
+			diplomatic_relation = {
+				country = USA
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+	focus = {
+		id = SOV_european_middleeast_war
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_foreigh_politic
+		}
+		cost = 6
+		x = 0
+		y = 1
+	}
+	focus = {
+		id = SOV_send_rifles_to_uar
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_european_middleeast_war
+		}
+		cost = 5
+		x = -2
+		y = 2
+	}
+	focus = {
+		id = SOV_situation_in_arabia
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_send_rifles_to_uar
+		}
+		cost = 5
+		x = -2
+		y = 3
+	}
+	focus = {
+		id = SOV_help_uar
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_situation_in_arabia
+		}
+		mutually_exclusive = {
+			focus = SOV_help_prosoviet_states
+		}
+		cost = 6
+		x = -3
+		y = 4
+	}
+	focus = {
+		id = SOV_help_prosoviet_states
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_situation_in_arabia
+		}
+		cost = 6
+		x = -1
+		y = 4
+	}
+	focus = {
+		id = SOV_united_front_me
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_help_uar
+		}
+		cost = 5
+		x = -4
+		y = 5
+	}
+	focus = {
+		id = SOV_soviet_arab_friendship
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		cost = 5
+		x = -4
+		y = 6
+		prerequisite = {
+			focus = SOV_united_front_me
+		}
+	}
+	focus = {
+		id = SOV_friendship_with_arabs
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		cost = 5
+		x = 0
+		y = 5
+		prerequisite = {
+			focus = SOV_help_prosoviet_states
+		}
+	}
+	focus = {
+		id = SOV_influence_middle_east
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		cost = 5
+		x = 0
+		y = 6
+		prerequisite = {
+			focus = SOV_friendship_with_arabs
+		}
+	}
+	focus = {
+		id = SOV_sanctions_from_ec
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_european_middleeast_war
+		}
+		cost = 5
+		x = 3
+		y = 2
+	}
+	focus = {
+		id = SOV_no_posol
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_sanctions_from_ec
+		}
+		cost = 5
+		x = 5
+		y = 3
+	}
+	focus = {
+		id = SOV_anti_european_strategy
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_no_posol
+		}
+		cost = 6
+		x = 5
+		y = 4
+	}
+	focus = {
+		id = SOV_yugoslav_wars
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		cost = 5
+		x = -9
+		y = 2
+		prerequisite = {
+			focus = SOV_warsaw_pact_focus
+		}
+	}
+	focus = {
+		id = SOV_close_borders_with_ec
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_sanctions_from_ec
+		}
+		cost = 5
+		x = 3
+		y = 3
+	}
+	focus = {
+		id = SOV_militarisation_border
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_close_borders_with_ec
+		}
+		cost = 6
+		x = 3
+		y = 7
+	}
+	focus = {
+		id = SOV_apply_european_scientist
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_militarisation_border
+		}
+		mutually_exclusive = {
+			focus = SOV_help_antieuropean_org
+		}
+		cost = 5
+		x = 2
+		y = 8
+	}
+	focus = {
+		id = SOV_help_antieuropean_org
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_militarisation_border
+		}
+		cost = 5
+		x = 4
+		y = 8
+	}
+	focus = {
+		id = SOV_deals_in_africa
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_foreigh_politic
+		}
+		cost = 6
+		x = 10
+		y = 1
+	}
+	focus = {
+		id = SOV_congo_wars
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_deals_in_africa
+		}
+		cost = 5
+		x = 8
+		y = 2
+	}
+	focus = {
+		id = SOV_south_african_wars
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_deals_in_africa
+		}
+		cost = 5
+		x = 10
+		y = 2
+	}
+	focus = {
+		id = SOV_east_african_wars
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_deals_in_africa
+		}
+		cost = 5
+		x = 12
+		y = 2
+	}
+	focus = {
+		id = SOV_influence_west_africa
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_congo_wars
+			focus = SOV_south_african_wars
+		}
+		cost = 5
+		x = 9
+		y = 3
+	}
+	focus = {
+		id = SOV_influence_east_africa
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_south_african_wars
+			focus = SOV_east_african_wars
+		}
+		cost = 5
+		x = 11
+		y = 3
+	}
+	focus = {
+		id = SOV_deals_in_asia
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_foreigh_politic
+		}
+		cost = 6
+		x = 16
+		y = 1
+	}
+	focus = {
+		id = SOV_help_india
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_deals_in_asia
+		}
+		cost = 6
+		x = 14
+		y = 2
+	}
+	focus = {
+		id = SOV_friendship_with_japan
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_help_india
+		}
+		cost = 6
+		x = 14
+		y = 3
+	}
+	focus = {
+		id = SOV_poor_vietnam
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_deals_in_asia
+		}
+		cost = 5
+		x = 18
+		y = 2
+	}
+	focus = {
+		id = SOV_help_cambodja
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_poor_vietnam
+		}
+		cost = 5
+		x = 18
+		y = 4
+	}
+	focus = {
+		id = SOV_return_cpv
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_poor_vietnam
+		}
+		cost = 5
+		x = 16
+		y = 3
+	}
+	focus = {
+		id = SOV_help_vietnam
+		icon = GFX_goal_unknown
+		relative_position_id = SOV_foreigh_politic
+		prerequisite = {
+			focus = SOV_return_cpv
+		}
+		cost = 5
+		x = 16
+		y = 4
+	}
+	focus = {
+		id = SOV_congress_2056
+		icon = GFX_goal_unknown
+		x = 14
+		y = 0
+		cost = 10
+		completion_reward = {
+			country_event = sovietunion.1
+		}
+	}
+	focus = {
+		id = SOV_against_government
+		icon = GFX_goal_unknown
+		x = 17
+		y = 1
+		cost = 10
+		completion_reward = {
+			country_event = {
+				id = sovietunion.2
+				days = 10
+			}
+		}
+		prerequisite = {
+			focus = SOV_congress_2056
+		}
+		mutually_exclusive = {
+			focus = SOV_everything_is_fine
+		}
+	}
+	focus = {
+		id = SOV_everything_is_fine
+		icon = GFX_goal_unknown
+		x = 11
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 100
+		}
+		prerequisite = {
+			focus = SOV_congress_2056
+		}
+		mutually_exclusive = {
+			focus = SOV_against_government
+		}
+	}
+	focus = {
+		id = SOV_update_ministers
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_everything_is_fine
+		}
+	}
+	focus = {
+		id = SOV_political_reforms_m
+		icon = GFX_goal_unknown
+		cost = 5
+		availalbe = {}
+		x = 9
+		y = 3
+		completion_reward = {
+			add_timed_idea = {
+				idea = SOV_political_reforms_m_1
+				years = 1
+			}
+		}
+		prerequisite = {
+			focus = SOV_update_ministers
+		}
+	}
+	focus = {
+		id = SOV_change_economy
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		cost = 10
+		completion_reward = {
+			add_political_power = -50
+			country_event = sovietunion.7
+		}
+		prerequisite = {
+			focus = SOV_update_ministers
+		}
+	}
+	focus = {
+		id = SOV_ssrs_question
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 10
+		completion_reward = {
+			country_event = sovietunion.5
+		}
+		prerequisite = {
+			focus = SOV_update_ministers
+		}
+	}
+	focus = {
+		id = SOV_warsaw_pact_focus
+		icon = GFX_goal_unknown
+		x = 38
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_foreigh_politic
+		}
+	}
+	focus = {
+		id = SOV_western_border
+		icon = GFX_goal_unknown
+		x = 40
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_warsaw_pact_focus
+		}
+	}
+	focus = {
+		id = SOV_ddr_accept
+		icon = GFX_goal_unknown
+		x = 39
+		y = 13
+		cost = 10
+		mutually_exclusive = {
+			focus = SOV_ddr_no
+		}
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_western_border
+		}
+	}
+	focus = {
+		id = SOV_ddr_no
+		icon = GFX_goal_unknown
+		x = 41
+		y = 13
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_western_border
+		}
+	}
+	focus = {
+		id = SOV_mobilisation
+		icon = GFX_goal_unknown
+		x = 25
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_hell_march_start
+		}
+	}
+	focus = {
+		id = SOV_prepare_army
+		icon = GFX_goal_unknown
+		x = 23
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = SOV_hell_march_start
+		}
+	}
+	focus = {
+		id = SOV_operation_zhukov
+		icon = GFX_goal_unknown
+		x = 24
+		y = 11
+		cost = 10
+		prerequisite = {
+			focus = SOV_prepare_army
+		}
+		prerequisite = {
+			focus = SOV_mobilisation
+		}
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_ally_with = SOV
+					NOT = {
+						tag = SOV
+					}
+				}
+				set_autonomy = {
+                    autonomous_state = autonomy_integrated_puppet
+                }
+			}
+		}
+	}
+}

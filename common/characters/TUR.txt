@@ -1,0 +1,15 @@
+characters={
+	TUR_Halil_Kayal = {
+			name = "Halil Kayal"
+			portraits = {
+				civilian = {
+					large="GFX_TUR_Halil_Kayal"
+				}
+			}
+		country_leader = {
+				ideology = Military_Junta
+				expire ="2070.1.1.1"
+
+			}
+		}
+	}

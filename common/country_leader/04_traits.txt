@@ -1,4 +1,31 @@
 leader_traits = {
+	pro_ukrain_leader = {
+		random = no
+
+		custom_modifier_tooltip = pro_ukrain_leader_tt
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	War_Hawk = {
+		random = no
+		add_war_support = 0.10
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Ghoul = {
+		random = no
+
+		custom_modifier_tooltip = pro_ukrain_leader_tt
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 
 	Ceo_of_red_rocket = {
 		random = no

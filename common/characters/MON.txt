@@ -1,0 +1,15 @@
+characters={
+	MON_batsukh_sukhbaatar = {
+		name="Batsükh Sükhbaatar"
+		portraits = {
+			civilian = {
+				large=gfx/leaders/leader_unknown.dds
+			}
+		}
+		country_leader = {
+			ideology = Neo_Maoism
+			expire = "2999.1.1"
+			id=-1
+		}
+	}
+}

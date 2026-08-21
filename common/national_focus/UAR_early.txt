@@ -1,0 +1,193 @@
+focus_tree = {
+	id = uar-early
+	continuous_focus_position = { x = 1290 y = 10 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UAR
+		}
+	}
+	#Unity or Death
+	focus = {
+		id = UAR_unity_or_death
+		icon = GFX_goal_unknown
+		x = 3
+		y = 0
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#A Nation In Crisis
+	focus = {
+		id = UAR_a_nation_in_crisis
+		icon = GFX_goal_unknown
+		x = 3
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_unity_or_death  }
+	}
+
+	#Anti-Government Demonstrations
+	focus = {
+		id = UAR_antigovernment_demonstrations
+		icon = GFX_goal_unknown
+		x = 2
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_a_nation_in_crisis  }
+	}
+
+	#Oil Supply Crisis
+	focus = {
+		id = UAR_oil_supply_crisis
+		icon = GFX_goal_unknown
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UAR_a_nation_in_crisis  }
+	}
+
+	#Draw From Our Reserves
+	focus = {
+		id = UAR_draw_from_our_reserves
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UAR_oil_supply_crisis  }
+	}
+
+	#Crack Down on Protesters
+	focus = {
+		id = UAR_crack_down_on_protesters
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_antigovernment_demonstrations  }
+	}
+
+	#Jack Up Prices
+	focus = {
+		id = UAR_jack_up_prices
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UAR_oil_supply_crisis  }
+	}
+
+	#Execute Rebels
+	focus = {
+		id = UAR_execute_rebels
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_crack_down_on_protesters  }
+	}
+
+	#Safe For Now
+	focus = {
+		id = UAR_safe_for_now
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = UAR_draw_from_our_reserves  } prerequisite = { focus = UAR_jack_up_prices  }
+	}
+
+	#One Last Chance
+	focus = {
+		id = UAR_one_last_chance
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_execute_rebels  } prerequisite = { focus = UAR_safe_for_now  }
+	}
+
+	#Convene the War Council
+	focus = {
+		id = UAR_convene_the_war_council
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_one_last_chance  }
+	}
+
+	#The Terrorist Threat
+	focus = {
+		id = UAR_the_terrorist_threat
+		icon = GFX_goal_unknown
+		x = 2
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_convene_the_war_council  }
+	}
+
+	#Disloyalty Among Officers
+	focus = {
+		id = UAR_disloyalty_among_officers
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_convene_the_war_council  }
+	}
+
+	#Brace For Impact
+	focus = {
+		id = UAR_brace_for_impact
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = UAR_the_terrorist_threat  } prerequisite = { focus = UAR_disloyalty_among_officers  }
+		select_effect = { country_event = UAR_collapse.1 }
+	}
+
+}

@@ -1,0 +1,22 @@
+characters = {
+
+	# CHARRUA COUNCIL
+	Bo_Sheng_Aung = { 
+		name = PDF_Bo_Sheng_Aung
+		portraits = {
+			civilian = {
+				large = GFX_PDF_Bo_Sheng_Aung
+				#small = GFX_portrait_AFA_mohamed_yayyo_small
+			}
+			
+		}
+		country_leader = {
+			ideology = Maoism
+			traits = { communist_council_trait }
+			expire = "2077.1.1.1"
+			id = -1
+		}
+	}
+
+	
+}

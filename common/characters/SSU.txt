@@ -1,0 +1,16 @@
+characters={
+
+	SSU_malual_hothnyang = { 
+		name = SSU_malual_hothnyang
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SSU_malual_hothnyang
+			}
+		}
+		country_leader = {
+			ideology = oligarchical_conservatism
+			expire = "1960.1.1.1"
+			id = -1
+		}
+	}
+}
