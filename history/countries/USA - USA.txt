@@ -52,8 +52,10 @@ set_autonomy = {
 	autonomous_state = autonomy_integrated_puppet
 }
 
-
-
+1936.1.1 = {
+    create_faction = "North American Alliance"
+    add_to_faction = CAN
+}
 
 1939.1.1 = {
 	set_politics = {

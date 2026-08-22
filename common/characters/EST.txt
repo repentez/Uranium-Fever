@@ -21,29 +21,22 @@ characters={
 			legacy_id=-1
 		}
 	}
-		EST_Martin_Rubbin= {
-		name=" Minister Martin Rubbin "
-		portraits={
 
-				small="GFX_idea_EST_aleksander_jaakson"
-			}
-		}
-
-		advisor={
-			slot = political_advisor
-			idea_token = EST_alexander_jaakson
-			ledger = V
-			allowed = {
-				original_tag = EST
-			}
-		    traits  = {
-					smooth_talking_charmer 
-				}
+	
+	 EST_Martin_Rubbin = { 
+        name = "Martin Rubbin"
+        portraits = {
+            civilian = {
+                small = "GFX_portraite_red_small"
+            }
+        }
+        advisor = {
+            slot = political_advisor
+            idea_token = EST_Martin
+            traits = { 	smooth_talking_charmer  }
 			cost = 100
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
+        }
+    }
 	
 	EST_jean_le_grand={
 		name= "Jean le Grand"

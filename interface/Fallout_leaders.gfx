@@ -1,7 +1,14 @@
 spriteTypes = {
     ##LEADERS##
 
-    
+       	spriteType = {
+		name = "GFX_portrait_EST_kalju_kirsipuu"
+		texturefile = "gfx/leaders/EST/EST_kalju_kirsipuu.png"
+	}
+       	spriteType = {
+		name = "GFX_portrait_Horvat"
+		texturefile = "gfx/leaders/YUG/Horvat.png"
+	}
     	spriteType = {
 		name = "GFX_portrait_first_usa_president"
 		texturefile = "gfx/leaders/USA/USA_firts_president.png"
