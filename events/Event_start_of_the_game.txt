@@ -1,0 +1,24 @@
+add_namespace = uranium_fever
+
+country_event = {
+    id = uranium_fever.1
+    title = uranium_fever.1.t
+    desc = uranium_fever.1.d
+    picture = GFX_event_uranium_fever
+
+    is_triggered_only = yes
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    immediate = {
+        hidden_effect = {
+            sound_effect = se_uranium_fever
+        }
+    }
+
+    option = {
+        name = "Uranium Fever just launched and got me down"
+    }
+}

@@ -1,0 +1,11 @@
+soundeffect = {
+    name = se_uranium_fever
+    falloff = "falloff_0"
+    sounds = {
+        sound = se_uranium_fever
+    }
+    volume = 1.615
+    is3d = no
+    max_audible = 4
+    max_audible_behaviour = fail
+}

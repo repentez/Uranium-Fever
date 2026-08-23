@@ -1,0 +1,7 @@
+sound = {
+    name = "se_uranium_fever"
+    file = "mod_event_sounds/Uranium_Fever.wav"
+    always_load = no
+    volume = 1
+}
+
