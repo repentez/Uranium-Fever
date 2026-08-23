@@ -121,3 +121,9 @@ create_country_leader = {
 		#
 	}
 }
+
+1936.1.1 = {
+    create_faction = "Coalition of Middle Eastern States"
+    add_to_faction = TUR
+    add_to_faction = PER
+}

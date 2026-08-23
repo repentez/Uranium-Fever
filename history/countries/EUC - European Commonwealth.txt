@@ -49,3 +49,22 @@ add_ideas = {
 		target = ICE
 		autonomous_state = autonomy_protectorate
 	}
+
+	# DIPLOMACY / WAR 16
+if = {
+	limit = {
+		has_start_date < 1936.01.02
+	}
+	declare_war_on = {
+		target = UAR
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = TUR
+		type = annex_everything
+	}
+	declare_war_on = {
+		target = PER
+		type = annex_everything
+	}
+}

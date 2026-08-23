@@ -41,34 +41,25 @@ set_technology = {
 set_grand_doctrine = superior_firepower
 set_grand_doctrine = new_base_strike
 
-
-# DIPLOMACY
-set_autonomy = {
-	target = MEX
-	autonomous_state = autonomy_integrated_puppet
-}
-set_autonomy = {
-	target = RIG
-	autonomous_state = autonomy_integrated_puppet
-}
-
 1936.1.1 = {
     create_faction = "North American Alliance"
     add_to_faction = CAN
+    add_to_faction = MEX
+    add_to_faction = RIG
 }
 
-1939.1.1 = {
+1936.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1936.1.1"
 		election_frequency = 48
-		elections_allowed = no
+		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 0
-		fascism = 0
-		communism = 0
-		neutrality = 100
+		democratic = 78
+		fascism = 2
+		communism = 8
+		neutrality = 12
 	}
 }
 
