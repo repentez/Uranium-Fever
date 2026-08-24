@@ -1,11 +1,12 @@
 state = {
 	id=484
 	name="STATE_484"
-	manpower = 108841
-	state_category = rural
+	manpower = 616609
+	state_category = town
 	
 	history={
 		owner = MEX
+		add_core_of = MEX
 		buildings = {
 			infrastructure = 2
 			air_base = 3
@@ -16,20 +17,18 @@ state = {
 				naval_base = 1
 			}
 		}
-		add_core_of = MEX
-
 		victory_points = {
-			12461 10
+			12461 10  # Tijuana
 		}
-		#victory_points = {
-		#	12736 3
-		#}
-		#victory_points = {
-		#	1892 3
-		#}
-		#victory_points = {
-		#	13215 5
-		#}
+		victory_points = {
+			13215 10  # Mexicali
+		}
+		victory_points = {
+			1892 4  # Ensenada
+		}
+		victory_points = {
+			12736 2  # La Paz
+		}
 
 	}
 	provinces = {

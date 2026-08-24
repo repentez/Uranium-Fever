@@ -15,17 +15,26 @@ state={
 			}
 		}
 		add_core_of = MEX
-		#victory_points = {
-		#	4977 3
-		#}
-		#victory_points = {
-		#	4908 1
-		#}
-		#victory_points = {
-		#	5071 1
-		#}
 		victory_points = {
-			10765 5
+			10765 8  # Hermosillo
+		}
+		victory_points = {
+			8012 3  # Nogales
+		}
+		victory_points = {
+			4908 3  # Guaymas
+		}
+		victory_points = {
+			4977 6  # Ciudad Obregon
+		}
+		victory_points = {
+			12833 2  # San Luis Río Colorado
+		}
+		victory_points = {
+			2069 1  # Caborca
+		}
+		victory_points = {
+			5071 1  # Agua Prieta
 		}
 	}
 

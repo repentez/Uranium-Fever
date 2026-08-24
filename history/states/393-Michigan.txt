@@ -11,7 +11,7 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 6
 			air_base = 4
@@ -19,10 +19,40 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			6710 20 # Detriot
+			6710 40 # Detroit
 		}
 		victory_points = {
-			11685 10 # Grand Rapids
+			11669 10  # Flint
+		}
+		victory_points = {
+			6769 5  # Lansing
+		}
+		victory_points = {
+			9684 1  # Battle Creek
+		}
+		victory_points = {
+			11685 3  # Kalamazoo
+		}
+		victory_points = {
+			11714 10  # Grand Rapids
+		}
+		victory_points = {
+			4854 1  # Marquette
+		}
+		victory_points = {
+			7420 1  # Traverse City
+		}
+		victory_points = {
+			10303 1  # Alpena
+		}
+		victory_points = {
+			709 1  # Escanaba
+		}
+		victory_points = {
+			11656 5  # Ann Arbor
+		}
+		victory_points = {
+			3766 1  # Mount Pleasant
 		}
 		1939.1.1 = {
 			buildings = {
@@ -38,7 +68,7 @@ state={
 	provinces={
 		691 695 709 751 3766 4854 5205 6710 6769 6782 7420 9684 9724 9746 9747 10233 10303 10599 11641 11656 11669 11685 11714 11731 13155 13200 15733 
 	}
-	manpower=4842323
+	manpower=7873600
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

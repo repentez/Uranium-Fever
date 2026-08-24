@@ -2,8 +2,8 @@
 state={
 	id=394
 	name="STATE_394"
-	manpower = 2939004
-	state_category = city
+	manpower = 4080400
+	state_category = large_city
 	
 	resources={
 		steel=53 # was: 84
@@ -12,15 +12,37 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 5
+			air_base = 1
 			industrial_complex = 3
 		}
 		add_core_of = USA
 		victory_points = {
-			12357 15 #Milwaukee
+			12357 25 # Milwaukee
 		}
 		victory_points = {
-			12456 5 #Madison
+			12456 5 # Madison
+		}
+		victory_points = {
+			10526 3  # Eau Claire
+		}
+		victory_points = {
+			4166 3  # Green Bay
+		}
+		victory_points = {
+			10341 3  # La Crosse
+		}
+		victory_points = {
+			4834 3  # Wausau
+		}
+		victory_points = {
+			9657 1  # Sheboygan
+		}
+		victory_points = {
+			1849 1  # Ashland
+		}
+		victory_points = {
+			926 1  # Oshkosh
 		}
 	}
 

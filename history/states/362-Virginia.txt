@@ -20,37 +20,37 @@ state={
 
 		}
 		victory_points = {
-			788 10 #Norfolk
+			788 25  # Norfolk/Virginia Beach
 		}
 		victory_points = {
-			865 5 #Newport News
+			865 5  # Newport News
 		}
 		victory_points = {
-			873 10 #Fairfax
+			873 10  # Arlington/Alexandria
 		}
 		victory_points = {
-			1506 3 #Roanoke
+			11738 15  # Richmond
 		}
 		victory_points = {
-			3823 1 #Charlottesville 
+			10412 3  # Lynchburg
 		}
 		victory_points = {
-			3917 1 #Chincoteague 
+			1506 3  # Roanoke
 		}
 		victory_points = {
-			6846 1 #Fredericksburg
+			3823 1  # Charlottesville
 		}
 		victory_points = {
-			7558 1 #Bristol 
+			6846 1  # Fredericksburg
 		}
 		victory_points = {
-			10412 3 #Lynchburg
+			11873 1  # Harrisonburg
 		}
 		victory_points = {
-			11738 15 #Richmond
+			7558 1  # Bristol
 		}
 		victory_points = {
-			11873 1 #Harrisonburg
+			3917 1  # Chincoteague/Wallops Flight Facility
 		}
 		1939.1.1 = {
 			buildings = {

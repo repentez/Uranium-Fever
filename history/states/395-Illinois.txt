@@ -2,22 +2,46 @@
 state={
 	id=395
 	name="STATE_395"
-	manpower = 7630651
-	state_category = megalopolis
+	manpower = 10150900
+	state_category = metropolis
 
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 4 #was: 7
+			air_base = 3
+			radar_station = 2
+			infrastructure = 6
 			arms_factory = 1
 			industrial_complex = 11
-			air_base = 3
 		}
 		add_core_of = USA
 		victory_points = {
-			9450 30.0
+			9450 50  # Chicago
 		}
-
+		victory_points = {
+			12312 10  # Rockford
+		}
+		victory_points = {
+			10393 5  # Moline
+		}
+		victory_points = {
+			1527 5  # Peoria
+		}
+		victory_points = {
+			1655 5  # Urbana-Champaign
+		}
+		victory_points = {
+			720 3  # Decatur
+		}
+		victory_points = {
+			12697 3  # Springfield
+		}
+		victory_points = { 
+			12305 1 # East St. Louis
+		}
+		victory_points = { 
+			12368 3 # Aurora
+		}
 	}
 
 	provinces={
