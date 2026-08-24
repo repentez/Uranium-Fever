@@ -12,7 +12,8 @@ state={
 	}
 
 	history={
-		owner = MOR
+		owner = MHG
+		add_core_of = MHG
 		add_core_of = MOR
 		victory_points = {
 			9945 3

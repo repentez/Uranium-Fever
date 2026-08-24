@@ -1,4 +1,4 @@
-﻿capital = 292
+﻿capital = 461
 
 # Starting tech
 set_technology = {
@@ -107,28 +107,17 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 53
-	communism = 27
-	neutrality = 10
-	fascism = 10
+	democratic = 3
+	communism = 3
+	neutrality = 92
+	fascism = 2
 }
 create_country_leader = {
-	name = "Zafir Abdelrahman"
+	name = "maghrebi leader name here"
 	desc = ""
-	picture = gfx/leaders/UAR/zafir_abdelrahman.png
-	ideology = Social_Democrat
+	picture = 
+	ideology = neutrality
 	traits = {
 		#
 	}
-}
-
-1936.1.1 = {
-    create_faction = "Coalition of Middle Eastern States"
-	add_to_faction = EGY
-	add_to_faction = SYR
-    add_to_faction = IRQ
-    add_to_faction = LEB
-    add_to_faction = MHG
-    add_to_faction = TUR
-    add_to_faction = PER
 }

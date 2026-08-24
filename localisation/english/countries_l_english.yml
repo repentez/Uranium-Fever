@@ -4850,3 +4850,7 @@
  INM:0 "Inner Mongolian Command"
  INM_DEF:0 "the Inner Mongolian Command"
  INM_ADJ:0 "CCP-Inner Mongolia"
+
+ MHG:0 "Maghrebi Confederation"
+ MHG_DEF:0 "the Maghrebi Confederation"
+ MHG_ADJ:0 "Maghrebi"

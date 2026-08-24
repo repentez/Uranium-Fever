@@ -13,9 +13,8 @@ state={
 	state_category = town
 
 	history={
-		owner = UAR
-		add_core_of = UAR
-		
+		owner = EGY
+		add_core_of = EGY
 		victory_points = {
 			4076 20 
 		}
@@ -32,8 +31,6 @@ state={
 				naval_supply_hub = 1
 			}
 		}
-
-		add_core_of = EGY
 	}
 
 	provinces={

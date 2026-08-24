@@ -4,11 +4,10 @@ state={
 	name="STATE_453"
 
 	history={
-		owner = UAR
-		add_core_of = UAR
+		owner = EGY
+		add_core_of = EGY
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
 			4161 3 
@@ -16,8 +15,6 @@ state={
 		victory_points = {
 			10099 1 
 		}
-		add_core_of = EGY
-
 	}
 
 	provinces={

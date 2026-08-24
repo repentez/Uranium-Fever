@@ -14,13 +14,18 @@ state={
 			}
 		}
 		add_core_of = CAN
-
+		victory_points = {
+			1785 1 #Labrador City
+		}
+		victory_points = {
+			12503 1 #Happy Valley-Goose Bay
+		}
 	}
 
 	provinces={
 		1426 1785 4720 4787 12503 13165 13180 17255 17258
 	}
-	manpower=22179
+	manpower=13789
 	buildings_max_level_factor=1.000
 
 	local_supplies=0.0 

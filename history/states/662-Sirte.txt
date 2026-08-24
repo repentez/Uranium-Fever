@@ -7,11 +7,12 @@ state={
 	
 	
 	history={
-		owner = LBA
+		owner = MHG
+		add_core_of = MHG
+		add_core_of = LBA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = LBA
 	}
 	
 	provinces={

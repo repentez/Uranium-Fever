@@ -17,13 +17,24 @@ state={
 			}
 		}
 		add_core_of = USA
-		victory_points = {
+		victory_points = { # Charleston
 			7202 10
 		}
-		victory_points = {
-			11927 10 
+		victory_points = { # Columbia
+			7012 5
 		}
-
+		victory_points = { # Greenville
+			4653 3
+		}
+		victory_points = { # Myrtle Beach
+			11927 3
+		}
+		victory_points = { # Rock Hill
+			4491 1
+		}
+		victory_points = { # Orangeburg
+			10029 1
+		}
 	}
 
 	provinces={

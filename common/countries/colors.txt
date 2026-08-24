@@ -221,8 +221,8 @@ HON = {
 	color_ui = rgb { 57 162 205 }
 }
 IRQ = {
-	color = rgb { 178 114 99 }
-	color_ui = rgb { 231 148 129 }
+	color = rgb { 133 98 90 }
+	color_ui = rgb { 133 98 90 }
 }
 JAP = {
 	color = rgb { 255 166 166 }
@@ -413,24 +413,24 @@ TUN = {
 	color_ui = rgb { 176 97 97 }
 }
 EGY = {
-	color = rgb { 230 230 70 }
-	color_ui = rgb { 230 230 70 }
+	color = rgb { 148 148 90 }
+	color_ui = rgb { 148 148 90 }
 }
 PAL = {
 	color = rgb { 170 125 80 }
 	color_ui = rgb { 170 125 80 }
 }
 LEB = {
-	color = rgb { 130 150 60 }
-	color_ui = rgb { 130 150 60 }
+	color = rgb { 125 54 47 }
+	color_ui = rgb { 125 54 47 }
 }
 JOR = {
 	color = rgb { 111 55 78 }
 	color_ui = rgb { 111 55 78 }
 }
 SYR = {
-	color = rgb { 52 118 212 }
-	color_ui = rgb { 52 118 212 }
+	color = rgb { 99 130 176 }
+	color_ui = rgb { 99 130 176 }
 }
 SER = {
 	color = rgb { 57 86 145 }
@@ -1407,4 +1407,8 @@ NGA = {
 RIG = {
 	color = rgb { 63 77 110 }
 	color_ui = rgb { 63 77 110 }
+}
+MHG = {
+	color = rgb { 35 120 59 }
+	color_ui = rgb { 35 120 59 }
 }
