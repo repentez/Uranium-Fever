@@ -20,35 +20,35 @@ state = {
 				naval_base = 3
 			}
 		}
-		victory_points = {
-			1690 10 # Spokane
+	    victory_points = {
+			10157 1  # Bellingham
 		}
 		victory_points = {
-			4296 3 # Port Angeles
+			10690 1  # Kennewick
 		}
 		victory_points = {
-			7386 10 # Olympia
+			10271 1  # Vancouver
 		}
 		victory_points = {
-		    7315 15 # Seattle
+			1690 10  # Spokane
 		}
 		victory_points = {
-		    10155 1 # Yakima
+			7386 10  # Olympia
 		}
 		victory_points = {
-		    10157 1 # Bellingham
+			7315 30  # Seattle
 		}
 		victory_points = {
-		    10271 1 # Vancouver (Washington)
+			4296 3  # Port Angeles
 		}
 		victory_points = {
-		    10690 1 # Kennewick
+			10155 1  # Yakima
 		}
 		victory_points = {
-		    12214 1 # Wenatchee
+			12214 1  # Wenatchee
 		}
 		victory_points = {
-		    12673 1 # Pullman
+			12673 1  # Pullman
 		}
 	}
 

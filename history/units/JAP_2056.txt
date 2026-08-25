@@ -221,43 +221,6 @@ units = {
 		start_equipment_factor = 0.3		
 	}
 
-	#1 Konkyochi Ichigun
-	division = {
-		name = "Saipan Kichi Shubitai"
-		location = 4102 #Kagoshima
-		division_template = "Chuton-chi Shidan"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
-	}
-	division = {
-		name = "Iwoto Kichi Shubitai"
-		location = 13025 #Iwo Jima
-		division_template = "Chuton-chi Shidan"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
-	}
-	division = {
-		name = "Minamitorishima Kichi Shubitai"
-		location = 13026 #Marcus Island
-		division_template = "Chuton-chi Shidan"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3	
-	}
-	division = {
-		name = "Eniwetok Kichi Shubitai"
-		location = 13046 #Eniwetok
-		division_template = "Chuton-chi Shidan"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
-	}
-	division = {
-		name = "Mili Kichi Shubitai"
-		location = 13040 #Mili
-		division_template = "Chuton-chi Shidan"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0.3		
-	}
-}
 
 #########################
 ## STARTING PRODUCTION ##
@@ -316,5 +279,4 @@ instant_effect = {
 		progress = 0.6
 		efficiency = 50
 	}
-
 }

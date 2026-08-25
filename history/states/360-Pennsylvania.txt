@@ -11,7 +11,6 @@ state={
 		coal = 160
 	}
 
-
 	history={
 		owner = USA
 		buildings = {
@@ -26,46 +25,46 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			3687 5
+			6845 40  # Philadelphia
 		}
 		victory_points = {
-			3824 5
+			11789 30  # Pittsburgh
 		}
 		victory_points = {
-			3847 5
+			3687 5  # Erie
 		}
 		victory_points = {
-			3850 5
+			3897 5  # Scranton
 		}
 		victory_points = {
-			3897 5
+			11799 5  # Allentown
 		}
 		victory_points = {
-			6845 20
+			6869 3  # Reading
 		}
 		victory_points = {
-			6869 5
+			11785 3  # Harrisburg
 		}
 		victory_points = {
-			6872 5
+			9820 1  # Wilkes-Barre
 		}
 		victory_points = {
-			9820 5
+			3824 1  # Lancaster
 		}
 		victory_points = {
-			11800 20
-		}
-	    victory_points = {
-			11785 5
+			3847 1  # Gettysburg
 		}
 		victory_points = {
-			11799 5
+			12405 1  # Altoona
 		}
 		victory_points = {
-			11817 5
+			6872 1  # State College
 		}
 		victory_points = {
-			12405 5
+			11817 1  # Williamsport
+		}
+		victory_points = {
+			3850 3  # Johnstown
 		}
 		1939.1.1 = {
 			buildings = {
@@ -73,7 +72,6 @@ state={
 				dockyard = 8
 			}
 		}
-
 	}
 
 	provinces={

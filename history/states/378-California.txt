@@ -2,7 +2,7 @@
 state={
 	id=378
 	name="STATE_378"
-	manpower = 5677248
+	manpower = 10521721
 	
 	state_category = metropolis
 	
@@ -13,76 +13,100 @@ state={
 
 	history={
 		owner = USA
+		add_core_of = USA
 		buildings = {
 			infrastructure = 3 #was: 6
 			arms_factory = 2
 			industrial_complex = 6
 			dockyard = 2
 			air_base = 10
-			1562 = {
-				naval_base = 10
+			3678 = {
+				naval_base = 1
 			}
 			9671 = {
-				naval_base = 4
+				naval_base = 1
 			}
 			9814 = {
 				naval_base = 5
 			}
-			610 = {
-				naval_base = 1
+			1562 = {
+				naval_base = 8
+			}
+			14762 = {
+				naval_base = 5
 			}
 		}
-		add_core_of = USA
 		victory_points = {
-			823 5 #Palm Springs
-		}
-		victory_points = {
-			941 5 #Bakersfield
+			4518 10  # Fresno
 		}
 		victory_points = {
-			1562 15
+			14762 5  # Long Beach
 		}
 		victory_points = {
-			3677 5
+			3678 5  # Oakland
 		}
 		victory_points = {
-			3678 5
+			941 5  # Bakersfield
 		}
 		victory_points = {
-			4518 5
-		}
-	    victory_points = {
-			6694 10
-		}
-	    victory_points = {
-			6876 5
-		}
-	    victory_points = {
-			7517 5
+			6694 3  # Modesto
 		}
 		victory_points = {
-			9637 5 
+			6876 1  # Merced
 		}
 		victory_points = {
-			9671 25 
+			3840 1  # Monterey
 		}
 		victory_points = {
-			9713 5
+			6681 3 # Santa Rosa
 		}
 		victory_points = {
-			9814 20 
+			986 1  # San Luis Obispo
 		}
 		victory_points = {
-			9855 3 
+			9911 1  # Visalia
 		}
-        victory_points = {
-			10387 3
+		victory_points = {
+			9814 50  # Los Angeles
 		}
-        victory_points = {
-			11859 20 
+		victory_points = {
+			1562 25  # San Diego
 		}
-        victory_points = {
-			11795 10
+		victory_points = {
+			11757 5  # Anaheim
+		}
+		victory_points = {
+			11795 3  # San Bernardino
+		}
+		victory_points = {
+			11859 3  # Santa Barbara
+		}
+		victory_points = {
+			10387 3  # Barstow
+		}
+		victory_points = {
+			9855 1  # Lancaster
+		}
+		victory_points = {
+			823 1  # Palm Springs
+		}
+		victory_points = {
+			10483 3  # Pasadena
+		}
+		victory_points = {
+			7986 1  # El Centro
+		}
+		victory_points = {
+			7517 2  # Oceanside
+		}
+		victory_points = {
+			3677 1  # Livermore
+		}
+		victory_points = {
+			9637 1  # Salinas
+		}
+		victory_points = {
+			6881 1  # Lompoc/Vandenberg Air Force Base
 		}
 		1939.1.1 = {
 			buildings = {

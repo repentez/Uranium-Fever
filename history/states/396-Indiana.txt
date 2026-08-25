@@ -2,7 +2,7 @@
 state={
 	id=396
 	name="STATE_396"
-	manpower = 3238501
+	manpower = 4922340
 	
 	resources = {
 		coal = 14 #initial distribution = with infra 44.8 / 1280 total
@@ -18,9 +18,32 @@ state={
 		}
 		add_core_of = USA
 		victory_points = {
-			1595 10
+			6713 10  # Gary
 		}
-
+		victory_points = {
+			9654 5  # South Bend
+		}
+		victory_points = {
+			870 10  # Fort Wayne
+		}
+		victory_points = {
+			4531 3  # Lafayette
+		}
+		victory_points = {
+			9810 3  # Muncie
+		}
+		victory_points = {
+			1595 20  # Indianapolis
+		}
+		victory_points = {
+			12437 3  # Terre Haute
+		}
+		victory_points = {
+			11635 5  # Evansville
+		}
+		victory_points = {
+			10448 1  # Bloomington
+		}
 	}
 
 	provinces={
