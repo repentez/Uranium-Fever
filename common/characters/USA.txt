@@ -1,18 +1,5 @@
 characters = {
-	USA_william_h_caldwell = {
-        portraits = {
-			civilian = {
-				large = "gfx/leaders/USA/USA_william_caldwell.dds"
-			}
-		}
-	    country_leader = {
-			desc = "POLITICS_WILLIAM_H_CALDWELL_DESC"
-			ideology = liberalism
-			traits = { lame_duck }
-			expire = "2053.1.20.1"
-			id = -1
-		}
-	}
+
 	USA_robert_house = {
 		name = "Robert House"
 		portraits = {
@@ -45,13 +32,13 @@ characters = {
 		name = "Leon Von Felden"
 		portraits = {
 			civilian = {
-				small = "GFX_"
+				small = "GFX_portrait_USA_ceo_west_tek"
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = Leon_Felden_advisor
-			traits = { Ceo_of_West_Tek }
+			traits = { West_Tek_scientist }
 			cost = 100
 		}
 	}
@@ -59,47 +46,102 @@ characters = {
 		name = "Senator Calvert"
 		portraits = {
 			civilian = {
-				small = "GFX_"
+				small = "GFX_portrait_USA_Senator_Calvert"
 			}
 		}
 		advisor = {
 			slot = political_advisor
 			idea_token = Senator_Calvert_advisor
-			traits = { Senator_Calvert }
+			traits = { Senator }
 			cost = 100
 		}
 	}
-	USA_senator_jody_sorreset = {
-		name = USA_senator_jody_sorreset
+	USA_senator_Jody_Sorreset = {
+		name = "Senator Jody Sorreset"
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_USA_Jody_Sorreset"
+			}
+		}
 		advisor = {
 			slot = political_advisor
-			idea_token = USA_senator_jody_sorreset
-			traits = {}
+			idea_token = Senator_Jody_Sorreset
+			traits = { Senator }
+			cost = 100
 		}
 	}
-    	USA_general_constantine_chase= {
-		name= "Constantine Chase"
-		portraits={
-			army={
-				large= ""
-			}
-			army={
-				small="GFX_idea_george_patton"
+		Julia_Masters = {
+		name = "Julia Masters"
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_USA_Julia_Masters"
 			}
 		}
-		advisor={
-			cost = 150
-
-			slot = theorist
-			idea_token = george_patton
-			ledger = army
-				allowed = {
-					original_tag = USA
-				}
-
-				traits = {
-					mobile_warfare_expert
-			}
+		advisor = {
+			slot = political_advisor
+			idea_token = Julia_Masters
+			traits = {  chief_financial_officer }
+			cost = 100
 		}
 	}
+
+	Leonard_Steeple = {
+		name = "Leonard Steeple"
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_USA_Leonard_Steeple"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Leonard_Steeple
+			traits = {  vice_president_of_repconn }
+			cost = 100
+		}
+	}
+	
+		Carl_Rook= {
+		name = "Carl Rook"
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_USA_Carl_Rook"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Carl_Rook
+			traits = {  vice_president_of_repconn }
+			cost = 100
+		}
+	}
+	USA_Diane_Welch = {
+		name = "Diane Welch"
+		portraits = {
+			civilian = {
+				small = "GFX_portrait_USA_Diane_Welch"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Diane_Welch
+			traits = { Representative }
+			cost = 100
+		}
+	}
+	USA_william_h_caldwell = {
+        portraits = {
+			civilian = {
+				large = "gfx/leaders/USA/USA_william_caldwell.dds"
+			}
+		}
+	    country_leader = {
+			desc = "POLITICS_WILLIAM_H_CALDWELL_DESC"
+			ideology = liberalism
+			traits = { lame_duck }
+			expire = "2053.1.20.1"
+			id = -1
+		}
+	}
+
+
 }

@@ -9,6 +9,13 @@ recruit_character = USA_robert_house
 recruit_character = USA_ceo_red_rocket
 recruit_character = USA_ceo_west_tek
 recruit_character = USA_senator_calvert
+recruit_character = USA_senator_Jody_Sorreset
+recruit_character = USA_Diane_Welch
+recruit_character = Leonard_Steeple
+recruit_character = Julia_Masters 
+recruit_character = Carl_Rook
+## generals ##
+
 
 
 set_research_slots = 5

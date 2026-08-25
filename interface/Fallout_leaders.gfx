@@ -1,6 +1,34 @@
 spriteTypes = {
     ##LEADERS##
-
+  
+     spriteType = {
+		name = "GFX_portrait_USA_Carl_Rook"
+		texturefile = "gfx/leaders/USA/Carl_Rook.dds"
+	}
+  spriteType = {
+		name = "GFX_portrait_USA_Leonard_Steeple"
+		texturefile = "gfx/leaders/USA/USA_Leonard_Steeple.dds"
+	}
+  spriteType = {
+		name = "GFX_portrait_USA_Julia_Masters"
+		texturefile = "gfx/leaders/USA/USA_Julia_Masters.dds"
+	}
+    spriteType = {
+		name = "GFX_portrait_USA_Diane_Welch"
+		texturefile = "gfx/leaders/USA/USA_Diane_Welch.dds"
+	}
+    spriteType = {
+		name = "GFX_portrait_USA_Jody_Sorreset"
+		texturefile = "gfx/leaders/USA/USA_Jody_Sorreset.dds"
+	}
+    spriteType = {
+		name = "GFX_portrait_USA_Senator_Calvert"
+		texturefile = "gfx/leaders/USA/USA_Senator_Calvert.dds"
+	}
+      	spriteType = {
+		name = "GFX_portrait_USA_ceo_west_tek"
+		texturefile = "gfx/leaders/USA/USA_ceo_west_tek.dds"
+	}
        	spriteType = {
 		name = "GFX_portrait_EST_kalju_kirsipuu"
 		texturefile = "gfx/leaders/EST/EST_kalju_kirsipuu.png"

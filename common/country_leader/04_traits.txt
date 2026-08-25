@@ -7,9 +7,6 @@ leader_traits = {
   
 		consumer_goods_factor = -0.10
 		local_resources_factor = 0.5
-
-
-	
 		ai_will_do = {
 			factor = 1
 		}
@@ -21,9 +18,63 @@ leader_traits = {
 		local_resources_factor = 0.15
 		political_power_gain = 0.15
 
-	
 		ai_will_do = {
 			factor = 1
 		}
 	}
+		lame_duck = {
+		random = no
+		political_power_gain = -0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	West_Tek_scientist = {
+		random = no
+		conversion_cost_civ_to_mil_factor = -0.1
+              consumer_goods_factor = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+ Senator = {
+		random = no
+	political_power_gain = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+ Representative = {
+		random = no
+	war_support_factor = -0.05
+	political_power_gain = 0.1
+		ai_will_do = {
+			factor = 1
+		}
+	}
+ chief_financial_officer = {
+		random = no
+	production_speed_industrial_complex_factor = -0.10
+	production_speed_arms_factory_factor = -0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
+vice_president_of_repconn = {
+		random = no
+	consumer_goods_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+
+
+
+
 }
