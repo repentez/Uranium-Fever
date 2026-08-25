@@ -73,7 +73,7 @@ ideologies = {
 
 		types = {
 
-			marxism-leninism = {
+			marxism_leninism = {
 			}
 
 			maoism = {
