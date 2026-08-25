@@ -13,8 +13,8 @@ state = {
 
 	history = {
 
-		owner = MAL
-		add_core_of = MAL
+		owner = SNG
+		add_core_of = SNG
 
 		victory_points = {
 			12299 30 # Singapore

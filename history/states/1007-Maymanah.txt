@@ -13,6 +13,7 @@ state={
 	}
 	history={
 		owner = AFG
+		set_militarized_zone = yes
 		buildings = {
 			infrastructure = 1 
 		}
