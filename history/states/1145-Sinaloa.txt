@@ -1,0 +1,35 @@
+state = {
+	id = 1145
+	name = "STATE_1145"
+
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			8057 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			14525 3
+		}
+		victory_points = {
+			8057 8
+		}
+		victory_points = {
+			10895 7
+		}
+		victory_points = {
+			1945 1
+		}
+	}
+	provinces = {
+		1945 8057 10895 14525 17322
+	}
+	manpower = 993852
+	buildings_max_level_factor = 1.000
+	state_category = town
+
+}
