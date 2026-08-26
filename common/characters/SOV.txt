@@ -1,0 +1,16 @@
+characters = {
+	SOV_viktor_sokolov = {
+        portraits = {
+			civilian = {
+				large = "gfx/leaders/SOV/SOV_viktor_sokolov.dds"
+			}
+		}
+	    country_leader = {
+			desc = "POLITICS_VIKTOR_SOKOLOV_DESC"
+			ideology = communism
+			traits =
+			expire = "2053.1.1.1"
+			id = -1
+		}
+	}
+}

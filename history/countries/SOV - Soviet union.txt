@@ -10,29 +10,9 @@ add_to_faction = ROM
 add_to_faction = CZE
 add_to_faction = BUL
 add_to_faction = HUN
-add_to_faction = AFG
 
 #COUNTRY LEADERS
-recruit_character = SOV_vasily_kozlov
-recruit_character = SOV_ivan_yanov
-recruit_character = SOV_matvey_anisimov
-recruit_character = SOV_leader_socialist
-recruit_character = SOV_leader_anarchist
-recruit_character = SOV_leader_demoratic
-recruit_character = SOV_leader_conservatism
-recruit_character = SOV_leader_authori
-recruit_character = SOV_leader_neutrality
-recruit_character = SOV_leader_theocracy
-recruit_character = SOV_leader_fascism
-recruit_character = SOV_leader_ultranat
-recruit_character = SOV_supreme_soviet #This is a fake character! Proper country leader role is added via focus
-recruit_character = SOV_nikolay_petrov
-recruit_character = SOV_georgy_chervov
-recruit_character = SOV_maksim_petrichenko
-recruit_character = SOV_matvey_vasilyev
-recruit_character = SOV_vasiliy_kuznezov
-recruit_character = SOV_andrey_pogozin
-recruit_character = SOV_nikita_nefedorov
+recruit_character = SOV_viktor_sokolov
 
 #Add synthetic refineries tech
 set_technology = {
@@ -174,56 +154,26 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-	}
-	set_technology = {
-		armored_car1 = 1
-	}
-}
-
-set_convoys = 50
-
-set_variable = { SOV_consumer_goods_factor_value_var = -0.10 }
-set_variable = { SOV_consumer_goods_factor_var = -0.10 }
-set_variable = { SOV_production_speed_buildings_factor_var = 0.05 }
-set_variable = { SOV_research_speed_factor_var = 0.10 }
-set_variable = { SOV_consumer_goods_nat_value_var = -0.05}
-set_variable = { SOV_production_nat_var = 0.05}
-set_variable = { SOV_capacity_nat_var = 0.10}
-set_variable = { SOV_start_ef_nat_var = -0.05}
-set_variable = { SOV_consumer_goods_pri_value_var = 0.05}
-set_variable = { SOV_production_pri_var = 0.05}
-set_variable = { SOV_capacity_pri_var = -0.05}
-set_variable = { SOV_start_ef_pri_var = 0.05}
-
-add_ideas = {
-	SOV_foreigh_policy_idea
-	SOV_full_war_ready_idea
-	SOV_militarist_policy_idea
-	SOV_normally_robototechnic_idea
-    war_economy
-	SOV_reformists_zagovor_idea
-
-	SOV_vasily_kozlov
-}
-
 set_politics = {
 	ruling_party = communism
-	last_election = "1933.7.1"
+	last_election = "2048.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communism = 56
-	socialism = 33
-	democratic = 2
-	conservatism = 2
-	authoritarian_democracy = 2
-	ultranationalism = 5
+	communism = 65
+	democratic = 35
 }
 
+create_country_leader = {
+	name = "Viktor Sokolov"
+	desc = "POLITICS_VIKTOR_SOKOLOV_DES"
+	picture = "GFX/leaders/SOV/SOV_viktor_sokolov.dds"
+	ideology = communism
+	traits = {
+	#
+	}
+}
 ### VARIANTS ###
 # 1936 Start #
 

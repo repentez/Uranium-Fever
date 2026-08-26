@@ -4,23 +4,21 @@ state={
 
 	history={
 		owner = CAN
+		add_core_of = CAN
 		buildings = {
 			infrastructure = 1
-
 			1869 = {
 				naval_base = 1
-
 			}
-
-
 		}
-		add_core_of = CAN
+		victory_points = {
+			1869 1  # Queen Charlotte
+		}
 	}
-
 	provinces={
 		1869
 	}
-	manpower=12684
+	manpower=5000
 	buildings_max_level_factor=1	
 	state_category="small_island"
 

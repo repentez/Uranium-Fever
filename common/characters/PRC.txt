@@ -1,0 +1,16 @@
+characters = {
+	PRC_zhao_guowei = {
+        portraits = {
+			civilian = {
+				large = "gfx/leaders/PRC/PRC_zhao_guowei.dds"
+			}
+		}
+	    country_leader = {
+			desc = "POLITICS_ZHAO_GUOWEI_DESC"
+			ideology = communism
+			traits = {}
+			expire = "2053.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -2,42 +2,36 @@
 
 oob = "CHI_1936"
 
+recruit_character = PRC_zhao_guowei
+
+set_research_slots = 5
+set_stability = 0.88
+set_war_support = 60
+add_command_power = 80
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	command_control_equipment = 1
-	utility_vehicle_0 = 1
+	infantry_weapons1 = 1
+	tech_trucks = 1
+	tech_recon = 1
+	tech_support = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	motorised_infantry = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	marines = 1
+	basic_train = 1
+	engine_tech_1 = 1
 }
-set_stability = 0.6
-set_war_support = 0.7
-
-recruit_character = PRC_mao_zedong
-recruit_character = PRC_Cheng
-recruit_character = PRC_Li_Ming
-
-add_ideas = {
-	closed_economy
-	limited_conscription
-	civilian_economy
-	prc_One_Child
-	prc_State_Corruption
-	prc_Incompetent_Army
-	Moderate_Resource_Shortage
-	Rolling_Blackouts
-	Minor_Food_Shortage	
-}
-
-set_power_balance = {
-	id = PRC_Violence_Balance
-}
-
-
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1932.11.8"
+	last_election = "2046.11.8"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -46,6 +40,16 @@ set_popularities = {
 	neutrality = 13
 	communism = 63
 	fascism = 2
+}
+
+create_country_leader = {
+	name = "Zhao Guowei"
+	desc = "POLITICS_ZHAO_GUOWEI_DESC"
+	picture = "GFX/leaders/PRC/PRC_zhao_guowei.dds"
+	ideology = communism
+	traits = {
+	#
+	}
 }
 
 # DIPLOMACY

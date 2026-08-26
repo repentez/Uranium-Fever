@@ -2,16 +2,17 @@
 state={
 	id=473
 	name="STATE_473"
-	manpower = 638165
+	manpower = 1360468
 	resources={
 		oil=1 # was: 2
 		coal=4 # initial distribtuion = with infra 6.4 / 36 total
 	}
 	
-	state_category = town
+	state_category = city
 
 	history={
 		owner = CAN
+		add_core_of = CAN
 		buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
@@ -21,10 +22,54 @@ state={
 			1408 = {
 				naval_base = 5
 			}
+			1799 = {
+				naval_base = 1
+			}
 		}
-		add_core_of = CAN
 		victory_points = {
-			1408 20 
+			1408 25  # Vancouver
+		}
+		victory_points = {
+			4428 7  # Surrey
+		}
+		victory_points = {
+			1323 5  # Prince George
+		}
+		victory_points = {
+			7677 2  # Kelowna
+		}
+		victory_points = {
+			7753 1  # Kamloops
+		}
+		victory_points = {
+			12578 1 # Castlegar
+		}
+		victory_points = {
+			1799 1  # Prince Rupert
+		}
+		victory_points = {
+			10548 1  # Kitimat
+		}
+		victory_points = {
+			1411 1  # Dawson Creek
+		}
+		victory_points = {
+			1737 1 # Williams Lake
+		}
+		victory_points = {
+			10644 1 # Quesnel
+		}
+		victory_points = {
+			4877 1  # Revelstroke
+		}
+		victory_points = {
+			7820 1  # Cranbrook
+		}
+		victory_points = {
+			5981 1  # Fort St John
+		}
+		victory_points = {
+			917 1  # Fort Nelson
 		}
 	}
 

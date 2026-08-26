@@ -1,9 +1,9 @@
 state = {
 	id = 276
 	name = "STATE_276" # Southern Ontario
-	manpower = 3117017
+	manpower = 5629515
 	
-	state_category = large_city
+	state_category = metropolis
 	
 	history = {
 
@@ -20,15 +20,66 @@ state = {
 			749 = { dam = 1 }
 
 		}
-		
 		victory_points = {
-			3778 30 # Ottawa
+			3778 40  #Ottawa
 		}
-
 		victory_points = {
-			3775 20 # Toronto
+			3775 30  # Toronto
 		}
-
+		victory_points = {
+			749 15  # Hamilton
+		}
+		victory_points = {
+			14615 10  # Windsor
+		}
+		victory_points = {
+			722 10  # London
+		}
+		victory_points = {
+			3763 10  # Mississauga
+		}
+		victory_points = {
+			6797 7  # Oshawa
+		}
+		victory_points = {
+			774 7  # Kitchener
+		}
+		victory_points = {
+			11695 5  # Brantford
+		}
+		victory_points = {
+			9711 5  # Sarnia
+		}
+		victory_points = {
+			3605 5  # Kingston
+		}
+		victory_points = {
+			9580 5  # Peterborough
+		}
+		victory_points = {
+			9667 4  # Chatham
+		}
+		victory_points = {
+			4270 4  # Cornwall
+		}
+		victory_points = {
+			11567 3  # Belleville
+		}
+		victory_points = {
+			11725 2  # Stratford
+		}
+		victory_points = {
+			9583 2  # Barrie
+		}
+		victory_points = {
+			3661 1  # Pembroke
+		}
+		victory_points = {
+			9585 1  # Orillia
+		}
+		victory_points = {
+			779 1  # Owen Sound
+		}
 	}
 
 	provinces = {

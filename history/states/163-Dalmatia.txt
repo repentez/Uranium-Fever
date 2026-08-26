@@ -18,9 +18,7 @@ state = {
 		}
 		add_core_of = YUG
 		add_core_of = CRO
-		add_core_of = LBV
 		set_compliance = 70
-		set_demilitarized_zone = yes
 
 		### CHANGED TO A MROE ROBUST SYSTEM
 		##CONTROLLED BY ITALY AT GAME START -> ITALIAN NAMES

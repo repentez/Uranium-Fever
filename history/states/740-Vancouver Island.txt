@@ -1,25 +1,30 @@
 state = {
 	id = 740
 	name = "STATE_740"
-	manpower = 259612
+	manpower = 294402
 	
-	state_category = rural
+	state_category = small_island
 
 	history = {
 
 		owner = CAN
 		add_core_of = CAN
-
 		buildings = {
 			infrastructure = 1
+			7259 = {
+				naval_base = 4
+			}
 		}
-
 		victory_points = {
-			7259 5
+			7259 10  # Victoria
 		}
-		
+		victory_points = {
+			1214 2  # Nanaimo
+		}
+		victory_points = {
+			1420 1  # Campbell River
+		}
 	}
-
 	provinces = {
 		7259 1214 12259 12272 1420 
 	}

@@ -1,0 +1,25 @@
+state = {
+	id = 1144
+	name = "STATE_1144"
+
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 2
+			12736 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # La Paz
+			12736 2
+		}
+	}
+	provinces = {
+		1904 8119 12736
+	}
+	manpower = 96722
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+}

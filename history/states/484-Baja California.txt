@@ -26,13 +26,9 @@ state = {
 		victory_points = {
 			1892 4  # Ensenada
 		}
-		victory_points = {
-			12736 2  # La Paz
-		}
-
 	}
 	provinces = {
-		1892 1904 7964 8119 12461 12736 12859 13215 13216 
+		1892 7964 12461 12859 13215 13216 
 	}
 
 	local_supplies=0.0 
