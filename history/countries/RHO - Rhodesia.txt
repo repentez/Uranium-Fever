@@ -1,39 +1,54 @@
-﻿capital = 536 #Sapporo
+﻿capital = 545
+
+oob = "ZIM_1936"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+	tech_mountaineers = 1
 }
 
-set_convoys = 0
+set_convoys = 5
+
+recruit_character = ZIM_acr
+recruit_character = ZIM_stc
+recruit_character = ZIM_awt
+recruit_character = ZIM_pot
+recruit_character = ZIM_mt
+recruit_character = ZIM_ncm
+recruit_character = ZIM_nt
+recruit_character = ZIM_acd2
+recruit_character = ZIM_fascist_guy
+recruit_character = ZIM_ncs
+recruit_character = ZIM_nccr
+recruit_character = ZIM_aco2
+recruit_character = ZIM_communist_guy
+recruit_character = ZIM_ai2
+recruit_character = ZIM_ar
+recruit_character = ZIM_coi
+recruit_character = ZIM_acas
+recruit_character = ZIM_acgs
+recruit_character = ZIM_aa2
+recruit_character = ZIM_democratic_guy
 
 1939.1.1 = {
-	
 	#generic focuses
 	complete_national_focus = army_effort
 	complete_national_focus = equipment_effort
 	complete_national_focus = motorization_effort
 	complete_national_focus = aviation_effort
 	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
+	complete_national_focus = flexible_navy
 	complete_national_focus = industrial_effort
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
 	set_technology = {
-		tech_support = 1
-		tech_recon = 1
-		support_weapons = 1
-		gw_artillery = 1
-
-		#doctrines
-		#air_superiority = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		mechanical_computing = 1
-		computing_machine = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -46,8 +61,6 @@ set_convoys = 0
 	}
 
 set_grand_doctrine = grand_battleplan
-set_grand_doctrine = new_fleet_in_being
-set_grand_doctrine = new_strategic_destruction
 
 	complete_special_project = {
 		project = sp:sp_air_radar
@@ -55,14 +68,24 @@ set_grand_doctrine = new_strategic_destruction
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 60
-	fascism = 3
-	communism = 35
+	democratic = 27
+	neutrality = 3
+	communism = 68
 	neutrality = 2
+}
+
+create_country_leader = {
+	name = " Marcus James Hugins"
+	picture = GFX_portrait__Marcus_James_Hugins
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = { 
+		prince_of_terror
+	}
 }

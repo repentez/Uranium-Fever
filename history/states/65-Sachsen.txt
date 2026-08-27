@@ -14,7 +14,6 @@ state = {
 
 		owner = DDR
 		add_core_of = DDR
-		add_core_of = SAX
 
 		buildings = {
 			infrastructure = 4

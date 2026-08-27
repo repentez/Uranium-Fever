@@ -10,8 +10,6 @@ state = {
 
 		owner = DDR
 		add_core_of = DDR
-		add_core_of = MEK
-
 		victory_points = {
 			321 5 # Rostocj
 		}
