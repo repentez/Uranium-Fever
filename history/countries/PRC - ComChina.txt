@@ -29,17 +29,19 @@ set_technology = {
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
 
-set_politics = {
-	ruling_party = communism
-	last_election = "2046.11.8"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 22
-	neutrality = 13
-	communism = 63
-	fascism = 2
+2052.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "2048.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 16
+		fascism = 3
+		communism = 78
+		despotism = 4
+	}
 }
 
 create_country_leader = {
@@ -51,10 +53,3 @@ create_country_leader = {
 	#
 	}
 }
-
-# DIPLOMACY
-
-	set_autonomy = {
-		target = DPK
-		autonomous_state = autonomy_integrated_puppet
-	}

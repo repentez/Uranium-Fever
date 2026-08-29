@@ -39,18 +39,7 @@ add_ideas = {
 
 }
 
-# DIPLOMACY
-
-	set_autonomy = {
-		target = GRN
-		autonomous_state = autonomy_colony
-	}
-        set_autonomy = {
-		target = ICE
-		autonomous_state = autonomy_protectorate
-	}
-
-	# DIPLOMACY / WAR 16
+# DIPLOMACY / WAR 16
 if = {
 	limit = {
 		has_start_date < 1936.01.02
