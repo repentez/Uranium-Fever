@@ -1,0 +1,16 @@
+characters = {
+	UAR_faisal_mahmoud = {
+		portraits = {
+			civilian = {
+				large = GFX_portrait_UAR_faisal_mahmoud
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+		name = UAR_faisal_mahmoud
+	}
+}

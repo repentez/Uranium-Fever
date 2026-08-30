@@ -41,15 +41,10 @@ if = {
 }
 
 set_research_slots = 3
-set_country_flag = monroe_doctrine
-set_country_flag = CAN_liberal_domination
-set_stability = 0.6
+set_stability = 0.8
 set_war_support = 0.3
 
-recruit_character = CAN_trudeau
-recruit_character = CAN_trudeau2
-recruit_character = CAN_mcgill
-recruit_character = CAN_anderson
+recruit_character = CAN_robert_macleod
 
 # Starting tech
 set_technology = {
@@ -110,33 +105,19 @@ if = {
 	}
 }
 
-add_ideas = {
-	CAN_trudeau_dynasty
-	CAN_albertan_fields
-	CAN_east_west_split
-	CAN_the_avro_project
-	
-	free_trade
-	disarmed_nation
-}
-
-add_timed_idea = {
-	idea = CAN_prime_minister_rip
-	days = 180
-}
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "2051.11.12"
-	election_frequency = 60
-	elections_allowed = yes
-}
-
-set_popularities = {
-	democratic = 55
-	neutrality = 25
-	communism = 15
-	fascism = 5
+2052.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2049.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	set_popularities = {
+		democratic = 88
+		fascism = 2
+		communism = 5
+		despotism = 5
+	}
 }
 
 set_convoys = 100

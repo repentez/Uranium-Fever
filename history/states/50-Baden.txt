@@ -14,7 +14,6 @@ state = {
 		owner = EUC
 		add_core_of = EUC
 		add_core_of = GER
-		add_core_of = WUR
 
 		victory_points = {
 			9517 20 #Stuttgart

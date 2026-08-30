@@ -1,0 +1,16 @@
+characters = {
+	EUC_henri_delacroix = {
+		portraits = {
+			civilian = {
+				large = GFX_portrait_EUC_henri_delacroix
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+		name = EUC_henri_delacroix
+	}
+}

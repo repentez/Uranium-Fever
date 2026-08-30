@@ -1,5 +1,6 @@
 ﻿capital = 292
 
+recruit_character = UAR_faisal_mahmoud
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -101,7 +102,7 @@ set_convoys = 10
 recruit_character = TIG_Silas_Gebregziabher
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = despotism
 	last_election = "2052.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -109,14 +110,14 @@ set_politics = {
 set_popularities = {
 	democratic = 27
 	communism = 10
-	neutrality = 53
+	despotism = 53
 	fascism = 10
 }
 create_country_leader = {
-	name = "Zafir Abdelrahman"
+	name = "Faisal Mahmoud"
 	desc = ""
-	picture = gfx/leaders/UAR/zafir_abdelrahman.png
-	ideology = Social_Democrat
+	picture = "gfx/leaders/UAR/UAR_faisal_mahmoud.dds"
+	ideology = despotism
 	traits = {
 		#
 	}

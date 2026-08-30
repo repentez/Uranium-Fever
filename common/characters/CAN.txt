@@ -1,0 +1,16 @@
+characters = {
+	CAN_robert_macleod = {
+		portraits = {
+			civilian = {
+				large = GFX_portrait_CAN_robert_macleod
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+		name = CAN_robert_macleod
+	}
+}

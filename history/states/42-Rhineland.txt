@@ -15,7 +15,6 @@ state = {
 		owner = EUC
 		add_core_of = EUC
 		add_core_of = GER
-		add_core_of = RHI
 
 		victory_points = { 
 			11435 1 # Bitburg
