@@ -16,5 +16,23 @@ bookmarks = {
 			focuses = {
 			}
 		}
+			"EUC"={
+			history = "EUC_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+		
+			}
+			focuses = {
+			}
+		}
+			"PRC"={
+			history = "EUC_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+		
+			}
+			focuses = {
+			}
+		}
 	}
 }
