@@ -1,16 +1,16 @@
 characters = {
 	PRC_zhao_guowei = {
-        portraits = {
+		portraits = {
 			civilian = {
-				large = "gfx/leaders/PRC/PRC_zhao_guowei.dds"
+				large = GFX_portrait_PRC_zhao_guowei
 			}
 		}
-	    country_leader = {
-			desc = "POLITICS_ZHAO_GUOWEI_DESC"
-			ideology = communism
+		country_leader = {
+			ideology = maoism
+			expire = "1965.1.1.1"
 			traits = {}
-			expire = "2053.1.1.1"
 			id = -1
 		}
+		name = "Zhao Guowei"
 	}
 }

@@ -7,10 +7,11 @@ characters = {
 		}
 	    country_leader = {
 			desc = "POLITICS_VIKTOR_SOKOLOV_DESC"
-			ideology = communism
-			traits =
+			ideology = marxism_leninism
+			traits = {}
 			expire = "2053.1.1.1"
 			id = -1
 		}
+		name = "Viktor Sokolov"
 	}
 }

@@ -3,7 +3,7 @@
 #### NO STEP BACK
 ####
 
-create_faction_from_template = faction_template_ecto
+create_faction = "Minsk Collective Security Treaty"
 add_to_faction = DDR
 add_to_faction = POL
 add_to_faction = ROM
@@ -154,15 +154,17 @@ if = {
 	}
 }
 
-set_politics = {
-	ruling_party = communism
-	last_election = "2048.7.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	communism = 65
-	democratic = 35
+2052.1.1 = {
+	set_politics = {
+		ruling_party = communism
+		last_election = "2048.1.1"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 35
+		communism = 65
+	}
 }
 
 create_country_leader = {

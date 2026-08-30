@@ -162,9 +162,6 @@ IF = {
 
 	set_cosmetic_tag = MEN_mengjiang_autonomy
 
-	add_state_core = 616
-	add_state_core = 1040
-
 	add_ideas = MEN_true_mongol_state
 	
 }
