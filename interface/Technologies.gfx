@@ -181,7 +181,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_infantry_weapons_medium"
-		texturefile = "gfx/interface/technologies/GFX_infantry_weapons"
+		texturefile = "gfx/interface/technologies/USA_GFX_SERVICE_RIFLE"
 	}		
 	
 	SpriteType = {
@@ -3553,7 +3553,7 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_infantry_weapons_medium"
-	texturefile = "gfx/interface/technologies/GFX_infantry_weapons.dds"
+	texturefile = "gfx/interface/technologies/gfx/interface/technologies/USA_GFX_SERVICE_RIFLE.dds"
 }
 
 SpriteType = {
@@ -3573,7 +3573,7 @@ SpriteType = {
 
 SpriteType = {
 	name = "GFX_USA_infantry_weapons_medium"
-	texturefile = "gfx/interface/technologies/GFX_infantry_weapons.dds"
+	texturefile = "gfx/interface/technologies/USA_GFX_SERVICE_RIFLE.dds"
 }
 
 SpriteType = {
