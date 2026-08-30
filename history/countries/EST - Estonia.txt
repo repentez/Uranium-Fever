@@ -27,24 +27,19 @@ set_convoys = 5
 
 
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1932.5.21"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 0
-	communism = 1
-	neutrality = 99
-}
 
-1939.1.1 = {
+2052.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
-		last_election = "2055.12.20"
+		ruling_party = despotism
+		last_election = "1936.1.1"
 		election_frequency = 48
 		elections_allowed = no
+	}
+	set_popularities = {
+		democratic = 38
+		fascism = 9
+		communism = 11
+		despotism = 42
 	}
 }
 

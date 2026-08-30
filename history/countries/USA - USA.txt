@@ -3,6 +3,7 @@
 oob = "USA_1936"
 
 starting_train_buffer = 5
+add_ideas = USA_deflation_crisis
 
 recruit_character = USA_william_h_caldwell
 recruit_character = USA_robert_house
