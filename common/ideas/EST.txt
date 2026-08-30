@@ -25,7 +25,7 @@ ideas = {
 		}
 		
 			EST_legacy_phosphorite_war = {
-			picture = GFX_idea_EST_forest_brothers
+			
 			removal_cost = -1
 
 			available = {
@@ -35,7 +35,7 @@ ideas = {
 			allowed = {
 				original_tag = EST
 			}
-		
+		      picture = GFX_idea_legacy_of_war_estonia
 			modifier = {
 		    base_fuel_gain = 10
 			army_artillery_attack_factor = 0.05
@@ -48,7 +48,7 @@ ideas = {
 			
 		}
 		EST_baltic_environmentalism = {
-			picture = GFX_idea_EST_forest_brothers
+			
 			removal_cost = -1
 
 			available = {
@@ -58,7 +58,7 @@ ideas = {
 			allowed = {
 				original_tag = EST
 			}
-		
+		picture = GFX_idea_baltic_nature
 			modifier = {
 		  
             production_speed_buildings_factor = 0.1
@@ -72,11 +72,14 @@ ideas = {
 		}
 
     EST_blood_of_patriots = {
-        picture = generic_war_spirit
+        
         allowed = {
             original_tag = EST
         }
-
+            available = {
+              original_tag = EST
+            }
+			picture = GFX_idea_blood_land
         modifier = {
             surrender_limit = 0.10          
             war_support_factor = 0.10       

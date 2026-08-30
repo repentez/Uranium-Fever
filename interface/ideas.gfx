@@ -4,7 +4,19 @@ spriteTypes = {
 		name = "GFX_idea_EST_forest_brothers"
 		texturefile = "gfx/interface/ideas/idea_BALTIC_forest_brothers.dds"
 	}
-	
+			spriteType = {
+		name = "GFX_idea_legacy_of_war_estonia"
+		texturefile = "gfx/interface/ideas/idea_legacy_of_war_estonia.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_blood_land"
+		texturefile = "gfx/interface/ideas/idea_blood_land.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_baltic_nature"
+		texturefile = "gfx/interface/ideas/idea_baltic_nature.dds"
+	}
+
 ####
 
 	SpriteType = {

@@ -1,5 +1,6 @@
 characters = {
 	EUC_henri_delacroix = {
+		name="Henri de la Croix"
 		portraits = {
 			civilian = {
 				large = GFX_portrait_EUC_henri_delacroix
@@ -11,6 +12,6 @@ characters = {
 			traits = {}
 			id = -1
 		}
-		name = EUC_henri_delacroix
+		
 	}
 }

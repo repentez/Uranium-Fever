@@ -1,4 +1,21 @@
 spriteTypes = {
+
+spriteType = {
+    name = "GFX_goal_rus_naval_destroyer"
+    texturefile = "gfx/interface/goals/EST/rus_naval_destroyer.png"
+}
+spriteType = {
+    name = "GFX_goal_light_battle_ship"
+    texturefile = "gfx/interface/goals/EST/light_battle_ship.png"
+}
+spriteType = {
+    name = "GFX_goal_defensive_air_support"
+    texturefile = "gfx/interface/goals/EST/defensive_air_support.png"
+}
+
+
+
+
         spriteType = {
         name = "GFX_goal_auld_lang_syne"
         texturefile = "gfx/interface/goals/USA/enc_a_auld_lang_syne.tga"
