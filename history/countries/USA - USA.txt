@@ -1,10 +1,40 @@
-﻿capital = 1121 # Washington DC
+﻿capital = 1121 # Washington, D.C
 
-oob = "USA_1936"
+oob = "USA_2052"
 
 starting_train_buffer = 5
 add_ideas = USA_deflation_crisis
+add_ideas = USA_price_stability
+add_ideas = USA_creeping_inflation
+add_ideas = USA_persistent_inflation
+add_ideas = USA_runaway_inflation
+add_ideas = USA_hyperinflation_spiral
 
+add_ideas = USA_fuel_abundance
+add_ideas = USA_fuel_adequate
+add_ideas = USA_fuel_strain
+add_ideas = USA_fuel_crisis
+add_ideas = USA_fuel_crippled
+
+add_ideas = USA_red_scare_dormant
+add_ideas = USA_red_scare_rising
+add_ideas = USA_red_scare_hysteria
+
+add_ideas = USA_congressional_gridlock
+add_ideas = USA_congressional_cooperation
+
+add_ideas = USA_kicking_the_can
+add_ideas = USA_power_armor_doctrine_adopted
+
+## Bilateral Treaty ##
+give_guarantee = AST
+give_guarantee = NZL
+give_guarantee = JAP
+give_guarantee = KOR
+give_guarantee = PLU
+give_guarantee = PHI
+
+## Characters ##
 recruit_character = USA_william_h_caldwell
 recruit_character = USA_robert_house
 recruit_character = USA_ceo_red_rocket
@@ -13,10 +43,10 @@ recruit_character = USA_senator_calvert
 recruit_character = USA_senator_Jody_Sorreset
 recruit_character = USA_Diane_Welch
 recruit_character = Leonard_Steeple
-recruit_character = Julia_Masters 
+recruit_character = Julia_Masters
 recruit_character = Carl_Rook
-## generals ##
 
+## Generals ##
 
 
 set_research_slots = 5
@@ -27,16 +57,14 @@ add_command_power = 65
 # Congress
 
 
-
-
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_trucks = 1
-	tech_recon = 1
-	tech_support = 1
-	tech_engineers = 1
+	infantry_weapons = 5
+	infantry_weapons1 = 5
+	tech_trucks = 5
+	tech_recon = 5
+	tech_support = 5
+	tech_engineers = 5
 	gw_artillery = 1
 	interwar_antiair = 1
 	motorised_infantry = 1
@@ -51,13 +79,12 @@ set_technology = {
 set_grand_doctrine = superior_firepower
 set_grand_doctrine = new_base_strike
 
+# 2052.1.1 #
 2052.1.1 = {
-    create_faction = "North American Alliance"
-    add_to_faction = CAN
-    add_to_faction = MEX
-}
+	create_faction = "North American Alliance"
+	add_to_faction = CAN
+	add_to_faction = MEX
 
-2052.1.1 = {
 	set_politics = {
 		ruling_party = despotism
 		last_election = "1936.1.1"
@@ -75,7 +102,7 @@ set_grand_doctrine = new_base_strike
 create_country_leader = {
 	name = "William H. Caldwell"
 	desc = "POLITICS_WILLIAM_H_CALDWELL_DESC"
-	picture = GFX/leaders/USA/USA_william_caldwell.dds
+	picture = "GFX/leaders/USA/USA_william_caldwell.dds"
 	ideology = despotism
 	traits = { lame_duck }
-	}
+}

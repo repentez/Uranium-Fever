@@ -1,19 +1,17 @@
 ideas = {
-
 	country = {
+
+		### INFLATION / DEFLATION LADDER ###
+
 		USA_deflation_crisis = {
 			picture = USA_deflation_crisis_pic
-			
 			allowed = {
 				always = no
 			}
-
 			allowed_civil_war = {
 				always = yes
 			}
-
 			removal_cost = -1
-			
 			modifier = {
 				political_power_cost = 1
 				consumer_goods_factor = 0.60
@@ -22,6 +20,255 @@ ideas = {
 				local_resources_factor = -0.2
 			}
 		}
+
+		USA_price_stability = {
+			picture = USA_price_stability_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_creeping_inflation = {
+			picture = USA_creeping_inflation_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_persistent_inflation = {
+			picture = USA_persistent_inflation_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_runaway_inflation = {
+			picture = USA_runaway_inflation_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_hyperinflation_spiral = {
+			picture = USA_hyperinflation_spiral_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+
+		### FUEL CRISIS LADDER ###
+
+		USA_fuel_abundance = {
+			picture = USA_fuel_abundance_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_fuel_adequate = {
+			picture = USA_fuel_adequate_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_fuel_strain = {
+			picture = USA_fuel_strain_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_fuel_crisis = {
+			picture = USA_fuel_crisis_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_fuel_crippled = {
+			picture = USA_fuel_crippled_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+
+		### RED SCARE ###
+
+		USA_red_scare_dormant = {
+			picture = USA_red_scare_dormant_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_red_scare_rising = {
+			picture = USA_red_scare_rising_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_red_scare_hysteria = {
+			picture = USA_red_scare_hysteria_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+
+		### CONGRESS ###
+
+		USA_congressional_gridlock = {
+			picture = USA_congressional_gridlock_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_congressional_cooperation = {
+			picture = USA_congressional_cooperation_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+
+		### FUEL-STARVED ARMY RETOOLING ###
+
+		USA_kicking_the_can = {
+			picture = USA_kicking_the_can_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
+
+		USA_power_armor_doctrine_adopted = {
+			picture = USA_power_armor_doctrine_adopted_pic
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+
+			}
+		}
 	}
-	
 }
