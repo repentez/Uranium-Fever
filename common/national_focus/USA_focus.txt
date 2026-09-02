@@ -883,7 +883,12 @@ focus_tree = {
 		x = -75
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			 country_event = {
+         id = USA.give_mexico_old_guns_focus_event
+}
+
+		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
 		}
