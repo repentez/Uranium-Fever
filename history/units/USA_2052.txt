@@ -241,10 +241,6 @@ units = {
 		start_equipment_factor = 0.15
 	}
 	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 26
-		}
 		location = 6732
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
@@ -645,6 +641,262 @@ units = {
 		start_manpower_factor = 0.7
 		start_equipment_factor = 0.6
 		name = "6th Steel Production Corps"
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 3878
+		name = "67th New York Regiment"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+		start_manpower_factor = 0.7
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "92nd Philadelphia Legion"
+		location = 6845
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "294th Chicago Watch Brigade"
+		location = 9450
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.8
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 9814
+		name = "362nd Los Angeles Garrison"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Marine Brigade"
+		name = "195th Seattle Coastal Company"
+		location = 7315
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "69th Atlanta Regiment"
+		location = 12384
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		location = 4569
+		name = "199th St. Louis Sentinel Brigade"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "308th Kansas City Levy"
+		location = 10717
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		location = 1866
+		name = "382nd Minneapolis Guard Battalion"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+		location = 7552
+		name = "318th New Orleans Legion"
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 1562
+		name = "178th San Diego Garrison"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 1827
+		name = "203rd Denver Mounted Rifles"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "332nd Phoenix Territorial Company"
+		location = 853
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.5
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "397th Salt Lake Guard Battalion"
+		location = 4865
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Marine Brigade"
+		name = "264th Portland Coastal Company"
+		location = 3513
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "329th Charleston Regiment"
+		location = 7202
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "311th Buffalo Guard Battalion"
+		location = 11654
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "320th Cleveland Watch Brigade"
+		location = 6890
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "147th Cincinnati Levy"
+		location = 4601
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "268th Memphis Territorial Company"
+		location = 7797
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "243rd Nashville Regiment"
+		location = 12501
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		location = 6696
+		name = "350th Louisville Guard Battalion"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "149th Milwaukee Watch Brigade"
+		location = 12357
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 3960
+		name = "130th Dallas-Fort Worth Mounted Rifles (1)"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "130th Dallas-Fort Worth Mounted Rifles (2)"
+		location = 9920
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 12782
+		name = "71st San Antonio Legion"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.61
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		location = 11738
+		name = "161st Richmond Garrison"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "129th Indianapolis Legion"
+		location = 1595
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "334th Columbus Watch Brigade"
+		location = 6855
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "138th Oklahoma City Territorial Company"
+		location = 10798
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.5
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "106th Sacramento Garrison"
+		location = 9713
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "239th Raleigh Regiment"
+		location = 7045
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
 	}
 }
 instant_effect = {

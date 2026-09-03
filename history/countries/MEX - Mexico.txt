@@ -1,6 +1,6 @@
 ﻿capital = 277
 
-oob = "MEX_1936"
+oob = "MEX_2052"
 
 IF = {
 	limit = { has_dlc = "Man the Guns" }
