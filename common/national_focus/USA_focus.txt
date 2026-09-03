@@ -536,7 +536,16 @@ focus_tree = {
 		cost = 10
 		completion_reward = {}
 		prerequisite = {
+			focus = USA_appalachian_commonwealth
+			focus = usa_eastern_commonwealth
+			focus = USA_south_east_commonwealth
+		}
+		prerequisite = {
 			focus = USA_great_plains_commonwealth
+		}
+		prerequisite = {
+			focus = usa_focus_northern_frontier
+			focus = USA_northern_states
 		}
 		prerequisite = {
 			focus = usa_new_england_commonwealth
@@ -561,21 +570,6 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = usa_focus_columbian_commonwealth
-		}
-		prerequisite = {
-			focus = usa_focus_northern_frontier
-		}
-		prerequisite = {
-			focus = USA_northern_states
-		}
-		prerequisite = {
-			focus = usa_eastern_commonwealth
-		}
-		prerequisite = {
-			focus = USA_appalachian_commonwealth
-		}
-		prerequisite = {
-			focus = USA_gulf_commonwealth
 		}
 	}
 	focus = {
@@ -889,7 +883,12 @@ focus_tree = {
 		x = -75
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			 country_event = {
+         id = USA.give_mexico_old_guns_focus_event
+}
+
+		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
 		}
@@ -964,7 +963,7 @@ focus_tree = {
 	focus = {
 		id = USA_focus_token_subsidies
 		icon = GFX_goal_unknown
-		x = -71
+		x = -72
 		y = 4
 		cost = 10
 		completion_reward = {}
