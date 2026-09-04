@@ -4,6 +4,9 @@ oob = "USA_1936"
 
 starting_train_buffer = 5
 add_ideas = USA_deflation_crisis
+add_ideas = USA_Oil_Shock
+add_ideas = USA_Overextended_In_Mexico
+add_ideas = USA_The_Armed_Forces
 
 recruit_character = USA_william_h_caldwell
 recruit_character = USA_robert_house

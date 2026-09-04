@@ -2,8 +2,8 @@ ideas = {
 
 	country = {
 		USA_deflation_crisis = {
-			picture = USA_deflation_crisis_pic
-			
+			picture = GFX_idea_USA_Deflation_Crisis
+
 			allowed = {
 				always = no
 			}
@@ -13,7 +13,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				political_power_cost = 1
 				consumer_goods_factor = 0.60
@@ -22,6 +22,56 @@ ideas = {
 				local_resources_factor = -0.2
 			}
 		}
+			USA_Oil_Shock = {
+				picture = GFX_idea_USA_Oil_Shock
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			
+			}
+		}
+			USA_Overextended_In_Mexico = {
+			picture = GFX_idea_USA_Overextended_In_Mexico
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
+			USA_The_Armed_Forces = {
+			picture = GFX_idea_USA_The_Armed_Forces
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				
+			}
+		}
 	}
-	
 }
