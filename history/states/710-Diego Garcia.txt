@@ -1,12 +1,10 @@
-state={
-	id=710
-	name="STATE_710"
-	manpower=2147	
+state = {
+	id = 710
+	name = "STATE_710"
+	manpower = 2147
 	state_category = tiny_island
-	
-	history=
-	{
-		owner = EUC
+	history = {
+		owner = ENG
 		buildings = {
 			infrastructure = 2
 			13019 = {
@@ -16,12 +14,7 @@ state={
 		strategic_state_location = {
 			favorable_approach = 13019
 		}
-		
 	}
-	
-	provinces={
-		13019 
-	}
-
-	local_supplies=0.0 
+	provinces = { 13019 }
+	local_supplies = 0.0
 }

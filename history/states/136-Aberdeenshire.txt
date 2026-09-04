@@ -1,35 +1,36 @@
-
-state={
-	id=136
-	name="STATE_136"
+state = {
+	id = 136
+	name = "STATE_136"
 	manpower = 745466
-	
 	state_category = town
-	resources={
-		tungsten=4 # was: 6
-		aluminium=3 # was: 4
+	resources = {
+		tungsten = 4
+		aluminium = 3
 	}
-
-	history={
-		owner = EUC
-		victory_points = {
-			200 5 #Aberdeen
-		}
-		victory_points = {
-			3150 1 #Dundee
-		}
+	history = {
+		owner = ENG
+		victory_points = { 200 5 }
+		victory_points = { 3150 1 }
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			dockyard = 2
 		}
-		add_core_of = EUC
 		add_core_of = ENG
 		add_core_of = SCO
 	}
-
-	provinces={
-		200 3150 11055 11136 11207 11306 16354 16355 16356 16357 16360 16375 
+	provinces = {
+		200
+		3150
+		11055
+		11136
+		11207
+		11306
+		16354
+		16355
+		16356
+		16357
+		16360
+		16375
 	}
-
-	local_supplies=0.0 
+	local_supplies = 0.0
 }

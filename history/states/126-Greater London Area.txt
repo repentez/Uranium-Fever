@@ -1,17 +1,13 @@
-state={
-	id=126
-	name="STATE_126"
-	manpower=9824296
-	
+state = {
+	id = 126
+	name = "STATE_126"
+	manpower = 9824296
 	state_category = megalopolis
-
-	history={
-		owner = EUC
-		victory_points = {
-			6103 50 
-		}
+	history = {
+		owner = ENG
+		victory_points = { 6103 50 }
 		buildings = {
-			infrastructure = 5 #was: 9
+			infrastructure = 5
 			arms_factory = 3
 			industrial_complex = 3
 			dockyard = 1
@@ -27,18 +23,15 @@ state={
 					}
 				}
 			}
-
-			6103 = { 
-			    landmark_big_ben = {
-			        allowed = {
-			            has_dlc = "Gotterdammerung"
-			        }
-			        level = 1
-			    }
+			6103 = {
+				landmark_big_ben = {
+					allowed = {
+						has_dlc = "Gotterdammerung"
+					}
+					level = 1
+				}
 			}
-
 		}
-		add_core_of = EUC
 		add_core_of = ENG
 		1939.1.1 = {
 			buildings = {
@@ -47,10 +40,14 @@ state={
 			}
 		}
 	}
-
-	provinces={
-		6103 11333 11374 15127 16331 16362 16363 
+	provinces = {
+		6103
+		11333
+		11374
+		15127
+		16331
+		16362
+		16363
 	}
-
-	local_supplies=0.0 
+	local_supplies = 0.0
 }

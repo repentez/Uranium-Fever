@@ -4,24 +4,16 @@ state = {
 	name = "STATE_932"
 	state_category = small_island
 	history = {
-		owner = EUC
-		add_core_of = EUC
+		owner = ENG
 		add_core_of = ENG
-		
-		victory_points = {
-			3311 1 #Douglas
-		}
+		victory_points = { 3311 1 }
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			3311 = {
 				naval_base = 1
 			}
 		}
 	}
-	provinces = {
-		3311 
-	}
-	
-
-	local_supplies=0.000
+	provinces = { 3311 }
+	local_supplies = 0.000
 }
