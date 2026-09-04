@@ -1,6 +1,14 @@
 spriteTypes = {
     ##LEADERS##
-  
+
+     spriteType = {
+		name = "GFX_portrait_PRC_zhao_guowei"
+		texturefile = "gfx/leaders/PRC/PRC_zhao_guowei.dds"
+	}
+     spriteType = {
+		name = "GFX_portrait_EUC_henri_delacroix"
+		texturefile = "gfx/leaders/EUC/EUC_henri_delacroix.dds"
+	}
      spriteType = {
 		name = "GFX_portrait_USA_Carl_Rook"
 		texturefile = "gfx/leaders/USA/Carl_Rook.dds"

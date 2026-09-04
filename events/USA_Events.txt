@@ -95,3 +95,30 @@ country_event = {
         add_stability = -0.1
     }
 }
+country_event = {
+    id = USA.give_mexico_old_guns_focus_event
+    title = USA_give_mexico_old_guns_event_title
+    desc = USA_give_mexico_old_guns_event_desc
+    picture = GFX_give_mexico_old_guns_systeme
+  
+
+    trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_last_gen
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+         name = "We can send them those old guns"
+        MEX = {
+            add_equipment_to_stockpile = {
+                type = infantry_equipment_0
+                amount = 1000
+                producer = USA
+            }
+    }
+}
+}

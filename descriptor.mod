@@ -1,4 +1,4 @@
-version="1.19.*"
+version="0.1"
 tags={
 	"Technologies"
 	"National Focuses"
@@ -18,5 +18,5 @@ replace_path="events"
 replace_path="history/countries"
 replace_path="history/states"
 replace_path="map/strategicregions"
-name="Uranium-Fever"
+name="Uranium Fever"
 supported_version="1.19.*"

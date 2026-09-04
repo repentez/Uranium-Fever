@@ -1,149 +1,260 @@
-﻿##### Division Templates #####
-division_template = {
-	name = "Infantry Division"  	# Standard formation for frontline divisions
-
+﻿division_template = {
+	name = "Infantry Division"
 	division_names_group = USA_INF_01
-
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 1
+		}
+		infantry = {
+			x = 2
+			y = 2
+		}
 	}
 	support = {
-		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
-		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+		artillery = {
+			x = 0
+			y = 0
+		}
+		engineer = {
+			x = 0
+			y = 1
+		}
 	}
 }
 division_template = {
-	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
-
+	name = "National Guard Division"
 	division_names_group = USA_INF_01
-
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
-		infantry = { x = 3 y = 0 }
-		infantry = { x = 3 y = 1 }
-		infantry = { x = 3 y = 2 }
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
+		infantry = {
+			x = 1
+			y = 0
+		}
+		infantry = {
+			x = 1
+			y = 1
+		}
+		infantry = {
+			x = 1
+			y = 2
+		}
+		infantry = {
+			x = 2
+			y = 0
+		}
+		infantry = {
+			x = 2
+			y = 1
+		}
+		infantry = {
+			x = 2
+			y = 2
+		}
+		infantry = {
+			x = 3
+			y = 0
+		}
+		infantry = {
+			x = 3
+			y = 1
+		}
+		infantry = {
+			x = 3
+			y = 2
+		}
 	}
 	support = {
-		artillery = { x = 0 y = 0 }  # US Hvy Field Arty consisted of 2 Bns, 155mm howitzers
-		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
+		artillery = {
+			x = 0
+			y = 0
+		}
+		engineer = {
+			x = 0
+			y = 1
+		}
 	}
 }
 division_template = {
-	name = "Cavalry Division"  		# 1st Cavalry Division only
-
+	name = "Cavalry Division"
 	division_names_group = USA_CAV_01
-
 	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
+		cavalry = {
+			x = 0
+			y = 0
+		}
+		cavalry = {
+			x = 0
+			y = 1
+		}
+		cavalry = {
+			x = 0
+			y = 2
+		}
+		cavalry = {
+			x = 0
+			y = 3
+		}
+		cavalry = {
+			x = 1
+			y = 0
+		}
+		cavalry = {
+			x = 1
+			y = 1
+		}
+		cavalry = {
+			x = 1
+			y = 2
+		}
+		cavalry = {
+			x = 1
+			y = 3
+		}
 	}
 	support = {
-		light_tank_recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
-		engineer = { x = 0 y = 1 }   # US Eng Bn
+		light_tank_recon = {
+			x = 0
+			y = 0
+		}
+		engineer = {
+			x = 0
+			y = 1
+		}
 	}
 }
 division_template = {
-	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
-
-	division_names_group = USA_GAR_01		# Brigade level irregular unit, so no default names
-
+	name = "Garrison Brigade"
+	division_names_group = USA_GAR_01
 	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
+		infantry = {
+			x = 0
+			y = 0
+		}
+		infantry = {
+			x = 0
+			y = 1
+		}
+		infantry = {
+			x = 0
+			y = 2
+		}
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
+		engineer = {
+			x = 0
+			y = 0
+		}
 	}
 	priority = 0
 }
-
 division_template = {
-	name = "Marine Brigade" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
-
+	name = "Marine Brigade"
 	division_names_group = USA_MAR_01
-
 	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
+		marine = {
+			x = 0
+			y = 0
+		}
+		marine = {
+			x = 0
+			y = 1
+		}
+		marine = {
+			x = 1
+			y = 0
+		}
+		marine = {
+			x = 1
+			y = 1
+		}
 	}
 	support = {
-		engineer = { x = 0 y = 0 }
+		engineer = {
+			x = 0
+			y = 0
+		}
 	}
 	priority = 2
 }
-
-###### OOB ######
+division_template = {
+	name = "Special Intelligence Division"
+	regiments = {
+		infantry = {
+			x = 0
+			y = 0
+		}
+	}
+}
 units = {
-	####### CONUS Theater #######
-	### Carribean Forces ###
 	division = {
 		name = "Puerto Rico Department"
 		location = 1440
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
-
 	}
 	division = {
-		name = "Panama Canal Force"
+		name = "Panama Canal Authority"
 		location = 7617
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
-
 	}
-
-	### 1st Army -- note: Armies only paper organizations in 1936 ###
-	# I Army Corps #
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 26
-		}
+	division = {
 		location = 6732
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 43
-		}
+	division = {
 		location = 6732
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
+		division_template = "Marine Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+		name = "Boston Navy Yard Ship-Breaker Command"
+		start_manpower_factor = 0.5
 	}
-	# II Army Corps #
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
@@ -152,7 +263,7 @@ units = {
 		division_template = "Infantry Division"
 		start_experience_factor = 0.3
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 27
@@ -161,9 +272,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 44
@@ -172,36 +282,16 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	# III Army Corps #
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 28
-		}
+	division = {
 		location = 6984
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
+		division_template = "Infantry Division"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+		name = "7th Naval Logistics Group"
+		start_manpower_factor = 0.6
 	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 29
-		}
-		location = 6984
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-
-	### 2nd Army -- note: Armies only paper organizations in 1936 ###
-	# V Army Corps #
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 37
@@ -210,9 +300,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 38
@@ -221,10 +310,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	# VI Army Corps #
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 32
@@ -233,9 +320,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 33
@@ -244,12 +330,7 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-
-
-	### 3rd Army -- note: Armies only paper organizations in 1936 ###
-	# IV Army Corps #
 	division = {
 		division_name = {
 			is_name_ordered = yes
@@ -259,9 +340,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 31
@@ -270,10 +350,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	# VIII Army Corps #
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 2
@@ -282,9 +360,8 @@ units = {
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 36
@@ -293,9 +370,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 45
@@ -304,9 +380,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 1
@@ -315,10 +390,7 @@ units = {
 		division_template = "Cavalry Division"
 		start_experience_factor = 0.3
 	}
-
-	### 4th Army -- note: Armies only paper organizations in 1936 ###
-	# VII Army Corps (CO: Bishop) #
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 34
@@ -327,9 +399,8 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
 	}
-	division= {
+	division = {
 		division_name = {
 			is_name_ordered = yes
 			name_order = 35
@@ -338,147 +409,497 @@ units = {
 		division_template = "National Guard Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
-
-	}
-	# IX Army Corps (CO: DeWitt) #
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 3
-		}
-		location = 9671
-		division_template = "Infantry Division"
-		start_experience_factor = 0.3
 	}
 	division = {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 40
-		}
 		location = 9671
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
+		division_template = "Marine Brigade"
+		start_experience_factor = 0.6
+		name = "3rd Pacific Fleet Command"
+		start_equipment_factor = 0.8
+		start_manpower_factor = 0.7
 	}
-	division= {
-		division_name = {
-			is_name_ordered = yes
-			name_order = 41
-		}
-		location = 9671
-		division_template = "National Guard Division"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-
-	####### Pacific Theater	#######
-	### Alaska Defense Command ###
 	division = {
 		name = "Alaska Defense Command"
 		location = 13091
 		division_template = "Infantry Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
-
 	}
-	division= {
+	division = {
 		name = "Attu Island Garrison"
 		location = 13067
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
-
 	}
-
-	### Hawaiian Department ###
 	division = {
-		name = "Hawaiian Division"
-		location = 4180
-		division_template = "National Guard Division"		# older equipment, less training than NG division
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
-
-	}
-
-	# North Pacific Defenses #
-	division= {
 		name = "Midway Island Garrison"
 		location = 13052
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
-
 	}
-	division= {
+	division = {
 		name = "Wake Island Garrison"
 		location = 13047
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
-
 	}
-	division= {
+	division = {
 		name = "Guam Garrison"
 		location = 12140
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
-
 	}
-
-	# South Pacific Defenses #
-	division= {
+	division = {
 		name = "Christmas Island Garrison"
 		location = 13048
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
-
 	}
-	division= {
+	division = {
 		name = "Jarvis Island Garrison"
 		location = 13049
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
-
 	}
-	division= {
+	division = {
 		name = "Palmyra Garrison"
 		location = 13050
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
-
 	}
-	division= {
+	division = {
 		name = "Phoenix Island Garrison"
 		location = 13053
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
-
 	}
-	division= {
+	division = {
 		name = "Johnston Island Garrison"
 		location = 13051
 		division_template = "Garrison Brigade"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
 	}
+	division = {
+		division_template = "Infantry Division"
+		location = 3894
+		name = "U.S. Military Academy Cadet Corps"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		start_manpower_factor = 0.8
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "Alaska National Guard"
+		location = 1830
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+	}
+	division = {
+		division_template = "Marine Brigade"
+		location = 4357
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+		name = "Palau Marine Brigade"
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "US Forces in Japan (Zama)"
+		location = 9998
+		start_experience_factor = 0.15
+		start_equipment_factor = 0.15
+	}
+	division = {
+		division_template = "Marine Brigade"
+		name = "25th Pacific Expeditionary Division"
+		location = 4180
+		start_experience_factor = 0.5
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 788
+		name = "2nd Atlantic Fleet Headquarters"
+		start_experience_factor = 0.7
+		start_manpower_factor = 0.8
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 3957
+		name = "1st Capital Defense Flotilla"
+		start_experience_factor = 0.5
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 1843
+		name = "4th Gulf-Atlantic Flotilla, Key Station"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Marine Brigade"
+		name = "Naval Academy Midshipman Brigade"
+		location = 6984
+		start_experience_factor = 0.2
+		start_manpower_factor = 0.8
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 1658
+		start_experience_factor = 0.6
+		start_manpower_factor = 0.8
+		start_equipment_factor = 0.8
+		name = "10th Mountain Division"
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 873
+		name = "Fort Independence Garrison Brigade"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 12425
+		name = "Sierra Ordnance Depot Command"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+		start_manpower_factor = 0.4
+	}
+	division = {
+		division_template = "Special Intelligence Division"
+		location = 4816
+		name = "Groom Lake Special Projects Division"
+		start_experience_factor = 0.7
+		start_manpower_factor = 0.3
+	}
+	division = {
+		division_template = "Special Intelligence Division"
+		location = 6694
+		name = "Mariposa Military Research Division"
+		start_experience_factor = 0.6
+		start_manpower_factor = 0.4
+	}
+	division = {
+		division_template = "Special Intelligence Division"
+		location = 9911
+		name = "Lost Hills Garrison"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+		start_manpower_factor = 0.5
+	}
+	division = {
+		division_template = "Special Intelligence Division"
+		name = "Black Hills Special Weapons Complex"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+		start_manpower_factor = 0.3
+		location = 12425
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 12642
+		name = "Cheyenne Mountain Air Defense Command"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 10337
+		name = "1st Aerospace Command"
+		start_experience_factor = 0.6
+		start_manpower_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 6710
+		name = "5th Industrial Mobilization Corps"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 11789
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+		name = "6th Steel Production Corps"
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 3878
+		name = "67th New York Regiment"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.6
+		start_manpower_factor = 0.7
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "92nd Philadelphia Legion"
+		location = 6845
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "294th Chicago Watch Brigade"
+		location = 9450
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.8
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 9814
+		name = "362nd Los Angeles Garrison"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Marine Brigade"
+		name = "195th Seattle Coastal Company"
+		location = 7315
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "69th Atlanta Regiment"
+		location = 12384
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		location = 4569
+		name = "199th St. Louis Sentinel Brigade"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "308th Kansas City Levy"
+		location = 10717
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		location = 1866
+		name = "382nd Minneapolis Guard Battalion"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+		location = 7552
+		name = "318th New Orleans Legion"
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 1562
+		name = "178th San Diego Garrison"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 1827
+		name = "203rd Denver Mounted Rifles"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "332nd Phoenix Territorial Company"
+		location = 853
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.5
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "397th Salt Lake Guard Battalion"
+		location = 4865
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Marine Brigade"
+		name = "264th Portland Coastal Company"
+		location = 3513
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "329th Charleston Regiment"
+		location = 7202
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "311th Buffalo Guard Battalion"
+		location = 11654
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "320th Cleveland Watch Brigade"
+		location = 6890
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "147th Cincinnati Levy"
+		location = 4601
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "268th Memphis Territorial Company"
+		location = 7797
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "243rd Nashville Regiment"
+		location = 12501
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		location = 6696
+		name = "350th Louisville Guard Battalion"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "149th Milwaukee Watch Brigade"
+		location = 12357
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 3960
+		name = "130th Dallas-Fort Worth Mounted Rifles (1)"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "130th Dallas-Fort Worth Mounted Rifles (2)"
+		location = 9920
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		location = 12782
+		name = "71st San Antonio Legion"
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.61
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		location = 11738
+		name = "161st Richmond Garrison"
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "129th Indianapolis Legion"
+		location = 1595
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "334th Columbus Watch Brigade"
+		location = 6855
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
+	division = {
+		division_template = "National Guard Division"
+		name = "138th Oklahoma City Territorial Company"
+		location = 10798
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.5
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "106th Sacramento Garrison"
+		location = 9713
+		start_experience_factor = 0.4
+		start_manpower_factor = 0.7
+		start_equipment_factor = 0.6
+	}
+	division = {
+		division_template = "Infantry Division"
+		name = "239th Raleigh Regiment"
+		location = 7045
+		start_experience_factor = 0.3
+		start_manpower_factor = 0.6
+		start_equipment_factor = 0.5
+	}
 }
-
-
-
-
-#########################
-## STARTING PRODUCTION ##
-#########################
 instant_effect = {
-
 	add_equipment_production = {
 		equipment = {
 			type = infantry_equipment_1
@@ -489,7 +910,6 @@ instant_effect = {
 		efficiency = 50
 		industrial_manufacturer = mio:USA_springfield_armory_organization
 	}
-
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1
@@ -499,7 +919,6 @@ instant_effect = {
 		progress = 0.3
 		efficiency = 50
 	}
-
 	add_equipment_production = {
 		equipment = {
 			type = artillery_equipment_1
@@ -510,6 +929,4 @@ instant_effect = {
 		efficiency = 50
 		industrial_manufacturer = mio:USA_rock_island_arsenal_organization
 	}
-
 }
-#####################

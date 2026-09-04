@@ -650,7 +650,7 @@ focus_tree = {
     }
 				  focus = {
         id = EST_enlist_air
-        icon = GFX_goal_generic_air_fighter
+        icon = GFX_goal_defensive_air_support
         prerequisite = { focus = EST_where_were_u}
         x = 17
         y = 2
@@ -722,7 +722,7 @@ focus_tree = {
     }
 		  focus = {
         id = EST_enlist_naval
-        icon = GFX_focus_generic_merchant_fleet
+        icon = GFX_goal_light_battle_ship
         prerequisite = { focus = EST_where_were_u}
         x = 15
         y = 2
@@ -743,7 +743,7 @@ focus_tree = {
 }
 		  focus = {
         id = EST_soviet_naval_doc
-        icon =GFX_focus_SMB_blue_water_fleet
+        icon = GFX_goal_rus_naval_destroyer
         prerequisite = { focus = EST_enlist_naval}
         x = 15
         y = 3
