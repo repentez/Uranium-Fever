@@ -13,7 +13,7 @@ spriteTypes = {
 	}
 SpriteType = {
 		name = "GFX_idea_USA_Oil_Shock"
-		texturefile = "gfx/interface/ideas/idea_PLACEHOLDER.dds"
+		texturefile = "gfx/interface/ideas/Idea_Oil_Shock.dds"
 	}
 SpriteType = {
 		name = "GFX_idea_USA_Overextended_In_Mexico"
@@ -21,7 +21,7 @@ SpriteType = {
 	}
 SpriteType = {
 		name = "GFX_idea_USA_The_Armed_Forces"
-		texturefile = "gfx/interface/ideas/idea_PLACEHOLDER.dds"
+		texturefile = "gfx/interface/ideas/idea_USA_The_Armed_Forces.dds"
 	}
 
 	#######################
