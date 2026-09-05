@@ -1,0 +1,26 @@
+﻿
+focus_tree = {
+	id = PRC
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	focus = {
+		id = PRC_maoism_is_not_cool_yo
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 0
+		cost = 10
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+
+
+		completion_reward = {
+		}
+	}
+
+}

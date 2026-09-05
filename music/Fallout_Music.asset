@@ -1,0 +1,12 @@
+music = {
+	name = "Blue_Moon"
+	file = "Blue_Moon.ogg"
+}
+music = {
+	name = "I_Don't_Want_To_See_Tomorrow_4"
+	file = "I_Don't_Want_To_See_Tomorrow_4.ogg"
+}
+music = {
+	name = "Working_for_the_Man"
+	file = "Working_for_the_Man.ogg"
+}
