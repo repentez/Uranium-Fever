@@ -10,3 +10,7 @@ music = {
 	name = "Working_for_the_Man"
 	file = "Working_for_the_Man.ogg"
 }
+music = {
+	name = "Uranium_Fever"
+	file = "Uranium_Fever.ogg"
+}

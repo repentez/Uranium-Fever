@@ -14,7 +14,7 @@ country_event = {
 
     immediate = {
         hidden_effect = {
-            sound_effect = se_uranium_fever
+            scoped_play_song = Uranium_Fever
         }
     }
 

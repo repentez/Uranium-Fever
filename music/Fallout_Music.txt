@@ -28,3 +28,13 @@ music = {
 		}
 	}
 }
+music_station = "Radio_2052"
+music = {
+	song = "Uranium_Fever"
+	chance = {
+		factor = 0
+		modifier = {
+			factor = 100
+		}
+	}
+}
