@@ -1,5 +1,11 @@
 spriteTypes = {	
 	##ESTONIA##
+	
+	SpriteType = {
+		name = "GFX_idea_EST_baltic_nature"
+		texturefile = "gfx/interface/ideas/idea_EST_baltic_nature.dds"
+	}
+
 		spriteType = {
 		name = "GFX_idea_EST_forest_brothers"
 		texturefile = "gfx/interface/ideas/idea_BALTIC_forest_brothers.dds"
