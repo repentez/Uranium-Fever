@@ -73,5 +73,23 @@ ideas = {
 				
 			}
 		}
+			USA_idea_focus_consumer_goods = {
+			picture = GFX_idea_USA_The_Armed_Forces
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+			consumer_goods_factor = 0.15
+			}
+		}
+		
 	}
 }

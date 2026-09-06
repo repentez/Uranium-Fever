@@ -907,12 +907,17 @@ focus_tree = {
 		x = -72
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+						 country_event = {
+         id = USA.choice_companies_focus_event
+                }
+
+		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
 		}
 	}
-	
+
 	focus = {
 		id = USA_focus_uncle_sam_wrath
 		icon = GFX_goal_unknown
@@ -964,9 +969,16 @@ focus_tree = {
 		x = -77
 		y = 4
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+
+
+
+		}
 		prerequisite = {
 			focus = USA_focus_uncle_sam_wrath
+		}
+			prerequisite = {
+			focus = USA_focus_texaco focus =  USA_focus_petro_chico
 		}
 	}
 	focus = {
@@ -975,13 +987,21 @@ focus_tree = {
 		x = -72
 		y = 4
 		cost = 10
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_petro_chico
+		completion_reward = {
+			MEX = {
+			 days = 125
+			 add_ideas = Mex_idea_focus_USA
+			}
+			USA = {
+					days = 125
+			 add_ideas = USA_idea_focus_consumer_goods
+			}
+		
 		}
 		prerequisite = {
-			focus = USA_focus_texaco
+			focus = USA_focus_petro_chico focus = USA_focus_texaco
 		}
+	
 	}
 	focus = {
 		id = USA_focus_conservation_corps
