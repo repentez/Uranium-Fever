@@ -1,6 +1,6 @@
-﻿capital = 1121 # Washington DC
+capital = 1121 # Washington DC
 
-oob = "USA_1936"
+oob = "USA_2052"
 
 starting_train_buffer = 5
 add_ideas = USA_deflation_crisis
