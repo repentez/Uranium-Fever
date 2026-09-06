@@ -9,6 +9,7 @@ country_event = {
     trigger = {
         original_tag = ISR
         date > 2053.12.15
+        Major=yes
     }
 
     mean_time_to_happen = {
