@@ -1,0 +1,123 @@
+
+European_Economy = {		
+	Invest_In_Mongolian_Fishing_Industries = {		
+
+		icon = GFX_decision_icon_default		
+		
+		
+		
+		available = {		
+		}
+		
+		fire_only_once = no		
+		days_re_enable = 5	
+
+		visible = {		
+			ROOT = {
+				is_ai = no
+			}
+			is_debug = yes
+		}		
+
+		cost = 0		
+
+	
+
+		complete_effect = {		
+			custom_effect_tooltip = "DECISION_EFFECT_YAY"
+			hidden_effect = {
+				add_political_power = 100
+			}
+		}
+		
+		
+
+		ai_will_do = {	
+			factor = 0			
+		}
+	}
+}
+ European_Expansion = {
+	OPERATION_ADRIATIC = {		
+
+		icon = GFX_decision_icon_default		
+		
+		
+		
+		available = {		
+			 has_completed_focus = EUC_focus_oil_crisis
+		}
+		
+		fire_only_once = yes	
+		days_remove = 75
+
+		visible = {		
+			ROOT = {
+				is_ai = no
+			}		
+		}		
+
+		cost = 55		
+
+		
+
+		complete_effect = {		
+			create_wargoal = {
+				type = annex_everything
+				target = YUG
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ALB
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = GRE
+			}
+		}
+		
+		
+
+		ai_will_do = {	
+			factor = 0
+		}
+	}
+}
+European_Expansion = {
+	OPERATION_ANATOLIA = {
+
+		icon = GFX_decision_icon_default
+
+		available = {
+			has_completed_focus = EUC_focus_oil_crisis
+		}
+
+		fire_only_once = yes
+		days_remove = 75
+
+		visible = {
+			ROOT = {
+				is_ai = no
+			}
+		}
+
+		cost = 55
+
+		complete_effect = {
+			create_wargoal = {
+				type = annex_everything
+				target = TUR
+			}
+		}
+
+		targeted_modifier = {
+			tag = TUR
+			attack_bonus_against = 0.1
+			defense_bonus_against = 0.1
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

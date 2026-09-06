@@ -15,6 +15,9 @@ focus_tree = {
 	focus = {
 		id = EUC_focus_starting_continent_made_whole
 		icon = GFX_goal_unknown
+		allow_branch = {
+			always = no
+		}
 		x = 0
 		y = 0
 		cost = 10
@@ -522,11 +525,17 @@ focus_tree = {
 		x = -9
 		y = 12
 		cost = 10
+		available = {
+			date > 2054.1.1
+		}
 		completion_reward = {}
 	}
 	focus = {
 		id = EUC_focus_mediterranean_lifeline
 		icon = GFX_goal_unknown
+		allow_branch = {
+			always = no
+		}
 		x = -2
 		y = 12
 		cost = 10
@@ -751,6 +760,17 @@ focus_tree = {
 		x = -11
 		y = 16
 		cost = 10
+		
+		
+		allow_branch = {
+			has_country_flag = EUC_unlocked_negotiation_path
+		}
+		
+		
+		available = {
+			has_country_flag = EUC_can_do_negotiation
+		}
+		
 		completion_reward = {}
 		prerequisite = {
 			focus = EUC_focus_enough_is_enough
@@ -766,6 +786,16 @@ focus_tree = {
 		x = -9
 		y = 16
 		cost = 10
+		
+		allow_branch = {
+			has_country_flag = EUC_unlocked_coercion_path
+		}
+		
+		
+		available = {
+			has_country_flag = EUC_can_do_coercion
+		}
+		
 		completion_reward = {}
 		prerequisite = {
 			focus = EUC_focus_enough_is_enough
@@ -781,7 +811,12 @@ focus_tree = {
 		x = -7
 		y = 16
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = UAR
+			}
+		}
 		prerequisite = {
 			focus = EUC_focus_enough_is_enough
 		}
@@ -793,6 +828,9 @@ focus_tree = {
 	focus = {
 		id = EUC_focus_europe_crisis
 		icon = GFX_goal_unknown
+		allow_branch = {
+			always = no
+		}
 		x = 0
 		y = 13
 		cost = 10
@@ -893,3 +931,4 @@ focus_tree = {
 		}
 	}
 }
+
