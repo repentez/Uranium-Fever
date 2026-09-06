@@ -1,0 +1,657 @@
+focus_tree = {
+	id = CHI
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = CHI
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1670
+		y = 3000
+	}
+	focus = {
+		id = CHI_focus_the_republic_endures
+		icon = GFX_goal_unknown
+		x = -4
+		y = 0
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = CHI_focus_hundred_years_on_alert
+		icon = GFX_goal_unknown
+		x = -6
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_the_republic_endures
+		}
+	}
+	focus = {
+		id = CHI_focus_spirit_sys
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_the_republic_endures
+		}
+	}
+	focus = {
+		id = CHI_focus_wt_no_more
+		icon = GFX_goal_unknown
+		x = -4
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_hundred_years_on_alert
+		}
+		prerequisite = {
+			focus = CHI_focus_spirit_sys
+		}
+	}
+	focus = {
+		id = CHI_focus_strengthen_local_governance
+		icon = GFX_goal_unknown
+		x = -6
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_wt_no_more
+		}
+	}
+	focus = {
+		id = CHI_focus_united_in_democracy
+		icon = GFX_goal_unknown
+		x = -4
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_wt_no_more
+		}
+	}
+	focus = {
+		id = CHI_focus_nation_of_discipline
+		icon = GFX_goal_unknown
+		x = -2
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_wt_no_more
+		}
+	}
+	focus = {
+		id = CHI_focus_lights_across_taipei
+		icon = GFX_goal_unknown
+		x = -4
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_united_in_democracy
+		}
+	}
+	focus = {
+		id = CHI_focus_america_leaving_us
+		icon = GFX_goal_unknown
+		x = 6
+		y = 0
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = CHI_focus_remember_old_treaty
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_america_leaving_us
+		}
+		mutually_exclusive = {
+			focus = CHI_focus_on_our_own
+			focus = CHI_focus_the_unthinkable
+		}
+	}
+	focus = {
+		id = CHI_focus_on_our_own
+		icon = GFX_goal_unknown
+		x = 6
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_america_leaving_us
+		}
+		mutually_exclusive = {
+			focus = CHI_focus_the_unthinkable
+			focus = CHI_focus_remember_old_treaty
+		}
+	}
+	focus = {
+		id = CHI_focus_the_unthinkable
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_america_leaving_us
+		}
+		mutually_exclusive = {
+			focus = CHI_focus_on_our_own
+			focus = CHI_focus_remember_old_treaty
+		}
+	}
+	focus = {
+		id = CHI_focus_call_across_pacific
+		icon = GFX_goal_unknown
+		x = 4
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_remember_old_treaty
+		}
+	}
+	focus = {
+		id = CHI_focus_fortress_formosa
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_on_our_own
+		}
+	}
+	focus = {
+		id = CHI_focus_quiet_channels
+		icon = GFX_goal_unknown
+		x = 8
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_the_unthinkable
+		}
+	}
+	focus = {
+		id = CHI_focus_friends_in_dc
+		icon = GFX_goal_unknown
+		x = 4
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_call_across_pacific
+		}
+	}
+	focus = {
+		id = CHI_focus_mountains_of_steel
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_fortress_formosa
+		}
+	}
+	focus = {
+		id = CHI_focus_beijing_listen
+		icon = GFX_goal_unknown
+		x = 8
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_quiet_channels
+		}
+	}
+	focus = {
+		id = CHI_focus_one_china_one_peace
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_beijing_listen
+		}
+	}
+	focus = {
+		id = CHI_focus_stars_over_strait
+		icon = GFX_goal_unknown
+		x = 4
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_friends_in_dc
+		}
+	}
+	focus = {
+		id = CHI_focus_island_of_arsenals
+		icon = GFX_goal_unknown
+		x = 6
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_mountains_of_steel
+		}
+	}
+	focus = {
+		id = CHI_focus_made_in_taiwan
+		icon = GFX_goal_unknown
+		x = 6
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_machines_of_tomorrow
+		}
+		prerequisite = {
+			focus = CHI_focus_hsinchu_miracle
+		}
+		prerequisite = {
+			focus = CHI_focus_no_chip_uncounted
+		}
+		prerequisite = {
+			focus = CHI_focus_strategic_stockpile
+		}
+		prerequisite = {
+			focus = CHI_focus_reactor_burning
+		}
+	}
+	focus = {
+		id = CHI_focus_silicon_shield
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_island_of_arsenals
+			focus = CHI_focus_one_china_one_peace
+			focus = CHI_focus_stars_over_strait
+		}
+	}
+	focus = {
+		id = CHI_focus_metro_shelter
+		icon = GFX_goal_unknown
+		x = -6
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_lights_across_taipei
+		}
+	}
+	focus = {
+		id = CHI_focus_civil_defense_reform
+		icon = GFX_goal_unknown
+		x = -4
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_lights_across_taipei
+		}
+	}
+	focus = {
+		id = CHI_focus_no_darkness_too_long
+		icon = GFX_goal_unknown
+		x = -2
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_lights_across_taipei
+		}
+	}
+	focus = {
+		id = CHI_focus_a_resilient_society
+		icon = GFX_goal_unknown
+		x = -4
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_civil_defense_reform
+		}
+		prerequisite = {
+			focus = CHI_focus_metro_shelter
+		}
+		prerequisite = {
+			focus = CHI_focus_no_darkness_too_long
+		}
+	}
+	focus = {
+		id = CHI_focus_machines_of_tomorrow
+		icon = GFX_goal_unknown
+		x = 2
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_silicon_shield
+		}
+	}
+	focus = {
+		id = CHI_focus_hsinchu_miracle
+		icon = GFX_goal_unknown
+		x = 4
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_silicon_shield
+		}
+	}
+	focus = {
+		id = CHI_focus_no_chip_uncounted
+		icon = GFX_goal_unknown
+		x = 6
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_silicon_shield
+		}
+	}
+	focus = {
+		id = CHI_focus_strategic_stockpile
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_silicon_shield
+		}
+	}
+	focus = {
+		id = CHI_focus_reactor_burning
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_silicon_shield
+		}
+	}
+	focus = {
+		id = CHI_focus_across_the_strait
+		icon = GFX_goal_unknown
+		x = 16
+		y = 0
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = CHI_focus_eyes_upon_fujian
+		icon = GFX_goal_unknown
+		x = 14
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_across_the_strait
+		}
+	}
+	focus = {
+		id = CHI_focus_porcupine_doctrine
+		icon = GFX_goal_unknown
+		x = 18
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_across_the_strait
+		}
+	}
+	focus = {
+		id = CHI_focus_one_hundred_miles_of_water
+		icon = GFX_goal_unknown
+		x = 16
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_eyes_upon_fujian
+		}
+		prerequisite = {
+			focus = CHI_focus_porcupine_doctrine
+		}
+	}
+	focus = {
+		id = CHI_focus_armed_than_ever
+		icon = GFX_goal_unknown
+		x = 16
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_unmanned_unseen
+		}
+		prerequisite = {
+			focus = CHI_focus_secure_outer_islands
+		}
+		prerequisite = {
+			focus = CHI_focus_submarine_wolfpack
+		}
+	}
+	focus = {
+		id = CHI_focus_secure_outer_islands
+		icon = GFX_goal_unknown
+		x = 14
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_one_hundred_miles_of_water
+		}
+	}
+	focus = {
+		id = CHI_focus_submarine_wolfpack
+		icon = GFX_goal_unknown
+		x = 16
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_one_hundred_miles_of_water
+		}
+	}
+	focus = {
+		id = CHI_focus_unmanned_unseen
+		icon = GFX_goal_unknown
+		x = 18
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_one_hundred_miles_of_water
+		}
+	}
+	focus = {
+		id = CHI_focus_last_tankers_arabia
+		icon = GFX_goal_unknown
+		x = 14
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_armed_than_ever
+		}
+	}
+	focus = {
+		id = CHI_focus_diversify_or_perish
+		icon = GFX_goal_unknown
+		x = 16
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_armed_than_ever
+		}
+	}
+	focus = {
+		id = CHI_focus_invite_robco
+		icon = GFX_goal_unknown
+		x = 18
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_armed_than_ever
+		}
+	}
+	focus = {
+		id = CHI_focus_prosperity_in_uncertain_world
+		icon = GFX_goal_unknown
+		x = 16
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_last_tankers_arabia
+		}
+		prerequisite = {
+			focus = CHI_focus_diversify_or_perish
+		}
+		prerequisite = {
+			focus = CHI_focus_invite_robco
+		}
+	}
+	focus = {
+		id = CHI_focus_future_of_the_republic
+		icon = GFX_goal_unknown
+		x = 6
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_a_resilient_society
+		}
+		prerequisite = {
+			focus = CHI_focus_made_in_taiwan
+		}
+		prerequisite = {
+			focus = CHI_focus_prosperity_in_uncertain_world
+		}
+	}
+	focus = {
+		id = CHI_focus_continuation_roc
+		icon = GFX_goal_unknown
+		x = 4
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_future_of_the_republic
+		}
+		mutually_exclusive = {
+			focus = CHI_focus_taiwan_identity
+		}
+	}
+	focus = {
+		id = CHI_focus_taiwan_identity
+		icon = GFX_goal_unknown
+		x = 8
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_future_of_the_republic
+		}
+		mutually_exclusive = {
+			focus = CHI_focus_continuation_roc
+		}
+	}
+	focus = {
+		id = CHI_focus_one_china_free_and_democratic
+		icon = GFX_goal_unknown
+		x = 3
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_continuation_roc
+		}
+	}
+	focus = {
+		id = CHI_focus_return_to_nanjing
+		icon = GFX_goal_unknown
+		x = 5
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_continuation_roc
+		}
+	}
+	focus = {
+		id = CHI_focus_island_of_our_own
+		icon = GFX_goal_unknown
+		x = 7
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_taiwan_identity
+		}
+	}
+	focus = {
+		id = CHI_focus_bury_old_constitution
+		icon = GFX_goal_unknown
+		x = 9
+		y = 11
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_taiwan_identity
+		}
+	}
+	focus = {
+		id = CHI_focus_republic_reborn
+		icon = GFX_goal_unknown
+		x = 4
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_one_china_free_and_democratic
+		}
+		prerequisite = {
+			focus = CHI_focus_return_to_nanjing
+		}
+	}
+	focus = {
+		id = CHI_focus_taiwan_everlasting
+		icon = GFX_goal_unknown
+		x = 8
+		y = 12
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = CHI_focus_island_of_our_own
+		}
+		prerequisite = {
+			focus = CHI_focus_bury_old_constitution
+		}
+	}
+}
