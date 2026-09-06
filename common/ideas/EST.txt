@@ -48,7 +48,7 @@ ideas = {
 			
 		}
 		EST_baltic_environmentalism = {
-			
+			picture = GFX_idea_EST_baltic_nature
 			removal_cost = -1
 
 			available = {
@@ -58,7 +58,7 @@ ideas = {
 			allowed = {
 				original_tag = EST
 			}
-		picture = GFX_idea_baltic_nature
+
 			modifier = {
 		  
             production_speed_buildings_factor = 0.1
