@@ -1,0 +1,895 @@
+focus_tree = {
+	id = EUC
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = EUC
+		}
+	}
+	default = no
+	continuous_focus_position = {
+		x = 1670
+		y = 3000
+	}
+	focus = {
+		id = EUC_focus_starting_continent_made_whole
+		icon = GFX_goal_unknown
+		x = 0
+		y = 0
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = EUC_focus_brussels_call
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_starting_continent_made_whole
+		}
+	}
+	focus = {
+		id = EUC_focus_paperwork_no_end
+		icon = GFX_goal_unknown
+		x = 0
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_starting_continent_made_whole
+		}
+	}
+	focus = {
+		id = EUC_focus_empty_tank
+		icon = GFX_goal_unknown
+		x = 2
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_starting_continent_made_whole
+		}
+	}
+	focus = {
+		id = EUC_focus_delacroix_commission
+		icon = GFX_goal_unknown
+		x = 0
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_brussels_call
+		}
+		prerequisite = {
+			focus = EUC_focus_paperwork_no_end
+		}
+		prerequisite = {
+			focus = EUC_focus_empty_tank
+		}
+	}
+	focus = {
+		id = EUC_focus_commonwealth_project
+		icon = GFX_goal_unknown
+		x = -9
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_delacroix_commission
+		}
+	}
+	focus = {
+		id = EUC_focus_europes_thrist
+		icon = GFX_goal_unknown
+		x = -3
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_delacroix_commission
+		}
+	}
+	focus = {
+		id = EUC_focus_continental_production_plan
+		icon = GFX_goal_unknown
+		x = 3
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_delacroix_commission
+		}
+	}
+	focus = {
+		id = EUC_focus_who_guards_europe
+		icon = GFX_goal_unknown
+		x = 10
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_delacroix_commission
+		}
+	}
+	focus = {
+		id = EUC_focus_one_market
+		icon = GFX_goal_unknown
+		x = -11
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_commonwealth_project
+		}
+	}
+	focus = {
+		id = EUC_focus_one_standard
+		icon = GFX_goal_unknown
+		x = -9
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_commonwealth_project
+		}
+	}
+	focus = {
+		id = EUC_focus_one_bureaucracy
+		icon = GFX_goal_unknown
+		x = -7
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_commonwealth_project
+		}
+	}
+	focus = {
+		id = EUC_focus_military_land
+		icon = GFX_goal_unknown
+		x = 8
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_who_guards_europe
+		}
+	}
+	focus = {
+		id = EUC_focus_military_air
+		icon = GFX_goal_unknown
+		x = 10
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_who_guards_europe
+		}
+	}
+	focus = {
+		id = EUC_focus_military_sea
+		icon = GFX_goal_unknown
+		x = 12
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_who_guards_europe
+		}
+	}
+	focus = {
+		id = EUC_focus_atom
+		icon = GFX_goal_unknown
+		x = -4
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_europes_thrist
+		}
+	}
+	focus = {
+		id = EUC_focus_market
+		icon = GFX_goal_unknown
+		x = -2
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_europes_thrist
+		}
+	}
+	focus = {
+		id = EUC_focus_euc_nuclear_commission
+		icon = GFX_goal_unknown
+		x = -4
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_atom
+		}
+	}
+	focus = {
+		id = EUC_focus_rhine
+		icon = GFX_goal_unknown
+		x = 1
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_continental_production_plan
+		}
+	}
+	focus = {
+		id = EUC_focus_alps
+		icon = GFX_goal_unknown
+		x = 3
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_continental_production_plan
+		}
+	}
+	focus = {
+		id = EUC_focus_mediterranean
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_continental_production_plan
+		}
+	}
+	focus = {
+		id = EUC_focus_german_steel
+		icon = GFX_goal_unknown
+		x = 1
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_rhine
+		}
+	}
+	focus = {
+		id = EUC_focus_ruhr_automation
+		icon = GFX_goal_unknown
+		x = 1
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_german_steel
+		}
+	}
+	focus = {
+		id = EUC_focus_factories_without_borders
+		icon = GFX_goal_unknown
+		x = 1
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_ruhr_automation
+		}
+	}
+	focus = {
+		id = EUC_focus_hydroelectric_euc
+		icon = GFX_goal_unknown
+		x = 3
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_austrian_works
+		}
+	}
+	focus = {
+		id = EUC_focus_alpine_power
+		icon = GFX_goal_unknown
+		x = 3
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_alps
+		}
+	}
+	focus = {
+		id = EUC_focus_austrian_works
+		icon = GFX_goal_unknown
+		x = 3
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_alpine_power
+		}
+	}
+	focus = {
+		id = EUC_focus_italian_shipyards
+		icon = GFX_goal_unknown
+		x = 5
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_mediterranean
+		}
+	}
+	focus = {
+		id = EUC_focus_marseilles_genoa
+		icon = GFX_goal_unknown
+		x = 5
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_italian_shipyards
+		}
+	}
+	focus = {
+		id = EUC_focus_arsenal_of_mediterranean
+		icon = GFX_goal_unknown
+		x = 5
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_marseilles_genoa
+		}
+	}
+	focus = {
+		id = EUC_focus_continental_procurement
+		icon = GFX_goal_unknown
+		x = -11
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_one_market
+		}
+	}
+	focus = {
+		id = EUC_focus_brussels_consensus
+		icon = GFX_goal_unknown
+		x = -9
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_one_standard
+		}
+	}
+	focus = {
+		id = EUC_focus_ministries_without_border
+		icon = GFX_goal_unknown
+		x = -7
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_one_bureaucracy
+		}
+	}
+	focus = {
+		id = EUC_focus_national_question
+		icon = GFX_goal_unknown
+		x = -9
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_continental_procurement
+		}
+		prerequisite = {
+			focus = EUC_focus_brussels_consensus
+		}
+		prerequisite = {
+			focus = EUC_focus_ministries_without_border
+		}
+	}
+	focus = {
+		id = EUC_focus_more_europe
+		icon = GFX_goal_unknown
+		x = -10
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_national_question
+		}
+	}
+	focus = {
+		id = EUC_focus_europe_of_nations
+		icon = GFX_goal_unknown
+		x = -8
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_national_question
+		}
+	}
+	focus = {
+		id = EUC_focus_federal_competencies
+		icon = GFX_goal_unknown
+		x = -10
+		y = 8
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_more_europe
+		}
+	}
+	focus = {
+		id = EUC_focus_brussels_above_all
+		icon = GFX_goal_unknown
+		x = -10
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_federal_competencies
+		}
+	}
+	focus = {
+		id = EUC_focus_united_europe
+		icon = GFX_goal_unknown
+		x = -10
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_brussels_above_all
+		}
+	}
+	focus = {
+		id = EUC_focus_referendum
+		icon = GFX_goal_unknown
+		x = -8
+		y = 8
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_europe_of_nations
+		}
+	}
+	focus = {
+		id = EUC_focus_unity_through_compromise
+		icon = GFX_goal_unknown
+		x = -8
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_referendum
+		}
+	}
+	focus = {
+		id = EUC_focus_commonwealth_of_nations
+		icon = GFX_goal_unknown
+		x = -8
+		y = 10
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_unity_through_compromise
+		}
+	}
+	focus = {
+		id = EUC_focus_ration_pumps
+		icon = GFX_goal_unknown
+		x = -2
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_market
+		}
+	}
+	focus = {
+		id = EUC_focus_fuel_coupons
+		icon = GFX_goal_unknown
+		x = -2
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_ration_pumps
+		}
+	}
+	focus = {
+		id = EUC_focus_sunday_without_cars
+		icon = GFX_goal_unknown
+		x = -2
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_fuel_coupons
+		}
+	}
+	focus = {
+		id = EUC_focus_oil_crisis
+		icon = GFX_goal_unknown
+		x = -9
+		y = 12
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = EUC_focus_mediterranean_lifeline
+		icon = GFX_goal_unknown
+		x = -2
+		y = 12
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = EUC_focus_secure_the_suez
+		icon = GFX_goal_unknown
+		x = -7
+		y = 17
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_operation_southern_cross
+		}
+	}
+	focus = {
+		id = EUC_focus_maximize_efficiency
+		icon = GFX_goal_unknown
+		x = -4
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_euc_nuclear_commission
+		}
+	}
+	focus = {
+		id = EUC_focus_nuclear_europe
+		icon = GFX_goal_unknown
+		x = -4
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_maximize_efficiency
+		}
+	}
+	focus = {
+		id = EUC_focus_sustainable_europe
+		icon = GFX_goal_unknown
+		x = 3
+		y = 8
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_factories_without_borders
+		}
+		prerequisite = {
+			focus = EUC_focus_hydroelectric_euc
+		}
+		prerequisite = {
+			focus = EUC_focus_arsenal_of_mediterranean
+		}
+	}
+	focus = {
+		id = EUC_focus_standard_rifle
+		icon = GFX_goal_unknown
+		x = 8
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_military_land
+		}
+	}
+	focus = {
+		id = EUC_focus_common_chasis
+		icon = GFX_goal_unknown
+		x = 8
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_standard_rifle
+		}
+	}
+	focus = {
+		id = EUC_focus_armoured_europe
+		icon = GFX_goal_unknown
+		x = 8
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_common_chasis
+		}
+	}
+	focus = {
+		id = EUC_focus_commonwealth_skies
+		icon = GFX_goal_unknown
+		x = 10
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_military_air
+		}
+	}
+	focus = {
+		id = EUC_focus_two_oceans
+		icon = GFX_goal_unknown
+		x = 12
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_military_sea
+		}
+	}
+	focus = {
+		id = EUC_focus_continental_radar
+		icon = GFX_goal_unknown
+		x = 10
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_commonwealth_skies
+		}
+	}
+	focus = {
+		id = EUC_focus_new_atlantic_fleet
+		icon = GFX_goal_unknown
+		x = 12
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_two_oceans
+		}
+	}
+	focus = {
+		id = EUC_focus_beyond_visual_range
+		icon = GFX_goal_unknown
+		x = 10
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_continental_radar
+		}
+	}
+	focus = {
+		id = EUC_focus_carriers_for_europe
+		icon = GFX_goal_unknown
+		x = 12
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_new_atlantic_fleet
+		}
+	}
+	focus = {
+		id = EUC_focus_one_continent_one_army
+		icon = GFX_goal_unknown
+		x = 10
+		y = 8
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_armoured_europe
+		}
+		prerequisite = {
+			focus = EUC_focus_beyond_visual_range
+		}
+		prerequisite = {
+			focus = EUC_focus_carriers_for_europe
+		}
+	}
+	focus = {
+		id = EUC_focus_southern_question
+		icon = GFX_goal_unknown
+		x = -10
+		y = 13
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_oil_crisis
+		}
+	}
+	focus = {
+		id = EUC_focus_send_delegration
+		icon = GFX_goal_unknown
+		x = -8
+		y = 13
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_oil_crisis
+		}
+	}
+	focus = {
+		id = EUC_focus_empty_promises
+		icon = GFX_goal_unknown
+		x = -9
+		y = 14
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_southern_question
+		}
+		prerequisite = {
+			focus = EUC_focus_send_delegration
+		}
+	}
+	focus = {
+		id = EUC_focus_enough_is_enough
+		icon = GFX_goal_unknown
+		x = -9
+		y = 15
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_empty_promises
+		}
+	}
+	focus = {
+		id = EUC_focus_negotiation_summit
+		icon = GFX_goal_unknown
+		x = -11
+		y = 16
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_enough_is_enough
+		}
+		mutually_exclusive = {
+			focus = EUC_focus_economic_coercion
+			focus = EUC_focus_operation_southern_cross
+		}
+	}
+	focus = {
+		id = EUC_focus_economic_coercion
+		icon = GFX_goal_unknown
+		x = -9
+		y = 16
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_enough_is_enough
+		}
+		mutually_exclusive = {
+			focus = EUC_focus_operation_southern_cross
+			focus = EUC_focus_negotiation_summit
+		}
+	}
+	focus = {
+		id = EUC_focus_operation_southern_cross
+		icon = GFX_goal_unknown
+		x = -7
+		y = 16
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_enough_is_enough
+		}
+		mutually_exclusive = {
+			focus = EUC_focus_economic_coercion
+			focus = EUC_focus_negotiation_summit
+		}
+	}
+	focus = {
+		id = EUC_focus_europe_crisis
+		icon = GFX_goal_unknown
+		x = 0
+		y = 13
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = EUC_focus_peoples_question
+		icon = GFX_goal_unknown
+		x = -1
+		y = 14
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_europe_crisis
+		}
+	}
+	focus = {
+		id = EUC_focus_paris_questions_brussels
+		icon = GFX_goal_unknown
+		x = 1
+		y = 14
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_europe_crisis
+		}
+	}
+	focus = {
+		id = EUC_focus_german_wants_answer
+		icon = GFX_goal_unknown
+		x = -1
+		y = 15
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_peoples_question
+		}
+	}
+	focus = {
+		id = EUC_focus_rome_refuses
+		icon = GFX_goal_unknown
+		x = 1
+		y = 15
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_paris_questions_brussels
+		}
+	}
+	focus = {
+		id = EUC_focus_national_stockpiles
+		icon = GFX_goal_unknown
+		x = -1
+		y = 16
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_german_wants_answer
+		}
+	}
+	focus = {
+		id = EUC_focus_close_internal_borders
+		icon = GFX_goal_unknown
+		x = 1
+		y = 16
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_rome_refuses
+		}
+	}
+	focus = {
+		id = EUC_focus_every_nation_for_itself
+		icon = GFX_goal_unknown
+		x = 0
+		y = 17
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_national_stockpiles
+		}
+		prerequisite = {
+			focus = EUC_focus_close_internal_borders
+		}
+	}
+	focus = {
+		id = EUC_focus_age_of_plenty
+		icon = GFX_goal_unknown
+		x = -3
+		y = 8
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = EUC_focus_nuclear_europe
+		}
+		prerequisite = {
+			focus = EUC_focus_sunday_without_cars
+		}
+	}
+}

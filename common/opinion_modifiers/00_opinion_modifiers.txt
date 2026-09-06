@@ -13,7 +13,15 @@ opinion_modifiers = {
 	cheat_opinion_modifier_good = {
 		value = 200
 	}
-	
+
+	bad_diplomatic_approach = {
+		value = -10
+	}
+
+	good_diplomatic_approach = {
+		value = 10
+	}
+
 	cheat_opinion_modifier_bad = {
 		value = -200
 	}

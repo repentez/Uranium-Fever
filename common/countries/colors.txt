@@ -397,12 +397,12 @@ MOR = {
 	color_ui = rgb { 115 0 0 }
 }
 ALG = {
-	color = rgb { 136 153 139 }
-	color_ui = rgb { 136 153 139 }
+	color = rgb { 109 150 66 }
+	color_ui = rgb { 109 150 66 }
 }
 TUN = {
-	color = rgb { 176 97 97 }
-	color_ui = rgb { 176 97 97 }
+	color = rgb { 100 135 90 }
+	color_ui = rgb { 100 135 90 }
 }
 EGY = {
 	color = rgb { 148 148 90 }
@@ -441,8 +441,8 @@ LAO = {
 	color_ui = rgb { 171 56 55 }
 }
 INS = {
-	color = rgb { 157 79 79 }
-	color_ui = rgb { 157 79 79 }
+	color = rgb { 40 50 120 }
+	color_ui = rgb { 40 50 120 }
 }
 VIN = {
 	color = rgb { 194 194 54 }
@@ -553,8 +553,8 @@ KOR = {
 	color_ui = rgb { 26 129 173 }	
 }
 ISR = {
-	color = rgb { 47 132 196 }
-	color_ui = rgb { 47 132 196 }
+	color = rgb { 0 134 190 }
+	color_ui = rgb { 0 134 190 }
 }
 CSA = {
 	color = rgb { 108 133 150 }

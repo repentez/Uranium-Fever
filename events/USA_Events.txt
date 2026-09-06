@@ -122,3 +122,77 @@ country_event = {
     }
 }
 }
+country_event = {
+    id = USA.mexico_focus_event
+    title = USA_mexico_event_title
+    desc = USA_mexico_event_desc
+    picture = GFX_mexico_systeme
+
+    trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_mexico_situation
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Be more interventionist in Mexico"
+
+        USA = {
+            add_opinion_modifier = {
+                target = MEX
+                modifier = bad_diplomatic_approachd 
+            }
+        }
+        MEX = {
+            add_opinion_modifier = {
+                target = USA
+                modifier = bad_diplomatic_approach 
+            }
+        }
+    }
+
+    option = {
+        name = "Be less interventionist in Mexico"
+
+        USA = {
+            add_opinion_modifier = {
+                target = MEX
+                modifier = good_diplomatic_approach
+            }
+        }
+        MEX = {
+            add_opinion_modifier = {
+                target = USA
+                modifier = good_diplomatic_approach
+            }
+        }
+    }
+}
+country_event = {
+    id = USA.choice_companies_focus_event
+    title = USA_choice_companies_event_title
+    desc = USA_choice_companies_event_desc
+    picture = GFX_choice_companies_systeme
+
+    trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_contract_assigning
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = "Petro Chico"
+             complete_national_focus = USA_focus_petro_chico
+    }
+
+    option = {
+        name = "Texaco"
+             complete_national_focus = USA_focus_texaco
+    }
+}
