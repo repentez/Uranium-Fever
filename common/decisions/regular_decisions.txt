@@ -1,67 +1,61 @@
+European_Economy = {
+	Invest_In_Mongolian_Fishing_Industries = {
 
-European_Economy = {		
-	Invest_In_Mongolian_Fishing_Industries = {		
+		icon = GFX_decision_icon_default
 
-		icon = GFX_decision_icon_default		
-		
-		
-		
-		available = {		
+		available = {
 		}
-		
-		fire_only_once = no		
-		days_re_enable = 5	
 
-		visible = {		
+		fire_only_once = no
+		days_re_enable = 5
+
+		visible = {
 			ROOT = {
+				tag = EUC
 				is_ai = no
 			}
 			is_debug = yes
-		}		
+		}
 
-		cost = 0		
+		cost = 0
 
-	
-
-		complete_effect = {		
+		complete_effect = {
 			custom_effect_tooltip = "DECISION_EFFECT_YAY"
 			hidden_effect = {
 				add_political_power = 100
 			}
 		}
-		
-		
 
-		ai_will_do = {	
-			factor = 0			
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }
- European_Expansion = {
-	OPERATION_ADRIATIC = {		
 
-		icon = GFX_decision_icon_default		
-		
-		
-		
-		available = {		
-			 has_completed_focus = EUC_focus_oil_crisis
+European_Expansion = {
+
+	OPERATION_ADRIATIC = {
+
+		icon = GFX_decision_icon_default
+
+		available = {
+			has_completed_focus = EUC_focus_oil_crisis
+			NOT = { has_country_flag = operation_adriatic_done }
 		}
-		
-		fire_only_once = yes	
+
+		fire_only_once = yes
 		days_remove = 75
 
-		visible = {		
+		visible = {
 			ROOT = {
+				tag = EUC
 				is_ai = no
-			}		
-		}		
+			}
+		}
 
-		cost = 55		
+		cost = 55
 
-		
-
-		complete_effect = {		
+		complete_effect = {
 			create_wargoal = {
 				type = annex_everything
 				target = YUG
@@ -74,22 +68,22 @@ European_Economy = {
 				type = annex_everything
 				target = GRE
 			}
-		}
-		
-		
 
-		ai_will_do = {	
+			set_country_flag = operation_adriatic_done
+		}
+
+		ai_will_do = {
 			factor = 0
 		}
 	}
-}
-European_Expansion = {
+
 	OPERATION_ANATOLIA = {
 
 		icon = GFX_decision_icon_default
 
 		available = {
 			has_completed_focus = EUC_focus_oil_crisis
+			NOT = { has_country_flag = operation_anatolia_done }
 		}
 
 		fire_only_once = yes
@@ -97,6 +91,7 @@ European_Expansion = {
 
 		visible = {
 			ROOT = {
+				tag = EUC
 				is_ai = no
 			}
 		}
@@ -108,6 +103,8 @@ European_Expansion = {
 				type = annex_everything
 				target = TUR
 			}
+
+			set_country_flag = operation_anatolia_done
 		}
 
 		targeted_modifier = {
