@@ -9,7 +9,6 @@ country_event = {
     trigger = {
         original_tag = ISR
         date > 2053.12.15
-        Major=yes
     }
 
     mean_time_to_happen = {
@@ -20,8 +19,6 @@ country_event = {
 
     option = {
         name = ISR_1_option
-        add_political_power = -150
-        add_stability = -0.50
         set_victory_points = {
             province = 4206
             value = 0
@@ -30,6 +27,35 @@ country_event = {
             province = 4206
             state = 454
         }
+        every_country = {
+            limit = {
+                is_ai = no
+                is_subject = no
+            }
+            country_event = {
+                id = ISR.2
+            }
+        }
     }
 }
+
+country_event = {
+    id = ISR.2
+    title = ISR_2_title
+    desc = ISR_2_desc
+    picture = Israel_2
+    is_triggered_only = yes
+
+    immediate = {
+        every_country = {
+            goto_state = 454
+        }
+        sound_effect = Nuclear_Siren
+    }
+
+    option = {
+        name = ISR_2_option
+    }
+}
+
 #tel aviv unimpressed

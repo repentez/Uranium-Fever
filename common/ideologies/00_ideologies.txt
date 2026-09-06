@@ -76,7 +76,7 @@ ideologies = {
 			marxism_leninism = {
 			}
 
-			maoism = {
+			Maoist = {
 			}
 
 			juche = {

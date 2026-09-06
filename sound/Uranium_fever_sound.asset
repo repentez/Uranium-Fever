@@ -4,4 +4,10 @@ sound = {
     always_load = no
     volume = 1
 }
+sound = {
+    name = "Nuclear_Siren"
+    file = "mod_event_sounds/Nuclear_Siren.wav"
+    always_load = no
+    volume = 3
+}
 
