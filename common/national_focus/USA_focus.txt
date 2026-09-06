@@ -847,25 +847,34 @@ focus_tree = {
 			focus = USA_focus_smile_and_wave
 		}
 	}
+
 	focus = {
 		id = USA_focus_mexico_situation
 		icon = GFX_goal_unknown
 		x = -75
 		y = 1
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+						 country_event = {
+         id = USA.mexico_focus_event
+                     }
+
+		}
 	}
+
 	focus = {
 		id = USA_focus_eyes_sky
 		icon = GFX_goal_unknown
 		x = -79
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
 		}
 	}
+
 	focus = {
 		id = USA_focus_dia
 		icon = GFX_goal_unknown
@@ -887,7 +896,6 @@ focus_tree = {
 			 country_event = {
          id = USA.give_mexico_old_guns_focus_event
 }
-
 		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
@@ -904,6 +912,7 @@ focus_tree = {
 			focus = USA_focus_mexico_situation
 		}
 	}
+	
 	focus = {
 		id = USA_focus_uncle_sam_wrath
 		icon = GFX_goal_unknown
