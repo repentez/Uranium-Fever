@@ -1,26 +1,747 @@
-﻿
-focus_tree = {
+﻿focus_tree = {
 	id = PRC
-	
 	country = {
 		factor = 1
 	}
-	
 	default = yes
 	reset_on_civilwar = no
-
 	focus = {
-		id = PRC_maoism_is_not_cool_yo
+		id = PRC_the_great_rejuvenation
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 0
 		cost = 10
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-
-
-		completion_reward = {
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {}
+	}
+	focus = {
+		id = PRC_focus_learn_from_past
+		icon = GFX_goal_unknown
+		x = -6
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_the_great_rejuvenation
 		}
 	}
-
+	focus = {
+		id = PRC_focus_stability_above_all
+		icon = GFX_goal_unknown
+		x = -2
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_the_great_rejuvenation
+		}
+	}
+	focus = {
+		id = PRC_focus_united_under_party
+		icon = GFX_goal_unknown
+		x = 4
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_the_great_rejuvenation
+		}
+	}
+	focus = {
+		id = PRC_focus_socialism_chinese
+		icon = GFX_goal_unknown
+		x = 8
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_the_great_rejuvenation
+		}
+	}
+	focus = {
+		id = PRC_focus_consolidate_party
+		icon = GFX_goal_unknown
+		x = -4
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_learn_from_past
+		}
+		prerequisite = {
+			focus = PRC_focus_stability_above_all
+		}
+	}
+	focus = {
+		id = PRC_focus_economic_modernization
+		icon = GFX_goal_unknown
+		x = 1
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_united_under_party
+		}
+		prerequisite = {
+			focus = PRC_focus_stability_above_all
+		}
+	}
+	focus = {
+		id = PRC_focus_science
+		icon = GFX_goal_unknown
+		x = 6
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_united_under_party
+		}
+		prerequisite = {
+			focus = PRC_focus_socialism_chinese
+		}
+	}
+	focus = {
+		id = PRC_focus_pla_reform
+		icon = GFX_goal_unknown
+		x = 16
+		y = 0
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = PRC_focus_ration_everything
+		icon = GFX_goal_unknown
+		x = -5
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_consolidate_party
+		}
+	}
+	focus = {
+		id = PRC_focus_audit_every_drop
+		icon = GFX_goal_unknown
+		x = -3
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_consolidate_party
+		}
+	}
+	focus = {
+		id = PRC_focus_steel_backbone
+		icon = GFX_goal_unknown
+		x = 0
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_economic_modernization
+		}
+	}
+	focus = {
+		id = PRC_focus_tech_self_reliance
+		icon = GFX_goal_unknown
+		x = 2
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_economic_modernization
+		}
+	}
+	focus = {
+		id = PRC_focus_joint_operation_command
+		icon = GFX_goal_unknown
+		x = 12
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_pla_reform
+		}
+	}
+	focus = {
+		id = PRC_focus_professional_military
+		icon = GFX_goal_unknown
+		x = 16
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_pla_reform
+		}
+	}
+	focus = {
+		id = PRC_focus_loyal_and_ready
+		icon = GFX_goal_unknown
+		x = 20
+		y = 1
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_pla_reform
+		}
+	}
+	focus = {
+		id = PRC_focus_peoples_ration
+		icon = GFX_goal_unknown
+		x = -5
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_ration_everything
+		}
+	}
+	focus = {
+		id = PRC_focus_no_waste_no_shame
+		icon = GFX_goal_unknown
+		x = -3
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_audit_every_drop
+		}
+	}
+	focus = {
+		id = PRC_focus_endure_today_live_tomorrow
+		icon = GFX_goal_unknown
+		x = -4
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_peoples_ration
+		}
+		prerequisite = {
+			focus = PRC_focus_no_waste_no_shame
+		}
+	}
+	focus = {
+		id = PRC_focus_crash_program
+		icon = GFX_goal_unknown
+		x = 0
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_steel_backbone
+		}
+	}
+	focus = {
+		id = PRC_focus_centralise_heavy_industry
+		icon = GFX_goal_unknown
+		x = 2
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_tech_self_reliance
+		}
+	}
+	focus = {
+		id = PRC_focus_produce_everything_we_need
+		icon = GFX_goal_unknown
+		x = 1
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_crash_program
+		}
+		prerequisite = {
+			focus = PRC_focus_centralise_heavy_industry
+		}
+	}
+	focus = {
+		id = PRC_focus_nat_research_mobilisation
+		icon = GFX_goal_unknown
+		x = 5
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_science
+		}
+	}
+	focus = {
+		id = PRC_focus_quantum_info
+		icon = GFX_goal_unknown
+		x = 7
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_science
+		}
+	}
+	focus = {
+		id = PRC_focus_ai_for_planning
+		icon = GFX_goal_unknown
+		x = 5
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_nat_research_mobilisation
+		}
+	}
+	focus = {
+		id = PRC_focus_greater_satellite
+		icon = GFX_goal_unknown
+		x = 7
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_quantum_info
+		}
+	}
+	focus = {
+		id = PRC_focus_science_rejuvenation
+		icon = GFX_goal_unknown
+		x = 6
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_ai_for_planning
+		}
+		prerequisite = {
+			focus = PRC_focus_greater_satellite
+		}
+	}
+	focus = {
+		id = PRC_focus_outlast_crisis
+		icon = GFX_goal_unknown
+		x = -2
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_endure_today_live_tomorrow
+		}
+		prerequisite = {
+			focus = PRC_focus_produce_everything_we_need
+		}
+		prerequisite = {
+			focus = PRC_focus_science_rejuvenation
+		}
+		mutually_exclusive = {
+			focus = PRC_focus_shape_the_future
+			focus = PRC_focus_lead_the_east
+		}
+	}
+	focus = {
+		id = PRC_focus_lead_the_east
+		icon = GFX_goal_unknown
+		x = 1
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_endure_today_live_tomorrow
+		}
+		prerequisite = {
+			focus = PRC_focus_produce_everything_we_need
+		}
+		prerequisite = {
+			focus = PRC_focus_science_rejuvenation
+		}
+		mutually_exclusive = {
+			focus = PRC_focus_shape_the_future
+			focus = PRC_focus_outlast_crisis
+		}
+	}
+	focus = {
+		id = PRC_focus_shape_the_future
+		icon = GFX_goal_unknown
+		x = 4
+		y = 7
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_endure_today_live_tomorrow
+		}
+		prerequisite = {
+			focus = PRC_focus_produce_everything_we_need
+		}
+		prerequisite = {
+			focus = PRC_focus_science_rejuvenation
+		}
+		mutually_exclusive = {
+			focus = PRC_focus_lead_the_east
+			focus = PRC_focus_outlast_crisis
+		}
+	}
+	focus = {
+		id = PRC_focus_red_star_over_humanity
+		icon = GFX_goal_unknown
+		x = 1
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_outlast_crisis
+		}
+		prerequisite = {
+			focus = PRC_focus_lead_the_east
+		}
+		prerequisite = {
+			focus = PRC_focus_shape_the_future
+		}
+	}
+	focus = {
+		id = PRC_focus_mass_defence_doctrine
+		icon = GFX_goal_unknown
+		x = 11
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_joint_operation_command
+		}
+	}
+	focus = {
+		id = PRC_focus_integrated_missile_system
+		icon = GFX_goal_unknown
+		x = 13
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_joint_operation_command
+		}
+	}
+	focus = {
+		id = PRC_focus_armour_modernisation
+		icon = GFX_goal_unknown
+		x = 19
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_loyal_and_ready
+		}
+	}
+	focus = {
+		id = PRC_focus_advanced_missile_force
+		icon = GFX_goal_unknown
+		x = 11
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_peoples_war_everywhere
+		}
+	}
+	focus = {
+		id = PRC_focus_navy_of_distant_seas
+		icon = GFX_goal_unknown
+		x = 21
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_loyal_and_ready
+		}
+	}
+	focus = {
+		id = PRC_focus_air_force_reconstruction
+		icon = GFX_goal_unknown
+		x = 13
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_informationised_warfare
+		}
+	}
+	focus = {
+		id = PRC_focus_no_seek_war_but_fear_nothing
+		icon = GFX_goal_unknown
+		x = 16
+		y = 6
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_unrelenting_strikes
+		}
+		prerequisite = {
+			focus = PRC_focus_control_skies
+		}
+		prerequisite = {
+			focus = PRC_focus_crush_enemy
+		}
+		prerequisite = {
+			focus = PRC_focus_dominate_future
+		}
+		prerequisite = {
+			focus = PRC_focus_iron_wall
+		}
+		prerequisite = {
+			focus = PRC_focus_waves_obey_us
+		}
+	}
+	focus = {
+		id = PRC_focus_peoples_war_everywhere
+		icon = GFX_goal_unknown
+		x = 11
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_mass_defence_doctrine
+		}
+	}
+	focus = {
+		id = PRC_focus_informationised_warfare
+		icon = GFX_goal_unknown
+		x = 13
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_integrated_missile_system
+		}
+	}
+	focus = {
+		id = PRC_focus_mechanised_breakthrough
+		icon = GFX_goal_unknown
+		x = 19
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_armour_modernisation
+		}
+	}
+	focus = {
+		id = PRC_focus_blue_water_ambition
+		icon = GFX_goal_unknown
+		x = 21
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_navy_of_distant_seas
+		}
+	}
+	focus = {
+		id = PRC_focus_heavy_armour_corps
+		icon = GFX_goal_unknown
+		x = 19
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_mechanised_breakthrough
+		}
+	}
+	focus = {
+		id = PRC_focus_secure_the_seas
+		icon = GFX_goal_unknown
+		x = 21
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_blue_water_ambition
+		}
+	}
+	focus = {
+		id = PRC_focus_discipline_and_training
+		icon = GFX_goal_unknown
+		x = 15
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_professional_military
+		}
+	}
+	focus = {
+		id = PRC_focus_technological_superiority
+		icon = GFX_goal_unknown
+		x = 17
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_professional_military
+		}
+	}
+	focus = {
+		id = PRC_focus_merit_above_all
+		icon = GFX_goal_unknown
+		x = 15
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_discipline_and_training
+		}
+	}
+	focus = {
+		id = PRC_focus_ai_command_system
+		icon = GFX_goal_unknown
+		x = 17
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_technological_superiority
+		}
+	}
+	focus = {
+		id = PRC_focus_elite_combined_arms
+		icon = GFX_goal_unknown
+		x = 15
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_merit_above_all
+		}
+	}
+	focus = {
+		id = PRC_focus_next_gen_weaponry
+		icon = GFX_goal_unknown
+		x = 17
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_ai_command_system
+		}
+	}
+	focus = {
+		id = PRC_focus_dragon_meets_eagle
+		icon = GFX_goal_unknown
+		x = -12
+		y = 1
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = PRC_focus_alaska_offensive
+		icon = GFX_goal_unknown
+		x = -12
+		y = 2
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_dragon_meets_eagle
+		}
+	}
+	focus = {
+		id = PRC_focus_negotiate_peace
+		icon = GFX_goal_unknown
+		x = -12
+		y = 3
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_alaska_offensive
+		}
+	}
+	focus = {
+		id = PRC_focus_concession_for_peace
+		icon = GFX_goal_unknown
+		x = -13
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_negotiate_peace
+		}
+		mutually_exclusive = {
+			focus = PRC_focus_plan_b
+		}
+	}
+	focus = {
+		id = PRC_focus_plan_b
+		icon = GFX_goal_unknown
+		x = -11
+		y = 4
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_negotiate_peace
+		}
+		mutually_exclusive = {
+			focus = PRC_focus_concession_for_peace
+		}
+		available_if_capitulated = yes
+	}
+	focus = {
+		id = PRC_focus_unrelenting_strikes
+		icon = GFX_goal_unknown
+		x = 11
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_advanced_missile_force
+		}
+	}
+	focus = {
+		id = PRC_focus_control_skies
+		icon = GFX_goal_unknown
+		x = 13
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_air_force_reconstruction
+		}
+	}
+	focus = {
+		id = PRC_focus_crush_enemy
+		icon = GFX_goal_unknown
+		x = 15
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_elite_combined_arms
+		}
+	}
+	focus = {
+		id = PRC_focus_dominate_future
+		icon = GFX_goal_unknown
+		x = 17
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_next_gen_weaponry
+		}
+	}
+	focus = {
+		id = PRC_focus_iron_wall
+		icon = GFX_goal_unknown
+		x = 19
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_heavy_armour_corps
+		}
+	}
+	focus = {
+		id = PRC_focus_waves_obey_us
+		icon = GFX_goal_unknown
+		x = 21
+		y = 5
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+			focus = PRC_focus_secure_the_seas
+		}
+	}
 }
