@@ -100,7 +100,7 @@ country_event = {
     id = USA.give_mexico_old_guns_focus_event
     title = USA_give_mexico_old_guns_event_title
     desc = USA_give_mexico_old_guns_event_desc
-    picture = GFX_give_mexico_old_guns_systeme
+    picture = GFX_event_give_mexico_old_guns
   
 
     trigger = {
@@ -127,7 +127,7 @@ country_event = {
     id = USA.mexico_focus_event
     title = USA_mexico_event_title
     desc = USA_mexico_event_desc
-    picture = GFX_mexico_systeme
+    picture = GFX_event_mexico_amigo
 
     trigger = {
         tag = USA
@@ -177,7 +177,7 @@ country_event = {
     id = USA.choice_companies_focus_event
     title = USA_choice_companies_event_title
     desc = USA_choice_companies_event_desc
-    picture = GFX_choice_companies_systeme
+    picture = GFX_event_double_companies_mexico
 
     trigger = {
         tag = USA

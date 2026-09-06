@@ -893,9 +893,12 @@ focus_tree = {
 		y = 2
 		cost = 10
 		completion_reward = {
-			 country_event = {
+			   MEX = {
+							 country_event = {
          id = USA.give_mexico_old_guns_focus_event
-}
+                        } 
+			  }
+
 		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
@@ -941,7 +944,20 @@ focus_tree = {
 		x = -73
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			        MEX = {
+            add_resource = {
+                type = oil
+                amount = 10
+                state = 477
+            }
+            add_resource = {
+                type = oil
+                amount = 7
+                state = 479
+            }
+		}
+		}
 		prerequisite = {
 			focus = USA_focus_contract_assigning
 		}
@@ -955,7 +971,28 @@ focus_tree = {
 		x = -71
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+						        MEX = {
+            add_resource = {
+                type = oil
+                amount = 10
+                state = 477
+            }
+            add_resource = {
+                type = oil
+                amount = 7
+                state = 479
+            }
+		}
+		USA ={
+			    add_resource = {
+                type = oil
+                amount = 11
+                state = 375
+            }
+		}
+		 
+		}
 		prerequisite = {
 			focus = USA_focus_contract_assigning
 		}

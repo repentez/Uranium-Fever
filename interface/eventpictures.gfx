@@ -1,6 +1,18 @@
 spriteTypes = {
 
 		spriteType = {
+		name = "GFX_event_give_mexico_old_guns"
+		texturefile = "gfx/event_pictures/give_mexico_old_guns.dds"
+	}
+		spriteType = {
+		name = "GFX_event_double_companies_mexico"
+		texturefile = "gfx/event_pictures/double_companies_mexico.dds"
+	}
+		spriteType = {
+		name = "GFX_event_mexico_amigo"
+		texturefile = "gfx/event_pictures/mexico_amigo.dds"
+	}
+		spriteType = {
 		name = "GFX_event_uranium_fever"
 		texturefile = "gfx/event_pictures/event_uranium_fever.dds"
 	}
