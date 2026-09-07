@@ -14,3 +14,7 @@ music = {
 	name = "Uranium_Fever"
 	file = "Uranium_Fever.ogg"
 }
+music = {
+	name = "A_Mushroom_Cloud"
+	file = "A_Mushroom_Cloud.ogg"
+}

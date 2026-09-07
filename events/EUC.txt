@@ -1,0 +1,41 @@
+add_namespace = EUC
+
+country_event = {
+	id = EUC.1
+	title = EUC_1_title
+	desc = EUC_1_desc
+	picture = Nuke_2
+	is_triggered_only = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				is_ai = no
+			}
+			country_event = { id = EUC.2 }
+		}
+	}
+
+	option = {
+		name = EUC_1_option
+	}
+}
+
+country_event = {
+	id = EUC.2
+	title = EUC_2_title
+	desc = EUC_2_desc
+	picture = Nuke_2
+	is_triggered_only = yes
+
+	immediate = {
+		sound_effect = Nuclear_Siren
+		hidden_effect = {
+			scoped_play_song = A_Mushroom_Cloud
+		}
+	}
+
+	option = {
+		name = EUC_2_option
+	}
+}

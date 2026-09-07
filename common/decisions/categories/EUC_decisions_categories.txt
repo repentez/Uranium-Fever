@@ -20,3 +20,13 @@ European_Economy = {
 	visible = {
 	}
 }
+Euro_Middle_Eastern_War_EU = {
+	icon = GFX_category_icon_European_Expansion
+	picture = GFX_category_image_template		
+	
+	allowed = {
+		TAG = EUC
+	}
+	visible = {
+	}
+}

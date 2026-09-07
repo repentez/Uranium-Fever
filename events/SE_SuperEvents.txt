@@ -21,3 +21,4 @@ country_event = { #test event
 	option = {
 		name = superevents.0.a
 	}
+}

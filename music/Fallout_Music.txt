@@ -2,7 +2,7 @@ music_station = "Radio_America_2052"
 music = {
 	song = "Blue_Moon"
 	chance = {
-		factor = 0
+		factor =5
 		modifier = {
 			factor = 100
 		}
@@ -12,7 +12,7 @@ music_station = "Radio_America_2052"
 music = {
 	song = "I_Don't_Want_To_See_Tomorrow_4"
 	chance = {
-		factor = 0
+		factor = 5
 		modifier = {
 			factor = 100
 		}
@@ -22,7 +22,7 @@ music_station = "Radio_America_2052"
 music = {
 	song = "Working_for_the_Man"
 	chance = {
-		factor = 0
+		factor = 5
 		modifier = {
 			factor = 100
 		}
@@ -32,7 +32,17 @@ music_station = "Radio_America_2052"
 music = {
 	song = "Uranium_Fever"
 	chance = {
-		factor = 0
+		factor = 5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "A_Mushroom_Cloud"
+	chance = {
+		factor = 5
 		modifier = {
 			factor = 100
 		}
