@@ -1,0 +1,7 @@
+soundeffect = {
+	name = placeholder
+	loop = no
+	sounds = {
+		sound = placeholder
+	}
+}
