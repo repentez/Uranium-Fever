@@ -4,7 +4,7 @@ European_Economy = {
 	icon = GFX_category_icon_European_Expansion
 	
 	allowed = {
-		always = yes
+		TAG = EUC
 	}
 	visible = {		
 	}
@@ -15,7 +15,7 @@ European_Economy = {
 	picture = GFX_category_image_template		
 	
 	allowed = {
-		always = yes
+		TAG = EUC
 	}
 	visible = {
 	}

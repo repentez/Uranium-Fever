@@ -14,3 +14,91 @@ on_actions = {
         }
     }
 }
+on_actions = {
+
+    on_capitulation = {
+        events = {}
+
+        effect = {
+            if = {
+                limit = {
+                    THIS = { tag = YUG }
+                    YUG = { is_in_war_with = EUC }
+                }
+
+                EUC = {
+                    white_peace = YUG
+                }
+
+                EUC = {
+                    annex_country = {
+                        target = YUG
+                        transfer_troops = yes
+                    }
+                }
+
+                set_country_flag = yug_absorbed_by_euc
+            }
+
+            if = {
+                limit = {
+                    THIS = { tag = ALB }
+                    ALB = { is_in_war_with = EUC }
+                }
+
+                EUC = {
+                    white_peace = ALB
+                }
+
+                EUC = {
+                    annex_country = {
+                        target = ALB
+                        transfer_troops = yes
+                    }
+                }
+
+                set_country_flag = alb_absorbed_by_euc
+            }
+
+            if = {
+                limit = {
+                    THIS = { tag = GRE }
+                    GRE = { is_in_war_with = EUC }
+                }
+
+                EUC = {
+                    white_peace = GRE
+                }
+
+                EUC = {
+                    annex_country = {
+                        target = GRE
+                        transfer_troops = yes
+                    }
+                }
+
+                set_country_flag = gre_absorbed_by_euc
+            }
+
+            if = {
+                limit = {
+                    THIS = { tag = TUR }
+                    TUR = { is_in_war_with = EUC }
+                }
+
+                EUC = {
+                    white_peace = TUR
+                }
+
+                EUC = {
+                    annex_country = {
+                        target = TUR
+                        transfer_troops = yes
+                    }
+                }
+
+                set_country_flag = tur_absorbed_by_euc
+            }
+        }
+    }
+}
