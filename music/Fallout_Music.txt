@@ -48,3 +48,63 @@ music = {
 		}
 	}
 }
+music_station = "Radio_America_2052"
+music = {
+	song = "Heartaches_By_The_Number"
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Get_Ready"
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "You_Belong_To_Me"
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Don't_let_the_Stars_Get_in_Your_Eyes"
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Sixteen_Tons"
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Apple_Tango"
+	chance = {
+		factor = 5
+		modifier = {
+			factor = 100
+		}
+	}
+}

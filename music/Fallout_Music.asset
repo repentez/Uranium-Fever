@@ -18,3 +18,27 @@ music = {
 	name = "A_Mushroom_Cloud"
 	file = "A_Mushroom_Cloud.ogg"
 }
+music = {
+	name = "Heartaches_By_The_Number"
+	file = "Heartaches_By_The_Number.ogg"
+}
+music = {
+	name = "Get_Ready"
+	file = "Get_Ready.ogg"
+}
+music = {
+	name = "You_Belong_To_Me"
+	file = "You_Belong_To_Me.ogg"
+}
+music = {
+	name = "Don't_let_the_Stars_Get_in_Your_Eyes"
+	file = "Don't_let_the_Stars_Get_in_Your_Eyes.ogg"
+}
+music = {
+	name = "Sixteen_Tons"
+	file = "Sixteen_Tons.ogg"
+}
+music = {
+	name = "Apple_Tango"
+	file = "Apple_Tango.ogg"
+}
