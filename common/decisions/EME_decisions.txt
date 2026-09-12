@@ -1,45 +1,72 @@
+Euro_Middle_Eastern_War_EU = {
 
-				Euro_Middle_Eastern_War_EU = {
+	Spread_Pro_War_Propaganda = {
 
-		Full_Scale_Exchange = {
+		icon = GFX_decision_icon_default
 
-			icon = GFX_decision_icon_default
+		cost = 15
 
-			visible = {
-				tag = EUC
-			}
+		visible = {
+			tag = EUC
+		}
 
-			available = {
-				NOT = { has_country_flag = Full_Scale_Exchange }
-				has_war_with = UAR
-				date > 2042.1
-			}
-		##DATE IS ONLY FOR PLAYTESTING PURPOSES, WE CAN CHANGE IT LATER
+		available = {
+			NOT = { has_country_flag = Spread_Pro_War_Propaganda }
+			has_war_with = UAR
+		}
 
-			cost = 750
+		days_remove = 35
 
-			complete_effect = {
-				set_country_flag = Full_Scale_Exchange
-				custom_effect_tooltip = "DECISION_EFFECT_NUKE_Full_Scale_Exchange"
+		complete_effect = {
+			set_country_flag = Spread_Pro_War_Propaganda
+			add_stability = 0.05
+			manpower = 10000
+		}
 
-				country_event = { id = EUC.1 }
-
-				launch_nuke = { province = 18471  use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 8085   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 12727  use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 2097   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 7151   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 4073   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 7011   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 792    use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 10106  use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 8051   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 4076   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 11999  use_nuke = yes  nuke_type = nuclear_bomb }
-			}
-
-			ai_will_do = {
-				factor = 1
-			}
+		ai_will_do = {
+			factor = 1
 		}
 	}
+
+	Full_Scale_Exchange = {
+
+		icon = GFX_decision_icon_default
+
+		visible = {
+			tag = EUC
+		}
+
+		available = {
+			NOT = { has_country_flag = Full_Scale_Exchange }
+			has_war_with = UAR
+			date > 2042.1
+		}
+		##DATE IS ONLY FOR PLAYTESTING PURPOSES, WE CAN CHANGE IT LATER
+
+		cost = 750
+
+		complete_effect = {
+			set_country_flag = Full_Scale_Exchange
+			custom_effect_tooltip = "DECISION_EFFECT_NUKE_Full_Scale_Exchange"
+
+			country_event = { id = EUC.1 }
+
+			launch_nuke = { province = 18471  use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 8085   use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 12727  use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 2097   use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 7151   use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 4073   use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 7011   use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 792    use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 10106  use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 8051   use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 4076   use_nuke = yes  nuke_type = nuclear_bomb }
+			launch_nuke = { province = 11999  use_nuke = yes  nuke_type = nuclear_bomb }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

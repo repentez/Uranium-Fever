@@ -1,4 +1,13 @@
-
+EUC_The_Facade= {
+	icon = GFX_EUC_The_Facade
+	visible_when_empty = yes
+	allowed = {
+		tag = EUC
+	}
+	visible = {
+	}
+	priority = 10
+}
 European_Economy = {		
 	priority = 9		
 	icon = GFX_category_icon_European_Expansion

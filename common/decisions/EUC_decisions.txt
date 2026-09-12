@@ -1,3 +1,4 @@
+
 European_Economy = {
 	Invest_In_Mongolian_Fishing_Industries = {
 
@@ -115,4 +116,495 @@ European_Expansion = {
 			factor = 1
 		}
 	}
+}
+
+EUC_The_Facade = {
+
+EUC_unity_mission = {
+	icon = GFX_decision_border_war
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+	}
+	available = {
+		hidden_trigger = {
+			always = no
+		}
+	}
+	activation = {
+		always = no
+	}
+	cancel_if_not_visible = yes
+	is_good = yes
+	fire_only_once = no
+	selectable_mission = no
+	days_mission_timeout = EUC_unity_mission_var
+	timeout_effect = {
+		set_temp_variable = {
+			var = EUC_ISS_unity_var_temp
+			value = 0.05
+		}
+		EUC_add_unity = yes
+		activate_mission = EUC_unity_mission
+	}
+}
+
+EUC_nationalism_mission = {
+	icon = GFX_decision_border_war
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+	}
+	available = {
+		hidden_trigger = {
+			always = no
+		}
+	}
+	activation = {
+		always = no
+	}
+	cancel_if_not_visible = yes
+	is_good = no
+	fire_only_once = no
+	selectable_mission = no
+	days_mission_timeout = EUC_nationalism_mission_var
+	timeout_effect = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_var_temp
+			value = 0.05
+		}
+		EUC_add_nationalism = yes
+		activate_mission = EUC_nationalism_mission
+	}
+}
+
+EUC_coordinate_unity_rallies_decision = {
+	icon = EUC_Placeholder
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+	}
+	available = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_trigger_temp
+			value = 0.05
+		}
+		EUC_has_nationalism_greater_than_or_equals = yes
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Cohesion_action }
+		}
+	}
+	ai_will_do = {
+		base = 2
+	}
+	cost = 35
+	days_remove = 10
+	days_re_enable = 180
+	cancel_if_not_visible = yes
+	modifier = {
+		stability_factor = -0.05
+	}
+	complete_effect = {
+		hidden_effect = {
+			country_event = {
+				id = euc.1
+				days = 15
+			}
+			set_country_flag = {
+				flag = EUC_Cohesion_action
+				days = 10
+				value = 1
+			}
+		}
+	}
+	remove_effect = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_var_temp
+			value = -0.05
+		}
+		EUC_add_nationalism = yes
+		set_temp_variable = {
+			var = EUC_ISS_unity_var_temp
+			value = 0.05
+		}
+		EUC_add_unity = yes
+	}
+}
+
+EUC_purge_separatist_sympathizers_decision = {
+	icon = none
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+	}
+	available = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_trigger_temp
+			value = 0.05
+		}
+		EUC_has_nationalism_greater_than_or_equals = yes
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Security_action }
+		}
+	}
+	ai_will_do = {
+		base = 2
+	}
+	cost = 35
+	days_remove = 10
+	days_re_enable = 180
+	cancel_if_not_visible = yes
+	modifier = {
+		army_attack_factor = -0.05
+	}
+	complete_effect = {
+		hidden_effect = {
+			country_event = {
+				id = euc.2
+				days = 20
+			}
+			set_country_flag = {
+				flag = EUC_Security_action
+				days = 10
+				value = 1
+			}
+		}
+	}
+	remove_effect = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_var_temp
+			value = -0.05
+		}
+		EUC_add_nationalism = yes
+	}
+}
+
+EUC_discredit_nationalist_press_decision = {
+	icon = GFX_decision_USB_cia_decision
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+	}
+	available = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_trigger_temp
+			value = 0.06
+		}
+		EUC_has_nationalism_greater_than_or_equals = yes
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Ministry_action }
+		}
+	}
+	ai_will_do = {
+		base = 2
+	}
+	cost = 50
+	days_remove = 15
+	days_re_enable = 150
+	cancel_if_not_visible = yes
+	modifier = {
+		political_power_gain = 0.15
+	}
+	complete_effect = {
+		hidden_effect = {
+			country_event = {
+				id = euc.3
+				days = 25
+			}
+			set_country_flag = {
+				flag = EUC_Ministry_action
+				days = 15
+				value = 1
+			}
+		}
+	}
+	remove_effect = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_var_temp
+			value = -0.06
+		}
+		EUC_add_nationalism = yes
+	}
+}
+
+EUC_conduct_grey_operations_decision = {
+	icon = none
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+	}
+	available = {
+		OR = {
+			set_temp_variable = {
+				var = EUC_ISS_unity_trigger_temp
+				value = 0.05
+			}
+			EUC_has_unity_greater_than_or_equals = yes
+			set_temp_variable = {
+				var = EUC_ISS_nationalism_trigger_temp
+				value = 0.05
+			}
+			EUC_has_nationalism_greater_than_or_equals = yes
+		}
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Coordination_action }
+		}
+	}
+	ai_will_do = {
+		base = 2
+	}
+	cost = 70
+	days_remove = 21
+	days_re_enable = 150
+	cancel_if_not_visible = yes
+	modifier = {
+		weekly_manpower = -100
+	}
+	complete_effect = {
+		hidden_effect = {
+			set_country_flag = {
+				flag = EUC_Coordination_action
+				days = 21
+				value = 1
+			}
+		}
+	}
+	remove_effect = {
+		set_temp_variable = {
+			var = EUC_ISS_unity_var_temp
+			value = -0.05
+		}
+		EUC_add_unity = yes
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_var_temp
+			value = -0.05
+		}
+		EUC_add_nationalism = yes
+	}
+}
+
+EUC_censor_dissident_networks_decision = {
+	icon = none
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+	}
+	available = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_trigger_temp
+			value = 0.1
+		}
+		EUC_has_nationalism_greater_than_or_equals = yes
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Signals_action }
+		}
+	}
+	ai_will_do = {
+		base = 2
+	}
+	cost = 30
+	days_remove = 21
+	days_re_enable = 100
+	cancel_if_not_visible = yes
+	modifier = {
+		political_power_gain = -0.05
+	}
+	complete_effect = {
+		hidden_effect = {
+			country_event = {
+				id = euc.4
+				days = 27
+			}
+			set_country_flag = {
+				flag = EUC_Signals_action
+				days = 21
+				value = 1
+			}
+		}
+	}
+	remove_effect = {
+		if = {
+			limit = {
+				has_completed_focus = EUC_kickstart_the_eunet
+			}
+			set_temp_variable = {
+				var = EUC_ISS_nationalism_var_temp
+				value = -0.1
+			}
+			EUC_add_nationalism = yes
+			set_temp_variable = {
+				var = EUC_ISS_unity_var_temp
+				value = 0.02
+			}
+			EUC_add_unity = yes
+		}
+		else = {
+			set_temp_variable = {
+				var = EUC_ISS_nationalism_var_temp
+				value = -0.1
+			}
+			EUC_add_nationalism = yes
+			set_temp_variable = {
+				var = EUC_ISS_unity_var_temp
+				value = 0.1
+			}
+			EUC_add_unity = yes
+		}
+	}
+}
+
+EUC_infiltrate_nationalist_networks_decision = {
+	icon = none
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Signals_networks_infiltrated }
+		}
+	}
+	available = {
+		set_temp_variable = {
+			var = EUC_ISS_unity_trigger_temp
+			value = 0.1
+		}
+		EUC_has_unity_greater_than_or_equals = yes
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Signals_action }
+		}
+	}
+	ai_will_do = {
+		base = 2
+	}
+	cost = 50
+	days_remove = 50
+	days_re_enable = 100
+	cancel_if_not_visible = yes
+	modifier = {
+		political_power_gain = -0.05
+	}
+	complete_effect = {
+		hidden_effect = {
+			set_country_flag = {
+				flag = EUC_Signals_action
+				days = 50
+				value = 1
+			}
+		}
+	}
+	remove_effect = {
+		set_country_flag = EUC_Signals_networks_infiltrated
+		unlock_decision_tooltip = EUC_dismantle_nationalist_networks_decision
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_var_temp
+			value = 0.1
+		}
+		EUC_add_nationalism = yes
+		set_temp_variable = {
+			var = EUC_ISS_unity_var_temp
+			value = -0.1
+		}
+		EUC_add_unity = yes
+	}
+}
+
+EUC_dismantle_nationalist_networks_decision = {
+	icon = none
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+		hidden_trigger = {
+			has_country_flag = EUC_Signals_networks_infiltrated
+		}
+	}
+	available = {
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_trigger_temp
+			value = 0.2
+		}
+		EUC_has_nationalism_greater_than_or_equals = yes
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Signals_action }
+		}
+	}
+	ai_will_do = {
+		base = 2
+	}
+	cost = 50
+	days_remove = 14
+	days_re_enable = 100
+	cancel_if_not_visible = yes
+	modifier = {
+		political_power_gain = -0.1
+	}
+	complete_effect = {
+		hidden_effect = {
+			set_country_flag = {
+				flag = EUC_Signals_action
+				days = 14
+				value = 1
+			}
+		}
+	}
+	remove_effect = {
+		clr_country_flag = EUC_Signals_networks_infiltrated
+		set_temp_variable = {
+			var = EUC_ISS_nationalism_var_temp
+			value = -0.2
+		}
+		EUC_add_nationalism = yes
+	}
+}
+
+EUC_detain_prominent_agitators_decision = {
+	icon = none
+	allowed = {
+		original_tag = EUC
+	}
+	visible = {
+	}
+	available = {
+		set_temp_variable = {
+			var = EUC_ISS_unity_trigger_temp
+			value = 0.1
+		}
+		EUC_has_unity_greater_than_or_equals = yes
+		hidden_trigger = {
+			NOT = { has_country_flag = EUC_Order_action }
+		}
+	}
+	ai_will_do = {
+		base = 2
+	}
+	cost = 40
+	days_remove = 20
+	days_re_enable = 100
+	cancel_if_not_visible = yes
+	modifier = {
+	}
+	complete_effect = {
+		hidden_effect = {
+			set_country_flag = {
+				flag = EUC_Order_action
+				days = 20
+				value = 1
+			}
+		}
+	}
+	remove_effect = {
+		set_temp_variable = {
+			var = EUC_ISS_unity_var_temp
+			value = -0.1
+		}
+		EUC_add_unity = yes
+	}
+}
 }

@@ -1,0 +1,232 @@
+EUC_add_unity = {
+	custom_effect_tooltip = EUC_ISS_add_unity_tt
+	add_to_variable = {
+		var = EUC_ISS_unity_var
+		value = EUC_ISS_unity_var_temp
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = EUC_ISS_unity_var
+				value = 0
+				compare = less_than
+			}
+		}
+		multiply_variable = {
+			var = EUC_ISS_unity_var
+			value = 0
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = EUC_ISS_unity_var
+				value = 1
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = EUC_ISS_unity_var
+			value = 1
+		}
+	}
+	hidden_effect = {
+		remove_ideas = {
+			EUC_unity_fractured_idea
+			EUC_unity_uncertain_idea
+			EUC_unity_cohesive_idea
+			EUC_unity_unified_idea
+			EUC_unity_one_europe_idea
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_unity_var
+					value = 0.1
+					compare = less_than
+				}
+			}
+			add_ideas = EUC_unity_fractured_idea
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_unity_var
+					value = 0.1
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = EUC_ISS_unity_var
+					value = 0.3
+					compare = less_than
+				}
+			}
+			add_ideas = EUC_unity_uncertain_idea
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_unity_var
+					value = 0.3
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = EUC_ISS_unity_var
+					value = 0.5
+					compare = less_than
+				}
+			}
+			add_ideas = EUC_unity_cohesive_idea
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_unity_var
+					value = 0.5
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = EUC_ISS_unity_var
+					value = 0.8
+					compare = less_than
+				}
+			}
+			add_ideas = EUC_unity_unified_idea
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_unity_var
+					value = 0.8
+					compare = greater_than_or_equals
+				}
+			}
+			add_ideas = EUC_unity_one_europe_idea
+		}
+	}
+}
+ 
+EUC_add_nationalism = {
+	custom_effect_tooltip = EUC_ISS_add_nationalism_tt
+	add_to_variable = {
+		var = EUC_ISS_nationalism_var
+		value = EUC_ISS_nationalism_var_temp
+	}
+	if = {
+		limit = {
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0
+				compare = less_than
+			}
+		}
+		multiply_variable = {
+			var = EUC_ISS_nationalism_var
+			value = 0
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 1
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = EUC_ISS_nationalism_var
+			value = 1
+		}
+	}
+	hidden_effect = {
+		remove_ideas = {
+			EUC_nationalism_dormant_idea
+			EUC_nationalism_murmuring_idea
+			EUC_nationalism_vocal_idea
+			EUC_nationalism_militant_idea
+			EUC_nationalism_uncontainable_idea
+		}
+		if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_nationalism_var
+					value = 0.1
+					compare = less_than
+				}
+			}
+			add_ideas = EUC_nationalism_dormant_idea
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_nationalism_var
+					value = 0.1
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = EUC_ISS_nationalism_var
+					value = 0.3
+					compare = less_than
+				}
+			}
+			add_ideas = EUC_nationalism_murmuring_idea
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_nationalism_var
+					value = 0.3
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = EUC_ISS_nationalism_var
+					value = 0.5
+					compare = less_than
+				}
+			}
+			add_ideas = EUC_nationalism_vocal_idea
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_nationalism_var
+					value = 0.5
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = EUC_ISS_nationalism_var
+					value = 0.8
+					compare = less_than
+				}
+			}
+			add_ideas = EUC_nationalism_militant_idea
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = EUC_ISS_nationalism_var
+					value = 0.8
+					compare = greater_than_or_equals
+				}
+			}
+			add_ideas = EUC_nationalism_uncontainable_idea
+		}
+	}
+}
+ 
+EUC_has_unity_greater_than_or_equals = {
+	check_variable = {
+		var = EUC_ISS_unity_var
+		value = EUC_ISS_unity_trigger_temp
+		compare = greater_than_or_equals
+	}
+}
+ 
+EUC_has_nationalism_greater_than_or_equals = {
+	check_variable = {
+		var = EUC_ISS_nationalism_var
+		value = EUC_ISS_nationalism_trigger_temp
+		compare = greater_than_or_equals
+	}
+}
+ 
