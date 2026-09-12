@@ -994,14 +994,22 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
-			MEX = {
+			  add_timed_idea = {
+				days = 125
+		       MEX = {
 				days = 125
 				add_ideas = Mex_idea_focus_USA
 			}
-			USA = {
+			  }
+	
+			   add_timed_idea = {
 				days = 125
+	          USA = {
+				
 				add_ideas = USA_idea_focus_consumer_goods
-			}
+			
+			   }
+		}
 		}
 		prerequisite = {
 			focus = USA_focus_petro_chico
