@@ -2,8 +2,16 @@ spriteTypes = {
 	##ESTONIA##
 	
 	SpriteType = {
-		name = "GFX_idea_EST_baltic_nature"
-		texturefile = "gfx/interface/ideas/idea_EST_baltic_nature.dds"
+		name = "GFX_EST_blood_of_patriots"
+		texturefile = "gfx/interface/ideas/idea_blood_land.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_legacy_war"
+		texturefile = "gfx/interface/ideas/idea_legacy_of_war_estonia.dds"
+	}
+	SpriteType = {
+		name = "GFX_EST_baltic_nature"
+		texturefile = "gfx/interface/ideas/baltic_nature.dds"
 	}
 
 		spriteType = {

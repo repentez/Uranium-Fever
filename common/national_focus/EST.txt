@@ -437,7 +437,7 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-            add_ideas = EST_baltic_environmentalism
+            add_ideas = EST_baltic_nature
         }
     }
 
@@ -450,7 +450,7 @@ focus_tree = {
         cost = 10
 
         completion_reward = {
-            add_ideas = EST_legacy_phosphorite_war
+            add_ideas = EST_legacy_war
                      add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
