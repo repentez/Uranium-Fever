@@ -39,7 +39,6 @@ Euro_Middle_Eastern_War_EU = {
 		available = {
 			NOT = { has_country_flag = Full_Scale_Exchange }
 			has_war_with = UAR
-			date > 2042.1
 		}
 		##DATE IS ONLY FOR PLAYTESTING PURPOSES, WE CAN CHANGE IT LATER
 

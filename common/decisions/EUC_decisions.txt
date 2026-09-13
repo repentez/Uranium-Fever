@@ -118,6 +118,8 @@ European_Expansion = {
 	}
 }
 
+
+###do not touch### work in progress
 EUC_The_Facade = {
 
 EUC_unity_mission = {
@@ -284,7 +286,7 @@ EUC_purge_separatist_sympathizers_decision = {
 }
 
 EUC_discredit_nationalist_press_decision = {
-	icon = GFX_decision_USB_cia_decision
+	icon = f
 	allowed = {
 		original_tag = EUC
 	}
