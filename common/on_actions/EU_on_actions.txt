@@ -1,0 +1,21 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = { original_tag = EUC }
+				activate_mission = EUC_nationalism_mission
+			}
+		}
+	}
+}
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = { original_tag = EUC }
+				activate_mission = EUC_nationalism_mission
+				activate_mission = EUC_unity_mission
+			}
+		}
+	}
+}

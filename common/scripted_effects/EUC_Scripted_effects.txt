@@ -113,3 +113,18 @@ EUC_add_nationalism = {
 		}
 	}
 }
+EUC_has_nationalism_greater_than_or_equals = {
+	check_variable = {
+		var = EUC_ISS_nationalism_var
+		value = var:EUC_ISS_nationalism_trigger_temp
+		compare = greater_than_or_equals
+	}
+}
+
+EUC_has_unity_greater_than_or_equals = {
+	check_variable = {
+		var = EUC_ISS_unity_var
+		value = var:EUC_ISS_unity_trigger_temp
+		compare = greater_than_or_equals
+	}
+}
