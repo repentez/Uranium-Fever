@@ -102,3 +102,16 @@ on_actions = {
         }
     }
 }
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = { original_tag = EUC }
+				add_timed_decision = {
+					decision = EUC_nationalism_mission
+					days = 55
+				}
+			}
+		}
+	}
+}

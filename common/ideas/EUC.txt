@@ -1,0 +1,160 @@
+ideas = {
+	country = {
+		
+		EUC_unity_fractured_idea = {
+			picture = GFX_idea_EUC_unity_fractured
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.15
+				political_power_gain = -0.10
+				production_speed_buildings_factor = -0.05
+			}
+		}
+
+		EUC_unity_uncertain_idea = {
+			picture = GFX_idea_EUC_unity_uncertain
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.05
+			}
+		}
+
+		EUC_unity_cohesive_idea = {
+			picture = GFX_idea_EUC_unity_cohesive
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.05
+			}
+		}
+
+		EUC_unity_unified_idea = {
+			picture = GFX_idea_EUC_unity_unified
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = 0.10
+				production_speed_buildings_factor = 0.05
+			}
+		}
+
+		EUC_unity_one_europe_idea = {
+			picture = GFX_idea_EUC_unity_one_europe
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = 0.15
+				political_power_gain = 0.15
+				production_speed_buildings_factor = 0.10
+				war_support_factor = 0.10
+			}
+		}
+
+
+		EUC_nationalism_dormant_idea = {
+			picture = GFX_idea_EUC_nationalism_dormant
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+	
+			}
+		}
+
+		EUC_nationalism_murmuring_idea = {
+			picture = GFX_idea_EUC_nationalism_murmuring
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.03
+			}
+		}
+
+		EUC_nationalism_vocal_idea = {
+			picture = GFX_idea_EUC_nationalism_vocal
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.07
+				war_support_factor = 0.05
+			}
+		}
+
+		EUC_nationalism_militant_idea = {
+			picture = GFX_idea_EUC_nationalism_militant
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.12
+				war_support_factor = 0.10
+				political_power_gain = -0.10
+			}
+		}
+
+		EUC_nationalism_uncontainable_idea = {
+			picture = GFX_idea_EUC_nationalism_uncontainable
+			removal_cost = -1
+			allowed = {
+				original_tag = EUC
+			}
+			available = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.20
+				war_support_factor = 0.15
+				political_power_gain = -0.15
+				resistance_growth_on_our_occupied_states = 0.10
+			}
+		}
+	}
+}
