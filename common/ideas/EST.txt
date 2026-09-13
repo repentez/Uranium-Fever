@@ -35,7 +35,7 @@ ideas = {
 			allowed = {
 				original_tag = EST
 			}
-		      picture = GFX_EST_legacy_war
+		      picture = GFX_idea_EST_legacy_war
 			modifier = {
 		    base_fuel_gain = 10
 			army_artillery_attack_factor = 0.05
@@ -48,7 +48,7 @@ ideas = {
 			
 		}
 		EST_baltic_nature = {
-			picture = GFX_EST_baltic_nature
+			picture = GFX_idea_EST_baltic_nature
 			removal_cost = -1
 
 			available = {
@@ -79,7 +79,7 @@ ideas = {
             available = {
               original_tag = EST
             }
-			picture = GFX_EST_blood_of_patriots 
+			picture = GFX_idea_EST_blood_of_patriots 
         modifier = {
             surrender_limit = 0.10          
             war_support_factor = 0.10       

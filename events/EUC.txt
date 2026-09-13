@@ -6,6 +6,7 @@ country_event = {
 	desc = EUC_1_desc
 	picture = Nuke_2
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	immediate = {
 		every_country = {
@@ -27,6 +28,7 @@ country_event = {
 	desc = EUC_2_desc
 	picture = Nuke_2
 	is_triggered_only = yes
+	fire_only_once = yes
 
 	immediate = {
 		sound_effect = Nuclear_Siren
