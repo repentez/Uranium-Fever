@@ -8,8 +8,8 @@ state = {
 		oil = 3
 	}
 	history = {
-		owner = IRQ
-		add_core_of = IRQ
+		owner = UAR
+		add_core_of = UAR
 		victory_points = {
 			12413 1 # Rumadiyah
 		}
