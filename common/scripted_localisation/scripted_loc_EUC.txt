@@ -1,0 +1,138 @@
+defined_text = {
+	name = EUC_ISS_cohesion_scripted_loc
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_cohesion_var
+				value = 0.1
+				compare = less_than
+			}
+		}
+		localization_key = EUC_one_europe
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_cohesion_var
+				value = 0.1
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = EUC_ISS_cohesion_var
+				value = 0.3
+				compare = less_than
+			}
+		}
+		localization_key = EUC_unified
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_cohesion_var
+				value = 0.3
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = EUC_ISS_cohesion_var
+				value = 0.5
+				compare = less_than
+			}
+		}
+		localization_key = EUC_cohesive
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_cohesion_var
+				value = 0.5
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = EUC_ISS_cohesion_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		localization_key = EUC_uncertain
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_cohesion_var
+				value = 0.8
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = EUC_fractured
+	}
+}
+
+defined_text = {
+	name = EUC_ISS_nationalism_scripted_loc
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0.1
+				compare = less_than
+			}
+		}
+		localization_key = EUC_dormant
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0.1
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0.3
+				compare = less_than
+			}
+		}
+		localization_key = EUC_murmuring
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0.3
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0.5
+				compare = less_than
+			}
+		}
+		localization_key = EUC_vocal
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0.5
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0.8
+				compare = less_than
+			}
+		}
+		localization_key = EUC_militant
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = EUC_ISS_nationalism_var
+				value = 0.8
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = EUC_uncontainable
+	}
+}
+
