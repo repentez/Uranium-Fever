@@ -1,72 +1,211 @@
 Euro_Middle_Eastern_War_EU = {
-
-	Spread_Pro_War_Propaganda = {
-
-		icon = GFX_decision_icon_default
-
-		cost = 15
-
-		visible = {
-			tag = EUC
+	EUC_war_exhaustion_mission = {
+		icon = GFX_decision_border_war
+		allowed = {
+			original_tag = EUC
 		}
-
-		available = {
-			NOT = { has_country_flag = Spread_Pro_War_Propaganda }
+		visible = {
 			has_war_with = UAR
 		}
-
-		days_remove = 35
-
-		complete_effect = {
-			set_country_flag = Spread_Pro_War_Propaganda
-			add_stability = 0.05
-			manpower = 10000
+		available = {
+			always = no
 		}
+		is_good = no
+		fire_only_once = no
+		days_mission_timeout = 35
 
-		ai_will_do = {
-			factor = 1
+		timeout_effect = {
+			if = {
+				limit = {
+					has_war_with = UAR
+					check_variable = {
+						var = global.EUC_theater_changes
+						value = 0
+						compare = equals
+					}
+				}
+				set_temp_variable = { EUC_war_exhaustion_var_temp = 0.05 }
+				EUC_add_war_exhaustion = yes
+				UAR = {
+					set_temp_variable = { UAR_war_exhaustion_var_temp = -0.03 }
+					UAR_add_war_exhaustion = yes
+				}
+			}
+			set_variable = { global.EUC_theater_changes = 0 }
+			if = {
+				limit = {
+					has_war_with = UAR
+				}
+				activate_mission = EUC_war_exhaustion_mission
+			}
 		}
 	}
-	EUC_nuclear_category = {
-
-		Full_Scale_Exchange = {
-			icon = GFX_decision_icon_default
-
-			visible = {
-				original_tag = EUC
+	EUC_rotate_frontline_divisions_decision = {
+		icon = GFX_decision_generic_army_effort
+		allowed = {
+			original_tag = EUC
+		}
+		visible = {
+			has_war_with = UAR
+		}
+		available = {
+			check_variable = {
+				var = EUC_war_exhaustion_var
+				value = 0.1
+				compare = greater_than_or_equals
 			}
-
-			available = {
-				NOT = { has_country_flag = Full_Scale_Exchange }
-				has_war_with = UAR
+			hidden_trigger = {
+				NOT = { has_country_flag = EUC_Theater_action }
 			}
-			##DATE IS ONLY FOR PLAYTESTING PURPOSES, WE CAN CHANGE IT LATER
-
-			cost = 750
-
-			complete_effect = {
-				set_country_flag = Full_Scale_Exchange
-				custom_effect_tooltip = "DECISION_EFFECT_NUKE_Full_Scale_Exchange"
-
-				country_event = { id = EUC.1 }
-
-				launch_nuke = { province = 18471  use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 8085   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 12727  use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 2097   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 7151   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 4073   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 7011   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 792    use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 10106  use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 8051   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 4076   use_nuke = yes  nuke_type = nuclear_bomb }
-				launch_nuke = { province = 11999  use_nuke = yes  nuke_type = nuclear_bomb }
+		}
+		ai_will_do = {
+			base = 2
+		}
+		cost = 40
+		days_remove = 20
+		days_re_enable = 120
+		cancel_if_not_visible = yes
+		modifier = {
+			army_org_factor = -0.10
+			army_speed_factor = -0.10
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = {
+					flag = EUC_Theater_action
+					days = 20
+					value = 1
+				}
 			}
+		}
+		remove_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.08 }
+			EUC_add_war_exhaustion = yes
+		}
+	}
 
-			ai_will_do = {
-				factor = 1
+	EUC_requisition_continental_fuel_decision = {
+		icon = GFX_decision_generic_industry
+		allowed = {
+			original_tag = EUC
+		}
+		visible = {
+			has_war_with = UAR
+		}
+		available = {
+			check_variable = {
+				var = EUC_war_exhaustion_var
+				value = 0.2
+				compare = greater_than_or_equals
 			}
+			hidden_trigger = {
+				NOT = { has_country_flag = EUC_Theater_action }
+			}
+		}
+		ai_will_do = {
+			base = 2
+		}
+		cost = 60
+		days_remove = 30
+		days_re_enable = 150
+		cancel_if_not_visible = yes
+		modifier = {
+			consumer_goods_factor = 0.10
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = {
+					flag = EUC_Theater_action
+					days = 30
+					value = 1
+				}
+			}
+		}
+		remove_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.12 }
+			EUC_add_war_exhaustion = yes
+			set_temp_variable = { EUC_ISS_nationalism_var_temp = 0.05 }
+			EUC_add_nationalism = yes
+		}
+	}
+
+	EUC_total_mobilisation_decision = {
+		icon = GFX_decision_generic_military_effort
+		allowed = {
+			original_tag = EUC
+		}
+		visible = {
+			has_war_with = UAR
+		}
+		available = {
+			check_variable = {
+				var = EUC_war_exhaustion_var
+				value = 0.5
+				compare = greater_than_or_equals
+			}
+			hidden_trigger = {
+				NOT = { has_country_flag = EUC_Theater_action }
+			}
+		}
+		ai_will_do = {
+			base = 1
+		}
+		cost = 100
+		days_remove = 45
+		days_re_enable = 250
+		cancel_if_not_visible = yes
+		modifier = {
+			war_support_factor = 0.10
+			political_power_gain = -0.15
+		}
+		complete_effect = {
+			hidden_effect = {
+				set_country_flag = {
+					flag = EUC_Theater_action
+					days = 45
+					value = 1
+				}
+			}
+		}
+		remove_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.20 }
+			EUC_add_war_exhaustion = yes
+			set_temp_variable = { EUC_ISS_nationalism_var_temp = 0.15 }
+			EUC_add_nationalism = yes
+		}
+	}
+
+	EUC_sue_for_terms_decision = {
+		icon = GFX_decision_generic_political_discourse
+		allowed = {
+			original_tag = EUC
+		}
+		visible = {
+			has_war_with = UAR
+		}
+		available = {
+			check_variable = {
+				var = EUC_war_exhaustion_var
+				value = 0.75
+				compare = greater_than_or_equals
+			}
+		}
+		ai_will_do = {
+			base = 0
+		}
+		cost = 150
+		days_remove = 60
+		fire_only_once = yes
+		cancel_if_not_visible = yes
+		modifier = {
+			war_support_factor = -0.20
+		}
+		remove_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.40 }
+			EUC_add_war_exhaustion = yes
+			set_temp_variable = { EUC_ISS_nationalism_var_temp = 0.25 }
+			EUC_add_nationalism = yes
+			white_peace = UAR
 		}
 	}
 }

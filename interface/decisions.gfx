@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_decision_cat_picture_EUC_The_Facade"
+		texturefile = "gfx/interface/decisions/EUC_the_facade_picture.dds"
+	}
+}

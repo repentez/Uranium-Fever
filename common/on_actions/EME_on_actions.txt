@@ -1,0 +1,13 @@
+	on_on_actions = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = EUC
+					has_war_with = UAR
+					NOT = { has_country_flag = EUC_resource_war_active }
+				}
+				set_country_flag = EUC_resource_war_active
+				activate_mission = EUC_war_exhaustion_mission
+			}
+		}
+	}

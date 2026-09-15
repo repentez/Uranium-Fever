@@ -144,60 +144,6 @@ EUC_The_Facade = {
 		}
 	}
 
-	EUC_coordinate_unity_rallies_decision = {
-		icon = GFX_decision_generic_propaganda
-		allowed = {
-			original_tag = EUC
-		}
-		visible = {
-		}
-		available = {
-			set_temp_variable = {
-				var = EUC_ISS_nationalism_trigger_temp
-				value = 0.05
-			}
-			EUC_has_nationalism_greater_than_or_equals = yes
-			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Cohesion_action }
-			}
-		}
-		ai_will_do = {
-			base = 2
-		}
-		cost = 35
-		days_remove = 10
-		days_re_enable = 180
-		cancel_if_not_visible = yes
-		modifier = {
-			stability_factor = -0.05
-		}
-		complete_effect = {
-			hidden_effect = {
-				country_event = {
-					id = euc.1
-					days = 15
-				}
-				set_country_flag = {
-					flag = EUC_Cohesion_action
-					days = 10
-					value = 1
-				}
-			}
-		}
-		remove_effect = {
-			set_temp_variable = {
-				var = EUC_ISS_nationalism_var_temp
-				value = -0.05
-			}
-			EUC_add_nationalism = yes
-			set_temp_variable = {
-				var = EUC_ISS_cohesion_var_temp
-				value = -0.05
-			}
-			EUC_add_cohesion = yes
-		}
-	}
-
 	EUC_purge_separatist_sympathizers_decision = {
 		icon = GFX_decision_generic_military_effort
 		allowed = {
@@ -304,22 +250,11 @@ EUC_The_Facade = {
 		visible = {
 		}
 		available = {
-			OR = {
-				AND = {
-					set_temp_variable = {
-						var = EUC_ISS_cohesion_trigger_temp
-						value = 0.05
-					}
-					EUC_has_cohesion_greater_than_or_equals = yes
-				}
-				AND = {
-					set_temp_variable = {
-						var = EUC_ISS_nationalism_trigger_temp
-						value = 0.05
-					}
-					EUC_has_nationalism_greater_than_or_equals = yes
-				}
+			set_temp_variable = {
+				var = EUC_ISS_nationalism_trigger_temp
+				value = 0.05
 			}
+			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
 				NOT = { has_country_flag = EUC_Coordination_action }
 			}
@@ -344,11 +279,6 @@ EUC_The_Facade = {
 			}
 		}
 		remove_effect = {
-			set_temp_variable = {
-				var = EUC_ISS_cohesion_var_temp
-				value = 0.05
-			}
-			EUC_add_cohesion = yes
 			set_temp_variable = {
 				var = EUC_ISS_nationalism_var_temp
 				value = -0.05
@@ -404,14 +334,9 @@ EUC_The_Facade = {
 				}
 				set_temp_variable = {
 					var = EUC_ISS_nationalism_var_temp
-					value = -0.1
+					value = -0.15
 				}
 				EUC_add_nationalism = yes
-				set_temp_variable = {
-					var = EUC_ISS_cohesion_var_temp
-					value = -0.02
-				}
-				EUC_add_cohesion = yes
 			}
 			else = {
 				set_temp_variable = {
@@ -419,11 +344,6 @@ EUC_The_Facade = {
 					value = -0.1
 				}
 				EUC_add_nationalism = yes
-				set_temp_variable = {
-					var = EUC_ISS_cohesion_var_temp
-					value = -0.1
-				}
-				EUC_add_cohesion = yes
 			}
 		}
 	}
@@ -440,10 +360,10 @@ EUC_The_Facade = {
 		}
 		available = {
 			set_temp_variable = {
-				var = EUC_ISS_cohesion_trigger_temp
+				var = EUC_ISS_nationalism_trigger_temp
 				value = 0.1
 			}
-			EUC_has_cohesion_greater_than_or_equals = yes
+			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
 				NOT = { has_country_flag = EUC_Signals_action }
 			}
@@ -475,11 +395,6 @@ EUC_The_Facade = {
 				value = 0.1
 			}
 			EUC_add_nationalism = yes
-			set_temp_variable = {
-				var = EUC_ISS_cohesion_var_temp
-				value = 0.1
-			}
-			EUC_add_cohesion = yes
 		}
 	}
 
@@ -541,10 +456,10 @@ EUC_The_Facade = {
 		}
 		available = {
 			set_temp_variable = {
-				var = EUC_ISS_cohesion_trigger_temp
+				var = EUC_ISS_nationalism_trigger_temp
 				value = 0.1
 			}
-			EUC_has_cohesion_greater_than_or_equals = yes
+			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
 				NOT = { has_country_flag = EUC_Order_action }
 			}
@@ -570,36 +485,10 @@ EUC_The_Facade = {
 		}
 		remove_effect = {
 			set_temp_variable = {
-				var = EUC_ISS_cohesion_var_temp
-				value = 0.1
+				var = EUC_ISS_nationalism_var_temp
+				value = -0.1
 			}
-			EUC_add_cohesion = yes
-		}
-	}
-
-	EUC_unity_mission = {
-		icon = GFX_decision_border_war
-		allowed = {
-			original_tag = EUC
-		}
-		visible = {
-			always = yes
-		}
-		available = {
-			always = no
-		}
-		is_good = no
-		fire_only_once = no
-		cancel_if_not_visible = yes
-		days_mission_timeout = 30
-
-		timeout_effect = {
-			set_temp_variable = {
-				var = EUC_ISS_cohesion_var_temp
-				value = -0.05
-			}
-			EUC_add_cohesion = yes
-			activate_mission = EUC_unity_mission
+			EUC_add_nationalism = yes
 		}
 	}
 }

@@ -1,0 +1,17 @@
+﻿l_english:
+
+ Euro_Middle_Eastern_War_EU: "The Euro-Middle Eastern War"
+ Euro_Middle_Eastern_War_EU_desc: "placeholder"
+ EUC_war_exhaustion_mission: "War Exhaustion"
+ EUC_war_exhaustion_mission_desc: "placeholder"
+ EUC_rotate_frontline_divisions_decision: "Rotate Frontline Divisions"
+ EUC_rotate_frontline_divisions_decision_desc: "placeholder"
+ EUC_requisition_continental_fuel_decision: "Requisition Continental Fuel"
+ EUC_requisition_continental_fuel_decision_desc: "placeholder"
+ EUC_total_mobilisation_decision: "Total Mobilisation"
+ EUC_total_mobilisation_decision_desc: "placeholder"
+ EUC_sue_for_terms_decision: "Sue for Terms"
+ EUC_sue_for_terms_decision_desc: "placeholder"
+
+ EUC_add_war_exhaustion_tt: "War Exhaustion: ([?EUC_war_exhaustion_var_temp|+.0%])"
+ UAR_add_war_exhaustion_tt: "War Exhaustion: ([?UAR_war_exhaustion_var_temp|+.0%])"

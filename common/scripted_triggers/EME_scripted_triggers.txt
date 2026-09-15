@@ -1,0 +1,17 @@
+EUC_is_theater_state = {
+	OR = {
+		state = 676
+		state = 554
+		state = 656
+		state = 797
+		state = 907
+	}
+}
+
+EUC_has_nationalism_greater_than_or_equals = {
+	check_variable = {
+		var = EUC_ISS_nationalism_var
+		value = EUC_ISS_nationalism_trigger_temp
+		compare = greater_than_or_equals
+	}
+}

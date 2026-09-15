@@ -1,5 +1,6 @@
-EUC_The_Facade= {
+EUC_The_Facade = {
 	icon = GFX_EUC_The_Facade
+	picture = GFX_decision_cat_picture_EUC_The_Facade
 	visible_when_empty = yes
 	allowed = {
 		tag = EUC
@@ -28,16 +29,5 @@ European_Economy = {
 	}
 	visible = {
 		has_completed_focus = EUC_focus_european_expansion
-	}
-}
-Euro_Middle_Eastern_War_EU = {
-	icon = GFX_category_icon_European_Expansion
-	picture = GFX_category_image_template		
-	
-	allowed = {
-		TAG = EUC
-	}
-	visible = {
-		at war = UAR
 	}
 }

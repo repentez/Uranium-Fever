@@ -4,9 +4,7 @@ on_actions = {
 			if = {
 				limit = { original_tag = EUC }
 				set_variable = { var = EUC_ISS_nationalism_var value = 0 }
-				set_variable = { var = EUC_ISS_cohesion_var value = 0 }
 				activate_mission = EUC_nationalism_mission
-				activate_mission = EUC_unity_mission
 			}
 		}
 	}

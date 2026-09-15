@@ -1,0 +1,76 @@
+EUC_add_war_exhaustion = {
+	add_to_variable = {
+		var = EUC_war_exhaustion_var
+		value = EUC_war_exhaustion_var_temp
+	}
+	clamp_variable = {
+		var = EUC_war_exhaustion_var
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = EUC_add_war_exhaustion_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				check_variable = {
+					var = EUC_war_exhaustion_var
+					value = 1
+					compare = greater_than_or_equals
+				}
+				NOT = { has_global_flag = EUC_UAR_nuclear_exchange }
+			}
+			set_global_flag = EUC_UAR_nuclear_exchange
+			news_event = { id = euc_war.10 hours = 2 }
+			EUC_nuclear_exchange = yes
+		}
+	}
+}
+
+UAR_add_war_exhaustion = {
+	add_to_variable = {
+		var = UAR_war_exhaustion_var
+		value = UAR_war_exhaustion_var_temp
+	}
+	clamp_variable = {
+		var = UAR_war_exhaustion_var
+		min = 0
+		max = 1
+	}
+	custom_effect_tooltip = UAR_add_war_exhaustion_tt
+	hidden_effect = {
+		if = {
+			limit = {
+				check_variable = {
+					var = UAR_war_exhaustion_var
+					value = 1
+					compare = greater_than_or_equals
+				}
+				NOT = { has_global_flag = EUC_UAR_nuclear_exchange }
+			}
+			set_global_flag = EUC_UAR_nuclear_exchange
+			news_event = { id = euc_war.10 hours = 2 }
+			EUC_nuclear_exchange = yes
+		}
+	}
+}
+
+EUC_nuclear_exchange = {
+	every_state = {
+		limit = {
+			EUC_is_theater_state = yes
+		}
+		nuke_state = {
+			state = PREV
+		}
+	}
+	EUC = {
+		add_political_power = -200
+		add_stability = -0.5
+		add_war_support = -0.3
+	}
+	UAR = {
+		add_political_power = -200
+		add_stability = -0.5
+		add_war_support = -0.3
+	}
+}
