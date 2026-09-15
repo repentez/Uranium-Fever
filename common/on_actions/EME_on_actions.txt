@@ -1,13 +1,75 @@
-	on_on_actions = {
+on_actions = {
+	# Start the exhaustion loops and theater objectives when the war begins (either side declaring)
+	on_war_relation_added = {
 		effect = {
 			if = {
 				limit = {
-					original_tag = EUC
-					has_war_with = UAR
-					NOT = { has_country_flag = EUC_resource_war_active }
+					OR = {
+						AND = {
+							original_tag = EUC
+							FROM = { original_tag = UAR }
+						}
+						AND = {
+							original_tag = UAR
+							FROM = { original_tag = EUC }
+						}
+					}
 				}
-				set_country_flag = EUC_resource_war_active
-				activate_mission = EUC_war_exhaustion_mission
+				EUC = {
+					if = {
+						limit = { NOT = { has_country_flag = EUC_resource_war_active } }
+						set_country_flag = EUC_resource_war_active
+						activate_mission = EUC_war_exhaustion_mission
+						if = {
+							limit = { NOT = { 676 = { is_controlled_by = EUC } } }
+							activate_mission = EUC_capture_state_676_mission
+						}
+						if = {
+							limit = { NOT = { 554 = { is_controlled_by = EUC } } }
+							activate_mission = EUC_capture_state_554_mission
+						}
+						if = {
+							limit = { NOT = { 656 = { is_controlled_by = EUC } } }
+							activate_mission = EUC_capture_state_656_mission
+						}
+						if = {
+							limit = { NOT = { 797 = { is_controlled_by = EUC } } }
+							activate_mission = EUC_capture_state_797_mission
+						}
+						if = {
+							limit = { NOT = { 907 = { is_controlled_by = EUC } } }
+							activate_mission = EUC_capture_state_907_mission
+						}
+					}
+				}
+				UAR = {
+					if = {
+						limit = { NOT = { has_country_flag = UAR_resource_war_active } }
+						set_country_flag = UAR_resource_war_active
+						activate_mission = UAR_war_exhaustion_mission
+						if = {
+							limit = { 676 = { is_controlled_by = UAR } }
+							activate_mission = UAR_hold_state_676_mission
+						}
+						if = {
+							limit = { 554 = { is_controlled_by = UAR } }
+							activate_mission = UAR_hold_state_554_mission
+						}
+						if = {
+							limit = { 656 = { is_controlled_by = UAR } }
+							activate_mission = UAR_hold_state_656_mission
+						}
+						if = {
+							limit = { 797 = { is_controlled_by = UAR } }
+							activate_mission = UAR_hold_state_797_mission
+						}
+						if = {
+							limit = { 907 = { is_controlled_by = UAR } }
+							activate_mission = UAR_hold_state_907_mission
+						}
+					}
+				}
 			}
 		}
 	}
+}

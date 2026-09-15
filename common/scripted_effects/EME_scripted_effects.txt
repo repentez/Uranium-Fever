@@ -12,15 +12,9 @@ EUC_add_war_exhaustion = {
 	hidden_effect = {
 		if = {
 			limit = {
-				check_variable = {
-					var = EUC_war_exhaustion_var
-					value = 1
-					compare = greater_than_or_equals
-				}
+				check_variable = { var = EUC_war_exhaustion_var value = 1 compare = greater_than_or_equals }
 				NOT = { has_global_flag = EUC_UAR_nuclear_exchange }
 			}
-			set_global_flag = EUC_UAR_nuclear_exchange
-			news_event = { id = euc_war.10 hours = 2 }
 			EUC_nuclear_exchange = yes
 		}
 	}
@@ -40,29 +34,65 @@ UAR_add_war_exhaustion = {
 	hidden_effect = {
 		if = {
 			limit = {
-				check_variable = {
-					var = UAR_war_exhaustion_var
-					value = 1
-					compare = greater_than_or_equals
-				}
+				check_variable = { var = UAR_war_exhaustion_var value = 1 compare = greater_than_or_equals }
 				NOT = { has_global_flag = EUC_UAR_nuclear_exchange }
 			}
-			set_global_flag = EUC_UAR_nuclear_exchange
-			news_event = { id = euc_war.10 hours = 2 }
 			EUC_nuclear_exchange = yes
 		}
 	}
 }
 
 EUC_nuclear_exchange = {
-	every_state = {
-		limit = {
-			EUC_is_theater_state = yes
-		}
-		nuke_state = {
-			state = PREV
-		}
+	set_global_flag = EUC_UAR_nuclear_exchange
+
+	# EUC strikes: any theater state it doesn't control
+	if = {
+		limit = { NOT = { 676 = { is_controlled_by = EUC } } }
+		EUC = { launch_nuke = { state = 676 use_nuke = no } }
 	}
+	if = {
+		limit = { NOT = { 554 = { is_controlled_by = EUC } } }
+		EUC = { launch_nuke = { state = 554 use_nuke = no } }
+	}
+	if = {
+		limit = { NOT = { 656 = { is_controlled_by = EUC } } }
+		EUC = { launch_nuke = { state = 656 use_nuke = no } }
+	}
+	if = {
+		limit = { NOT = { 797 = { is_controlled_by = EUC } } }
+		EUC = { launch_nuke = { state = 797 use_nuke = no } }
+	}
+	if = {
+		limit = { NOT = { 907 = { is_controlled_by = EUC } } }
+		EUC = { launch_nuke = { state = 907 use_nuke = no } }
+	}
+
+	# UAR strikes: fixed target list (skipped if the UAR controls the state)
+	if = {
+		limit = { NOT = { 117 = { is_controlled_by = UAR } } }
+		UAR = { launch_nuke = { state = 117 use_nuke = no } }
+	}
+	if = {
+		limit = { NOT = { 159 = { is_controlled_by = UAR } } }
+		UAR = { launch_nuke = { state = 159 use_nuke = no } }
+	}
+	if = {
+		limit = { NOT = { 41 = { is_controlled_by = UAR } } }
+		UAR = { launch_nuke = { state = 41 use_nuke = no } }
+	}
+	if = {
+		limit = { NOT = { 21 = { is_controlled_by = UAR } } }
+		UAR = { launch_nuke = { state = 21 use_nuke = no } }
+	}
+	if = {
+		limit = { NOT = { 52 = { is_controlled_by = UAR } } }
+		UAR = { launch_nuke = { state = 52 use_nuke = no } }
+	}
+	if = {
+		limit = { NOT = { 4 = { is_controlled_by = UAR } } }
+		UAR = { launch_nuke = { state = 4 use_nuke = no } }
+	}
+
 	EUC = {
 		add_political_power = -200
 		add_stability = -0.5
@@ -72,5 +102,28 @@ EUC_nuclear_exchange = {
 		add_political_power = -200
 		add_stability = -0.5
 		add_war_support = -0.3
+	}
+
+	# End the war
+	EUC = {
+		if = {
+			limit = { has_war_with = UAR }
+			white_peace = UAR
+		}
+	}
+
+	# Reset the mechanic so nothing is left stuck at 100%
+	EUC = {
+		set_variable = { EUC_war_exhaustion_var = 0 }
+		clr_country_flag = EUC_Theater_action
+	}
+	UAR = {
+		set_variable = { UAR_war_exhaustion_var = 0 }
+		clr_country_flag = UAR_Theater_action
+	}
+
+	every_country = {
+		limit = { is_ai = no }
+		country_event = EUC.1
 	}
 }

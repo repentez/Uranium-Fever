@@ -1,66 +1,146 @@
 Euro_Middle_Eastern_War_EU = {
 	EUC_war_exhaustion_mission = {
-		icon = GFX_decision_border_war
-		allowed = {
-			original_tag = EUC
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
+		activation = { has_war_with = UAR }
+		available = { always = no }
+		is_good = yes
+		days_mission_timeout = 30
+
+		cancel_trigger = {
+			NOT = { has_war_with = UAR }
 		}
-		visible = {
-			has_war_with = UAR
+		cancel_effect = {
+			clr_country_flag = EUC_resource_war_active
 		}
-		available = {
-			always = no
-		}
-		is_good = no
-		fire_only_once = no
-		days_mission_timeout = 35
 
 		timeout_effect = {
 			if = {
-				limit = {
-					has_war_with = UAR
-					check_variable = {
-						var = global.EUC_theater_changes
-						value = 0
-						compare = equals
-					}
-				}
-				set_temp_variable = { EUC_war_exhaustion_var_temp = 0.05 }
+				limit = { has_war_with = UAR }
+				set_temp_variable = { EUC_war_exhaustion_var_temp = 0.10 }
 				EUC_add_war_exhaustion = yes
-				UAR = {
-					set_temp_variable = { UAR_war_exhaustion_var_temp = -0.03 }
-					UAR_add_war_exhaustion = yes
-				}
 			}
-			set_variable = { global.EUC_theater_changes = 0 }
-			if = {
-				limit = {
-					has_war_with = UAR
-				}
-				activate_mission = EUC_war_exhaustion_mission
+			else = {
+				clr_country_flag = EUC_resource_war_active
 			}
 		}
 	}
-	EUC_rotate_frontline_divisions_decision = {
-		icon = GFX_decision_generic_army_effort
-		allowed = {
-			original_tag = EUC
-		}
-		visible = {
-			has_war_with = UAR
-		}
+
+	EUC_capture_state_676_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
+		activation = { always = no }
+		days_mission_timeout = 180
+		cancel_trigger = { NOT = { has_war_with = UAR } }
+
 		available = {
-			check_variable = {
-				var = EUC_war_exhaustion_var
-				value = 0.1
-				compare = greater_than_or_equals
-			}
-			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Theater_action }
-			}
+			676 = { is_controlled_by = ROOT }
 		}
-		ai_will_do = {
-			base = 2
+		complete_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.08 }
+			EUC_add_war_exhaustion = yes
 		}
+		timeout_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = 0.20 }
+			EUC_add_war_exhaustion = yes
+		}
+	}
+
+	EUC_capture_state_554_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
+		activation = { always = no }
+		days_mission_timeout = 180
+		cancel_trigger = { NOT = { has_war_with = UAR } }
+
+		available = {
+			554 = { is_controlled_by = ROOT }
+		}
+		complete_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.08 }
+			EUC_add_war_exhaustion = yes
+		}
+		timeout_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = 0.20 }
+			EUC_add_war_exhaustion = yes
+		}
+	}
+
+	EUC_capture_state_656_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
+		activation = { always = no }
+		days_mission_timeout = 180
+		cancel_trigger = { NOT = { has_war_with = UAR } }
+
+		available = {
+			656 = { is_controlled_by = ROOT }
+		}
+		complete_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.08 }
+			EUC_add_war_exhaustion = yes
+		}
+		timeout_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = 0.10 }
+			EUC_add_war_exhaustion = yes
+		}
+	}
+
+	EUC_capture_state_797_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
+		activation = { always = no }
+		days_mission_timeout = 180
+		cancel_trigger = { NOT = { has_war_with = UAR } }
+
+		available = {
+			797 = { is_controlled_by = ROOT }
+		}
+		complete_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.08 }
+			EUC_add_war_exhaustion = yes
+		}
+		timeout_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = 0.10 }
+			EUC_add_war_exhaustion = yes
+		}
+	}
+
+	EUC_capture_state_907_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
+		activation = { always = no }
+		days_mission_timeout = 180
+		cancel_trigger = { NOT = { has_war_with = UAR } }
+
+		available = {
+			907 = { is_controlled_by = ROOT }
+		}
+		complete_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.08 }
+			EUC_add_war_exhaustion = yes
+		}
+		timeout_effect = {
+			set_temp_variable = { EUC_war_exhaustion_var_temp = 0.10 }
+			EUC_add_war_exhaustion = yes
+		}
+	}
+
+	EUC_rotate_frontline_divisions_decision = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
+		available = {
+			check_variable = { var = EUC_war_exhaustion_var value = 0.1 compare = greater_than_or_equals }
+			hidden_trigger = { NOT = { has_country_flag = EUC_Theater_action } }
+		}
+		ai_will_do = { base = 2 }
 		cost = 40
 		days_remove = 20
 		days_re_enable = 120
@@ -70,13 +150,7 @@ Euro_Middle_Eastern_War_EU = {
 			army_speed_factor = -0.10
 		}
 		complete_effect = {
-			hidden_effect = {
-				set_country_flag = {
-					flag = EUC_Theater_action
-					days = 20
-					value = 1
-				}
-			}
+			hidden_effect = { set_country_flag = { flag = EUC_Theater_action days = 20 value = 1 } }
 		}
 		remove_effect = {
 			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.08 }
@@ -85,26 +159,14 @@ Euro_Middle_Eastern_War_EU = {
 	}
 
 	EUC_requisition_continental_fuel_decision = {
-		icon = GFX_decision_generic_industry
-		allowed = {
-			original_tag = EUC
-		}
-		visible = {
-			has_war_with = UAR
-		}
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
 		available = {
-			check_variable = {
-				var = EUC_war_exhaustion_var
-				value = 0.2
-				compare = greater_than_or_equals
-			}
-			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Theater_action }
-			}
+			check_variable = { var = EUC_war_exhaustion_var value = 0.2 compare = greater_than_or_equals }
+			hidden_trigger = { NOT = { has_country_flag = EUC_Theater_action } }
 		}
-		ai_will_do = {
-			base = 2
-		}
+		ai_will_do = { base = 2 }
 		cost = 60
 		days_remove = 30
 		days_re_enable = 150
@@ -113,13 +175,7 @@ Euro_Middle_Eastern_War_EU = {
 			consumer_goods_factor = 0.10
 		}
 		complete_effect = {
-			hidden_effect = {
-				set_country_flag = {
-					flag = EUC_Theater_action
-					days = 30
-					value = 1
-				}
-			}
+			hidden_effect = { set_country_flag = { flag = EUC_Theater_action days = 30 value = 1 } }
 		}
 		remove_effect = {
 			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.12 }
@@ -130,26 +186,14 @@ Euro_Middle_Eastern_War_EU = {
 	}
 
 	EUC_total_mobilisation_decision = {
-		icon = GFX_decision_generic_military_effort
-		allowed = {
-			original_tag = EUC
-		}
-		visible = {
-			has_war_with = UAR
-		}
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = EUC }
+		visible = { has_war_with = UAR }
 		available = {
-			check_variable = {
-				var = EUC_war_exhaustion_var
-				value = 0.5
-				compare = greater_than_or_equals
-			}
-			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Theater_action }
-			}
+			check_variable = { var = EUC_war_exhaustion_var value = 0.5 compare = greater_than_or_equals }
+			hidden_trigger = { NOT = { has_country_flag = EUC_Theater_action } }
 		}
-		ai_will_do = {
-			base = 1
-		}
+		ai_will_do = { base = 1 }
 		cost = 100
 		days_remove = 45
 		days_re_enable = 250
@@ -159,13 +203,7 @@ Euro_Middle_Eastern_War_EU = {
 			political_power_gain = -0.15
 		}
 		complete_effect = {
-			hidden_effect = {
-				set_country_flag = {
-					flag = EUC_Theater_action
-					days = 45
-					value = 1
-				}
-			}
+			hidden_effect = { set_country_flag = { flag = EUC_Theater_action days = 45 value = 1 } }
 		}
 		remove_effect = {
 			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.20 }
@@ -174,38 +212,255 @@ Euro_Middle_Eastern_War_EU = {
 			EUC_add_nationalism = yes
 		}
 	}
+}
+	
 
-	EUC_sue_for_terms_decision = {
-		icon = GFX_decision_generic_political_discourse
-		allowed = {
-			original_tag = EUC
+Euro_Middle_Eastern_War_UAR = {
+	UAR_war_exhaustion_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		activation = { has_war_with = EUC }
+		available = { always = no }
+		is_good = yes
+		days_mission_timeout = 30
+
+		cancel_trigger = {
+			NOT = { has_war_with = EUC }
 		}
-		visible = {
-			has_war_with = UAR
+		cancel_effect = {
+			clr_country_flag = UAR_resource_war_active
 		}
-		available = {
-			check_variable = {
-				var = EUC_war_exhaustion_var
-				value = 0.75
-				compare = greater_than_or_equals
+
+		timeout_effect = {
+			if = {
+				limit = { has_war_with = EUC }
+				set_temp_variable = { UAR_war_exhaustion_var_temp = 0.02 }
+				UAR_add_war_exhaustion = yes
+			}
+			else = {
+				clr_country_flag = UAR_resource_war_active
 			}
 		}
-		ai_will_do = {
-			base = 0
+	}
+
+	UAR_hold_state_676_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		activation = { always = no }
+		available = { always = no }
+		is_good = yes
+		days_mission_timeout = 180
+
+		cancel_trigger = {
+			OR = {
+				NOT = { has_war_with = EUC }
+				NOT = { 676 = { is_controlled_by = ROOT } }
+			}
 		}
-		cost = 150
-		days_remove = 60
-		fire_only_once = yes
+		cancel_effect = {
+			if = {
+				limit = { has_war_with = EUC }
+				set_temp_variable = { UAR_war_exhaustion_var_temp = 0.10 }
+				UAR_add_war_exhaustion = yes
+			}
+		}
+		timeout_effect = {
+			set_temp_variable = { UAR_war_exhaustion_var_temp = -0.08 }
+			UAR_add_war_exhaustion = yes
+		}
+	}
+
+	UAR_hold_state_554_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		activation = { always = no }
+		available = { always = no }
+		is_good = yes
+		days_mission_timeout = 180
+
+		cancel_trigger = {
+			OR = {
+				NOT = { has_war_with = EUC }
+				NOT = { 554 = { is_controlled_by = ROOT } }
+			}
+		}
+		cancel_effect = {
+			if = {
+				limit = { has_war_with = EUC }
+				set_temp_variable = { UAR_war_exhaustion_var_temp = 0.10 }
+				UAR_add_war_exhaustion = yes
+			}
+		}
+		timeout_effect = {
+			set_temp_variable = { UAR_war_exhaustion_var_temp = -0.08 }
+			UAR_add_war_exhaustion = yes
+		}
+	}
+
+	UAR_hold_state_656_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		activation = { always = no }
+		available = { always = no }
+		is_good = yes
+		days_mission_timeout = 180
+
+		cancel_trigger = {
+			OR = {
+				NOT = { has_war_with = EUC }
+				NOT = { 656 = { is_controlled_by = ROOT } }
+			}
+		}
+		cancel_effect = {
+			if = {
+				limit = { has_war_with = EUC }
+				set_temp_variable = { UAR_war_exhaustion_var_temp = 0.10 }
+				UAR_add_war_exhaustion = yes
+			}
+		}
+		timeout_effect = {
+			set_temp_variable = { UAR_war_exhaustion_var_temp = -0.08 }
+			UAR_add_war_exhaustion = yes
+		}
+	}
+
+	UAR_hold_state_797_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		activation = { always = no }
+		available = { always = no }
+		is_good = yes
+		days_mission_timeout = 180
+
+		cancel_trigger = {
+			OR = {
+				NOT = { has_war_with = EUC }
+				NOT = { 797 = { is_controlled_by = ROOT } }
+			}
+		}
+		cancel_effect = {
+			if = {
+				limit = { has_war_with = EUC }
+				set_temp_variable = { UAR_war_exhaustion_var_temp = 0.10 }
+				UAR_add_war_exhaustion = yes
+			}
+		}
+		timeout_effect = {
+			set_temp_variable = { UAR_war_exhaustion_var_temp = -0.08 }
+			UAR_add_war_exhaustion = yes
+		}
+	}
+
+	UAR_hold_state_907_mission = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		activation = { always = no }
+		available = { always = no }
+		is_good = yes
+		days_mission_timeout = 180
+
+		cancel_trigger = {
+			OR = {
+				NOT = { has_war_with = EUC }
+				NOT = { 907 = { is_controlled_by = ROOT } }
+			}
+		}
+		cancel_effect = {
+			if = {
+				limit = { has_war_with = EUC }
+				set_temp_variable = { UAR_war_exhaustion_var_temp = 0.10 }
+				UAR_add_war_exhaustion = yes
+			}
+		}
+		timeout_effect = {
+			set_temp_variable = { UAR_war_exhaustion_var_temp = -0.08 }
+			UAR_add_war_exhaustion = yes
+		}
+	}
+
+	UAR_fortify_the_line_decision = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		available = {
+			check_variable = { var = UAR_war_exhaustion_var value = 0.1 compare = greater_than_or_equals }
+			hidden_trigger = { NOT = { has_country_flag = UAR_Theater_action } }
+		}
+		ai_will_do = { base = 2 }
+		cost = 40
+		days_remove = 20
+		days_re_enable = 120
 		cancel_if_not_visible = yes
 		modifier = {
-			war_support_factor = -0.20
+			army_attack_factor = -0.10
+			army_speed_factor = -0.10
+		}
+		complete_effect = {
+			hidden_effect = { set_country_flag = { flag = UAR_Theater_action days = 20 value = 1 } }
 		}
 		remove_effect = {
-			set_temp_variable = { EUC_war_exhaustion_var_temp = -0.40 }
-			EUC_add_war_exhaustion = yes
-			set_temp_variable = { EUC_ISS_nationalism_var_temp = 0.25 }
-			EUC_add_nationalism = yes
-			white_peace = UAR
+			set_temp_variable = { UAR_war_exhaustion_var_temp = -0.08 }
+			UAR_add_war_exhaustion = yes
+		}
+	}
+
+	UAR_nationalise_oil_revenues_decision = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		available = {
+			check_variable = { var = UAR_war_exhaustion_var value = 0.2 compare = greater_than_or_equals }
+			hidden_trigger = { NOT = { has_country_flag = UAR_Theater_action } }
+		}
+		ai_will_do = { base = 2 }
+		cost = 60
+		days_remove = 30
+		days_re_enable = 150
+		cancel_if_not_visible = yes
+		modifier = {
+			consumer_goods_factor = 0.10
+		}
+		complete_effect = {
+			hidden_effect = { set_country_flag = { flag = UAR_Theater_action days = 30 value = 1 } }
+		}
+		remove_effect = {
+			set_temp_variable = { UAR_war_exhaustion_var_temp = -0.12 }
+			UAR_add_war_exhaustion = yes
+			add_stability = -0.02
+		}
+	}
+
+	UAR_popular_resistance_decision = {
+		icon = GFX_decision_icon_default
+		allowed = { original_tag = UAR }
+		visible = { has_war_with = EUC }
+		available = {
+			check_variable = { var = UAR_war_exhaustion_var value = 0.5 compare = greater_than_or_equals }
+			hidden_trigger = { NOT = { has_country_flag = UAR_Theater_action } }
+		}
+		ai_will_do = { base = 1 }
+		cost = 100
+		days_remove = 45
+		days_re_enable = 250
+		cancel_if_not_visible = yes
+		modifier = {
+			war_support_factor = 0.10
+			political_power_gain = -0.15
+		}
+		complete_effect = {
+			hidden_effect = { set_country_flag = { flag = UAR_Theater_action days = 45 value = 1 } }
+		}
+		remove_effect = {
+			set_temp_variable = { UAR_war_exhaustion_var_temp = -0.20 }
+			UAR_add_war_exhaustion = yes
+			add_manpower = 20000
 		}
 	}
 }
+	

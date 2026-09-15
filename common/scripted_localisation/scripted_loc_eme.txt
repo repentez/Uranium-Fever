@@ -1,0 +1,39 @@
+
+
+defined_text = {
+	name = GetEUCWarExhaustionLevel
+	text = {
+		trigger = { EUC = { check_variable = { var = EUC_war_exhaustion_var value = 0.75 compare = greater_than_or_equals } } }
+		localization_key = war_exhaustion_level_critical
+	}
+	text = {
+		trigger = { EUC = { check_variable = { var = EUC_war_exhaustion_var value = 0.5 compare = greater_than_or_equals } } }
+		localization_key = war_exhaustion_level_severe
+	}
+	text = {
+		trigger = { EUC = { check_variable = { var = EUC_war_exhaustion_var value = 0.25 compare = greater_than_or_equals } } }
+		localization_key = war_exhaustion_level_moderate
+	}
+	text = {
+		localization_key = war_exhaustion_level_low
+	}
+}
+
+defined_text = {
+	name = GetUARWarExhaustionLevel
+	text = {
+		trigger = { UAR = { check_variable = { var = UAR_war_exhaustion_var value = 0.75 compare = greater_than_or_equals } } }
+		localization_key = war_exhaustion_level_critical
+	}
+	text = {
+		trigger = { UAR = { check_variable = { var = UAR_war_exhaustion_var value = 0.5 compare = greater_than_or_equals } } }
+		localization_key = war_exhaustion_level_severe
+	}
+	text = {
+		trigger = { UAR = { check_variable = { var = UAR_war_exhaustion_var value = 0.25 compare = greater_than_or_equals } } }
+		localization_key = war_exhaustion_level_moderate
+	}
+	text = {
+		localization_key = war_exhaustion_level_low
+	}
+}

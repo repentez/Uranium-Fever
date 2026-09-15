@@ -1,6 +1,6 @@
 EUC_The_Facade = {
 	icon = GFX_EUC_The_Facade
-	picture = GFX_decision_cat_picture_EUC_The_Facade
+	picture = GFX_category_icon_European_Expansion
 	visible_when_empty = yes
 	allowed = {
 		tag = EUC

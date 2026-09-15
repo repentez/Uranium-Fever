@@ -1,6 +1,6 @@
 Euro_Middle_Eastern_War_EU = {
-	icon = GFX_Euro_Middle_Eastern_War_EU
-	picture = GFX_decision_cat_picture_Euro_Middle_Eastern_War_EU
+	icon = GFX_category_icon_European_Expansion
+	picture = n/a
 	visible_when_empty = yes
 	allowed = {
 		original_tag = EUC
@@ -9,4 +9,10 @@ Euro_Middle_Eastern_War_EU = {
 		has_war_with = UAR
 	}
 	priority = 20
+}
+Euro_Middle_Eastern_War_UAR = {
+	icon = generic_military
+	allowed = { original_tag = UAR }
+	visible = { has_war_with = EUC }
+	priority = 100
 }
