@@ -2,35 +2,30 @@
  EUC_The_Facade: "The European Facade"
  EUC_The_Facade_desc: "Tung Tung Sahur"
 
- EUC_nationalism_mission: "Nationalist Undercurrents"
+ EUC_nationalism_mission: "Separatists Are Making Moves"
  EUC_nationalism_mission_desc: "placeholder"
 
  EUC_purge_separatist_sympathizers_decision: "Purge Separatist Sympathizers"
  EUC_purge_separatist_sympathizers_decision_desc: "placeholder"
 
- EUC_discredit_nationalist_press_decision: "Silence Nationalist Press"
+ EUC_discredit_nationalist_press_decision: "Silence Separatist Press"
  EUC_discredit_nationalist_press_decision_desc: "placeholder"
 
  EUC_conduct_grey_operations_decision: "Conduct Black Operations"
  EUC_conduct_grey_operations_decision_desc: "placeholder"
 
- EUC_censor_dissident_networks_decision: "Suppress Nationalist Networks"
+ EUC_censor_dissident_networks_decision: "Suppress Separatist Networks"
  EUC_censor_dissident_networks_decision_desc: "placeholder"
 
- EUC_infiltrate_nationalist_networks_decision: "Infiltrate Nationalist Networks"
+ EUC_infiltrate_nationalist_networks_decision: "Infiltrate Separatist Networks"
  EUC_infiltrate_nationalist_networks_decision_desc: "placeholder"
 
- EUC_dismantle_nationalist_networks_decision: "Dismantle Nationalist Networks"
+ EUC_dismantle_nationalist_networks_decision: "Dismantle Separatist Networks"
  EUC_dismantle_nationalist_networks_decision_desc: "placeholder"
 
  EUC_detain_prominent_agitators_decision: "Detain Prominent Agitators"
  EUC_detain_prominent_agitators_decision_desc: "placeholder"
 
- EUC_ISS_add_nationalism_tt: "Nationalist Sentiment: [EUC_ISS_nationalism_scripted_loc] ([?EUC_ISS_nationalism_var_temp|+.0%])"
+ EUC_ISS_add_nationalism_tt: "Separatist Sentiment: [EUC_ISS_nationalism_scripted_loc] ([?EUC_ISS_nationalism_var_temp|+.0%])"
 
- EUC_dormant: "Dormant"
- EUC_murmuring: "Murmuring"
- EUC_vocal: "Vocal"
- EUC_militant: "Militant"
- EUC_uncontainable: "Uncontainable"
 

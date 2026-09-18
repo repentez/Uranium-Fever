@@ -11,7 +11,7 @@ Euro_Middle_Eastern_War_EU = {
 	priority = 20
 }
 Euro_Middle_Eastern_War_UAR = {
-	icon = generic_military
+	icon = GFX_category_icon_European_Expansion
 	allowed = { original_tag = UAR }
 	visible = { has_war_with = EUC }
 	priority = 100

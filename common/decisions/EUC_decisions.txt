@@ -119,7 +119,7 @@ European_Expansion = {
 }
 EUC_The_Facade = {
 	EUC_nationalism_mission = {
-		icon = GFX_decision_border_war
+		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
@@ -145,7 +145,7 @@ EUC_The_Facade = {
 	}
 
 	EUC_purge_separatist_sympathizers_decision = {
-		icon = GFX_decision_generic_military_effort
+		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
@@ -194,7 +194,7 @@ EUC_The_Facade = {
 	}
 
 	EUC_discredit_nationalist_press_decision = {
-		icon = GFX_decision_generic_propaganda_ministry
+		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
@@ -243,7 +243,7 @@ EUC_The_Facade = {
 	}
 
 	EUC_conduct_grey_operations_decision = {
-		icon = GFX_decision_generic_intelligence_agency
+		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
@@ -288,7 +288,7 @@ EUC_The_Facade = {
 	}
 
 	EUC_censor_dissident_networks_decision = {
-		icon = GFX_decision_generic_press_control
+		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
@@ -349,7 +349,7 @@ EUC_The_Facade = {
 	}
 
 	EUC_infiltrate_nationalist_networks_decision = {
-		icon = GFX_decision_generic_intelligence_agency
+		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
@@ -399,7 +399,7 @@ EUC_The_Facade = {
 	}
 
 	EUC_dismantle_nationalist_networks_decision = {
-		icon = GFX_decision_generic_intelligence_agency
+		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
@@ -448,7 +448,7 @@ EUC_The_Facade = {
 	}
 
 	EUC_detain_prominent_agitators_decision = {
-		icon = GFX_decision_generic_army_effort
+		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
