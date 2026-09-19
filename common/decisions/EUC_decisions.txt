@@ -2,7 +2,7 @@
 European_Economy = {
 	Invest_In_Mongolian_Fishing_Industries = {
 
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_cat_picture_EUC_Default
 
 		available = {
 		}
@@ -37,7 +37,7 @@ European_Expansion = {
 
 	OPERATION_ADRIATIC = {
 
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_cat_picture_EUC_Default
 
 		available = {
 			has_completed_focus = EUC_focus_oil_crisis
@@ -119,7 +119,7 @@ European_Expansion = {
 }
 EUC_The_Facade = {
 	EUC_nationalism_mission = {
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_cat_picture_EUC_Default
 		allowed = {
 			original_tag = EUC
 		}
