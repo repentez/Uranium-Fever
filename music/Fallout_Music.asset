@@ -1,4 +1,16 @@
 music = {
+	name = "Cheek_To_Cheek"
+	file = "Cheek_To_Cheek.ogg"
+}
+music = {
+	name = "Cant_Help_Falling_In_Love"
+	file = "Cant_Help_Falling_In_Love.ogg"
+}
+music = {
+	name = "Young_At_Heart"
+	file = "Young_At_Heart.ogg"
+}
+music = {
 	name = "Orange_Colored_Sky"
 	file = "Orange_Colored_Sky.ogg"
 }

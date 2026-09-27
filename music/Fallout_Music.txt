@@ -1,5 +1,35 @@
 music_station = "Radio_America_2052"
 music = {
+	song = "Young_At_Heart"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Cheek_To_Cheek"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Cant_Help_Falling_In_Love"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
 	song = "Orange_Colored_Sky"
 	chance = {
 		factor =5
