@@ -846,7 +846,14 @@ focus_tree = {
 		x = -81
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			MEX = {
+		country_event = {
+				id = USA.mexico_air_focus_event
+			}
+			}
+		
+		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
 		}
@@ -906,7 +913,13 @@ focus_tree = {
 		x = -79
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			MEX = {
+
+				add_stability  = 0.1
+			}
+			
+		}
 		prerequisite = {
 			focus = USA_focus_eyes_sky
 		}
@@ -984,7 +997,14 @@ focus_tree = {
 		x = -79
 		y = 4
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+				MEX = {
+				country_event = {
+					id = USA.mexico_no_altere_event
+				}
+			}
+	
+		}
 		prerequisite = {
 			focus = USA_focus_uncle_sam_wrath
 		}

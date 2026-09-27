@@ -218,3 +218,62 @@ country_event = {
     }
 
 }
+country_event = {
+    id =  USA.mexico_air_focus_event
+    title =  USA.mexico_air_focus_event_title
+    desc =  USA.mexico_air_focus_event_desc
+    picture = GFX_mexico_advisors_companies_mexico
+
+    trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_eyes_sky
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+    fire_only_once = yes
+    option = {
+        MEX = {
+            add_equipment_to_stockpile = {
+                type = fighter_equipment_0
+                amount = 100
+                producer = USA
+            }
+        name = "Thank u Uncle Sam"
+    }
+    }
+}
+country_event = {
+    id = USA.mexico_no_altere_event
+    title = USA.mexico_no_altere_event_title
+    desc = USA.mexico_no_altere_event_desc
+    picture = GFX_mexico_advisors_companies_mexico
+
+    trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_eyes_sky
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+    fire_only_once = yes
+
+    option = {
+        name = USA.mexico_no_altere_event_option
+
+        ai_chance = {
+            factor = 100
+        }
+
+        add_political_power = -150
+
+        MEX = {
+            decrease_autonomy = {
+                target = USA
+                autonomy_change = -50
+            }
+        }
+    }
+}
