@@ -10,6 +10,16 @@ music = {
 }
 music_station = "Radio_America_2052"
 music = {
+	song = "Big_Iron"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
 	song = "Blue_Moon"
 	chance = {
 		factor =5
