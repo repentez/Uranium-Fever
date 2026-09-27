@@ -1,4 +1,8 @@
 music = {
+	name = "Orange_Colored_Sky"
+	file = "Orange_Colored_Sky.ogg"
+}
+music = {
 	name = "Big_Iron"
 	file = "Big_Iron.ogg"
 }
