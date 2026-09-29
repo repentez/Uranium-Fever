@@ -30,7 +30,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = USA_northern_states
+		id = USA_cascadian_commonwealth
 		icon = GFX_goal_safehaven_washington
 		x = -6
 		y = 7
@@ -138,7 +138,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = USA_appalachian_commonwealth
+		id = USA_appalachia_commonwealth
 		icon = GFX_focus_generic_political
 		x = -23
 		y = 7
@@ -286,7 +286,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = usa_focus_northern_frontier
+		id = usa_northern_commonwealth
 		icon = GFX_goal_safehaven_montana
 		x = -25
 		y = 7
@@ -477,7 +477,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = usa_focus_columbian_commonwealth
+		id = usa_columbian_commonwealth
 		icon = GFX_goal_unknown
 		x = -20
 		y = 7
@@ -517,16 +517,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {}
 		prerequisite = {
-			focus = USA_appalachian_commonwealth
-			focus = usa_eastern_commonwealth
-			focus = USA_south_east_commonwealth
-		}
-		prerequisite = {
 			focus = USA_great_plains_commonwealth
-		}
-		prerequisite = {
-			focus = usa_focus_northern_frontier
-			focus = USA_northern_states
 		}
 		prerequisite = {
 			focus = usa_new_england_commonwealth
@@ -547,10 +538,22 @@ focus_tree = {
 			focus = USA_four_corners_commonwealth
 		}
 		prerequisite = {
-			focus = USA_northern_states
+			focus = USA_cascadian_commonwealth
 		}
 		prerequisite = {
-			focus = usa_focus_columbian_commonwealth
+			focus = usa_columbian_commonwealth
+		}
+		prerequisite = {
+			focus = USA_appalachia_commonwealth
+		}
+		prerequisite = {
+			focus = usa_eastern_commonwealth
+		}
+		prerequisite = {
+			focus = usa_northern_commonwealth
+		}
+		prerequisite = {
+			focus = USA_gulf_commonwealth
 		}
 	}
 	focus = {
@@ -808,11 +811,11 @@ focus_tree = {
 			focus = USA_focus_kibosh
 		}
 		mutually_exclusive = {
-			focus = USA_focus_4_yrs_ago
+			focus = USA_focus_where_were_you_4_yrs_ago
 		}
 	}
 	focus = {
-		id = USA_focus_4_yrs_ago
+		id = USA_focus_where_were_you_4_yrs_ago
 		icon = GFX_goal_unknown
 		x = -66
 		y = 4
@@ -848,11 +851,10 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			MEX = {
-		country_event = {
-				id = USA.mexico_air_focus_event
+				country_event = {
+					id = USA.mexico_air_focus_event
+				}
 			}
-			}
-		
 		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
@@ -866,10 +868,10 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			MEX = {
-			country_event = {
-				id = USA.mexico_advisors_focus_event
+				country_event = {
+					id = USA.mexico_advisors_focus_event
+				}
 			}
-		}
 		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
@@ -915,10 +917,8 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			MEX = {
-
-				add_stability  = 0.1
+				add_stability = 0.1
 			}
-			
 		}
 		prerequisite = {
 			focus = USA_focus_eyes_sky
@@ -998,12 +998,11 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
-				MEX = {
+			MEX = {
 				country_event = {
 					id = USA.mexico_no_altere_event
 				}
 			}
-	
 		}
 		prerequisite = {
 			focus = USA_focus_uncle_sam_wrath
@@ -1020,22 +1019,19 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
-			  add_timed_idea = {
+			add_timed_idea = {
 				days = 125
-		       MEX = {
-				days = 125
-				add_ideas = Mex_idea_focus_USA
+				MEX = {
+					days = 125
+					add_ideas = Mex_idea_focus_USA
+				}
 			}
-			  }
-	
-			   add_timed_idea = {
+			add_timed_idea = {
 				days = 125
-	          USA = {
-				
-				add_ideas = USA_idea_focus_consumer_goods
-			
-			   }
-		}
+				USA = {
+					add_ideas = USA_idea_focus_consumer_goods
+				}
+			}
 		}
 		prerequisite = {
 			focus = USA_focus_petro_chico

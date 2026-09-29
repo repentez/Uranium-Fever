@@ -1,0 +1,136 @@
+USA_American_Way = {
+	USA_keep_america_working = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_calm_the_markets = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_address_deflation_crisis = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_emergency_petroleum = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_presidential_address = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_buy_american = {
+		icon = icon_default
+		complete_effect = {}
+	}
+}
+USA_Mexico_Occupation = {
+	USA_mexican_oil = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_expand_corridor = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_suppress_partisan = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_fund_government = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_advisors_mexico_city = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_expand_resource_rights = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_keep_oil_flowing_north = {
+		icon = icon_default
+		complete_effect = {}
+	}
+}
+USA_Project_Safehouse = {
+	USA_review_civil_defense = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_issue_contracts = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_select_sites = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_authorize_vaults = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_expand_funding = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_approve_experimental_designs = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_accelerate_construction = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_classify_program = {
+		icon = icon_default
+		complete_effect = {}
+	}
+}
+USA_Enclave_Directive = {
+	USA_chain_of_command = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_pentagon = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_DoE = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_Intelligence = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_secure_poseidon = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_classified_funding = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_strategic_tech = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_monitor_vault_tec = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_influence_safehouse = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_establish_remote_research_sites = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_prepare_oil_rig = {
+		icon = icon_default
+		complete_effect = {}
+	}
+}

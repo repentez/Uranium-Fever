@@ -1,0 +1,14 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_MEX_alejandro_villesenor"
+		texturefile = "gfx/leaders/MEX/portrait_MEX_alejandro_villesenor.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_USA_william_h_caldwell"
+		texturefile = "gfx/leaders/USA/portrait_USA_william_h_caldwell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_PRC_zhao_guowei"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_zhao_guowei.dds"
+	}
+}

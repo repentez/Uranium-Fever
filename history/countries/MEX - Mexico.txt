@@ -1,16 +1,18 @@
-﻿capital = 277
-
+capital = 277
 oob = "MEX_2052"
-
 IF = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "MEX_1936_naval_mtg"
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "MEX_1936_naval_mtg"
 	ELSE = {
 		set_naval_oob = "MEX_1936_naval_legacy"
 	}
 }
 IF = {
-	limit = { has_dlc = "By Blood Alone" }
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
 	set_air_oob = "MEX_1936_air_bba"
 	set_technology = {
 		aa_lmg = 1
@@ -25,18 +27,14 @@ IF = {
 			early_fighter = 1
 			early_bomber = 1
 			CAS1 = 1
-
 		}
 	}
 }
-
-# Starting tech
 set_technology = {
 	infantry_weapons = 1
 	tech_trucks = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	
 	fuel_silos = 1
 	fuel_refining = 1
 }
@@ -50,14 +48,20 @@ IF = {
 }
 IF = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
 	}
 }
 IF = {
-	limit = { not = { has_dlc = "Man the Guns" } }
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	set_technology = {
 		early_submarine = 1
 		early_destroyer = 1
@@ -66,7 +70,9 @@ IF = {
 	}
 }
 IF = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	set_technology = {
 		basic_naval_mines = 1
 		early_ship_hull_light = 1
@@ -75,14 +81,7 @@ IF = {
 		coastal_defense_ships = 1
 	}
 }
-
-recruit_character = MEX_lazaro_cardenas
-recruit_character = MEX_salvador_abascal
-recruit_character = MEX_adolfo_de_la_huerta
-recruit_character = MEX_dionisio_encina
-recruit_character = MEX_hernan_laborde
 recruit_character = MEX_heliodoro_charis
-recruit_character = MEX_luis_farell
 recruit_character = MEX_gildardo_magana
 recruit_character = MEX_manuel_perez_trevino
 recruit_character = MEX_abelardo_rodriguez
@@ -96,7 +95,6 @@ recruit_character = MEX_pablo_macias
 recruit_character = MEX_jose_gonzalo_escobar
 recruit_character = MEX_agustin_olachea
 recruit_character = MEX_leon_trotsky
-recruit_character = MEX_saturnino_cedillo
 recruit_character = MEX_hector_meixueiro
 recruit_character = MEX_matias_santos_ramos
 recruit_character = MEX_enrique_estrada
@@ -110,73 +108,51 @@ recruit_character = MEX_eduardo_hay
 recruit_character = MEX_alberto_pani
 recruit_character = MEX_juan_andreu
 recruit_character = MEX_plutarco_calles
-recruit_character = MEX_francisco_mugica
-recruit_character = MEX_jesus_degollado_guizar
-recruit_character = MEX_valentin_campa
-recruit_character = MEX_luis_maria_martinez
 recruit_character = MEX_alberto_gorostieta_vega
 recruit_character = MEX_dionisio_navarro_anguiano
 recruit_character = MEX_manuel_sanchez
-recruit_character = MEX_indigenous_council
-recruit_character = MEX_maria_de_iturbide
-
 set_country_flag = monroe_doctrine
-
 set_convoys = 45
 set_stability = 0.2
 set_war_support = 0.1
-
 IF = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
-	add_ideas = {
-		MEX_callistas
-		MEX_church_power_2
-		MEX_oil_concessions
-		MEX_politicised_army
-		MEX_cedillo_tension_2
-	}
+	add_ideas = { MEX_callistas MEX_church_power_2 MEX_oil_concessions MEX_politicised_army MEX_cedillo_tension_2 }
 }
-
 1939.1.1 = {
 	add_political_power = 1198
 	add_command_power = 100
-
 	set_global_flag = flag_mexico_cedillo_has_revolted
-	
 	oob = "MEX_1939"
 	IF = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "MEX_1936_air_bba" #deliberately using 1936
+		limit = {
+			has_dlc = "By Blood Alone"
+		}
+		set_air_oob = "MEX_1936_air_bba"
 		ELSE = {
 			set_air_oob = "MEX_1936_air_legacy"
 		}
 	}
 	IF = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "MEX_1939_naval_mtg"
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_naval_oob = "MEX_1939_naval_mtg"
 		ELSE = {
 			set_naval_oob = "MEX_1939_naval_legacy"
 		}
 	}
-	
 	set_technology = {
 		interwar_artillery = 1
 		infantry_weapons1 = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
-
-		#doctrines
-		#air_superiority = 1
-
-		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		mechanical_computing = 1
 		computing_machine = 1
-
-		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
@@ -188,56 +164,32 @@ IF = {
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
 	}
-
-set_grand_doctrine = grand_battleplan
-set_grand_doctrine = new_fleet_in_being
-set_grand_doctrine = new_strategic_destruction
-
+	set_grand_doctrine = grand_battleplan
+	set_grand_doctrine = new_fleet_in_being
+	set_grand_doctrine = new_strategic_destruction
 	complete_special_project = {
 		project = sp:sp_air_radar
 	}
-
 	IF = {
 		limit = {
 			has_dlc = "Man the Guns"
 		}
-
-		remove_ideas = {
-			MEX_cedillo_tension_2 # Already rebelled by this point
-		}
-		
+		remove_ideas = { MEX_cedillo_tension_2 }
 		complete_national_focus = MEX_focus_plan_of_agua_prieta
-		# 70
-		complete_national_focus = MEX_focus_exile_calles # Increase Church Power (3)
-		# 140
+		complete_national_focus = MEX_focus_exile_calles
 		complete_national_focus = MEX_focus_control_the_army
-		# 210
-		complete_national_focus = MEX_focus_repeal_the_calles_law # Increase Church Power (4)
-		# 280
+		complete_national_focus = MEX_focus_repeal_the_calles_law
 		complete_national_focus = MEX_focus_peripheral_infrastructure
-		# 350
-		complete_national_focus = MEX_focus_rural_schools # 3rd research slot, decrease Church Power (3)
-		# 420
+		complete_national_focus = MEX_focus_rural_schools
 		complete_national_focus = MEX_focus_national_bank
-		# 490
 		complete_national_focus = MEX_focus_agricultural_credit_bank
-		# 560
 		complete_national_focus = MEX_focus_rent_freeze
-		# 630
-		complete_national_focus = MEX_focus_confederation_of_mexican_workers # Decrease Church Power (2)
-		# 700
-		complete_national_focus = MEX_focus_ejido_worker_militias # Communist drift
-		# 770
+		complete_national_focus = MEX_focus_confederation_of_mexican_workers
+		complete_national_focus = MEX_focus_ejido_worker_militias
 		complete_national_focus = MEX_focus_oil_field_expansion
-		# 840
 		complete_national_focus = MEX_focus_rural_infrastructure
-		# 910
 		unlock_national_focus = MEX_focus_nationalize_the_oil_fields
-		# 980
-		remove_ideas = {
-			MEX_oil_concessions
-		}
-		
+		remove_ideas = { MEX_oil_concessions }
 		ENG = {
 			add_opinion_modifier = {
 				target = MEX
@@ -258,9 +210,7 @@ set_grand_doctrine = new_strategic_destruction
 			target = USA
 			modifier = embargo
 		}
-		
 		ELSE = {
-			#generic focuses
 			complete_national_focus = army_effort
 			complete_national_focus = equipment_effort
 			complete_national_focus = motorization_effort
@@ -273,24 +223,25 @@ set_grand_doctrine = new_strategic_destruction
 		}
 	}
 }
-
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotic
 	last_election = "1934.7.1"
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 18
-	fascism = 20
-	communism = 9
-	neutrality = 53
+	democratic = 11
+	fascism = 3
+	totalitarian_socialist = 0
+	despotic = 84
+	authoritarian_socialist = 2
 }
-
-### VARIANTS ###
-# 1936 Start #
 IF = {
-	limit = { not = { has_dlc = "Man the Guns" } }
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	create_equipment_variant = {
 		name = "Durango Class"
 		type = destroyer_1
@@ -311,10 +262,11 @@ IF = {
 	}
 }
 IF = {
-	limit = { has_dlc = "Man the Guns" }
-	# Destroyers #
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	create_equipment_variant = {
-		name = "Nicolás Bravo Class"			
+		name = "Nicolás Bravo Class"
 		type = ship_hull_light_1
 		name_group = MEX_DD_HISTORICAL
 		parent_version = 0
@@ -331,7 +283,7 @@ IF = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Durango Class"			# represents both Guanajuato and Durango classes (gunboats)
+		name = "Durango Class"
 		type = ship_hull_light_1
 		name_group = MEX_DD_HISTORICAL
 		parent_version = 0
@@ -347,7 +299,7 @@ IF = {
 		}
 	}
 	create_equipment_variant = {
-		name = "Anahuac Class"			
+		name = "Anahuac Class"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = MEX_BB_HISTORICAL
 		parent_version = 0
@@ -364,7 +316,4 @@ IF = {
 		}
 	}
 }
-
-
-
-
+recruit_character = MEX_alejandro_villesenor

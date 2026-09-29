@@ -1,0 +1,12 @@
+USA_American_Way = {
+	icon = generic_research
+}
+USA_Mexico_Occupation = {
+	icon = generic_research
+}
+USA_Project_Safehouse = {
+	icon = generic_research
+}
+USA_Enclave_Directive = {
+	icon = generic_research
+}

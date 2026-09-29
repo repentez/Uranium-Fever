@@ -222,6 +222,8 @@
 
  MEX:0 "United Mexican States"
  MEX_DEF:0 "the United Mexican States"
+ MEX_occupation:0 "Provisional Government of the United Mexican States"
+ MEX_occupation_DEF:0 "the Provisional Government of the United Mexican States"
  MEX_ADJ:0 "Mexican"
 
  MON:0 "Mongolian People's Republic"

@@ -6,11 +6,11 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = Maoist
+			ideology = market_socialism
 			expire = "1965.1.1.1"
 			traits = {}
 			id = -1
 		}
-		name = "Zhao Guowei"
+		name = PRC_zhao_guowei
 	}
 }

@@ -1,0 +1,11 @@
+characters = {
+	BRA_antonio_alencar = {
+		name = BRA_antonio_alencar
+		country_leader = {
+			ideology = conservatism
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
+}
