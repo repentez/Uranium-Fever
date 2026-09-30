@@ -12,7 +12,6 @@
  USA_focus_last_gen:0 "Dropping off the last Generation"
  USA_focus_contract_assigning:0 "Assigning the Contracts"
  USA_focus_petro_chico:0 "Petro Chico"
- USA_focus_texaco:0 "Texaco"
  USA_focus_conservation_corps:0 "The Conservation Corps"
  USA_focus_comdevpro:0 "The COMDEVPRO"
  USA_focus_begin_bids:0 "Let the Bids Begin!"
@@ -85,3 +84,4 @@
  USA_focus_desert_logistics:0 "Desert Logistics"
  usa_columbian_commonwealth:0 "Columbian Commonwealth"
  USA_focus_where_were_you_4_yrs_ago:0 "Where Were You 4 Years Ago?"
+ USA_focus_texico:0 "Texico"

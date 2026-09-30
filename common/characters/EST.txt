@@ -1,124 +1,177 @@
-characters={
-	EST_kalju_kirsipuu={
-		name="Kalju Kirsipuu"
-		portraits={
-			civilian={
-				large="gfx/leaders/EST/EST_kalju_kirsipuu.png"
+characters = {
+	EST_kalju_kirsipuu = {
+		name = EST_kalju_kirsipuu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_EST_kalju_kirsipuu
 			}
 		}
-		country_leader={
-			ideology = Military_Junta
-			expire="2088.1.1.1"
-			id=-1
+		country_leader = {
+			ideology = provisional_government
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
 		}
-		field_marshal={
-			traits={ old_guard }
-			skill=3
-			attack_skill=2
-			defense_skill=2
-			planning_skill=4
-			logistics_skill=2
-			legacy_id=-1
+		field_marshal = {
+			traits = { old_guard }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
-
-	
-	 EST_Martin_Rubbin = { 
-        name = "Martin Rubbin"
-        portraits = {
-            civilian = {
-                small = "GFX_portraite_red_small"
-            }
-        }
-        advisor = {
-            slot = political_advisor
-            idea_token = EST_Martin
-            traits = { 	smooth_talking_charmer  }
+	EST_Martin_Rubbin = {
+		name = "Martin Rubbin"
+		portraits = {
+			civilian = {
+				small = "GFX_portraite_red_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = EST_Martin
+			traits = { smooth_talking_charmer }
 			cost = 100
-        }
-    }
-	
-	EST_jean_le_grand={
-		name= "Jean le Grand"
-		portraits={
-			army={
-				large="GFX_portraite_EST_Jean"
+		}
+	}
+	EST_jean_le_grand = {
+		name = "Jean le Grand"
+		portraits = {
+			army = {
+				large = "GFX_portraite_EST_Jean"
 			}
 		}
-		corps_commander={
-			traits={ infantry_officer BALTIC_anti_bolshevik }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=4
-			logistics_skill=3
-			legacy_id=-1
-
+		corps_commander = {
+			traits = { infantry_officer BALTIC_anti_bolshevik }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id = -1
 		}
-
 	}
-	EST_Artjom_von_kettler={
-		name=" Artjom von kettler "
-		advisor={
+	EST_Artjom_von_kettler = {
+		name = " Artjom von kettler "
+		advisor = {
 			slot = navy_chief
-	
-			allowed  = {
-					original_tag  = EST
-				}
-				traits  = {
-					navy_chief_maneuver_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
+			allowed = {
+				original_tag = EST
+			}
+			traits = { navy_chief_maneuver_2 }
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		cost = 25
-		portraits={
-			army={
-				small="GFX_portraite_EST_Artjom_advisor_small"
+		portraits = {
+			army = {
+				small = "GFX_portraite_EST_Artjom_advisor_small"
 			}
 		}
 	}
-		EST_Rasmus_von_traj={
-		name=" Rasmus Von Traj  "
-		advisor={
+	EST_Rasmus_von_traj = {
+		name = " Rasmus Von Traj  "
+		advisor = {
 			slot = high_command
-			allowed  = {
-					original_tag  = EST
-				}
-				traits  = {
-					army_infantry_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
+			allowed = {
+				original_tag = EST
+			}
+			traits = { army_infantry_2 }
+			ai_will_do = {
+				factor = 1.000
+			}
 		}
 		cost = 30
-		portraits={
-			army={
-				small="GFX_portraite_EST_Rasmus_advisor_small"
+		portraits = {
+			army = {
+				small = "GFX_portraite_EST_Rasmus_advisor_small"
 			}
 		}
 	}
-		EST_robin={
-			name="Robin"
-		advisor={
+	EST_robin = {
+		name = "Robin"
+		advisor = {
 			slot = army_chief
-
-			allowed  = {
-					original_tag  = EST
-				}
-				traits  = {
-					army_chief_organizational_2 
-				}
-				ai_will_do  = {
-					factor  = 1.000
-				}
-		}
-		portraits={
-			army={
-				small="GFX_idea_generic_army_african_4"
+			allowed = {
+				original_tag = EST
 			}
+			traits = { army_chief_organizational_2 }
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_african_4"
+			}
+		}
+	}
+	EST_kristjan_raudsepp = {
+		name = EST_kristjan_raudsepp
+		corps_commander = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EST_hendrik_kivisaar = {
+		name = EST_hendrik_kivisaar
+		corps_commander = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EST_andres_mihkel = {
+		name = EST_andres_mihkel
+		corps_commander = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EST_aleksander_parn = {
+		name = EST_aleksander_parn
+		corps_commander = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EST_indrek_juhan = {
+		name = EST_indrek_juhan
+		corps_commander = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	EST_vaino_kaljula = {
+		name = EST_vaino_kaljula
+		corps_commander = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
 		}
 	}
 }

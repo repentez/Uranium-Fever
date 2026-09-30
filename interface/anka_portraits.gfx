@@ -11,4 +11,20 @@ spriteTypes = {
 		name = "GFX_portrait_PRC_zhao_guowei"
 		texturefile = "gfx/leaders/PRC/portrait_PRC_zhao_guowei.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_UAR_faisal_mahmoud"
+		texturefile = "gfx/leaders/UAR/portrait_UAR_faisal_mahmoud.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_JAP_koji_takemura"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_koji_takemura.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_AST_edward_whitmore"
+		texturefile = "gfx/leaders/AST/portrait_AST_edward_whitmore.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_EST_kalju_kirsipuu"
+		texturefile = "gfx/leaders/EST/portrait_EST_kalju_kirsipuu.dds"
+	}
 }

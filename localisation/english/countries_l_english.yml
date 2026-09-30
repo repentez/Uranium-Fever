@@ -63,8 +63,8 @@
  
  EST_democratic:0 "Estonian Republic"
  EST_democratic_DEF:0 "the Estonian Republic"
- EST_neutrality:0 "Republic of Estonia"
- EST_neutrality_DEF:0 "the Republic of Estonia"
+ EST_despotic:0 "Estonian Provisional Government"
+ EST_despotic_DEF:0 "the Estonian Provisional Government"
  EST_communism:1 "Estonian Soviet Socialist Republic"
  EST_communism_DEF:1 "the Estonian Soviet Socialist Republic"
  EST_fascism_ADJ:0 "Estonian"

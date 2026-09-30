@@ -123,6 +123,7 @@ ideologies = {
 			absolute_monarchism = {}
 			mafia_state = {}
 			occupation = {}
+			provisional_government = {}
 		}
 		color = { 140 140 140 }
 		war_impact_on_world_tension = 0.25

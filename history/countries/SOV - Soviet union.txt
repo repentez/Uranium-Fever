@@ -17,7 +17,7 @@ if = {
 			has_dlc = "No Step Back"
 		}
 	}
-	set_oob = "SOV_1936"
+	set_oob = "SOV_2052"
 }
 if = {
 	limit = {
@@ -644,3 +644,4 @@ set_popularities = {
 	despotic = 0
 	authoritarian_socialist = 0
 }
+set_oob = "SOV_2052"

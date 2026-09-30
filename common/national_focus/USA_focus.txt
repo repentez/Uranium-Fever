@@ -833,7 +833,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_mexico_situation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_attack_mexico
 		x = -77
 		y = 1
 		cost = 10
@@ -845,7 +845,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_eyes_sky
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_intelligence_exchange
 		x = -81
 		y = 2
 		cost = 10
@@ -862,7 +862,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_dia
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_railway_gun
 		x = -79
 		y = 2
 		cost = 10
@@ -879,7 +879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_last_gen
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_paratrooper
 		x = -77
 		y = 2
 		cost = 10
@@ -896,7 +896,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_contract_assigning
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_intelligence_exchange
 		x = -74
 		y = 2
 		cost = 10
@@ -911,7 +911,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_uncle_sam_wrath
-		icon = GFX_goal_unknown
+		icon = GFX_focus_USA_uncle_sam
 		x = -79
 		y = 3
 		cost = 10
@@ -932,7 +932,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_petro_chico
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_oil_refinery
 		x = -75
 		y = 3
 		cost = 10
@@ -954,12 +954,12 @@ focus_tree = {
 			focus = USA_focus_contract_assigning
 		}
 		mutually_exclusive = {
-			focus = USA_focus_texaco
+			focus = USA_focus_texico
 		}
 	}
 	focus = {
-		id = USA_focus_texaco
-		icon = GFX_goal_unknown
+		id = USA_focus_texico
+		icon = GFX_focus_generic_offshore_oil_rig
 		x = -73
 		y = 3
 		cost = 10
@@ -993,8 +993,8 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_el_orden
-		icon = GFX_goal_unknown
-		x = -79
+		icon = GFX_focus_PHI_open_borders
+		x = -77
 		y = 4
 		cost = 10
 		completion_reward = {
@@ -1008,34 +1008,8 @@ focus_tree = {
 			focus = USA_focus_uncle_sam_wrath
 		}
 		prerequisite = {
-			focus = USA_focus_texaco
+			focus = USA_focus_texico
 			focus = USA_focus_petro_chico
-		}
-	}
-	focus = {
-		id = USA_focus_token_subsidies
-		icon = GFX_goal_unknown
-		x = -74
-		y = 4
-		cost = 10
-		completion_reward = {
-			add_timed_idea = {
-				days = 125
-				MEX = {
-					days = 125
-					add_ideas = Mex_idea_focus_USA
-				}
-			}
-			add_timed_idea = {
-				days = 125
-				USA = {
-					add_ideas = USA_idea_focus_consumer_goods
-				}
-			}
-		}
-		prerequisite = {
-			focus = USA_focus_petro_chico
-			focus = USA_focus_texaco
 		}
 	}
 	focus = {

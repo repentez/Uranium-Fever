@@ -1,23 +1,25 @@
-﻿capital = 141	
-
-#add_opinion_modifier = { target = GER modifier = GER_SWE_historic_trade_Partners } CUT
+capital = 141
 oob = "SWE_1936"
 if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SWE_1936_naval_mtg"
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_naval_oob = "SWE_1936_naval_mtg"
 	else = {
 		set_naval_oob = "SWE_1936_naval_legacy"
 	}
 }
 if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SWE_1936_air_bba"
-		set_technology = {
-			iw_small_airframe = 1
-			aa_lmg = 1
-			engines_1 = 1
-			bba_early_transport_plane = 1
-		}
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "SWE_1936_air_bba"
+	set_technology = {
+		iw_small_airframe = 1
+		aa_lmg = 1
+		engines_1 = 1
+		bba_early_transport_plane = 1
+	}
 	else = {
 		set_air_oob = "SWE_1936_air_legacy"
 		set_technology = {
@@ -30,38 +32,28 @@ if = {
 		}
 	}
 }
-
 set_research_slots = 3
-
 if = {
-	limit = { has_dlc = "Arms Against Tyranny" }
-	add_ideas = {
-#		SWE_historical_trade_with_Germany CUT
-		SWE_hungershield
-		SWE_severe_lack_of_ammunition
-		#SWE_standardized_equipment
-		SWE_gustaf_v_idea
+	limit = {
+		has_dlc = "Arms Against Tyranny"
 	}
-
-
-	add_dynamic_modifier = { modifier = SWE_folkhemmet }
+	add_ideas = { SWE_hungershield SWE_severe_lack_of_ammunition SWE_gustaf_v_idea }
+	add_dynamic_modifier = {
+		modifier = SWE_folkhemmet
+	}
 	set_stability = 0.47
 	set_war_support = 0.05
 }
 if = {
 	limit = {
-		NOT = { has_dlc = "Arms Against Tyranny" }
+		NOT = {
+			has_dlc = "Arms Against Tyranny"
+		}
 	}
-	add_ideas = { 
-		en_svensk_tiger 
-		neutrality_idea
-	}
+	add_ideas = { en_svensk_tiger neutrality_idea }
 	set_stability = 0.9
 	set_war_support = 0.1
 }
-
-
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -69,15 +61,16 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	tech_recon = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	basic_train = 1
-	interwar_antitank = 1 # 
+	interwar_antitank = 1
 }
-
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
@@ -94,7 +87,11 @@ if = {
 	}
 }
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	set_technology = {
 		early_submarine = 1
 		early_destroyer = 1
@@ -105,7 +102,9 @@ if = {
 	}
 }
 if = {
-	limit = { has_dlc = "Man the Guns" }
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	set_technology = {
 		basic_naval_mines = 1
 		submarine_mine_laying = 1
@@ -124,20 +123,17 @@ if = {
 		early_ship_hull_heavy = 1
 	}
 }
-
 if = {
-	limit = { has_dlc = "La Resistance" }
+	limit = {
+		has_dlc = "La Resistance"
+	}
 	set_technology = {
 		armored_car1 = 1
 	}
 }
-
 1939.1.1 = {
-
 	add_political_power = 1198
 	add_command_power = 100
-	
-	#generic focuses
 	if = {
 		limit = {
 			NOT = {
@@ -158,43 +154,49 @@ if = {
 		limit = {
 			has_dlc = "Arms Against Tyranny"
 		}
-		complete_national_focus = SWE_defense_act #35
-		complete_national_focus = SWE_urbanization #70
-		complete_national_focus = SWE_hygenic_housing #70
-		every_core_state = { #Apply effect from focus above
-			limit =  { is_fully_controlled_by = SWE }
-			add_dynamic_modifier = { modifier = SWE_hygenic_housing_output_bonus }
+		complete_national_focus = SWE_defense_act
+		complete_national_focus = SWE_urbanization
+		complete_national_focus = SWE_hygenic_housing
+		every_core_state = {
+			limit = {
+				is_fully_controlled_by = SWE
+			}
+			add_dynamic_modifier = {
+				modifier = SWE_hygenic_housing_output_bonus
+			}
 		}
-
-		complete_national_focus = SWE_radiojanst #70
-		complete_national_focus = SWE_individual_liberty_and_prosperity_for_all #35
-		complete_national_focus = SWE_paid_holidays #35
-		complete_national_focus = SWE_saltsjobaden_agreement #70
-		complete_national_focus = SWE_research_slot_1 #70
-		complete_national_focus = SWE_education_reform #35
-		complete_national_focus = SWE_license_skf_ball_bearings #35
-		complete_national_focus = SWE_government_weapons_contract #35
-		complete_national_focus = SWE_husqvarna_vapenfabrik #70
-		complete_national_focus = SWE_norma_projektilfabrik #70
-		complete_national_focus = SWE_bofors_fly_swatter #35
-		complete_national_focus = SWE_form_saab #70
-		complete_national_focus = SWE_bofors_anti_tank_gun #70
-		complete_national_focus = SWE_gotaverken #70
-		complete_national_focus = SWE_refit_gotaverken_for_rapid_repairs #70
-		complete_national_focus = SWE_domestic_designs #70
+		complete_national_focus = SWE_radiojanst
+		complete_national_focus = SWE_individual_liberty_and_prosperity_for_all
+		complete_national_focus = SWE_paid_holidays
+		complete_national_focus = SWE_saltsjobaden_agreement
+		complete_national_focus = SWE_research_slot_1
+		complete_national_focus = SWE_education_reform
+		complete_national_focus = SWE_license_skf_ball_bearings
+		complete_national_focus = SWE_government_weapons_contract
+		complete_national_focus = SWE_husqvarna_vapenfabrik
+		complete_national_focus = SWE_norma_projektilfabrik
+		complete_national_focus = SWE_bofors_fly_swatter
+		complete_national_focus = SWE_form_saab
+		complete_national_focus = SWE_bofors_anti_tank_gun
+		complete_national_focus = SWE_gotaverken
+		complete_national_focus = SWE_refit_gotaverken_for_rapid_repairs
+		complete_national_focus = SWE_domestic_designs
 	}
-	
 	oob = "SWE_1939"
 	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "SWE_1939_naval_mtg"
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_naval_oob = "SWE_1939_naval_mtg"
 		else = {
 			set_naval_oob = "SWE_1939_naval_legacy"
 		}
 	}
 	if = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "SWE_1939_air_bba"
+		limit = {
+			has_dlc = "By Blood Alone"
+		}
+		set_air_oob = "SWE_1939_air_bba"
 		else = {
 			set_air_oob = "SWE_1939_air_legacy"
 			set_technology = {
@@ -203,23 +205,15 @@ if = {
 			}
 		}
 	}
-
 	set_technology = {
 		gw_artillery = 1
 		interwar_artillery = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
-
-		#doctrines
-		#air_superiority = 1
-
-		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
 		mechanical_computing = 1
 		computing_machine = 1
-
-		#industry
 		basic_machine_tools = 1
 		improved_machine_tools = 1
 		advanced_machine_tools = 1
@@ -232,17 +226,17 @@ if = {
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-
-set_grand_doctrine = grand_battleplan
-set_grand_doctrine = new_fleet_in_being
-set_grand_doctrine = new_strategic_destruction
-
+	set_grand_doctrine = grand_battleplan
+	set_grand_doctrine = new_fleet_in_being
+	set_grand_doctrine = new_strategic_destruction
 	complete_special_project = {
 		project = sp:sp_air_radar
 	}
 	if = {
 		limit = {
-			NOT = { has_dlc = "No Step Back" }
+			NOT = {
+				has_dlc = "No Step Back"
+			}
 		}
 		set_technology = {
 			improved_light_tank = 1
@@ -254,28 +248,31 @@ set_grand_doctrine = new_strategic_destruction
 			has_dlc = "No Step Back"
 		}
 		set_technology = {
-			
-			
 			improved_light_tank_chassis = 1
 			basic_medium_tank_chassis = 1
 		}
 	}
 	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
 		set_technology = {
 			basic_submarine = 1
 			early_carrier = 1
 		}
 	}
 	if = {
-		limit = { has_dlc = "Man the Guns" }
+		limit = {
+			has_dlc = "Man the Guns"
+		}
 		set_technology = {
 			basic_ship_hull_cruiser = 1
 			early_ship_hull_carrier = 1
 		}
 	}
 }
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.9.18"
@@ -283,12 +280,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	neutrality = 14
-	communism = 8
-	fascism = 3
+	democratic = 100
 }
-
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic
@@ -303,15 +296,12 @@ set_popularities = {
 		fascism = 1
 	}
 }
-
 set_convoys = 25
-
-
 recruit_character = SWE_per_albin_hansson
 recruit_character = SWE_sven_olov_lindholm
-recruit_character = SWE_sven_linderot 
-recruit_character = SWE_folke_hogberg #NOT U
-recruit_character = SWE_erik_af_edholm #NOT U
+recruit_character = SWE_sven_linderot
+recruit_character = SWE_folke_hogberg
+recruit_character = SWE_erik_af_edholm
 recruit_character = SWE_claes_lindstrom
 recruit_character = SWE_per_sylvan
 recruit_character = SWE_gosta_ehrensvard
@@ -330,14 +320,12 @@ recruit_character = SWE_archibald_douglas
 recruit_character = SWE_ernst_wigforss
 recruit_character = SWE_thorwald_bergquist
 recruit_character = SWE_osten_unden
-
-
-
-### VARIANTS ###
-# 1936 Start #
 if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	### Ship Variants ###
+	limit = {
+		not = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	create_equipment_variant = {
 		name = "Draken Class"
 		type = submarine_1
@@ -354,7 +342,7 @@ if = {
 		has_dlc = "By Blood Alone"
 	}
 	create_equipment_variant = {
-		name = "Svenska Jaktfalken" 
+		name = "Svenska Jaktfalken"
 		type = small_plane_airframe_0
 		modules = {
 			fixed_main_weapon_slot = light_mg_2x
@@ -383,9 +371,9 @@ if = {
 			tank_nsb_engine_upgrade = 2
 			tank_nsb_armor_upgrade = 1
 		}
-		obsolete = yes #used for oob
+		obsolete = yes
 	}
-	create_equipment_variant = { #Note: There is a copy of this variant in Finnish National Focus file (FIN_bring_foreign_armor_experts). Any changes here should also be applied there
+	create_equipment_variant = {
 		name = "Stridsvagn m/31"
 		type = light_tank_chassis_1
 		parent_version = 0
@@ -404,12 +392,12 @@ if = {
 		icon = "GFX_generic_light_AAB"
 	}
 }
-
 if = {
-	limit = { has_dlc = "Man the Guns" }
-	# Submarines #
+	limit = {
+		has_dlc = "Man the Guns"
+	}
 	create_equipment_variant = {
-		name = "Hajen Class"					# represents Hajen and Bävern classes	
+		name = "Hajen Class"
 		type = ship_hull_submarine_1
 		name_group = SWE_SS_HISTORICAL
 		parent_version = 0
@@ -421,7 +409,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Valen Class"				
+		name = "Valen Class"
 		type = ship_hull_submarine_1
 		name_group = SWE_SS_HISTORICAL
 		parent_version = 0
@@ -433,7 +421,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Draken Class"				
+		name = "Draken Class"
 		type = ship_hull_submarine_2
 		name_group = SWE_SS_HISTORICAL
 		parent_version = 0
@@ -443,9 +431,8 @@ if = {
 			rear_1_custom_slot = empty
 		}
 	}
-	# Destroyers #
 	create_equipment_variant = {
-		name = "Örnen Class"					# torpedo boats		
+		name = "Örnen Class"
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -462,7 +449,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Ehrensköld Class"				# represents Ehrensköld	and Klas Horn classes
+		name = "Ehrensköld Class"
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -479,7 +466,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Clas Fleming Class"				# minelayer		
+		name = "Clas Fleming Class"
 		type = ship_hull_light_1
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -496,7 +483,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Göteborg Class"	
+		name = "Göteborg Class"
 		type = ship_hull_light_2
 		name_group = SWE_DD_HISTORICAL
 		parent_version = 0
@@ -511,9 +498,8 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
-	# Cruisers #
 	create_equipment_variant = {
-		name = "Fylgia Class"				
+		name = "Fylgia Class"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CL_HISTORICAL
 		parent_version = 0
@@ -532,7 +518,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Äran Class"				
+		name = "Äran Class"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
 		parent_version = 0
@@ -551,7 +537,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Oscar II Class"				
+		name = "Oscar II Class"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
 		parent_version = 0
@@ -570,7 +556,7 @@ if = {
 		obsolete = yes
 	}
 	create_equipment_variant = {
-		name = "Sverige Class"				
+		name = "Sverige Class"
 		type = ship_hull_cruiser_coastal_defense_ship
 		name_group = SWE_CA_HISTORICAL
 		parent_version = 0
@@ -605,18 +591,20 @@ if = {
 		}
 	}
 }
-
-# 1939 Start #
 1939.1.1 = {
 	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		# Ship variants #
+		limit = {
+			not = {
+				has_dlc = "Man the Guns"
+			}
+		}
 	}
 	if = {
-		limit = { has_dlc = "Man the Guns" }
-		# Submarines #
+		limit = {
+			has_dlc = "Man the Guns"
+		}
 		create_equipment_variant = {
-			name = "Delfinen Class"				
+			name = "Delfinen Class"
 			type = ship_hull_submarine_2
 			name_group = SWE_SS_HISTORICAL
 			parent_version = 0
@@ -628,7 +616,7 @@ if = {
 			obsolete = yes
 		}
 		create_equipment_variant = {
-			name = "Sjölejonet Class"				
+			name = "Sjölejonet Class"
 			type = ship_hull_submarine_2
 			name_group = SWE_SS_HISTORICAL
 			parent_version = 0
@@ -640,125 +628,127 @@ if = {
 		}
 	}
 }
-
 add_equipment_to_stockpile = {
 	type = infantry_equipment
 	amount = 1500
 	producer = GER
 }
-
 add_equipment_to_stockpile = {
 	type = infantry_equipment
 	amount = 500
 	producer = FIN
 }
-
 add_equipment_to_stockpile = {
 	type = infantry_equipment
 	amount = 200
 	producer = CZE
 }
-
-###################
-# Variables #
-###################
 if = {
 	limit = {
 		has_dlc = "Arms Against Tyranny"
 	}
-
 	add_ideas = neutrality_idea
-	set_variable = { hungershield_stability_threshold_1 = 0.68 } 
-	set_variable = { hungershield_stability_risk_1 = 0.12 }  #monthly risk if under _1 stability threshold 0.12
-	set_variable = { hungershield_stability_threshold_2 = 0.3 } 
-	set_variable = { hungershield_stability_risk_2 = 0.18 }   #monthly risk if under _2 stability threshold #0.2
-
-
-
-	set_variable = { folkhemmet_war_support = -0.25 }
-	set_variable = { folkhemmet_stability = 0.25 }
-	set_variable = { folkhemmet_civ = 0.2 }
-	set_variable = { folkhemmet_infra = 0.2 }
-	set_variable = { folkhemmet_mil = -0.2 }
-	set_variable = { folkhemmet_dockyard = -0.2 }
-
-	#CUT
-	#Value for when Folkhemmet is at its max intactness, ei at its full power, the max value is assumed to be what the player starts with so is derived from the values above
-	#set_variable = { folkhemmet_war_support_max_intactness = folkhemmet_war_support }
-	#set_variable = { folkhemmet_stability_max_intactness = folkhemmet_stability }
-	#set_variable = { folkhemmet_civ_max_intactness = folkhemmet_civ }
-	#set_variable = { folkhemmet_mil_max_intactness = folkhemmet_mil }
-	#set_variable = { folkhemmet_dockyard_max_intactness = folkhemmet_dockyard }
-
-	#Value for when Folkhemmet is at its min intactness (opposite of the above), aka fully dismantled
-	#set_variable = { folkhemmet_war_support_min_intactness = 0.35}
-	#set_variable = { folkhemmet_stability_min_intactness = -0.4 }
-	#set_variable = { folkhemmet_civ_min_intactness = -0.35 }
-	#set_variable = { folkhemmet_mil_min_intactness = 0.25 }
-	#set_variable = { folkhemmet_dockyard_min_intactness = 0.25 }
-
-	#How many parts the folkhemmet spirit is divided into
-	#set_variable = { folkhemmet_air_part = 0 }
-	#set_variable = { folkhemmet_navy_parts = 0 }
-	#set_variable = { folkhemmet_army_parts = 0 }
-	#set_variable = { folkhemmet_max_constituent_parts = 3 } #Folkhemmet intactness is this value*3, individual parts cannot be higher than this
-
-	#Folkhemmet intactness,
-	#set_variable = { folkhemmet_max_intactness =  folkhemmet_max_constituent_parts }
-	#multiply_variable = { folkhemmet_max_intactness = 3 }
-	#set_variable = { folkhemmet_intactness =  folkhemmet_max_intactness }
-
-	set_variable = { SWE_train_the_sheltered_manpower_current_cap = 8000 }
-	set_variable = { SWE_train_the_sheltered_manpower_current_manpower = 0 }
-	set_variable = { SWE_train_the_sheltered_manpower_cap_increase = 6000 }
-	set_variable = { SWE_train_the_sheltered_manpower_gain_per_level_growth_base = 100 }
-	set_variable = { SWE_train_the_sheltered_manpower_gain_per_level_growth_spread_min = 0 }
-	set_variable = { SWE_train_the_sheltered_manpower_gain_per_level_growth_spread_max = 300 }
-
-	set_variable = { SWE_cross_we_bear_org_loss_at_low_org_factor = 0 }
-	set_variable = { SWE_cross_we_bear_org_loss_when_moving = 0 }
-	set_variable = { SWE_cross_we_bear_org_special_forces_cap = 0 }
-	set_variable = { SWE_cross_we_bear_coordination_bonus = 0 }
-	set_variable = { SWE_cross_we_bear_army_morale_factor = 0 }
-	set_variable = { SWE_cross_we_bear_conscription = 0 }
-
-
-	set_variable = { SWE_cross_we_bear_org_loss_at_low_org_factor_increase = 0.03 }
-	set_variable = { SWE_cross_we_bear_org_loss_when_moving_increase = -0.04 }
-	set_variable = { SWE_cross_we_bear_org_special_forces_cap_increase = 0.01 }
-	set_variable = { SWE_cross_we_bear_coordination_bonus_increase = 0.02 }
-	set_variable = { SWE_cross_we_bear_army_morale_factor_increase = 0.02 }
-	set_variable = { SWE_cross_we_bear_conscription_increase = 0.005 }
-
-	set_variable = { SWE_hygenic_housing_cooldown = 0 }
-
-	set_variable = { SWE_civs_built = 0 }
-
-
-	# Election/BoP Stuff
-	#set_power_balance = {
-	#	id = SWE_riksdag_political_balance
-	#	set_default = no  # whether or not to reset the power balance to the initial value, default = no
-	#	set_value = -0.2
-	#}
-	#set_variable = { SWE_election_countdown = 280 }
-	#set_variable = { SWE_4_years = 1460 }
-	#activate_mission = SWE_BoP_election_countdown
-
+	set_variable = {
+		hungershield_stability_threshold_1 = 0.68
+	}
+	set_variable = {
+		hungershield_stability_risk_1 = 0.12
+	}
+	set_variable = {
+		hungershield_stability_threshold_2 = 0.3
+	}
+	set_variable = {
+		hungershield_stability_risk_2 = 0.18
+	}
+	set_variable = {
+		folkhemmet_war_support = -0.25
+	}
+	set_variable = {
+		folkhemmet_stability = 0.25
+	}
+	set_variable = {
+		folkhemmet_civ = 0.2
+	}
+	set_variable = {
+		folkhemmet_infra = 0.2
+	}
+	set_variable = {
+		folkhemmet_mil = -0.2
+	}
+	set_variable = {
+		folkhemmet_dockyard = -0.2
+	}
+	set_variable = {
+		SWE_train_the_sheltered_manpower_current_cap = 8000
+	}
+	set_variable = {
+		SWE_train_the_sheltered_manpower_current_manpower = 0
+	}
+	set_variable = {
+		SWE_train_the_sheltered_manpower_cap_increase = 6000
+	}
+	set_variable = {
+		SWE_train_the_sheltered_manpower_gain_per_level_growth_base = 100
+	}
+	set_variable = {
+		SWE_train_the_sheltered_manpower_gain_per_level_growth_spread_min = 0
+	}
+	set_variable = {
+		SWE_train_the_sheltered_manpower_gain_per_level_growth_spread_max = 300
+	}
+	set_variable = {
+		SWE_cross_we_bear_org_loss_at_low_org_factor = 0
+	}
+	set_variable = {
+		SWE_cross_we_bear_org_loss_when_moving = 0
+	}
+	set_variable = {
+		SWE_cross_we_bear_org_special_forces_cap = 0
+	}
+	set_variable = {
+		SWE_cross_we_bear_coordination_bonus = 0
+	}
+	set_variable = {
+		SWE_cross_we_bear_army_morale_factor = 0
+	}
+	set_variable = {
+		SWE_cross_we_bear_conscription = 0
+	}
+	set_variable = {
+		SWE_cross_we_bear_org_loss_at_low_org_factor_increase = 0.03
+	}
+	set_variable = {
+		SWE_cross_we_bear_org_loss_when_moving_increase = -0.04
+	}
+	set_variable = {
+		SWE_cross_we_bear_org_special_forces_cap_increase = 0.01
+	}
+	set_variable = {
+		SWE_cross_we_bear_coordination_bonus_increase = 0.02
+	}
+	set_variable = {
+		SWE_cross_we_bear_army_morale_factor_increase = 0.02
+	}
+	set_variable = {
+		SWE_cross_we_bear_conscription_increase = 0.005
+	}
+	set_variable = {
+		SWE_hygenic_housing_cooldown = 0
+	}
+	set_variable = {
+		SWE_civs_built = 0
+	}
 	set_party_name = {
 		ideology = communism
 		name = SWE_aat_communism_party
 		long_name = SWE_aat_communism_party_long
 	}
-
 	set_party_name = {
 		ideology = neutrality
 		name = SWE_aat_hogern
 		long_name = SWE_aat_hogern_long
 	}
-
-	# DLC Characters 
-	recruit_character = SWE_axel_pehrssonbramstorp 
+	recruit_character = SWE_axel_pehrssonbramstorp
 	recruit_character = SWE_herman_eriksson
 	recruit_character = SWE_ebba_palmstierna
 	recruit_character = SWE_christian_gunter
@@ -794,13 +784,11 @@ if = {
 	recruit_character = SWE_olof_thornell
 	recruit_character = SWE_lise_meitner
 }
-
 if = {
 	limit = {
 		has_dlc = "La Resistance"
 		has_dlc = "Arms Against Tyranny"
 	}
-
 	create_operative_leader = {
 		name = "Raoul Wallenberg"
 		GFX = GFX_portrait_SWE_raoul_wallenberg

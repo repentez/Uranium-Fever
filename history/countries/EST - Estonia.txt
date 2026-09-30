@@ -1,17 +1,10 @@
-﻿capital = 812
-
+capital = 812
 oob = "EST_2056"
-
 declare_war_on = {
 	target = SOV
 	type = annex_everything
 }
-
 add_ideas = EST_forest_brothers
-
-
-
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -20,14 +13,7 @@ set_technology = {
 	tech_support = 1
 	basic_train = 1
 }
-
-
-
 set_convoys = 5
-
-
-
-
 2052.1.1 = {
 	set_politics = {
 		ruling_party = despotism
@@ -42,16 +28,31 @@ set_convoys = 5
 		despotism = 42
 	}
 }
-
-
-### VARIANTS ###
-# 1939 Start #
 create_country_leader = {
 	name = "Kalju Kirsipuu"
 	desc = ""
 	picture = GFX_portrait_EST_kalju_kirsipuu
 	ideology = despotism
-	traits = {
-		#
-	}
+	traits = {}
+}
+recruit_character = EST_aleksander_parn
+recruit_character = EST_kristjan_raudsepp
+recruit_character = EST_kalju_kirsipuu
+recruit_character = EST_robin
+recruit_character = EST_Artjom_von_kettler
+recruit_character = EST_indrek_juhan
+recruit_character = EST_jean_le_grand
+recruit_character = EST_vaino_kaljula
+recruit_character = EST_andres_mihkel
+recruit_character = EST_Rasmus_von_traj
+recruit_character = EST_hendrik_kivisaar
+recruit_character = EST_Martin_Rubbin
+set_politics = {
+	ruling_party = despotic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	despotic = 100
 }
