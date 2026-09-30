@@ -1,4 +1,39 @@
 spriteTypes = {
+    SpriteType = {
+        name = "GFX_goal_advisor_usa_to_mex"
+        texturefile = "gfx/interface/goals/USA/advisor_usa_to_mex.dds"
+    }
+    SpriteType = {
+        name = "GFX_goal_uncle_sam"
+        texturefile = "gfx/interface/goals/USA/uncle_sam.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_goal_usa_flag_contract"
+        texturefile = "gfx/interface/goals/USA/usa_flag_contract.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_goal_usa_mex_situation"
+        texturefile = "gfx/interface/goals/USA/usa_mex_situation.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_goal_mexico_choice"
+        texturefile = "gfx/interface/goals/USA/mexico_choice.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_goal_dropping_last_generenation_of_air"
+        texturefile = "gfx/interface/goals/USA/dropping_last_generenation_of_air.dds"
+    }
+
+
+
+
+
+
+
 
 spriteType = {
     name = "GFX_goal_rus_naval_destroyer"
