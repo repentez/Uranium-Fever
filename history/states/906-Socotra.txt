@@ -4,14 +4,14 @@ state = {
 	manpower = 21303
 	state_category = small_island
 	history = {
-		owner = YEM
+		owner = UAR
 		buildings = {
 			infrastructure = 1
 			8000 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = YEM
+		add_core_of = UAR
 	}
 	provinces = { 8000 }
 	buildings_max_level_factor = 1.000

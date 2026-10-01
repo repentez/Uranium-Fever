@@ -1038,32 +1038,6 @@ characters = {
 			traits = { naval_theorist }
 		}
 	}
-	AST_brudenell_white = {
-		name = AST_brudenell_white
-		portraits = {
-			army = {
-				small = GFX_portrait_AST_brudenell_white_small
-			}
-		}
-		advisor = {
-			slot = army_chief
-			cost = 100
-			idea_token = AST_brudenell_white
-			allowed = {
-				original_tag = AST
-			}
-			available = {
-				NOT = {
-					has_country_flag = AST_canberra_air_disaster_flag
-				}
-			}
-			traits = { army_chief_organizational_1 }
-			can_be_fired = no
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
 	AST_john_lavarack = {
 		name = AST_john_lavarack
 		portraits = {
@@ -1222,60 +1196,6 @@ characters = {
 			cost = 200
 			ai_will_do = {
 				factor = 2
-			}
-		}
-	}
-	AST_charles_burnett = {
-		instance = {
-			allowed = {
-				has_dlc = "Thunder at Our Gates"
-			}
-			name = AST_charles_burnett
-			portraits = {
-				army = {
-					small = "GFX_idea_AST_charles_burnett"
-				}
-			}
-			advisor = {
-				slot = high_command
-				idea_token = AST_charles_burnett
-				ledger = air
-				allowed = {
-					original_tag = AST
-				}
-				available = {
-					has_completed_focus = AST_australian_command
-				}
-				traits = { air_air_superiority_2 }
-				cost = 100
-				ai_will_do = {
-					factor = 1
-				}
-			}
-		}
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "Thunder at Our Gates"
-				}
-			}
-			name = AST_charles_burnett
-			portraits = {
-				army = {
-					small = "GFX_idea_AST_charles_burnett"
-				}
-			}
-			advisor = {
-				slot = air_chief
-				idea_token = AST_charles_burnett
-				allowed = {
-					original_tag = AST
-				}
-				traits = { air_chief_old_guard }
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
 			}
 		}
 	}

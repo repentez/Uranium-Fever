@@ -1,66 +1,55 @@
-﻿l_english: 
+﻿l_english:
  FSP_anarchism:0 "Free Territory Of Padania"
  FSP_socialism:0 "Socialist State Of Padania"
  FSP_democratic:0 "Democratic Republic Of Padania"
-  
  GER:0 "Federal Republic of Germany"
  GER_DEF:0 "the Federal Republic of Germany"
  GER_ADJ:0 "German"
- 
  ENG:0 "United Kingdom"
  ENG_DEF:0 "the United Kingdom"
  ENG_ADJ:0 "British"
- 
  SOV:0 "Union of Soviet Socialist Republics"
  SOV_DEF:0 "the Union of Soviet Socialist Republics"
  SOV_ADJ:0 "Soviet"
- 
  USA:0 "United States of America"
  USA_DEF:0 "the United States of America"
  USA_ADJ:0 "American"
- 
+ MOC:0 "US Military Administration of Canada"
+ MOC_DEF:0 "the US Military Administration of Canada"
+ MOC_ADJ:0 "US Army in Canada"
  SWE:0 "Kingdom of Sweden"
  SWE_DEF:0 "the Kingdom of Sweden"
  SWE_ADJ:0 "Swedish"
- 
  FRA:0 "French Republic"
  FRA_DEF:0 "the French Republic"
  FRA_ADJ:0 "French"
- 
  LUX:0 "Luxembourg"
  LUX_DEF:0 "Luxembourg"
  LUX_ADJ:0 "Luxembourger"
- 
  BEL:0 "Belgium"
  BEL_DEF:0 "Belgium"
  BEL_ADJ:0 "Belgian"
- 
  HOL:0 "Netherlands"
  HOL_DEF:0 "the Netherlands"
  HOL_ADJ:0 "Dutch"
-
  CZE_democratic:0 "Czechoslovak Federative Republic"
  CZE_democratic_DEF:0 "the Czechoslovak Federative Republic"
  CZE_democratic_ADJ:0 "Czechoslovak"
  CZE:0 "Czechoslovak Socialist Republic"
  CZE_DEF:0 "the Czechoslovak Socialist Republic"
  CZE_ADJ:0 "Czechoslovak"
- 
  POL_democratic:0 "Republic of Poland"
  POL_democratic_DEF:0 "the Republic of Poland"
  POL_democratic_ADJ:0 "Polish"
  POL:0 "Polish People's Republic"
  POL_DEF:0 "the Polish People's Republic"
  POL_ADJ:0 "Polish"
- 
  AUS:0 "Austria"
  AUS_DEF:0 "Austria"
  AUS_ADJ:0 "Austrian"
- 
  LIT:0 "Lithuania"
  LIT_DEF:0 "Lithuania"
  LIT_ADJ:0 "Lithuanian"
- 
  EST_democratic:0 "Estonian Republic"
  EST_democratic_DEF:0 "the Estonian Republic"
  EST_despotic:0 "Estonian Provisional Government"
@@ -74,15 +63,12 @@
  EST:0 "Estonia"
  EST_DEF:0 "Estonia"
  EST_ADJ:0 "Estonian"
- 
  LAT:0 "Latvia"
  LAT_DEF:0 "Latvia"
  LAT_ADJ:0 "Latvian"
- 
  SPR:0 "Spanish Republic"
  SPR_DEF:0 "the Spanish Republic"
  SPR_ADJ:0 "Spanish"
- 
  ITA_fascism:0 "Italian Social Republic"
  ITA_fascism_DEF:0 "the Italian Social Republic"
  ITA_democratic:0 "Italian Republic"
@@ -98,267 +84,203 @@
  ITA:0 "Italy"
  ITA_DEF:0 "Italy"
  ITA_ADJ:0 "Italian"
-
  ROM_democratic:0 "Romania"
  ROM_democratic_DEF:0 "Romania"
  ROM_democratic_ADJ:0 "Romanian"
  ROM:0 "Socialist Republic of Romania"
  ROM_DEF:0 "the Socialist Republic of Romania"
  ROM_ADJ:0 "Romanian"
- 
  YUG:0 "Socialist Federal Republic of Yugoslavia"
  YUG_DEF:0 "the Socialist Federal Republic of Yugoslavia"
  YUG_ADJ:0 "Yugoslavian"
-
  SWI:0 "Swiss Confederation"
  SWI_DEF:0 "the Swiss Confederation"
  SWI_ADJ:0 "Swiss"
-
  TUR:0 "Republic of Turkey"
  TUR_DEF:0 "the Republic of Turkey"
  TUR_ADJ:0 "Turkish"
-
  GRE:0 "Hellenic Republic"
  GRE_DEF:0 "the Hellenic Republic"
  GRE_ADJ:0 "Greek"
-
  ALB:0 "Albania"
  ALB_DEF:0 "Albania"
  ALB_ADJ:0 "Albanian"
-
  NOR:0 "Kingdom of Norway"
  NOR_DEF:0 "the Kingdom of Norway"
  NOR_ADJ:0 "Norwegian"
-
  DEN:0 "Kingdom of Denmark"
  DEN_DEF:0 "the Kingdom of Denmark"
  DEN_ADJ:0 "Danish"
-
  BUL_democratic:0 "Republic of Bulgaria"
  BUL_democratic_DEF:0 "the Republic of Bulgaria"
  BUL_democratic_ADJ:0 "Bulgarian"
  BUL:0 "People's Republic of Bulgaria"
  BUL_DEF:0 "the People's Republic of Bulgaria"
  BUL_ADJ:0 "Bulgarian"
-
  POR:0 "Portuguese Republic"
  POR_DEF:0 "the Portuguese Republic"
  POR_ADJ:0 "Portuguese"
-
  FIN:0 "Republic of Finland"
  FIN_DEF:0 "the Republic of Finland"
  FIN_ADJ:0 "Finnish"
-
  IRE:0 "Republic of Ireland"
  IRE_DEF:0 "the Republic of Ireland"
  IRE_ADJ:0 "Irish"
-
  HUN_democratic:0 "Hungarian Republic"
  HUN_democratic_DEF:0 "the Hungarian Republic"
  HUN_democratic_ADJ:0 "Hungarian"
  HUN:0 "Hungarian People's Republic"
  HUN_DEF:0 "the Hungarian People's Republic"
  HUN_ADJ:0 "Hungarian"
-
  ARG:0 "Argentine Republic"
  ARG_DEF:0 "the Argentine Republic"
  ARG_ADJ:0 "Argentinean"
-
  BOL:0 "Bolivia"
  BOL_DEF:0 "Bolivia"
  BOL_ADJ:0 "Bolivian"
-
  BRA:0 "United States of Brazil"
  BRA_DEF:0 "the United States of Brazil"
  BRA_ADJ:0 "Brazilian"
-
  CAN:0 "Dominion of Canada"
  CAN_DEF:0 "the Dominion of Canada"
  CAN_ADJ:0 "Canadian"
- 
  CHI:0 "Republic of China"
  CHI_DEF:0 "the Republic of China"
  CHI_ADJ:0 "Taiwanese"
-
  PRC:0 "People's Republic of China"
  PRC_DEF:0 "The People's Republic of China"
  PRC_ADJ:0 "Chinese"
- 
  CHL:0 "Republic of Chile"
  CHL_DEF:0 "the Republic of Chile"
  CHL_ADJ:0 "Chilean"
-
  COL:0 "Republic of Colombia"
  COL_DEF:0 "the Republic of Colombia"
  COL_ADJ:0 "Colombian"
-
  COS:0 "Costa Rica"
  COS_DEF:0 "Costa Rica"
  COS_ADJ:0 "Costa Rican"
-
  ECU:0 "Ecuador"
  ECU_DEF:0 "Ecuador"
  ECU_ADJ:0 "Ecuadorian"
-
  ELS:0 "El Salvador"
  ELS_DEF:0 "El Salvador"
  ELS_ADJ:0 "Salvadoran"
-
  GUA:0 "Guatemala"
  GUA_DEF:0 "Guatemala"
  GUA_ADJ:0 "Guatemalan"
-
  HON:0 "Honduras"
  HON_DEF:0 "Honduras"
  HON_ADJ:0 "Honduran"
-
  IRQ:0 "Republic of Iraq"
  IRQ_DEF:0 "the Republic of Iraq"
  IRQ_ADJ:0 "Iraqi"
-
- JAP:0 "State of Japan"
+ JAP:0 "Japan"
  JAP_DEF:0 "the State of Japan"
  JAP_ADJ:0 "Japanese"
-
  MEX:0 "United Mexican States"
  MEX_DEF:0 "the United Mexican States"
- MEX_occupation:0 "Provisional Government of the United Mexican States"
- MEX_occupation_DEF:0 "the Provisional Government of the United Mexican States"
+ MEX_despotic:0 "Provisional Government of the United Mexican States"
+ MEX_despotic_DEF:0 "the Provisional Government of the United Mexican States"
  MEX_ADJ:0 "Mexican"
-
  MON:0 "Mongolian People's Republic"
  MON_DEF:0 "the Mongolian People's Republic"
  MON_ADJ:0 "Mongolian"
-
  NEP:0 "Nepal"
  NEP_DEF:0 "Nepal"
  NEP_ADJ:0 "Nepali"
-
  NIC:0 "Nicaragua"
  NIC_DEF:0 "Nicaragua"
  NIC_ADJ:0 "Nicaraguan"
-
  PAN:0 "Republic of Panama"
  PAN_DEF:0 "the Republic of Panama"
  PAN_ADJ:0 "Panamanian"
-
  PAR:0 "Republic of Paraguay"
  PAR_DEF:0 "the Republic of Paraguay"
  PAR_ADJ:0 "Paraguayan"
-
- 
  PER:0 "Iranian Republic"
  PER_DEF:0 "the Iranian Republic"
  PER_ADJ:0 "Iranian"
-
  PHI:0 "Republic of the Philippines"
  PHI_DEF:0 "the Republic of the Philippines"
  PHI_ADJ:0 "Filipino"
-
  PRU:0 "Republic of Peru"
  PRU_DEF:0 "the Republic of Peru"
  PRU_ADJ:0 "Peruvian"
-
  SAF:0 "Republic of South Africa"
  SAF_DEF:0 "the Republic of South Africa"
  SAF_ADJ:0 "South African"
-
  SAU:0 "Kingdom of Saudi Arabia"
  SAU_DEF:0 "the Kingdom of Saudi Arabia"
  SAU_ADJ:0 "Saudi"
-
  SIA:0 "Kingdom of Thailand"
  SIA_DEF:0 "the Kingdom of Thailand"
  SIA_ADJ:0 "Thai"
-
  SIK:0 "East Turkestan"
  SIK_DEF:0 "East Turkestan"
  SIK_ADJ:0 "Uyghur"
-
  TAN:0 "Tuva"
  TAN_DEF:0 "Tuva"
  TAN_ADJ:0 "Tuvan"
-
  TIB:0 "Tibet"
  TIB_DEF:0 "Tibet"
  TIB_ADJ:0 "Tibetan"
-
  VEN:0 "Venezuela"
  VEN_DEF:0 "Venezuela"
  VEN_ADJ:0 "Venezuelan"
- 
  AST:0 "Commonwealth of Australia"
  AST_DEF:0 "the Commonwealth of Australia"
  AST_ADJ:0 "Australian"
-
  NZL:0 "New Zealand"
  NZL_DEF:0 "New Zealand"
  NZL_ADJ:0 "New Zealand"
-
  URG:0 "Uruguay"
  URG_DEF:0 "Uruguay"
  URG_ADJ:0 "Uruguayan"
-
  CUB:0 "Republic of Cuba"
  CUB_DEF:0 "the Republic of Cuba"
  CUB_ADJ:0 "Cuban"
-
  DOM:0 "Dominican Republic"
  DOM_DEF:0 "Dominican Republic"
  DOM_ADJ:0 "Dominican"
-
  HAI:0 "Republic of Haiti"
  HAI_DEF:0 "the Republic of Haiti"
  HAI_ADJ:0 "Haitian"
-
  OMA:0 "Oman"
  OMA_DEF:0 "Oman"
  OMA_ADJ:0 "Omani"
-
  YEM:0 "Republic of Yemen"
  YEM_DEF:0 "the Republic of Yemen"
  YEM_ADJ:0 "Yemeni"
- 
  ETH:0 "Ethiopia"
  ETH_DEF:0 "Ethiopia"
  ETH_ADJ:0 "Ethiopian"
-
  SLO:0 "Slovak Republic"
  SLO_DEF:0 "the Slovak Republic"
  SLO_ADJ:0 "Slovak"
-
  BHU:0 "Kingdom of Bhutan"
  BHU_DEF:0 "the Kingdom of Bhutan"
  BHU_ADJ:0 "Bhutanese"
- 
  LIB:0 "Liberia"
  LIB_DEF:0 "Liberia"
  LIB_ADJ:0 "Liberian"
-
  RAJ:0 "Republic of India"
  RAJ_DEF:0 "the Republic of India"
  RAJ_ADJ:0 "Indian"
-
  CRO:0 "Republic of Croatia"
  CRO_DEF:0 "the Republic of Croatia"
  CRO_ADJ:0 "Croatian"
-
  KOR:0 "Republic of Korea"
  KOR_DEF:0 "the Republic of Korea"
  KOR_ADJ:0 "Korean"
-
  SER:0 "Republic of Serbia"
  SER_DEF:0 "the Republic of Serbia"
  SER_ADJ:0 "Serbian"
- 
  ICE:0 "Republic of Iceland"
  ICE_DEF:0 "the Republic of Iceland"
  ICE_ADJ:0 "Icelandic"
-
  SYR:0 "Syrian Arab Republic"
  SYR_DEF:0 "the Syrian Arab Republic"
  SYR_ADJ:0 "Syrian"
- 
  LEB_fascism:0 "Lebanon Free State"
  LEB_fascism_DEF:0 "the Lebanon Free State"
  LEB_democratic:0 "Lebanon"
@@ -434,44 +356,33 @@
  WGR:0 "Germany"
  WGR_DEF:0 "Germany"
  WGR_ADJ:0 "West German"
-
  DDR:0 "German Democratic Republic"
  DDR_DEF:0 "the German Democratic Republic"
  DDR_ADJ:0 "East German"
-
  PAL:0 "Palestine"
  PAL_DEF:0 "Palestine"
  PAL_ADJ:0 "Palestinian"
-
  ISR:0 "State of Israel"
  ISR_DEF:0 "the State of Israel"
  ISR_ADJ:0 "Israeli"
-
  VIN:0 "Vietnam"
  VIN_DEF:0 "Vietnam"
  VIN_ADJ:0 "Vietnamese"
-
  CAM:0 "Cambodia"
  CAM_DEF:0 "Cambodia"
  CAM_ADJ:0 "Cambodian"
-
  INS:0 "Republic of Indonesia"
  INS_DEF:0 "Indonesia"
  INS_ADJ:0 "Indonesian"
-
  MAL:0 "Malaysia"
  MAL_DEF:0 "Malaysia"
  MAL_ADJ:0 "Malaysian"
-
-
  LAO:0 "Laos"
  LAO_DEF:0 "Laos"
  LAO_ADJ:0 "Laotian"
-
  MNT:0 "Montenegro"
  MNT_DEF:0 "Montenegro"
  MNT_ADJ:0 "Montenegrin"
- 
  UKR_fascism:0 "Ukraine"
  UKR_fascism_DEF:0 "Ukraine"
  UKR_democratic:0 "Republic of Ukraine"
@@ -502,51 +413,39 @@
  BLR:0 "Belarus"
  BLR_DEF:0 "Belarus"
  BLR_ADJ:0 "Belarusian"
-
  ANG:0 "Angola"
  ANG_DEF:0 "Angola"
  ANG_ADJ:0 "Angolan"
-
  MZB:0 "Mozambique"
  MZB_DEF:0 "Mozambique"
  MZB_ADJ:0 "Mozambican"
- 
  RHO:0 "Rhodesia"
  RHO_DEF:0 "Rhodesia"
  RHO_ADJ:0 "Rhodesian"
- 
  COG:0 "Democratic Republic of the Congo"
  COG_DEF:0 "the Democratic Republic of the Congo"
  COG_ADJ:0 "Congolese"
-
  KEN:0 "Kenya"
  KEN_DEF:0 "Kenya"
  KEN_ADJ:0 "Kenyan"
-
  PAK:0 "Islamic Republic of Pakistan"
  PAK_DEF:0 "the Islamic Republic of Pakistan"
  PAK_ADJ:0 "Pakistani"
-
  BOT:0 "Botswana"
  BOT_DEF:0 "Botswana"
  BOT_ADJ:0 "Batswana"
-
  MAN:0 "Manchuria"
  MAN_DEF:0 "Manchuria"
  MAN_ADJ:0 "Manchu"
-
  BAH:0 "Bahamas"
  BAH_DEF:0 "the Bahamas"
  BAH_ADJ:0 "Bahamian"
- 
  BAN:0 "Bangladesh"
  BAN_DEF:0 "Bangladesh"
  BAN_ADJ:0 "Bangladeshi"
-
  BLZ:0 "Belize"
  BLZ_DEF:0 "Belize"
  BLZ_ADJ:0 "Belizean"
-
  BRM:0 "Burma"
  BRM_DEF:0 "Burma"
  BRM_ADJ:0 "Burmese"
@@ -871,7 +770,6 @@
  SUD:0 "Sudan"
  SUD_DEF:0 "Sudan"
  SUD_ADJ:0 "Sudanese"
- 
  ERI_fascism:1 "Eritrea"
  ERI_fascism_DEF:1 "Eritrea"
  ERI_democratic:0 "Eritrea"
@@ -1633,51 +1531,39 @@
  SPD:0 "Spain"
  SPD_DEF:0 "Spain"
  SPD_ADJ:0 "Spanish"
-
  NAV:0 "Basque Country"
  NAV_DEF:0 "the Basque Country"
  NAV_ADJ:0 "Basque"
-
  CAT:0 "Catalan Republic"
  CAT_DEF:0 "the Catalan Republic"
  CAT_ADJ:0 "Catalan"
-
  GLC:0 "Galicia"
  GLC_DEF:0 "Galicia"
  GLC_ADJ:0 "Galician"
-
  ADU:0 "Andalucia"
  ADU_DEF:0 "Andalucia"
  ADU_ADJ:0 "Andalucian"
-
  BAY:0 "Bavaria"
  BAY_DEF:0 "Bavaria"
  BAY_ADJ:0 "Bavarian"
-
  MEK:0 "Mecklenburg"
  MEK_DEF:0 "Mecklenburg"
  MEK_ADJ:0 "Mecklenburg"
-
  PRE:0 "Prussia"
  PRE_DEF:0 "Prussia"
  PRE_ADJ:0 "Prussian"
- 
  SAX:0 "Saxony"
  SAX_DEF:0 "Saxony"
  SAX_ADJ:0 "Saxon"
-
  HAN:0 "Hannover"
  HAN_DEF:0 "Hannover"
  HAN_ADJ:0 "Hanoverian"
-
  WUR:0 "Wurtemberg"
  WUR_DEF:0 "Wurtemberg"
  WUR_ADJ:0 "Wurtembergian"
-
  BRI:0 "Brittany"
  BRI_DEF:0 "Brittany"
  BRI_ADJ:0 "Breton"
- 
  OCC_fascism:0 "Imperialist Occitania"
  OCC_fascism_DEF:0 "Imperialist Occitania"
  OCC_democratic:0 "Occitania"
@@ -2147,12 +2033,12 @@
  ABK_democratic_DEF:0 "Abkhazia"
  ABK_communism:0 "Abkhaz Autonomous Soviet Socialist Republic"
  ABK_communism_DEF:0 "the Abkhaz Autonomous Soviet Socialist Republic"
- ABK_neutrality:0 "Abkhaz Military Authority"
- ABK_neutrality_DEF:0 "the Abkhaz Military Authority"
+ ABK_neutrality:0 "Republic of Abkhazia"
+ ABK_neutrality_DEF:0 "the Republic of Abkhazia"
  ABK_fascism_ADJ:0 "Abkhaz"
  ABK_democratic_ADJ:0 "Abkhaz"
  ABK_communism_ADJ:0 "Abkhaz"
- ABK_neutrality_ADJ:0 "Abkhaz"
+ ABK_neutrality_ADJ:0 "Abkhazian"
  ABK_SOV_communism_subject:0 "Abkhaz Autonomous Soviet Socialist Republic"
  ABK_SOV_communism_subject_DEF:0 "the Abkhaz Autonomous Soviet Socialist Republic"
  ABK_SOV_communism_subject_ADJ:0 "Abkhaz"
@@ -2316,7 +2202,6 @@
  RIF_democratic_ADJ:0 "Rifian"
  RIF_communism_ADJ:0 "Rifian"
  RIF_neutrality_ADJ:0 "Rifian"
-
  HAR_fascism:0 "Empire of Harar"
  HAR_fascism_DEF:0 "the Empire of Harar"
  HAR_democratic:0 "Ogaden Republic"
@@ -2331,7 +2216,6 @@
  HAR_democratic_ADJ:0 "Harari"
  HAR_communism_ADJ:0 "Harari"
  HAR_neutrality_ADJ:0 "Harari"
-
  TIG_fascism:0 "Aksumite Kingdom"
  TIG_fascism_DEF:0 "the Aksumite Kingdom"
  TIG_democratic:0 "Tigrinyan Republic"
@@ -2346,7 +2230,6 @@
  TIG_democratic_ADJ:0 "Tigrinyan"
  TIG_communism_ADJ:0 "Tigrinyan"
  TIG_neutrality_ADJ:0 "Tigrinyan"
-
  AFA_fascism:1 "Empire of the Sands"
  AFA_fascism_DEF:1 "the Empire of the Sands"
  AFA_democratic:0 "Afar Republic"
@@ -2363,7 +2246,6 @@
  AFA_democratic_ADJ:0 "Afar"
  AFA_communism_ADJ:0 "Afar"
  AFA_neutrality_ADJ:0 "Afar"
-
  BEG_fascism:0 "Funjistan"
  BEG_fascism_DEF:0 "Funjistan"
  BEG_democratic:0 "Benishangul-Gumuz Republic"
@@ -2378,7 +2260,6 @@
  BEG_democratic_ADJ:0 "Benishangul-Gumuz"
  BEG_communism_ADJ:0 "Funji-Gumuz"
  BEG_neutrality_ADJ:0 "Benishangul-Gumuz"
-
  GBA_fascism:0 "Upper-Nilotic National Union"
  GBA_fascism_DEF:0 "the Upper-Nilotic National Union"
  GBA_democratic:0 "Gambela Federation"
@@ -2393,7 +2274,6 @@
  GBA_democratic_ADJ:0 "Gambelan"
  GBA_communism_ADJ:0 "Gambelan"
  GBA_neutrality_ADJ:0 "Anuak-Nuer"
-
  SID_fascism:0 "Sidama Realm"
  SID_fascism_DEF:0 "the Sidama Realm"
  SID_democratic:0 "Sidamo Republic"
@@ -2408,7 +2288,6 @@
  SID_democratic_ADJ:0 "Sidama"
  SID_communism_ADJ:0 "Southern Nations"
  SID_neutrality_ADJ:0 "Sidama"
-
  ORO_fascism:0 "Ogaden Basin Protection Zone"
  ORO_fascism_DEF:0 "the Ogaden Basin Protection Zone"
  ORO_democratic:0 "Ogaden Basin Protection Zone"
@@ -2423,7 +2302,6 @@
  ORO_democratic_ADJ:0 "Oromo"
  ORO_communism_ADJ:0 "Oromo"
  ORO_neutrality_ADJ:0 "Oromo"
-
  QEM_fascism:0 "Tribalist Amhara"
  QEM_fascism_DEF:0 "the Tribalist Amhara"
  QEM_democratic:0 "Amharan Republic"
@@ -2438,14 +2316,12 @@
  QEM_democratic_ADJ:0 "Amharan"
  QEM_communism_ADJ:0 "Amharan"
  QEM_neutrality_ADJ:0 "Amharan"
-
  RSI:0 "Repubblica Sociale Italiana"
  RSI_DEF:0 "the Repubblica Sociale Italiana"
  RSI_ADJ:0 "Italian"
  RDS:0 "Regno del Sud"
  RDS_DEF:0 "the Regno del Sud"
  RDS_ADJ:0 "Italian"
-
  KHA_fascism:0 "Neo Yensei-Kyrgyz Khaganate"
  KHA_fascism_DEF:0 "the Neo Yensei-Kyrgyz Khaganate"
  KHA_democratic:0 "Republic of Khakassia"
@@ -2460,7 +2336,6 @@
  KHA_democratic_ADJ:0 "Khakass"
  KHA_communism_ADJ:0 "Khakass"
  KHA_neutrality_ADJ:0 "Khakass"
- 
  LBV:0 "Kingdom of Lombardy-Venetia"
  LBV_fascism:0 "Most Serene Republic of Cisalpina"
  LBV_fascism_DEF:0 "the Most Serene Republic of Cisalpina"
@@ -2478,7 +2353,6 @@
  LBV_democratic_ADJ:0 "Lombardo-Venetian"
  LBV_communism_ADJ:0 "Transpadanian"
  LBV_neutrality_ADJ:0 "Lombardo-Venetian"
-
  PAP:0 "Papal States"
  PAP_fascism:0 "Kingdom of God"
  PAP_fascism_DEF:0 "the Kingdom of God"
@@ -2498,7 +2372,6 @@
  PAP_neutrality_ADJ:0 "Papal"
  PAP_subject_ADJ:0 "Vatican"
  PAP_autonomy_supervised_state_ADJ:0 "Roman"
-
  TOS:0 "Grand Duchy of Tuscany"
  TOS_fascism:0 "Etrurian Social Republic"
  TOS_fascism_DEF:0 "the Etrurian Social Republic"
@@ -2519,7 +2392,6 @@
  TOS_communism_ADJ:0 "Tuscan"
  TOS_neutrality_ADJ:0 "Tuscan"
  TOS_subject_ADJ:0 "Tuscan"
-
  SPM:0 "Sardinia"
  SPM_fascism:0 "Grand Duchy of Savoy"
  SPM_fascism_DEF:0 "the Grand Duchy of Savoy"
@@ -2538,7 +2410,6 @@
  SPM_communism_ADJ:0 "Cisalpine"
  SPM_neutrality_ADJ:0 "Piedmontese"
  SPM_subject_ADJ:0 "Piedmontese"
-
  TTS:0 "Kingdom of the Two Sicilies"
  TTS_fascism:0 "Parthenopean Republic"
  TTS_fascism_DEF:0 "the Parthenopean Republic"
@@ -2557,11 +2428,9 @@
  TTS_communism_ADJ:0 "Mezzogiornian"
  TTS_neutrality_ADJ:0 "Sicilian"
  TTS_subject_ADJ:0 "Sicilian"
-
  SMI:0 "Sápmi"
  SMI_DEF:0 "Sápmi"
  SMI_ADJ:0 "Sámi"
-
  GOT_neutrality:0 "Kingdom of Sweden"
  GOT_neutrality_DEF:0 "The Kingdom of Sweden"
  GOT_fascism:0 "The true Sweden"
@@ -2570,170 +2439,140 @@
  GOT_communism_DEF:0 "$GOT_communism$"
  GOT_democratic:0 "Swedish Exiles"
  GOT_democratic_ADJ:0 "$GOT_democratic$"
- 
  GRN:0 "Greenland"
  GRN_DEF:0 "Greenland"
  GRN_ADJ:0 "Greenlandic"
- 
-
  JAN:0 "Jan Mayen"
  JAN_DEF:0 "the Island of Jan Mayen"
  JAN_ADJ:0 "Polar"
- 
  RAP:0 "Rapa Nui"
  RAP_DEF:0 "Rapa Nui"
  RAP_ADJ:0 "Rapa Nui"
-
  GAR:0 "Guaraní Nation"
  GAR_DEF:0 "the Guaraní Nation"
  GAR_ADJ:0 "Guaraní"
-
  INC:0 "Neo-Inca State"
  INC_DEF:0 "the Neo-Inca State"
  INC_ADJ:0 "Incan"
-
  MIS:0 "Mosquitia"
  MIS_DEF:0 "Mosquitia"
  MIS_ADJ:0 "Miskito"
-
  MAY:0 "Maya"
  MAY_DEF:0 "Maya"
  MAY_ADJ:0 "Maya"
-
  INU:0 "Inuit"
  INU_DEF:0 "Inuit"
  INU_ADJ:0 "Inuit"
-
  CHR:0 "Charrúa Nation"
  CHR_DEF:0 "the Charrúa Nation"
  CHR_ADJ:0 "Charrúa"
-
  ITZ:0 "Itza State"
  ITZ_DEF:0 "the Itza State"
  ITZ_ADJ:0 "Itza"
-
  NAH:0 "Nahua Nation"
  NAH_DEF:0 "the Nahua Nation"
  NAH_ADJ:0 "Nahua"
-
  IAS:0 "Isthmo-Amerindia"
  IAS_DEF:0 "Isthmo-Amerindia"
  IAS_ADJ:0 "Isthmo-Amerindian"
-
  YUC:0 "Yucatán"
  YUC_DEF:0 "Yucatán"
  YUC_ADJ:0 "Yucateco"
-
  RIG:0 "Republic of the Rio Grande"
  RIG_DEF:0 "the Republic of the Rio Grande"
  RIG_ADJ:0 "Riograndese"
-
  QUE:0 "Québec"
  QUE_DEF:0 "Québec"
  QUE_ADJ:0 "Québécois"
-
  IDC_communism:0 "Indochina Frontline Command"
  IDC_communism_DEF:0 "the Indochina Frontline Command"
  IDC_communism_ADJ:0 "Indochinese"
  IDC:0 "Indochina"
  IDC_DEF:0 "Indochina"
  IDC_ADJ:0 "Indochinese"
-
- ASB_fascism: "Harakat al-Shabaab al-Mujahideen"
- ASB_fascism_DEF: "Harakat al-Shabaab al-Mujahideen"
- ASB_fascism_ADJ: "Somali"
- ASB_democratic: "Harakat al-Shabaab al-Mujahideen"
- ASB_democratic_DEF: "Harakat al-Shabaab al-Mujahideen"
- ASB_democratic_ADJ: "Somali"
- ASB_neutrality: "Harakat al-Shabaab al-Mujahideen"
- ASB_neutrality_DEF: "Harakat al-Shabaab al-Mujahideen"
- ASB_neutrality_ADJ: "Somali"
- ASB_communism: "Harakat al-Shabaab al-Mujahideen"
- ASB_communism_DEF: "Harakat al-Shabaab al-Mujahideen"
- ASB_communism_ADJ: "Somali"
- ASB_DEF: "Somali"
- ASB_ADJ: "Somali"
- 
- SYB_fascism: "Somali Solditary Union"
- SYB_fascism_DEF: "Somali Solditary Union"
- SYB_fascism_ADJ: "Somali"
- SYB_democratic: "Somali Union"
- SYB_democratic_DEF: "Somali Union"
- SYB_democratic_ADJ: "Somali"
- SYB_neutrality: "Somali Union"
- SYB_neutrality_DEF: "Somali Union"
- SYB_neutrality_ADJ: "Somali"
- SYB_communism: "Somali Syndicalist Republic"
- SYB_communism_DEF: "Somali Syndicalist Republic"
- SYB_communism_ADJ: "Somali"
- SYB_DEF: "Somali"
- SYB_ADJ: "Somali"
- 
- SYP_fascism: "Puntland Sea Empire"
- SYP_fascism_DEF: "Puntland Sea Empire"
- SYP_fascism_ADJ: "Somali"
- SYP_democratic: "Puntland"
- SYP_democratic_DEF: "Puntland"
- SYP_democratic_ADJ: "Somali"
- SYP_neutrality: "Puntland Pirate Republic"
- SYP_neutrality_DEF: "Puntland Pirate Republic"
- SYP_neutrality_ADJ: "Somali"
- SYP_communism: "People's Republic of Puntland"
- SYP_communism_DEF: "People's Republic of Puntland"
- SYP_communism_ADJ: "Somali"
- SYP_DEF: "Somali"
- SYP_ADJ: "Somali"
- 
- SMR_fascism: "Somaliland Sparta"
- SMR_fascism_DEF: "Somaliland Sparta"
- SMR_fascism_ADJ: "Somali"
- SMR_democratic: "Republic of Somaliland"
- SMR_democratic_DEF: "Republic of Somaliland"
- SMR_democratic_ADJ: "Somali"
- SMR_neutrality: "Republic of Somaliland"
- SMR_neutrality_DEF: "Republic of Somaliland"
- SMR_neutrality_ADJ: "Somali"
- SMR_communism: "People's Republic of Somaliland"
- SMR_communism_DEF: "People's Republic of Somaliland"
- SMR_communism_ADJ: "Somali"
- SMR_DEF: "Somali"
- SMR_ADJ: "Somali"
-
+ ASB_fascism:0 "Harakat al-Shabaab al-Mujahideen"
+ ASB_fascism_DEF:0 "Harakat al-Shabaab al-Mujahideen"
+ ASB_fascism_ADJ:0 "Somali"
+ ASB_democratic:0 "Harakat al-Shabaab al-Mujahideen"
+ ASB_democratic_DEF:0 "Harakat al-Shabaab al-Mujahideen"
+ ASB_democratic_ADJ:0 "Somali"
+ ASB_neutrality:0 "Harakat al-Shabaab al-Mujahideen"
+ ASB_neutrality_DEF:0 "Harakat al-Shabaab al-Mujahideen"
+ ASB_neutrality_ADJ:0 "Somali"
+ ASB_communism:0 "Harakat al-Shabaab al-Mujahideen"
+ ASB_communism_DEF:0 "Harakat al-Shabaab al-Mujahideen"
+ ASB_communism_ADJ:0 "Somali"
+ ASB_DEF:0 "Somali"
+ ASB_ADJ:0 "Somali"
+ SYB_fascism:0 "Somali Solditary Union"
+ SYB_fascism_DEF:0 "Somali Solditary Union"
+ SYB_fascism_ADJ:0 "Somali"
+ SYB_democratic:0 "Somali Union"
+ SYB_democratic_DEF:0 "Somali Union"
+ SYB_democratic_ADJ:0 "Somali"
+ SYB_neutrality:0 "Somali Union"
+ SYB_neutrality_DEF:0 "Somali Union"
+ SYB_neutrality_ADJ:0 "Somali"
+ SYB_communism:0 "Somali Syndicalist Republic"
+ SYB_communism_DEF:0 "Somali Syndicalist Republic"
+ SYB_communism_ADJ:0 "Somali"
+ SYB_DEF:0 "Somali"
+ SYB_ADJ:0 "Somali"
+ SYP_fascism:0 "Puntland Sea Empire"
+ SYP_fascism_DEF:0 "Puntland Sea Empire"
+ SYP_fascism_ADJ:0 "Somali"
+ SYP_democratic:0 "Puntland"
+ SYP_democratic_DEF:0 "Puntland"
+ SYP_democratic_ADJ:0 "Somali"
+ SYP_neutrality:0 "Puntland Pirate Republic"
+ SYP_neutrality_DEF:0 "Puntland Pirate Republic"
+ SYP_neutrality_ADJ:0 "Somali"
+ SYP_communism:0 "People's Republic of Puntland"
+ SYP_communism_DEF:0 "People's Republic of Puntland"
+ SYP_communism_ADJ:0 "Somali"
+ SYP_DEF:0 "Somali"
+ SYP_ADJ:0 "Somali"
+ SMR_fascism:0 "Somaliland Sparta"
+ SMR_fascism_DEF:0 "Somaliland Sparta"
+ SMR_fascism_ADJ:0 "Somali"
+ SMR_democratic:0 "Republic of Somaliland"
+ SMR_democratic_DEF:0 "Republic of Somaliland"
+ SMR_democratic_ADJ:0 "Somali"
+ SMR_neutrality:0 "Republic of Somaliland"
+ SMR_neutrality_DEF:0 "Republic of Somaliland"
+ SMR_neutrality_ADJ:0 "Somali"
+ SMR_communism:0 "People's Republic of Somaliland"
+ SMR_communism_DEF:0 "People's Republic of Somaliland"
+ SMR_communism_ADJ:0 "Somali"
+ SMR_DEF:0 "Somali"
+ SMR_ADJ:0 "Somali"
  WSB_communism:0 "DDR Reclamation Force in West Berlin"
  WSB_democratic:0 "Commonwealth Military Zone of Berlin"
  WSB_democratic_DEF:0 "West Berlin"
  WSB:0 "West Berlin"
  WSB_DEF:0 "West Berlin"
  WSB_ADJ:0 "West Berliner"
- 
  UAR:0 "Arabian Republic"
  UAR_DEF:0 "the Arabian Republic"
  UAR_ADJ:0 "Arabian"
- 
  NEU:0 "Government of New Holland"
  NEU_DEF:0 "the Government of New Holland"
  NEU_ADJ:0 "New Hollander"
-
  SWR:0 "Swan River Republic"
  SWR_DEF:0 "the Swan River Republic"
  SWR_ADJ:0 "Swan River Republican"
- 
  WST:0 "Westralian Centrist Union"
  WST_DEF:0 "the Westralian Centrist Union"
  WST_ADJ:0 "Westralian"
-  
  NAS:0 "Australian Revolutionary Front"
  NAS_DEF:0 "the Australian Revolutionary Front"
  NAS_ADJ:0 "Australian Red Army"
-
  CTA:0 "Free Central Australian Territories"
  CTA_DEF:0 "the Free Central Australian Territories"
  CTA_ADJ:0 "Australian Anarchy"
- 
  TAR:0 "Australian Reserves Corporation"
  TAR_DEF:0 "the Australian Reserves Corporation"
  TAR_ADJ:0 "Australian Reserves Corporation"
- 
  ASU_fascism:0 "Grand Union of Australia"
  ASU_fascism_DEF:0 "the Grand Union of Australia"
  ASU_democratic:0 "Australian Union State"
@@ -2749,7 +2588,6 @@
  ASU:0 "Australian Union State"
  ASU_DEF:0 "the Australian Union State"
  ASU_ADJ:0 "Australian Unionist"
-
  ASM_fascism:0 "National Vanguard Of Australia"
  ASM_fascism_DEF:0 "the National Vanguard Of Australia"
  ASM_democratic:0 "Australian Union State"
@@ -2765,177 +2603,132 @@
  ASM:0 "Australia"
  ASM_DEF:0 "Australia"
  ASM_ADJ:0 "Australian"
- 
  QEN:0 "Queensland Republic"
  QEN_DEF:0 "the Queensland Republic"
  QEN_ADJ:0 "Queenslander"
-
  UPA:0 "Ukrainian Insurgent Army"
  UPA_DEF:0 "the Ukrainian Insurgent Army"
  UPA_ADJ:0 "Ukrainian"
-
  EAF:0 "East African Federation"
  EAF_DEF:0 "the East African Federation"
  EAF_ADJ:0 "East African"
-
  MAG:0 "Arab Maghreb Union"
  MAG_DEF:0 "the Arab Maghreb Union"
  MAG_ADJ:0 "Maghrebi"
- 
  ADS:0 "Army of the Desert"
  ADS_DEF:0 "the Army of the Desert"
  ADS_ADJ:0 "Desert"
- 
  HEJ:0 "Republic of Arabia"
  HEJ_DEF:0 "the Republic of Arabia"
  HEJ_ADJ:0 "Arabian"
- 
  DMM:0 "State of Dammam"
  DMM_DEF:0 "the State of Dammam"
  DMM_ADJ:0 "Dammami"
- 
  AXR:0 "Republican Army of Alexandria"
  AXR_DEF:0 "the Army of Alexandria"
  AXR_ADJ:0 "Alexandrian"
- 
  JER:0 "Free City of Jerusalem"
  JER_DEF:0 "the Free City of Jerusalem"
  JER_ADJ:0 "Jerusalemite"
- 
  SRY:0 "People's Republic of Syria"
  SRY_DEF:0 "People's Republic of Syria"
  SRY_ADJ:0 "Syrian"
- 
  SHA:0 "Saharan Transitional Authority"
  SHA_DEF:0 "the Saharan Transitional Authority"
  SHA_ADJ:0 "Saharan"
- 
  RBK:0 "Rub' al Khali Transitional Authority"
  RBK_DEF:0 "the Rub' al Khali Transitional Authority"
  RBK_ADJ:0 "Desert"
-
  KAZ_communism:0 "Kazakh Soviet Socialist Republic"
  KAZ_communism_DEF:0 "Kazakh Soviet Socialist Republic"
  KAZ_communism_ADJ:0 "Kazakhian"
-
  UZB_communism:0 "Uzbek Soviet Socialist Republic"
  UZB_communism_DEF:0 "Uzbek Soviet Socialist Republic"
  UZB_communism_ADJ:0 "Uzbekian"
-
  KYR_communism:0 "Kirghiz Soviet Socialist Republic"
  KYR_communism_DEF:0 "Kirghiz Soviet Socialist Republic"
  KYR_communism_ADJ:0 "Kirghizian"
-
  TAJ_communism:0 "Tajik Soviet Socialist Republic"
  TAJ_communism_DEF:0 "Tajik Soviet Socialist Republic"
  TAJ_communism_ADJ:0 "Tajikian"
-
  TMS_communism:0 "Turkmen Soviet Socialist Republic"
  TMS_communism_DEF:0 "Turkmen Soviet Socialist Republic"
  TMS_communism_ADJ:0 "Turkmenian"
-
  RKZ:0 "North Kazakhi People's Republic"
  RKZ_DEF:0 "North Kazakh People's Republic"
  RKZ_ADJ:0 "North Kazakh"
-
  KAZ_neutrality:0 "Republic of Kazakhstan"
  KAZ_neutrality_DEF:0 "Republic of Kazakhstan"
  KAZ_neutrality_ADJ:0 "Kazakhian"
-
  UZB_democratic:0 "Federation of Uzbekistan"
  UZB_democratic_DEF:0 "Federation of Uzbekistan"
  UZB_democratic_ADJ:0 "Uzbekian"
-
  KYR_socialism:0 "Kirghiz Socialist Republic"
  KYR_socialism_DEF:0 "Kirghiz Socialist Republic"
  KYR_socialism_ADJ:0 "Kirghizian"
-
  TAJ_neutrality:0 "Republic of Tajikistan"
  TAJ_neutrality_DEF:0 "Republic of Tajikistan"
  TAJ_neutrality_ADJ:0 "Tajikian"
-
  TMS_neutrality:0 "Republic of Turkmenistan"
  TMS_neutrality_DEF:0 "Republic of Turkmenistan"
  TMS_neutrality_ADJ:0 "Turkmenian"
-
  GEO_communism:0 "Georgian Soviet Socialist Republic"
  GEO_communism_DEF:0 "The Georgian Soviet Socialist Republic"
  GEO_communism_ADJ:0 "Georgian"
  GEO_democratic:0 "Republic of Georgia"
  GEO_democratic_DEF:0 "The Republic of Georgia"
  GEO_democratic_ADJ:0 "Georgian"
-
  AZR_communism:0 "Azerbaijanian Soviet Socialist Republic"
  AZR_communism_DEF:0 "The Azerbaijanian Soviet Socialist Republic"
  AZR_communism_ADJ:0 "Azerbaijani"
  AZR_neutrality:0 "Republic of Azerbaijan"
  AZR_neutrality_DEF:0 "The Republic of Azerbaijan"
  AZR_neutrality_ADJ:0 "Azerbaijani"
-
  ARM_communism:0 "Armenian Soviet Socialist Republic"
  ARM_communism_DEF:0 "The Armenian Soviet Socialist Republic"
  ARM_communism_ADJ:0 "Armenian"
-
  ARM_neutrality:0 "Republic of Armenia"
  ARM_neutrality_DEF:0 "The Republic of Armenia"
  ARM_neutrality_ADJ:0 "Armenian"
-
  NAK_communism:0 "Nakhichevan Autonomous Soviet Socialist Republic"
  NAK_communism_DEF:0 "the Nakhichevan Autonomous Soviet Socialist Republic"
  NAK_communism_ADJ:0 "Nakhichevan"
-
  ADJ_communism:0 "Adjara Autonomous Soviet Socialist Republic"
  ADJ_communism_DEF:0 "the Adjara Autonomous Soviet Socialist Republic"
  ADJ_communism_ADJ:0 "Adjara"
-
  SOU_communism:0 "South Osetian Autonomous Soviet Socialist Republic"
  SOU_communism_DEF:0 "the South Osetian Autonomous Soviet Socialist Republic"
  SOU_communism_ADJ:0 "Nakhichevan"
-
- ABK_neutrality:0 "Republic of Abkhazia"
- ABK_neutrality_DEF:0 "the Republic of Abkhazia"
- ABK_neutrality_ADJ:0 "Abkhazian"
-
  SOU_neutrality:0 "Republic of South Osetia"
  SOU_neutrality_DEF:0 "the Republic of South Osetia"
  SOU_neutrality_ADJ:0 "Osetian"
-
  ADJ_ultranationalism:0 "Islamic State of Adjaria"
  ADJ_ultranationalism_DEF:0 "the Islamic State of Adjaria"
  ADJ_ultranationalism_ADJ:0 "Adjarian"
-
  AFG:0 "Islamic Republic of Afghanistan"
  AFG_DEF:0 "the Islamic Republic of Afghanistan"
  AFG_ADJ:0 "Afghan"
-
  DPK:0 "Democratic People's Republic of Korea"
  DPK_DEF:0 "the Democratic People's Republic of Korea"
  DPK_ADJ:0 "North Korean"
-
  SSU:0 "South Sudan"
  SSU_DEF:0 "South Sudan"
  SSU_ADJ:0 "South Sudanese"
-
  SNG:0 "Singapore"
  SNG_DEF:0 "Singapore"
  SNG_ADJ:0 "Singaporean"
-
  BRN:0 "Brunei"
  BRN_DEF:0 "Brunei"
  BRN_ADJ:0 "Bruneian"
-
  OKN:0 "Okinawa"
  OKN_DEF:0 "Okinawa"
  OKN_ADJ:0 "Okinawan"
-
  PLU:0 "Palau"
  PLU_DEF:0 "Palau"
  PLU_ADJ:0 "Palauan"
-
  FOR:0 "Taiwan"
  FOR_DEF:0 "Taiwan"
  FOR_ADJ:0 "Taiwanese"
-
  MHG:0 "Maghrebi Confederation"
  MHG_DEF:0 "the Maghrebi Confederation"
  MHG_ADJ:0 "Maghrebi"

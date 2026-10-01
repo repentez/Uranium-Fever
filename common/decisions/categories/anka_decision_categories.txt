@@ -22,3 +22,9 @@ USA_Enclave_Directive = {
 		tag = USA
 	}
 }
+USA_Our_Northern_Neighbor = {
+	icon = generic_research
+	allowed = {
+		tag = USA
+	}
+}

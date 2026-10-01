@@ -1412,3 +1412,7 @@ GHA = {
 	color = rgb { 102 112 92 }
 	color_ui = rgb { 102 112 92 }
 }
+MOC = {
+	color = rgb { 81 110 138 }
+	color_ui = rgb { 81 110 138 }
+}

@@ -3,32 +3,21 @@ state = {
 	name = "STATE_57"
 	manpower = 5109333
 	state_category = large_city
-
 	history = {
 		owner = EUC
 		add_core_of = EUC
 		add_core_of = GER
-
-		victory_points = {
-			495 5 # Dortmund
-		}
-
-		#victory_points = {
-		#	9509 1 # Hamm
-		#}
-
+		add_core_of = DDR
+		victory_points = { 495 5 }
 		buildings = {
-
 			infrastructure = 4
 			arms_factory = 3
 			industrial_complex = 1
 			air_base = 3
-
-			# Möhne Reservoir
-			11431 = { dam = 1 }
-
+			11431 = {
+				dam = 1
+			}
 		}
-
 		1939.1.1 = {
 			buildings = {
 				radar_station = 1
@@ -37,10 +26,22 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
-		405 495 3355 3398 6535 6622 9443 9509 9547 11388 11431 15853 15854 18139 18141 
+		405
+		495
+		3355
+		3398
+		6535
+		6622
+		9443
+		9509
+		9547
+		11388
+		11431
+		15853
+		15854
+		18139
+		18141
 	}
-
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

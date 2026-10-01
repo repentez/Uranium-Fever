@@ -40,25 +40,9 @@ set_grand_doctrine = new_base_strike
 2052.1.1 = {
 	create_faction = "North American Alliance"
 	add_to_faction = CAN
+	add_to_faction = MEX
 }
-set_autonomy = {
-    target = MEX
-    autonomy_state = autonomy_puppet
-}
-2052.1.1 = {
-	set_politics = {
-		ruling_party = despotism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-	set_popularities = {
-		democratic = 38
-		fascism = 9
-		communism = 11
-		despotism = 42
-	}
-}
+
 create_country_leader = {
 	name = "William H. Caldwell"
 	desc = "POLITICS_WILLIAM_H_CALDWELL_DESC"

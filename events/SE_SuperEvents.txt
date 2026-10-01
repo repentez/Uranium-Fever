@@ -1,24 +1,790 @@
-﻿
-
 add_namespace = superevents
-
-country_event = { #test event
-	id = superevents.0
-	title = superevents.0.t
-	desc = superevents.0.d
-	
+country_event = {
+	id = superevents.euc_collapse
+	title = superevents.euc_collapse.t
+	desc = superevents.euc_collapse.d
 	immediate = {
 		set_global_flag = SE_superevents_activate
 		set_global_flag = SE_test
 	}
-
 	hidden = yes
-	
 	fire_only_once = no
-
 	is_triggered_only = yes
-	
 	option = {
-		name = superevents.0.a
+		name = superevents.euc_collapse.a
 	}
+}
+news_event = {
+	id = superevents.1
+	title = superevents.1.t
+	desc = superevents.1.d
+	picture = GFX_news_event_generic_sign_treaty1
+	is_triggered_only = yes
+	option = {
+		name = superevents.1.a
+		set_victory_points = {
+			province = 853
+			value = 0
+		}
+		launch_nuke = {
+			province = 853
+		}
+		set_victory_points = {
+			province = 941
+			value = 0
+		}
+		launch_nuke = {
+			province = 941
+		}
+		set_victory_points = {
+			province = 1047
+			value = 0
+		}
+		launch_nuke = {
+			province = 1047
+		}
+		set_victory_points = {
+			province = 1070
+			value = 0
+		}
+		launch_nuke = {
+			province = 1070
+		}
+		set_victory_points = {
+			province = 1092
+			value = 0
+		}
+		launch_nuke = {
+			province = 1092
+		}
+		set_victory_points = {
+			province = 1150
+			value = 0
+		}
+		launch_nuke = {
+			province = 1150
+		}
+		set_victory_points = {
+			province = 1182
+			value = 0
+		}
+		launch_nuke = {
+			province = 1182
+		}
+		set_victory_points = {
+			province = 1319
+			value = 0
+		}
+		launch_nuke = {
+			province = 1319
+		}
+		set_victory_points = {
+			province = 1408
+			value = 0
+		}
+		launch_nuke = {
+			province = 1408
+		}
+		set_victory_points = {
+			province = 1519
+			value = 0
+		}
+		launch_nuke = {
+			province = 1519
+		}
+		set_victory_points = {
+			province = 1562
+			value = 0
+		}
+		launch_nuke = {
+			province = 1562
+		}
+		set_victory_points = {
+			province = 1595
+			value = 0
+		}
+		launch_nuke = {
+			province = 1595
+		}
+		set_victory_points = {
+			province = 1827
+			value = 0
+		}
+		launch_nuke = {
+			province = 1827
+		}
+		set_victory_points = {
+			province = 1836
+			value = 0
+		}
+		launch_nuke = {
+			province = 1836
+		}
+		set_victory_points = {
+			province = 1866
+			value = 0
+		}
+		launch_nuke = {
+			province = 1866
+		}
+		set_victory_points = {
+			province = 3010
+			value = 0
+		}
+		launch_nuke = {
+			province = 3010
+		}
+		set_victory_points = {
+			province = 3513
+			value = 0
+		}
+		launch_nuke = {
+			province = 3513
+		}
+		set_victory_points = {
+			province = 3732
+			value = 0
+		}
+		launch_nuke = {
+			province = 3732
+		}
+		set_victory_points = {
+			province = 3733
+			value = 0
+		}
+		launch_nuke = {
+			province = 3733
+		}
+		set_victory_points = {
+			province = 3775
+			value = 0
+		}
+		launch_nuke = {
+			province = 3775
+		}
+		set_victory_points = {
+			province = 3778
+			value = 0
+		}
+		launch_nuke = {
+			province = 3778
+		}
+		set_victory_points = {
+			province = 3834
+			value = 0
+		}
+		launch_nuke = {
+			province = 3834
+		}
+		set_victory_points = {
+			province = 3878
+			value = 0
+		}
+		launch_nuke = {
+			province = 3878
+		}
+		set_victory_points = {
+			province = 3957
+			value = 0
+		}
+		launch_nuke = {
+			province = 3957
+		}
+		set_victory_points = {
+			province = 3960
+			value = 0
+		}
+		launch_nuke = {
+			province = 3960
+		}
+		set_victory_points = {
+			province = 4052
+			value = 0
+		}
+		launch_nuke = {
+			province = 4052
+		}
+		set_victory_points = {
+			province = 4056
+			value = 0
+		}
+		launch_nuke = {
+			province = 4056
+		}
+		set_victory_points = {
+			province = 4180
+			value = 0
+		}
+		launch_nuke = {
+			province = 4180
+		}
+		set_victory_points = {
+			province = 4189
+			value = 0
+		}
+		launch_nuke = {
+			province = 4189
+		}
+		set_victory_points = {
+			province = 4190
+			value = 0
+		}
+		launch_nuke = {
+			province = 4190
+		}
+		set_victory_points = {
+			province = 4196
+			value = 0
+		}
+		launch_nuke = {
+			province = 4196
+		}
+		set_victory_points = {
+			province = 4565
+			value = 0
+		}
+		launch_nuke = {
+			province = 4565
+		}
+		set_victory_points = {
+			province = 4569
+			value = 0
+		}
+		launch_nuke = {
+			province = 4569
+		}
+		set_victory_points = {
+			province = 4572
+			value = 0
+		}
+		launch_nuke = {
+			province = 4572
+		}
+		set_victory_points = {
+			province = 4601
+			value = 0
+		}
+		launch_nuke = {
+			province = 4601
+		}
+		set_victory_points = {
+			province = 4619
+			value = 0
+		}
+		launch_nuke = {
+			province = 4619
+		}
+		set_victory_points = {
+			province = 4709
+			value = 0
+		}
+		launch_nuke = {
+			province = 4709
+		}
+		set_victory_points = {
+			province = 4723
+			value = 0
+		}
+		launch_nuke = {
+			province = 4723
+		}
+		set_victory_points = {
+			province = 4745
+			value = 0
+		}
+		launch_nuke = {
+			province = 4745
+		}
+		set_victory_points = {
+			province = 4801
+			value = 0
+		}
+		launch_nuke = {
+			province = 4801
+		}
+		set_victory_points = {
+			province = 4865
+			value = 0
+		}
+		launch_nuke = {
+			province = 4865
+		}
+		set_victory_points = {
+			province = 4925
+			value = 0
+		}
+		launch_nuke = {
+			province = 4925
+		}
+		set_victory_points = {
+			province = 4975
+			value = 0
+		}
+		launch_nuke = {
+			province = 4975
+		}
+		set_victory_points = {
+			province = 5053
+			value = 0
+		}
+		launch_nuke = {
+			province = 5053
+		}
+		set_victory_points = {
+			province = 6710
+			value = 0
+		}
+		launch_nuke = {
+			province = 6710
+		}
+		set_victory_points = {
+			province = 6732
+			value = 0
+		}
+		launch_nuke = {
+			province = 6732
+		}
+		set_victory_points = {
+			province = 6845
+			value = 0
+		}
+		launch_nuke = {
+			province = 6845
+		}
+		set_victory_points = {
+			province = 6890
+			value = 0
+		}
+		launch_nuke = {
+			province = 6890
+		}
+		set_victory_points = {
+			province = 6909
+			value = 0
+		}
+		launch_nuke = {
+			province = 6909
+		}
+		set_victory_points = {
+			province = 6984
+			value = 0
+		}
+		launch_nuke = {
+			province = 6984
+		}
+		set_victory_points = {
+			province = 6999
+			value = 0
+		}
+		launch_nuke = {
+			province = 6999
+		}
+		set_victory_points = {
+			province = 7014
+			value = 0
+		}
+		launch_nuke = {
+			province = 7014
+		}
+		set_victory_points = {
+			province = 7045
+			value = 0
+		}
+		launch_nuke = {
+			province = 7045
+		}
+		set_victory_points = {
+			province = 7071
+			value = 0
+		}
+		launch_nuke = {
+			province = 7071
+		}
+		set_victory_points = {
+			province = 7072
+			value = 0
+		}
+		launch_nuke = {
+			province = 7072
+		}
+		set_victory_points = {
+			province = 7101
+			value = 0
+		}
+		launch_nuke = {
+			province = 7101
+		}
+		set_victory_points = {
+			province = 7110
+			value = 0
+		}
+		launch_nuke = {
+			province = 7110
+		}
+		set_victory_points = {
+			province = 7125
+			value = 0
+		}
+		launch_nuke = {
+			province = 7125
+		}
+		set_victory_points = {
+			province = 7137
+			value = 0
+		}
+		launch_nuke = {
+			province = 7137
+		}
+		set_victory_points = {
+			province = 7138
+			value = 0
+		}
+		launch_nuke = {
+			province = 7138
+		}
+		set_victory_points = {
+			province = 7186
+			value = 0
+		}
+		launch_nuke = {
+			province = 7186
+		}
+		set_victory_points = {
+			province = 7315
+			value = 0
+		}
+		launch_nuke = {
+			province = 7315
+		}
+		set_victory_points = {
+			province = 7388
+			value = 0
+		}
+		launch_nuke = {
+			province = 7388
+		}
+		set_victory_points = {
+			province = 7552
+			value = 0
+		}
+		launch_nuke = {
+			province = 7552
+		}
+		set_victory_points = {
+			province = 7588
+			value = 0
+		}
+		launch_nuke = {
+			province = 7588
+		}
+		set_victory_points = {
+			province = 7764
+			value = 0
+		}
+		launch_nuke = {
+			province = 7764
+		}
+		set_victory_points = {
+			province = 7797
+			value = 0
+		}
+		launch_nuke = {
+			province = 7797
+		}
+		set_victory_points = {
+			province = 7965
+			value = 0
+		}
+		launch_nuke = {
+			province = 7965
+		}
+		set_victory_points = {
+			province = 8049
+			value = 0
+		}
+		launch_nuke = {
+			province = 8049
+		}
+		set_victory_points = {
+			province = 9450
+			value = 0
+		}
+		launch_nuke = {
+			province = 9450
+		}
+		set_victory_points = {
+			province = 9671
+			value = 0
+		}
+		launch_nuke = {
+			province = 9671
+		}
+		set_victory_points = {
+			province = 9708
+			value = 0
+		}
+		launch_nuke = {
+			province = 9708
+		}
+		set_victory_points = {
+			province = 9713
+			value = 0
+		}
+		launch_nuke = {
+			province = 9713
+		}
+		set_victory_points = {
+			province = 9814
+			value = 0
+		}
+		launch_nuke = {
+			province = 9814
+		}
+		set_victory_points = {
+			province = 9832
+			value = 0
+		}
+		launch_nuke = {
+			province = 9832
+		}
+		set_victory_points = {
+			province = 9843
+			value = 0
+		}
+		launch_nuke = {
+			province = 9843
+		}
+		set_victory_points = {
+			province = 9872
+			value = 0
+		}
+		launch_nuke = {
+			province = 9872
+		}
+		set_victory_points = {
+			province = 9920
+			value = 0
+		}
+		launch_nuke = {
+			province = 9920
+		}
+		set_victory_points = {
+			province = 9938
+			value = 0
+		}
+		launch_nuke = {
+			province = 9938
+		}
+		set_victory_points = {
+			province = 9950
+			value = 0
+		}
+		launch_nuke = {
+			province = 9950
+		}
+		set_victory_points = {
+			province = 9958
+			value = 0
+		}
+		launch_nuke = {
+			province = 9958
+		}
+		set_victory_points = {
+			province = 10000
+			value = 0
+		}
+		launch_nuke = {
+			province = 10000
+		}
+		set_victory_points = {
+			province = 10062
+			value = 0
+		}
+		launch_nuke = {
+			province = 10062
+		}
+		set_victory_points = {
+			province = 10068
+			value = 0
+		}
+		launch_nuke = {
+			province = 10068
+		}
+		set_victory_points = {
+			province = 10337
+			value = 0
+		}
+		launch_nuke = {
+			province = 10337
+		}
+		set_victory_points = {
+			province = 10588
+			value = 0
+		}
+		launch_nuke = {
+			province = 10588
+		}
+		set_victory_points = {
+			province = 10717
+			value = 0
+		}
+		launch_nuke = {
+			province = 10717
+		}
+		set_victory_points = {
+			province = 10740
+			value = 0
+		}
+		launch_nuke = {
+			province = 10740
+		}
+		set_victory_points = {
+			province = 10841
+			value = 0
+		}
+		launch_nuke = {
+			province = 10841
+		}
+		set_victory_points = {
+			province = 11654
+			value = 0
+		}
+		launch_nuke = {
+			province = 11654
+		}
+		set_victory_points = {
+			province = 11738
+			value = 0
+		}
+		launch_nuke = {
+			province = 11738
+		}
+		set_victory_points = {
+			province = 11771
+			value = 0
+		}
+		launch_nuke = {
+			province = 11771
+		}
+		set_victory_points = {
+			province = 11789
+			value = 0
+		}
+		launch_nuke = {
+			province = 11789
+		}
+		set_victory_points = {
+			province = 11913
+			value = 0
+		}
+		launch_nuke = {
+			province = 11913
+		}
+		set_victory_points = {
+			province = 11932
+			value = 0
+		}
+		launch_nuke = {
+			province = 11932
+		}
+		set_victory_points = {
+			province = 12026
+			value = 0
+		}
+		launch_nuke = {
+			province = 12026
+		}
+		set_victory_points = {
+			province = 12140
+			value = 0
+		}
+		launch_nuke = {
+			province = 12140
+		}
+		set_victory_points = {
+			province = 12149
+			value = 0
+		}
+		launch_nuke = {
+			province = 12149
+		}
+		set_victory_points = {
+			province = 12357
+			value = 0
+		}
+		launch_nuke = {
+			province = 12357
+		}
+		set_victory_points = {
+			province = 12381
+			value = 0
+		}
+		launch_nuke = {
+			province = 12381
+		}
+		set_victory_points = {
+			province = 12384
+			value = 0
+		}
+		launch_nuke = {
+			province = 12384
+		}
+		set_victory_points = {
+			province = 12501
+			value = 0
+		}
+		launch_nuke = {
+			province = 12501
+		}
+		set_victory_points = {
+			province = 12586
+			value = 0
+		}
+		launch_nuke = {
+			province = 12586
+		}
+		set_victory_points = {
+			province = 12620
+			value = 0
+		}
+		launch_nuke = {
+			province = 12620
+		}
+		set_victory_points = {
+			province = 12735
+			value = 0
+		}
+		launch_nuke = {
+			province = 12735
+		}
+		set_victory_points = {
+			province = 13091
+			value = 0
+		}
+		launch_nuke = {
+			province = 13091
+		}
+		set_victory_points = {
+			province = 17162
+			value = 0
+		}
+		launch_nuke = {
+			province = 17162
+		}
+		set_victory_points = {
+			province = 17199
+			value = 0
+		}
+		launch_nuke = {
+			province = 17199
+		}
+		set_victory_points = {
+			province = 19642
+			value = 0
+		}
+		launch_nuke = {
+			province = 19642
+		}
+	}
+	fire_only_once = yes
 }

@@ -1,14 +1,6 @@
 capital = 277
 oob = "MEX_2052"
-IF = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "MEX_1936_naval_mtg"
-	ELSE = {
-		set_naval_oob = "MEX_1936_naval_legacy"
-	}
-}
+
 IF = {
 	limit = {
 		has_dlc = "By Blood Alone"
