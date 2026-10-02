@@ -736,7 +736,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_lame_duck
-		icon = GFX_goal_unknown
+		icon =  GFX_goal_president_elections
 		x = -67
 		y = 1
 		cost = 10
@@ -744,7 +744,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_ending_work_stoppage
-		icon = GFX_goal_unknown
+		icon = GFX_goal_protestes_usa_president
 		x = -68
 		y = 2
 		cost = 10
@@ -755,7 +755,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_regulating_influx
-		icon = GFX_goal_unknown
+		icon = GFX_limit_serfdome_laws
 		x = -65
 		y = 2
 		cost = 10
@@ -766,7 +766,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_guards
-		icon = GFX_goal_unknown
+		icon = GFX_goal_guards_guards_guards
 		x = -69
 		y = 3
 		cost = 10
@@ -777,7 +777,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_kibosh
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		x = -67
 		y = 3
 		cost = 10
@@ -788,7 +788,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_distributing
-		icon = GFX_goal_unknown
+		icon = GFX_goal_usa_flag_contract
 		x = -65
 		y = 3
 		cost = 10
@@ -799,7 +799,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_smile_and_wave
-		icon = GFX_goal_unknown
+		icon = GFX_goal_smile_n_wave
 		x = -68
 		y = 4
 		cost = 10
@@ -816,7 +816,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_where_were_you_4_yrs_ago
-		icon = GFX_goal_unknown
+		icon = GFX_goal_where_were_u_for_four_years
 		x = -66
 		y = 4
 		cost = 10
