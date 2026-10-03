@@ -876,7 +876,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_mexico_situation
-		icon = GFX_goal_usa_mex_situation
+		icon = GFX_goal_mexico_situation
 		x = -77
 		y = 1
 		cost = 10

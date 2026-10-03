@@ -6,14 +6,34 @@ bookmarks = {
 		picture = "GFX_select_date_1936"
 		default_country = "USA"
 		default = yes
-		
+
+
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-		
+			USA_Overextended_In_Mexico 
+		     USA_deflation_crisis
+			 USA_Oil_Shock
 			}
 			focuses = {
+				USA_focus_ending_work_stoppage
+				USA_focus_lame_duck
+				USA_focus_distributing
+			}
+		}
+		"EST"={
+			history = "EST_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+		        EST_baltic_nature
+				EST_legacy_war
+				EST_forest_brothers
+			}
+			focuses = {
+				EST_minks_compromise
+				EST_Rally_european
+				EST_restore_talinn_bunk
 			}
 		}
 			"EUC"={
@@ -26,8 +46,44 @@ bookmarks = {
 			}
 		}
 			"PRC"={
-			history = "EUC_GATHERING_STORM_DESC"
+			history = "PRC_GATHERING_STORM_DESC"
 			ideology = communism
+			ideas = {
+		
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			history = "SOV_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+		
+			}
+			focuses = {
+			}
+		}
+			"UAR"={
+			history = "UAR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+		
+			}
+			focuses = {
+			}
+		}
+		"CAN"={
+			history = "UAR_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+		
+			}
+			focuses = {
+			}
+		}
+			"JAP"={
+			history = "UAR_GATHERING_STORM_DESC"
+			ideology = democratic
 			ideas = {
 		
 			}
