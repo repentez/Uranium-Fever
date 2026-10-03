@@ -824,6 +824,7 @@ focus_tree = {
 		y = 3
 		cost = 10
 		completion_reward = {
+				remove_ideas = USA_Immigration_reduced
 		}
 		prerequisite = {
 			focus = USA_focus_regulating_influx

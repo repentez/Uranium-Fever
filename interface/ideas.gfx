@@ -22,8 +22,8 @@ spriteTypes = {
 	##USA##
 
 	SpriteType = {
-		name = "GFX_idea_USA_stop_strikes"
-		texturefile = "gfx/interface/ideas/counter_strikes.dds"
+		name = "GFX_idea_USA_stop_the_strikes"
+		texturefile = "gfx/interface/ideas/Counter_strikes.dds"
 	}
 	SpriteType = {
 		name = "GFX_idea_USA_Strikes_Mitigated"

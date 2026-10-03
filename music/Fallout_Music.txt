@@ -1,6 +1,36 @@
 
 music_station = "Radio_America_2052"
 music = {
+	song = "L_A_Is_My_Lady"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "The_Millionaires_Holiday"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Tie_a_Yellow_Ribbon_Round_the_Old_Oak_Tree"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
 	song = "I_Got_Spurs_That_Jingle_Jangle_Jingle"
 	chance = {
 		factor =5

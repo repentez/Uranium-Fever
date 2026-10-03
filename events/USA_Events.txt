@@ -43,7 +43,7 @@ country_event = {
 	id = USA.crowd
 	title = USA_crowd.t
 	desc = USA_crowd.d
-	picture = GFX_event_crowd_usa
+	picture = GFX_event_where_were_during_those_years
 
 	is_triggered_only = yes
 
@@ -53,7 +53,7 @@ country_event = {
 
 	
 	option = {
-		name = "NEED TEXTE HERE ASAP"
+		name = "We can forgive those 4 years..."
 					add_popularity = {
 		ideology = democratic
 		popularity = 0.05

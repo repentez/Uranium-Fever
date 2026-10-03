@@ -33,7 +33,7 @@ ideas = {
 			}
 		}
 		USA_stop_the_strikes = {
-			picture = GFX_idea_USA_stop_strikes
+			picture = GFX_idea_USA_stop_the_strikes 
 			allowed = { always = no }
 			modifier = {
 		production_speed_industrial_complex_factor = 0.03

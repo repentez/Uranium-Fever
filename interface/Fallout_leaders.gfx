@@ -8,7 +8,7 @@ spriteTypes = {
 
 	########USA GENERALS AND MARSHALS##########
 
-				 	 spriteType = {
+	 spriteType = {
 		name = "GFX_portrait_USA_colonel_a_vince"
 		texturefile = "gfx/leaders/USA/portrait_USA_colonel_a_vince.dds"
 	}
