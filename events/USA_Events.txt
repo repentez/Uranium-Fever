@@ -1,5 +1,45 @@
 add_namespace = usa
 country_event = {
+	id = USA.caldwell
+	title = USA_caldwell.t
+	desc = USA_caldwell.d
+	picture = GFX_event_president_lame_duck
+
+	is_triggered_only = yes
+
+   trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_lame_duck
+    }
+
+	
+	option = {
+		name = "What a F*"
+		add_stability = -0.10
+	}
+}
+country_event = {
+	id = USA.strikes
+	title = USA_strikes.t
+	desc = USA_strikes.d
+	picture = GFX_event_strikes_usa
+
+	is_triggered_only = yes
+
+   trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_ending_work_stoppage
+    }
+
+	
+	option = {
+		name = "This strike is getting out of control"
+		add_stability = -0.15
+        add_war_support = -0.05
+        add_political_power = -15
+	}
+}
+country_event = {
     id = USA.military_focus_event
     title = USA_military_focus_event_title
     desc = USA_military_focus_event_desc

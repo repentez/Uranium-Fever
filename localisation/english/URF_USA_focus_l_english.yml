@@ -162,3 +162,15 @@
  USA_cascadian_commonwealth_desc:0 "Our northern territories remain dangerously exposed, both by sea and by air. Before tensions with China boil over, Washington must invest in their defense — securing the Pacific coast and watching the skies to the north."
  usa_northern_commonwealth:0 "The Northern Commonwealth"
  usa_northern_commonwealth_desc:0 "Build a radar and air defense network across our northern states. If China ever strikes from across the Pole, we'll see it coming."
+USA_Immigration_from_euc_and_arabe_countries:0 "Immigration from Europe and the Arab World"
+USA_Immigration_reduced:0 "Controlled Immigration"
+ USA_Strikes:0 "Widespread Strikes"
+ USA_focus_distributing_desc:0 "Relations between the native-born and the newcomers have turned from tension into open hostility. Neighborhoods are divided, workplaces are split, and the clashes between locals and immigrants grow more frequent every month. Its better if we stop all of thise!"
+ USA_Strikes_Mitigated:0 "Strikes Contained"
+ USA_stop_the_strikes:0 "Counter-Strike Measures"
+################
+ USA_caldwell.t:0 "A Lame Duck on a High Horse"
+ USA_caldwell.d:0 "President Caldwell has spent his term watching America decline and doing nothing about it.\n\nThe deflation crisis has gutted the economy. Prices and wages keep falling, businesses keep closing, and the administration has offered no plan to stop it. The situation in Mexico has spiraled out of control, and the President proved unable to manage it. The border is tense, refugees are pouring in, and the government is always a step behind.\n\nThrough all of it, Caldwell has given speeches, held photo-ops and told the nation to stay the course. He solved nothing, and the country is paying for it."
+ USA_strikes.t:0 "Blood on the Picket Lines"
+ USA_strikes.d:0 "The strikes have turned violent. After weeks of stoppages, the government sent strikebreakers to the factories and rail yards, backed by new federal legislation that criminalizes the work stoppages.\n\nThe workers have refused to back down. Clashes have broken out in the industrial cities, and union halls have been raided. Barricades are going up, and reports of injuries and arrests come in every hour.\n\nWhat was meant to restore order has made things worse, and the country is closer to open unrest than it has been in years."
+#################

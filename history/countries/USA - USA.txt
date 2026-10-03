@@ -1,6 +1,8 @@
 capital = 1121
 oob = "USA_2052"
 starting_train_buffer = 5
+add_ideas = USA_Strikes
+add_ideas = USA_Immigration_from_euc_and_arabe_countries
 add_ideas = USA_deflation_crisis
 add_ideas = USA_Oil_Shock
 add_ideas = USA_Overextended_In_Mexico
