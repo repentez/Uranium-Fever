@@ -833,7 +833,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_mexico_situation
-		icon = GFX_goal_usa_mex_situation
+		icon = GFX_focus_attack_mexico
 		x = -77
 		y = 1
 		cost = 10
@@ -845,7 +845,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_eyes_sky
-		icon = GFX_goal_dropping_last_generenation_of_air
+		icon = GFX_goal_generic_intelligence_exchange
 		x = -81
 		y = 2
 		cost = 10
@@ -862,7 +862,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_dia
-		icon = GFX_goal_advisor_usa_to_mex
+		icon = GFX_focus_generic_railway_gun
 		x = -79
 		y = 2
 		cost = 10
@@ -879,7 +879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_last_gen
-		icon = GFX_focus_generic_total_war
+		icon = GFX_focus_generic_paratrooper
 		x = -77
 		y = 2
 		cost = 10
@@ -896,7 +896,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_contract_assigning
-		icon = GFX_goal_usa_flag_contract
+		icon = GFX_goal_generic_intelligence_exchange
 		x = -74
 		y = 2
 		cost = 10
@@ -911,7 +911,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_uncle_sam_wrath
-		icon = GFX_goal_uncle_sam
+		icon = GFX_focus_USA_uncle_sam
 		x = -79
 		y = 3
 		cost = 10
@@ -937,13 +937,6 @@ focus_tree = {
 		y = 3
 		cost = 10
 		completion_reward = {
-			custom_effect_tooltip = USA_enclave_influence_growth
-hidden_effect = {
-    add_popularity = {
-        ideology = fascism
-        popularity = 0.02
-    }
-}
 			MEX = {
 				add_resource = {
 					type = oil
@@ -966,7 +959,7 @@ hidden_effect = {
 	}
 	focus = {
 		id = USA_focus_texico
-		icon = GFX_goal_mexico_choice
+		icon = GFX_focus_generic_offshore_oil_rig
 		x = -73
 		y = 3
 		cost = 10
@@ -1000,12 +993,11 @@ hidden_effect = {
 	}
 	focus = {
 		id = USA_focus_el_orden
-		icon = GFX_focus_RAJ_red_in_the_shadows
+		icon = GFX_focus_PHI_open_borders
 		x = -77
 		y = 4
 		cost = 10
 		completion_reward = {
-	  remove_ideas = USA_Overextended_In_Mexico
 			MEX = {
 				country_event = {
 					id = USA.mexico_no_altere_event

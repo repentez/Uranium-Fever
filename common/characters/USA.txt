@@ -304,4 +304,18 @@ characters = {
 			logistics_skill = 1
 		}
 	}
+	USA_enclave_administration = {
+		name = USA_enclave_administration
+		portraits = {
+			civilian = {
+				large = GFX_portrait_USA_enclave_administration
+			}
+		}
+		country_leader = {
+			ideology = enclave
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+	}
 }

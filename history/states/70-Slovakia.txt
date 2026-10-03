@@ -14,7 +14,7 @@ state = {
 
 	history = {
 
-		owner = CZE
+		owner = SLO
 		
 		buildings = {
 			infrastructure = 3
@@ -28,10 +28,7 @@ state = {
 		victory_points = {
 			9692 10 # Bratislava
 		}
-		
-		add_core_of = CZE
 		add_core_of = SLO
-		
 	}
 
 	provinces = {

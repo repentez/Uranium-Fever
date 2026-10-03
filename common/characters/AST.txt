@@ -136,27 +136,6 @@ characters = {
 			}
 		}
 	}
-	AST_adela_walsh = {
-		name = AST_adela_walsh
-		portraits = {
-			civilian = {
-				large = GFX_portrait_AST_adela_walsh
-				small = GFX_portrait_AST_adela_walsh_small
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = AST_adela_walsh
-			allowed = {
-				original_tag = AST
-			}
-			traits = { AST_the_matriarch_pa }
-			available = {
-				is_country_leader = no
-				has_completed_focus = AST_in_from_the_cold
-			}
-		}
-	}
 	AST_alexander_hore_ruthven = {
 		instance = {
 			allowed = {

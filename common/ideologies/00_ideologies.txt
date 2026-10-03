@@ -83,6 +83,7 @@ ideologies = {
 			falangism = {}
 			neo_fascism = {}
 			dixie = {}
+			enclave = {}
 		}
 		color = { 65 65 65 }
 		war_impact_on_world_tension = 1.0

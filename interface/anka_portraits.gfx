@@ -27,4 +27,16 @@ spriteTypes = {
 		name = "GFX_portrait_EST_kalju_kirsipuu"
 		texturefile = "gfx/leaders/EST/portrait_EST_kalju_kirsipuu.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_YUG_milan_aleksandar_vukovic"
+		texturefile = "gfx/leaders/YUG/portrait_YUG_milan_aleksandar_vukovic.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CAN_robert_macleod"
+		texturefile = "gfx/leaders/CAN/portrait_CAN_robert_macleod.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_USA_enclave_administration"
+		texturefile = "gfx/leaders/USA/portrait_USA_enclave_administration.dds"
+	}
 }

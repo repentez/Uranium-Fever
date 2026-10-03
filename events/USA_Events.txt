@@ -195,7 +195,7 @@ country_event = {
 
     option = {
         name = "Texaco"
-             complete_national_focus = USA_focus_texico
+             complete_national_focus = USA_focus_texaco
     }
 }
 country_event = {
