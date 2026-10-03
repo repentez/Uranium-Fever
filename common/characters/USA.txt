@@ -139,6 +139,8 @@ characters = {
 		}
 		name = USA_william_h_caldwell
 	}
+
+	#### general ##
 	USA_general_brock = {
 		name = USA_general_brock
 		corps_commander = {
@@ -184,6 +186,7 @@ characters = {
 		}
 	}
 	USA_general_constantine_chase = {
+		picture = GFX_portrait_USA_general_constantine_chase
 		name = USA_general_constantine_chase
 		corps_commander = {
 			traits = {}

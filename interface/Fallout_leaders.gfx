@@ -1,4 +1,17 @@
 spriteTypes = {
+
+
+
+
+
+
+
+	########USA GENERALS AND MARSHALS##########
+    spriteType = {
+		name = "GFX_portrait_USA_general_constantine_chase"
+		texturefile = "gfx/leaders/USA/portrait_USA_Chase.dds"
+	}
+	
     ##LEADERS##
 
      spriteType = {
