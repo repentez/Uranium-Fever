@@ -1,3 +1,94 @@
+
+music_station = "Radio_America_2052"
+music = {
+	song = "I_Got_Spurs_That_Jingle_Jangle_Jingle"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Dear_Hearts_and_Gentle_People"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Everybody_Loves_Somebody"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Beyond_the_Sea"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Aint_That_A_Kick_In_The_Head"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "The_Wanderer"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Perry_Como_Dont_Let_The_Stars_Get_In_Your_Eyes"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "Frank_Sinatra_Some_Enchanted_Evening"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
+	song = "My_Way_Of_Life"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
 music_station = "Radio_America_2052"
 music = {
 	song = "Young_At_Heart"
