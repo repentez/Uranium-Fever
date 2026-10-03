@@ -1,3 +1,40 @@
+
+music = {
+	name = "I_Got_Spurs_That_Jingle_Jangle_Jingle"
+	file = "I_Got_Spurs_That_Jingle_Jangle_Jingle.ogg"
+}
+music = {
+	name = "Dear_Hearts_and_Gentle_People"
+	file = "Dear_Hearts_and_Gentle_People.ogg"
+}
+music = {
+	name = "Everybody_Loves_Somebody"
+	file = "Everybody_Loves_Somebody.ogg"
+}
+music = {
+	name = "Beyond_the_Sea"
+	file = "Beyond_the_Sea.ogg"
+}
+music = {
+	name = "Aint_That_A_Kick_In_The_Head"
+	file = "Aint_That_A_Kick_In_The_Head.ogg"
+}
+music = {
+	name = "The_Wanderer"
+	file = "The_Wanderer.ogg"
+}
+music = {
+	name = "Perry_Como_Dont_Let_The_Stars_Get_In_Your_Eyes"
+	file = "Perry_Como_Dont_Let_The_Stars_Get_In_Your_Eyes.ogg"
+}
+music = {
+	name = "Frank_Sinatra_Some_Enchanted_Evening"
+	file = "Frank_Sinatra_Some_Enchanted_Evening.ogg"
+}
+music = {
+	name = "My_Way_Of_Life"
+	file = "My_Way_Of_Life.ogg"
+}
 music = {
 	name = "Cheek_To_Cheek"
 	file = "Cheek_To_Cheek.ogg"

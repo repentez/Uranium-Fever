@@ -22,6 +22,26 @@ spriteTypes = {
 	##USA##
 
 	SpriteType = {
+		name = "GFX_idea_USA_stop_strikes"
+		texturefile = "gfx/interface/ideas/counter_strikes.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_Strikes_Mitigated"
+		texturefile = "gfx/interface/ideas/calm_the_strikes.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_Strikes"
+		texturefile = "gfx/interface/ideas/strikes_usa.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_Immigration_reduced"
+		texturefile = "gfx/interface/ideas/immigration_regretion.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_Immigration_from_euc_and_arabe_countries"
+		texturefile = "gfx/interface/ideas/immigration.dds"
+	}
+	SpriteType = {
 		name = "GFX_idea_USA_deflation_crisis"
 		texturefile = "gfx/interface/ideas/idea_USA_Deflation_Crisis.dds"
 	}

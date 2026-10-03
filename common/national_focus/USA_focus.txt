@@ -734,76 +734,114 @@ focus_tree = {
 			focus = USA_focus_soviet_bering
 		}
 	}
+
 	focus = {
 		id = USA_focus_lame_duck
-		icon = GFX_goal_unknown
+		icon =  GFX_goal_president_elections
 		x = -67
 		y = 1
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			 country_event = {
+         id = USA.caldwell
+               }
+			
+		}
 	}
 	focus = {
 		id = USA_focus_ending_work_stoppage
-		icon = GFX_goal_unknown
+		icon = GFX_goal_protestes_usa_president
 		x = -68
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+				 country_event = {
+         id = USA.strikes
+               }
+		}
 		prerequisite = {
 			focus = USA_focus_lame_duck
 		}
 	}
 	focus = {
 		id = USA_focus_regulating_influx
-		icon = GFX_goal_unknown
+		icon = GFX_limit_serfdome_laws
 		x = -65
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			swap_ideas = {
+			remove_idea = USA_Immigration_from_euc_and_arabe_countries
+			add_idea = USA_Immigration_reduced
+		}
+		}
 		prerequisite = {
 			focus = USA_focus_lame_duck
 		}
 	}
 	focus = {
 		id = USA_focus_guards
-		icon = GFX_goal_unknown
+		icon = GFX_goal_guards_guards_guards
 		x = -69
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+					swap_ideas = {
+			remove_idea = USA_Strikes 
+			add_idea = USA_Strikes_Mitigated 
+		}
+				add_popularity = {
+		ideology = democratic
+		popularity = -0.04
+	}
+		}
 		prerequisite = {
 			focus = USA_focus_ending_work_stoppage
 		}
 	}
 	focus = {
 		id = USA_focus_kibosh
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		x = -67
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+				add_ideas =  USA_stop_the_strikes
+				add_popularity = {
+		ideology = democratic
+		popularity = -0.06
+	}
+		}
 		prerequisite = {
 			focus = USA_focus_ending_work_stoppage
 		}
 	}
+
 	focus = {
 		id = USA_focus_distributing
-		icon = GFX_goal_unknown
+		icon = GFX_goal_usa_flag_contract
 		x = -65
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+		}
 		prerequisite = {
 			focus = USA_focus_regulating_influx
 		}
 	}
 	focus = {
 		id = USA_focus_smile_and_wave
-		icon = GFX_goal_unknown
+		icon = GFX_goal_smile_n_wave
 		x = -68
 		y = 4
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+             add_stability = -0.05
+				add_popularity = {
+		ideology = democratic
+		popularity = 0.05
+	}
+		}
 		prerequisite = {
 			focus = USA_focus_guards
 		}
@@ -816,11 +854,16 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_where_were_you_4_yrs_ago
-		icon = GFX_goal_unknown
+		icon = GFX_goal_where_were_u_for_four_years
 		x = -66
 		y = 4
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+         country_event = {
+         id = USA.crowd
+          }
+			
+		}
 		prerequisite = {
 			focus = USA_focus_distributing
 		}

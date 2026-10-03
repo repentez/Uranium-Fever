@@ -1,4 +1,41 @@
 spriteTypes = {
+
+SpriteType = {
+		name = "GFX_goal_guards_guards_guards"
+		texturefile = "gfx/interface/goals/USA/guards_guards_guards.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_president_elections"
+		texturefile = "gfx/interface/goals/USA/president_elections.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_protestes_usa_president"
+		texturefile = "gfx/interface/goals/USA/protestes_usa_president.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_smile_n_wave"
+		texturefile = "gfx/interface/goals/USA/smile_n_wave.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_where_were_u_for_four_years"
+		texturefile = "gfx/interface/goals/USA/where_were_u_for_four_years.dds"
+	}
+
+
+
+
+
+
+
+
+
+
+
+
     SpriteType = {
         name = "GFX_goal_advisor_usa_to_mex"
         texturefile = "gfx/interface/goals/USA/advisor_usa_to_mex.dds"
