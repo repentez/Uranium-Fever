@@ -186,7 +186,11 @@ characters = {
 		}
 	}
 	USA_general_constantine_chase = {
-		picture = GFX_portrait_USA_general_constantine_chase
+		    portraits = {
+        army = {
+            large = GFX_portrait_USA_general_constantine_chase
+        }
+    }
 		name = USA_general_constantine_chase
 		corps_commander = {
 			traits = {}
