@@ -1,21 +1,17 @@
-
-state={
-	id=378
-	name="STATE_378"
-	manpower = 10521721
-	
+state = {
+	id = 378
+	name = "STATE_378"
+	manpower = 9862785
 	state_category = metropolis
-	
-	resources={
-		oil=180 # was: 350
-		aluminium=8 # was: 14
+	resources = {
+		oil = 170
+		aluminium = 8
 	}
-
-	history={
+	history = {
 		owner = USA
 		add_core_of = USA
 		buildings = {
-			infrastructure = 3 #was: 6
+			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 6
 			dockyard = 2
@@ -36,88 +32,57 @@ state={
 				naval_base = 5
 			}
 		}
-		victory_points = {
-			4518 10  # Fresno
-		}
-		victory_points = {
-			14762 5  # Long Beach
-		}
-		victory_points = {
-			3678 5  # Oakland
-		}
-		victory_points = {
-			941 5  # Bakersfield
-		}
-		victory_points = {
-			6694 3  # Modesto
-		}
-		victory_points = {
-			6876 1  # Merced
-		}
-		victory_points = {
-			3840 1  # Monterey
-		}
-		victory_points = {
-			6681 3 # Santa Rosa
-		}
-		victory_points = {
-			986 1  # San Luis Obispo
-		}
-		victory_points = {
-			9911 1  # Visalia
-		}
-		victory_points = {
-			9814 50  # Los Angeles
-		}
-		victory_points = {
-			1562 25  # San Diego
-		}
-		victory_points = {
-			11757 5  # Anaheim
-		}
-		victory_points = {
-			11795 3  # San Bernardino
-		}
-		victory_points = {
-			11859 3  # Santa Barbara
-		}
-		victory_points = {
-			10387 3  # Barstow
-		}
-		victory_points = {
-			9855 1  # Lancaster
-		}
-		victory_points = {
-			823 1  # Palm Springs
-		}
-		victory_points = {
-			10483 3  # Pasadena
-		}
-		victory_points = {
-			7986 1  # El Centro
-		}
-		victory_points = {
-			7517 2  # Oceanside
-		}
-		victory_points = {
-			3677 1  # Livermore
-		}
-		victory_points = {
-			9637 1  # Salinas
-		}
-		victory_points = {
-			6881 1  # Lompoc/Vandenberg Air Force Base
-		}
+		victory_points = { 4518 10 }
+		victory_points = { 14762 5 }
+		victory_points = { 3678 5 }
+		victory_points = { 941 5 }
+		victory_points = { 6694 3 }
+		victory_points = { 6876 1 }
+		victory_points = { 3840 1 }
+		victory_points = { 6681 3 }
+		victory_points = { 986 1 }
+		victory_points = { 9911 1 }
+		victory_points = { 9814 50 }
+		victory_points = { 11757 5 }
+		victory_points = { 11795 3 }
+		victory_points = { 11859 3 }
+		victory_points = { 10387 3 }
+		victory_points = { 9855 1 }
+		victory_points = { 10483 3 }
+		victory_points = { 7517 2 }
+		victory_points = { 3677 1 }
+		victory_points = { 9637 1 }
+		victory_points = { 6881 1 }
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 7
 			}
 		}
 	}
-
-	provinces={
-		823 941 986 1432 1562 1651 3784 3840 4518 4657 4727 6694 6861 6876 6881 7517 7667 7986 9637 9814 9855 9911 10387 10483 11757 11763 11795 11859 11876 12303 12374 14762 17308
+	provinces = {
+		941
+		986
+		3784
+		3840
+		4518
+		6694
+		6861
+		6876
+		6881
+		7517
+		9637
+		9814
+		9855
+		9911
+		10387
+		10483
+		11757
+		11763
+		11859
+		11876
+		14762
+		17308
+		11795
 	}
-
-	local_supplies=0.0 
+	local_supplies = 0.0
 }

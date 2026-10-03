@@ -1,8 +1,152 @@
 characters = {
-	PRC_zhao_guowei = {
+	PRC_admiral_zhao = {
+		name = PRC_admiral_zhao
+		navy_leader = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRC_hu_wuying = {
+		name = PRC_hu_wuying
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_qin_shoucheng = {
+		name = PRC_qin_shoucheng
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_ye_zhanfeng = {
+		name = PRC_ye_zhanfeng
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_cao_haidong = {
+		name = PRC_cao_haidong
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_zhang_changan = {
+		name = PRC_zhang_changan
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_kang_guowei = {
+		name = PRC_kang_guowei
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_shan_tianlong = {
+		name = PRC_shan_tianlong
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_yang_xuefeng = {
+		name = PRC_yang_xuefeng
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_Mo_Tieshan = {
+		name = PRC_Mo_Tieshan
+		field_marshal = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	PRC_guo_haifeng = {
+		name = PRC_guo_haifeng
+		navy_leader = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRC_dong_zhenhai = {
+		name = PRC_dong_zhenhai
+		navy_leader = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 1
+			coordination_skill = 1
+		}
+	}
+	PRC_he_tianyu = {
+		name = PRC_he_tianyu
+		corps_commander = {
+			traits = {}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	prc_leader_zhao_guowei = {
+		name = prc_leader_zhao_guowei
 		portraits = {
 			civilian = {
-				large = GFX_portrait_PRC_zhao_guowei
+				large = GFX_portrait_prc_leader_zhao_guowei
 			}
 		}
 		country_leader = {
@@ -11,6 +155,5 @@ characters = {
 			traits = {}
 			id = -1
 		}
-		name = PRC_zhao_guowei
 	}
 }

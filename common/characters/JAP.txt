@@ -167,15 +167,6 @@ characters = {
 			}
 		}
 	}
-	JAP_abe_isoo = {
-		name = JAP_abe_isoo
-		portraits = {
-			civilian = {
-				large = GFX_portrait_JAP_abe_isoo
-				small = GFX_portrait_JAP_abe_isoo_smalll
-			}
-		}
-	}
 	JAP_keisuke_okada = {
 		name = JAP_keisuke_okada
 		portraits = {
@@ -257,21 +248,6 @@ characters = {
 				large = GFX_portrait_JAP_tokugawa_iesato
 				small = GFX_portrait_JAP_tokugawa_iesato_small
 			}
-		}
-	}
-	JAP_adachi_kenzo = {
-		name = JAP_adachi_kenzo
-		portraits = {
-			civilian = {
-				large = GFX_portrait_JAP_adachi_kenzo
-				small = GFX_portrait_JAP_adachi_kenzo_small
-			}
-		}
-		country_leader = {
-			ideology = fascism_ideology
-			traits = {}
-			expire = "1952.1.1.1"
-			id = -1
 		}
 	}
 	JAP_seigo_nakano = {
@@ -553,24 +529,6 @@ characters = {
 			defense_skill = 4
 			planning_skill = 2
 			logistics_skill = 4
-			legacy_id = 0
-		}
-	}
-	JAP_akira_muto = {
-		name = JAP_akira_muto
-		portraits = {
-			army = {
-				large = GFX_portrait_JAP_akira_muto
-				small = GFX_portrait_JAP_akira_muto_small
-			}
-		}
-		corps_commander = {
-			traits = { career_officer }
-			skill = 2
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 2
-			logistics_skill = 1
 			legacy_id = 0
 		}
 	}
@@ -2133,27 +2091,6 @@ characters = {
 			}
 		}
 	}
-	JAP_chuichi_nagumo = {
-		name = JAP_chuichi_nagumo
-		portraits = {
-			army = {
-				small = GFX_idea_chuichi_nagumo
-			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = chuichi_nagumo
-			ledger = air
-			allowed = {
-				original_tag = JAP
-			}
-			traits = { navy_carrier_2 }
-			cost = 100
-			ai_will_do = {
-				base = 1
-			}
-		}
-	}
 	JAP_sanzo_nosaka = {
 		instance = {
 			allowed = {
@@ -2568,25 +2505,6 @@ characters = {
 			}
 		}
 	}
-	JAP_chiune_sugihara = {
-		name = JAP_chiune_sugihara
-		portraits = {
-			civilian = {
-				small = GFX_portrait_JAP_chiune_sugihara_small
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = JAP_chiune_sugihara
-			allowed = {
-				original_tag = JAP
-			}
-			traits = { compassionate_gentleman }
-			ai_will_do = {
-				base = 0.01
-			}
-		}
-	}
 	JAP_takuo_godo = {
 		name = JAP_takuo_godo
 		portraits = {
@@ -2872,34 +2790,6 @@ characters = {
 			}
 		}
 	}
-	JAP_bin_akao = {
-		name = JAP_bin_akao
-		portraits = {
-			civilian = {
-				small = GFX_portrait_JAP_bin_akao_small
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = JAP_bin_akao
-			allowed = {
-				original_tag = JAP
-			}
-			visible = {
-				NOT = {
-					has_completed_focus = JAP_okadas_military_purge_speech
-					has_completed_focus = JAP_sea_purge_the_kodoha_faction
-				}
-			}
-			available = {
-				has_completed_focus = JAP_integrate_the_kenkokutai
-			}
-			traits = { JAP_pan_asianist_national_socialist }
-			ai_will_do = {
-				base = 1
-			}
-		}
-	}
 	JAP_yukio_ozaki = {
 		name = JAP_yukio_ozaki
 		portraits = {
@@ -3091,34 +2981,6 @@ characters = {
 			traits = { JAP_south_manchuria_railway_president }
 			ai_will_do = {
 				base = 1
-			}
-		}
-	}
-	JAP_genki_abe = {
-		name = JAP_genki_abe
-		portraits = {
-			civilian = {
-				small = GFX_portrait_JAP_genki_abe_small
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = JAP_genki_abe
-			allowed = {
-				original_tag = JAP
-			}
-			visible = {
-				NOT = {
-					has_completed_focus = JAP_okadas_military_purge_speech
-					has_completed_focus = JAP_organize_a_general_election
-				}
-			}
-			available = {
-				has_completed_focus = JAP_empower_the_thought_police
-			}
-			traits = { JAP_tokko_chief }
-			ai_will_do = {
-				base = 1.5
 			}
 		}
 	}
@@ -3466,35 +3328,6 @@ characters = {
 			}
 			on_remove = {
 				JAP_small_zaibatsu_faction_loss = yes
-			}
-		}
-	}
-	JAP_chikuhei_nakajima = {
-		name = JAP_chikuhei_nakajima
-		portraits = {
-			civilian = {
-				small = GFX_portrait_JAP_chikuhei_nakajima_small
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = JAP_chikuhei_nakajima
-			allowed = {
-				original_tag = JAP
-			}
-			visible = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			available = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			traits = { JAP_nakajima_president }
-			ai_will_do = {
-				base = 1
 			}
 		}
 	}
@@ -4030,35 +3863,6 @@ characters = {
 				has_completed_focus = JAP_limit_the_emperors_power
 			}
 			traits = { JAP_genro }
-			ai_will_do = {
-				base = 1
-			}
-		}
-	}
-	JAP_akira_kurosawa = {
-		name = JAP_akira_kurosawa
-		portraits = {
-			civilian = {
-				small = GFX_portrait_JAP_akira_kurosawa_small
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = JAP_akira_kurosawa
-			allowed = {
-				original_tag = JAP
-			}
-			visible = {
-				NOT = {
-					has_completed_focus = JAP_revere_the_emperor_destroy_the_traitors
-					has_completed_focus = JAP_a_red_sun_rises_for_a_new_era
-					has_completed_focus = JAP_sea_purge_the_kodoha_faction
-				}
-			}
-			available = {
-				has_completed_focus = JAP_ensure_civil_liberties
-			}
-			traits = { HUN_filmmaker }
 			ai_will_do = {
 				base = 1
 			}

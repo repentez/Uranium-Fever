@@ -1,0 +1,19 @@
+state = {
+	id = 1176
+	name = "Hidalgo"
+	manpower = 60915
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 3867 10 }
+		victory_points = { 12791 1 }
+	}
+	provinces = { 5044 12791 3867 }
+	resources = {
+		aluminium = 3
+	}
+}

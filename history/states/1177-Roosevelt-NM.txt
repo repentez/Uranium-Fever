@@ -1,0 +1,18 @@
+state = {
+	id = 1177
+	name = "Roosevelt-NM"
+	manpower = 70287
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = { 12720 }
+	resources = {
+		oil = 1
+		aluminium = 3
+	}
+}

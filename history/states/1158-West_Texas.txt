@@ -1,0 +1,20 @@
+state = {
+	id = 1158
+	name = "West Texas"
+	manpower = 220084
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 10740 15 }
+		victory_points = { 4955 5 }
+	}
+	provinces = { 10740 10894 1954 4955 5038 }
+	resources = {
+		oil = 4
+		aluminium = 1
+	}
+}

@@ -1,8 +1,7 @@
-state={
-	id=1122
-	name="STATE_1122"
-
-	history={
+state = {
+	id = 1122
+	name = "STATE_1122"
+	history = {
 		owner = USA
 		add_core_of = USA
 		buildings = {
@@ -15,43 +14,42 @@ state={
 				naval_base = 3
 			}
 		}
-		victory_points = {
-			9671 30  # San Francisco
-		}
-		victory_points = {
-			9713 20  # Sacramento
-		}
-		victory_points = {
-			14635 20  # San Jose
-		}
-		victory_points = {
-			14399 5  # Alameda
-		}
-		victory_points = {
-			6699 5  # Stockton
-		}
-		victory_points = {
-			3588 3  # Redding
-		}
-		victory_points = {
-			677 3  # San Rafael
-		}
-		victory_points = {
-			11658 1  # Napa
-		}
-		victory_points = {
-			9697 1  # Chico
-		}
-		victory_points = {
-			610 1  # Eureka
-		}
+		victory_points = { 9671 30 }
+		victory_points = { 9713 20 }
+		victory_points = { 14635 20 }
+		victory_points = { 14399 5 }
+		victory_points = { 6699 5 }
+		victory_points = { 677 3 }
+		victory_points = { 11658 1 }
+		victory_points = { 9697 1 }
+		victory_points = { 610 1 }
 	}
-
-	provinces={
-    610 677 710 766 768 781 1601 3588 3644 3677 3678 4331 6482 6665 6681 6699 6745 6757 6772 9671 9697 9713 9730 10159 11658 11698 14399 14635 
+	provinces = {
+		677
+		710
+		766
+		768
+		1601
+		3677
+		3678
+		6681
+		6699
+		6745
+		6757
+		6772
+		9671
+		9697
+		9713
+		9730
+		11658
+		11698
+		14399
+		14635
+		781
+		610
 	}
-	manpower=5677248
-	buildings_max_level_factor=1.000
-	state_category=rural
-	local_supplies=0.000
+	manpower = 5246387
+	buildings_max_level_factor = 1.000
+	state_category = rural
+	local_supplies = 0.000
 }

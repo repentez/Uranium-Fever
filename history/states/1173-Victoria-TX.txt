@@ -1,0 +1,27 @@
+state = {
+	id = 1173
+	name = "Victoria-TX"
+	manpower = 327444
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 10504 1 }
+		victory_points = { 10337 30 }
+	}
+	provinces = {
+		12410
+		10337
+		4884
+		1927
+		10504
+		12341
+	}
+	resources = {
+		oil = 6
+		aluminium = 2
+	}
+}

@@ -1,0 +1,32 @@
+state = {
+	id = 1166
+	name = "South Texas"
+	manpower = 266048
+	state_category = large_city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 12369 3 }
+		victory_points = { 6785 10 }
+		victory_points = { 5061 1 }
+		victory_points = { 2042 1 }
+		victory_points = { 2019 3 }
+		victory_points = { 12782 20 }
+	}
+	provinces = {
+		12369
+		6785
+		5061
+		6987
+		2042
+		2019
+		12782
+	}
+	resources = {
+		oil = 5
+		aluminium = 2
+	}
+}

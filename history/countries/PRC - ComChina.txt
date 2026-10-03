@@ -1,6 +1,5 @@
 capital = 608
 oob = "CHI_1936"
-recruit_character = PRC_zhao_guowei
 set_research_slots = 5
 set_stability = 0.88
 set_war_support = 60
@@ -59,3 +58,17 @@ set_popularities = {
 	despotic = 3
 	authoritarian_socialist = 79
 }
+recruit_character = PRC_admiral_zhao
+recruit_character = PRC_hu_wuying
+recruit_character = PRC_qin_shoucheng
+recruit_character = PRC_ye_zhanfeng
+recruit_character = PRC_cao_haidong
+recruit_character = PRC_zhang_changan
+recruit_character = PRC_kang_guowei
+recruit_character = PRC_shan_tianlong
+recruit_character = PRC_yang_xuefeng
+recruit_character = PRC_Mo_Tieshan
+recruit_character = PRC_guo_haifeng
+recruit_character = PRC_dong_zhenhai
+recruit_character = PRC_he_tianyu
+recruit_character = prc_leader_zhao_guowei

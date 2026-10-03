@@ -1,0 +1,14 @@
+state = {
+	id = 594
+	name = "1151"
+	manpower = 0
+	state_category = small_island
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = { 20004 }
+}

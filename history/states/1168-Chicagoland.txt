@@ -1,0 +1,15 @@
+state = {
+	id = 1168
+	name = "Chicagoland"
+	manpower = 422954
+	state_category = large_city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = { 9450 50 }
+	}
+	provinces = { 9450 }
+}

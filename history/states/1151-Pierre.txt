@@ -1,0 +1,25 @@
+state = {
+	id = 1151
+	name = "Pierre"
+	manpower = 133755
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 12667 5 }
+		victory_points = { 10595 5 }
+		victory_points = { 12620 5 }
+		victory_points = { 7862 5 }
+	}
+	provinces = {
+		4880
+		12667
+		10595
+		7862
+		12620
+		10569
+	}
+}

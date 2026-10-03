@@ -1,0 +1,36 @@
+state = {
+	id = 1164
+	name = "Albany"
+	manpower = 882977
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 11665 1 }
+		victory_points = { 598 1 }
+		victory_points = { 6778 1 }
+		victory_points = { 11662 1 }
+		victory_points = { 1436 5 }
+		victory_points = { 9708 15 }
+		victory_points = { 9693 1 }
+	}
+	provinces = {
+		9693
+		1436
+		11722
+		9721
+		11665
+		9708
+		6795
+		6916
+		6778
+		9754
+		10381
+		11662
+		3602
+		598
+	}
+}

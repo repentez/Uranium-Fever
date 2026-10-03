@@ -312,7 +312,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			ideology = enclave
+			ideology = militarism
 			expire = "1965.1.1.1"
 			traits = {}
 			id = -1

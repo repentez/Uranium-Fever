@@ -1,0 +1,15 @@
+state = {
+	id = 1169
+	name = "Fairfax"
+	manpower = 224788
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 6846 1 }
+	}
+	provinces = { 6846 873 951 3917 865 }
+}

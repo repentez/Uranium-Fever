@@ -1,0 +1,26 @@
+state = {
+	id = 1163
+	name = "Onondaga"
+	manpower = 662232
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 11650 1 }
+		victory_points = { 6717 3 }
+		victory_points = { 3702 1 }
+		victory_points = { 3733 15 }
+	}
+	provinces = {
+		11680
+		3747
+		3733
+		11650
+		3702
+		11660
+		6717
+	}
+}

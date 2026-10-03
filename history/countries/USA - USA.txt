@@ -44,7 +44,6 @@ set_grand_doctrine = new_base_strike
 	add_to_faction = CAN
 	add_to_faction = MEX
 }
-
 create_country_leader = {
 	name = "William H. Caldwell"
 	desc = "POLITICS_WILLIAM_H_CALDWELL_DESC"
@@ -80,3 +79,4 @@ recruit_character = USA_general_wellesley
 recruit_character = USA_colonel_roy_blackwell
 recruit_character = USA_admiral_grath
 recruit_character = USA_colonel_a_vince
+recruit_character = USA_enclave_administration

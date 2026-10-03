@@ -1,0 +1,18 @@
+state = {
+	id = 1160
+	name = "Oklahoma Panhandle"
+	manpower = 149752
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = { 12624 }
+	resources = {
+		oil = 3
+		aluminium = 1
+	}
+}

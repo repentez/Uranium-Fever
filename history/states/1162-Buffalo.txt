@@ -1,0 +1,16 @@
+state = {
+	id = 1162
+	name = "Buffalo"
+	manpower = 591279
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 6707 1 }
+		victory_points = { 11654 25 }
+	}
+	provinces = { 6707 9664 11654 734 15350 }
+}

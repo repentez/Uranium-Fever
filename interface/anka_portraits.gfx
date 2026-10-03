@@ -39,4 +39,8 @@ spriteTypes = {
 		name = "GFX_portrait_USA_enclave_administration"
 		texturefile = "gfx/leaders/USA/portrait_USA_enclave_administration.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_prc_leader_zhao_guowei"
+		texturefile = "gfx/leaders/PRC/portrait_prc_leader_zhao_guowei.dds"
+	}
 }

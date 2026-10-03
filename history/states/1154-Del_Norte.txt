@@ -1,0 +1,14 @@
+state = {
+	id = 1154
+	name = "Del Norte"
+	manpower = 228103
+	state_category = rural
+	history = {
+		buildings = {
+			infrastructure = 3
+		}
+		owner = USA
+		add_core_of = USA
+	}
+	provinces = { 6482 3644 20007 }
+}

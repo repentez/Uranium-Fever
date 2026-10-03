@@ -1,0 +1,20 @@
+state = {
+	id = 1165
+	name = "Long Island"
+	manpower = 3752653
+	state_category = town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 4
+		}
+		victory_points = { 15743 1 }
+		victory_points = { 859 1 }
+	}
+	provinces = { 15743 859 }
+	resources = {
+		steel = 3
+	}
+}

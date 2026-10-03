@@ -1,52 +1,81 @@
 state = {
 	id = 604
 	name = "STATE_604"
-
 	history = {
-
 		owner = PRC
 		add_core_of = PRC
 		add_core_of = PRC
 		add_core_of = PRC
-
-		#victory_points = {
-		#	7940 10 # Goldmud was not ofunded until in the late fifties
-		#}
-
-		victory_points = {
-			8018 1 # Yushu
-		}
-
+		victory_points = { 8018 1 }
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 2
 		}
-
 		1938.10.25 = {
 			IF = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger" 
+						has_dlc = "Waking the Tiger"
 					}
-
 				}
 				PRC = {
 					transfer_state = PREV
-
 				}
-
 			}
-
 		}
-
 	}
-
 	provinces = {
-		4914 4964 7940 8018 8037 12899 15560 17914 19433 19436 19441 19442 19650 19652 
+		4914
+		4964
+		7940
+		8018
+		8037
+		12899
+		15560
+		17914
+		19433
+		19436
+		19441
+		19442
+		19650
+		19652
+		10834
+		15556
+		12846
+		2099
+		10796
+		10865
+		7997
+		1882
+		4536
+		12890
+		1698
+		19661
+		2053
+		13380
+		8988
+		13381
+		19671
+		19735
+		10817
+		12815
+		10903
+		10787
+		10750
+		16842
+		16856
+		19740
+		12732
+		10490
+		15646
+		19716
+		7270
+		4888
+		11448
+		13146
 	}
-	manpower=  1196100
+	manpower = 1196100
 	buildings_max_level_factor = 1.000
 	state_category = rural
-
-	local_supplies = 1.0 
+	local_supplies = 1.0
 }

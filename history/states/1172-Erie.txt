@@ -1,0 +1,32 @@
+state = {
+	id = 1172
+	name = "Erie"
+	manpower = 350900
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = { 3687 5 }
+		victory_points = { 11817 1 }
+	}
+	provinces = {
+		3687
+		15728
+		6705
+		9662
+		11648
+		11817
+		9836
+		702
+		3880
+		6899
+		3697
+	}
+	resources = {
+		steel = 2
+		coal = 4
+	}
+}
