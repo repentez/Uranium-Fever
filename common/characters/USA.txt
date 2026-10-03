@@ -191,6 +191,11 @@ characters = {
 		}
 	}
 	USA_general_rawlings = {
+	portraits = {
+        army = {
+            large = GFX_portrait_USA_general_rawlings
+        }
+    }
 		name = USA_general_rawlings
 		corps_commander = {
 			traits = {}
@@ -218,6 +223,11 @@ characters = {
 		}
 	}
 	USA_general_george_martine = {
+			portraits = {
+        army = {
+            large = GFX_portrait_USA_general_george_martine
+        }
+    }
 		name = USA_general_george_martine
 		corps_commander = {
 			traits = {}
@@ -229,6 +239,11 @@ characters = {
 		}
 	}
 	USA_general_martin_retslaf = {
+		portraits = {
+        army = {
+            large = GFX_portrait_USA_general_martin_retslaf
+        }
+    }
 		name = USA_general_martin_retslaf
 		corps_commander = {
 			traits = {}
@@ -240,6 +255,11 @@ characters = {
 		}
 	}
 	USA_general_robert_dobbs = {
+				portraits = {
+        army = {
+            large = GFX_portrait_USA_general_robert_dobbs
+        }
+    }
 		name = USA_general_robert_dobbs
 		corps_commander = {
 			traits = {}
@@ -251,6 +271,11 @@ characters = {
 		}
 	}
 	USA_general_t_harper = {
+	portraits = {
+        army = {
+            large = GFX_portrait_USA_general_t_harper
+        }
+    }
 		name = USA_general_t_harper
 		corps_commander = {
 			traits = {}
@@ -262,6 +287,11 @@ characters = {
 		}
 	}
 	USA_general_thomas_macallen = {
+			portraits = {
+        army = {
+            large = GFX_portrait_USA_general_thomas_macallen
+        }
+    }
 		name = USA_general_thomas_macallen
 		corps_commander = {
 			traits = {}
@@ -273,6 +303,11 @@ characters = {
 		}
 	}
 	USA_general_victor_beckenridge = {
+		portraits = {
+        army = {
+            large = GFX_portrait_USA_general_victor_beckenridge
+        }
+    }
 		name = USA_general_victor_beckenridge
 		corps_commander = {
 			traits = {}
@@ -284,6 +319,11 @@ characters = {
 		}
 	}
 	USA_general_wellesley = {
+			portraits = {
+        army = {
+            large = GFX_portrait_USA_general_wellesley
+        }
+    }
 		name = USA_general_wellesley
 		corps_commander = {
 			traits = {}
@@ -306,6 +346,11 @@ characters = {
 		}
 	}
 	USA_colonel_roy_blackwell = {
+					portraits = {
+        army = {
+            large = GFX_portrait_USA_colonel_roy_blackwell
+        }
+    }
 		name = USA_colonel_roy_blackwell
 		field_marshal = {
 			traits = {}
@@ -317,6 +362,11 @@ characters = {
 		}
 	}
 	USA_colonel_a_vince = {
+		portraits = {
+        army = {
+            large = GFX_portrait_USA_colonel_a_vince
+        }
+    }
 		name = USA_colonel_a_vince
 		field_marshal = {
 			traits = {}

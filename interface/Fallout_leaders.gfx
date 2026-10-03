@@ -7,6 +7,49 @@ spriteTypes = {
 
 
 	########USA GENERALS AND MARSHALS##########
+
+				 	 spriteType = {
+		name = "GFX_portrait_USA_colonel_a_vince"
+		texturefile = "gfx/leaders/USA/portrait_USA_colonel_a_vince.dds"
+	}
+				 	 spriteType = {
+		name = "GFX_portrait_USA_colonel_roy_blackwell"
+		texturefile = "gfx/leaders/USA/portrait_USA_colonel_roy_blackwell.dds"
+	}
+				 	 spriteType = {
+		name = "GFX_portrait_USA_general_wellesley"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_wellesley.dds"
+	}
+			 	 spriteType = {
+		name = "GFX_portrait_USA_general_victor_beckenridge"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_victor_beckenridge.dds"
+	}
+		 	 spriteType = {
+		name = "GFX_portrait_USA_general_thomas_macallen"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_thomas_macallen.dds"
+	}
+
+	 	 spriteType = {
+		name = "GFX_portrait_USA_general_t_harper"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_t_harper.dds"
+	}
+				 spriteType = {
+		name = "GFX_portrait_USA_general_robert_dobbs"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_robert_dobbs.dds"
+	}
+			 spriteType = {
+		name = "GFX_portrait_USA_general_martin_retslaf"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_martin_retslaf.dds"
+	}
+        
+			 spriteType = {
+		name = "GFX_portrait_USA_general_george_martine"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_george_martine.dds"
+	}
+			 spriteType = {
+		name = "GFX_portrait_USA_general_rawlings"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_rawlings.dds"
+	}
 		 spriteType = {
 		name = "GFX_portrait_USA_general_clifton"
 		texturefile = "gfx/leaders/USA/portrait_USA_general_clifton.dds"
