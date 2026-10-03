@@ -839,7 +839,7 @@ focus_tree = {
              add_stability = -0.05
 				add_popularity = {
 		ideology = democratic
-		popularity = 0.5
+		popularity = 0.05
 	}
 		}
 		prerequisite = {
@@ -858,7 +858,12 @@ focus_tree = {
 		x = -66
 		y = 4
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+         country_event = {
+         id = USA.crowd
+          }
+			
+		}
 		prerequisite = {
 			focus = USA_focus_distributing
 		}
