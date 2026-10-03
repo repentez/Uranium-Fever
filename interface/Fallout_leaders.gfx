@@ -7,6 +7,19 @@ spriteTypes = {
 
 
 	########USA GENERALS AND MARSHALS##########
+		 spriteType = {
+		name = "GFX_portrait_USA_general_clifton"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_clifton.dds"
+	}
+		    spriteType = {
+		name = "GFX_portrait_USA_general_c_braxton"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_c_braxton.dds"
+	}
+	    spriteType = {
+		name = "GFX_portrait_USA_general_brock"
+		texturefile = "gfx/leaders/USA/portrait_USA_general_brock.dds"
+	}
+	
     spriteType = {
 		name = "GFX_portrait_USA_general_constantine_chase"
 		texturefile = "gfx/leaders/USA/portrait_USA_Chase.dds"

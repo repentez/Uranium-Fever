@@ -142,6 +142,11 @@ characters = {
 
 	#### general ##
 	USA_general_brock = {
+	portraits = {
+        army = {
+            large = GFX_portrait_USA_general_brock
+        }
+    }
 		name = USA_general_brock
 		corps_commander = {
 			traits = {}
@@ -153,6 +158,11 @@ characters = {
 		}
 	}
 	USA_general_c_braxton = {
+			portraits = {
+        army = {
+            large = GFX_portrait_USA_general_c_braxton
+        }
+    }
 		name = USA_general_c_braxton
 		corps_commander = {
 			traits = {}
@@ -164,7 +174,13 @@ characters = {
 		}
 	}
 	USA_general_clifton = {
+
 		name = USA_general_clifton
+					portraits = {
+        army = {
+            large = GFX_portrait_USA_general_clifton
+        }
+    }
 		corps_commander = {
 			traits = {}
 			skill = 1
