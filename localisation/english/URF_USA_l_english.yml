@@ -68,3 +68,42 @@
  USA_cascadian_commonwealth_desc:0 "Our northern territories remain dangerously exposed, both by sea and by air. Before tensions with China boil over, Washington must invest in their defense — securing the Pacific coast and watching the skies to the north."
  usa_northern_commonwealth:0 "The Northern Commonwealth"
  usa_northern_commonwealth_desc:0 "Build a radar and air defense network across our northern states. If China ever strikes from across the Pole, we'll see it coming."
+ USA_focus_mexico_situation_desc:0 "Mexico is draining our resources and manpower, and the cost keeps growing."
+
+ USA_mexico_event_title:0 "Mexico Is Bleeding Us Dry"
+  USA_mexico_event_desc:0 "Mexico is draining our resources and manpower, and the bill keeps growing. Should we press on and tighten our grip, or keep good relations and ease off? The decision is ours."
+ USA_focus_contract_assigning_desc:0 "Mexico's oil is up for grabs. Two companies want the contracts, and we have to pick one."
+
+ USA_choice_companies_event_title:0 "Assigning the Contracts"
+ USA_choice_companies_event_desc:0 "Two companies are competing for the Mexican oil contracts.\n\n§YPetro Chico§! is a local company that would develop Mexico's fields for the Mexicans. It would make certain people in the Enclave very happy, and their influence would grow.\n\n§YTexaco§! is an American giant. Besides developing Mexico's oil, it would also bring extra oil production to Central Texas.\n\nWhich one gets the contracts?"
+
+ USA_focus_texico_desc:0 "Texaco gets the contracts. Mexico's oil flows north, and Central Texas benefits too."
+  USA_focus_petro_chico_desc:0 "Petro Chico gets the contracts. Mexico develops its own fields, and certain people are pleased."
+ USA_focus_last_gen_desc:0 "Our warehouses are full of old rifles and surplus weapons we no longer need. Mexico is fighting a revolt, so we will send them south to help."
+
+ USA_give_mexico_old_guns_event_title:0 "Old Guns from the USA"
+ USA_give_mexico_old_guns_event_desc:0 "The United States is sending us crates of old weapons from its warehouses. They are not new, but they are enough to arm our soldiers and help us fight the revolt."
+ USA_focus_dia_desc:0 "The Defense Intelligence Agency will send a team of army advisors to Mexico. They will train the Mexican troops, help plan operations and teach them how to fight the revolt."
+
+ USA_mexico_advisors_event_title:0 "American Advisors Arrive"
+ USA_mexico_advisors_event_desc:0 "A team of American army advisors has arrived in our country. They will help train our soldiers and plan our operations against the revolt."
+ USA_focus_eyes_sky_desc:0 "Mexico has no real air force, and the rebels move freely. We will send them aircraft so they can watch the skies and strike from above."
+
+ USA.mexico_air_focus_event_title:0 "American Aircraft for Mexico"
+ USA.mexico_air_focus_event_desc:0 "The United States is giving us a batch of aircraft. With them we can scout the rebels, support our troops and strike from the air."
+ USA_focus_uncle_sam_wrath_desc:0 "With aircraft, advisors and weapons delivered, Mexico is finally getting back on its feet. Uncle Sam's help is making the government stronger and the country more stable."
+ USA_focus_el_orden_desc:0 "The revolt is under control and the oil is flowing. It is time to bring our soldiers home and let Mexico keep the order we helped build. No one should disturb it now."
+
+ USA.mexico_no_altere_event_title:0 "The Established Order"
+ USA.mexico_no_altere_event_desc:0 "The revolt has been crushed, and the United States is pulling back its forces. Order has returned to the country, and the government stands firmer than before. Let no one disturb it."
+ USA_focus_lame_duck_desc:0 "President Caldwell's term is nearly over. The economy is broken, Mexico is out of control, and the nation has lost faith in him. He can only give speeches and watch his last months in office slip away."
+ USA_focus_regulating_influx_desc:0 "Too many newcomers are arriving from Europe and the Arab World. We will put limits in place and control who comes in. It will cost us some manpower and population, but the country will be more stable."
+
+ USA_focus_ending_work_stoppage_desc:0 "The strikes are paralyzing the factories and rail yards. The government will send strikebreakers and pass new laws against the work stoppages. Order must be restored, whatever it takes."
+ USA_focus_guards_desc:0 "Guards, and more guards. We will put armed men in front of every factory and rail yard to keep the strikes contained. The work continues, even if people dislike how."
+
+ USA_focus_kibosh_desc:0 "The press keeps feeding the unrest, so we will shut it down. No more headlines about strikes or shortages. Only what the government wants people to read."
+
+ USA_focus_smile_and_wave_desc:0 "Smile, wave and say that everything is fine. The cameras will love it, even if the country does not feel like it is."
+
+ USA_focus_where_were_you_4_yrs_ago_desc:0 "The Democrats are holding rallies and asking one question: how were you four years ago, and how are you now? We will let the crowd decide."

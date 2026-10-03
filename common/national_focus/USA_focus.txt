@@ -874,6 +874,7 @@ focus_tree = {
 			focus = USA_focus_smile_and_wave
 		}
 	}
+
 	focus = {
 		id = USA_focus_mexico_situation
 		icon = GFX_goal_mexico_situation
@@ -1758,7 +1759,64 @@ focus_tree = {
 			focus = USA_focus_desert_logistics
 		}
 	}
+		focus = {
+		id = USA_project_safe_house
+		icon = GFX_goal_unknown
+		x = -55
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+		}
+
+	}
+		focus = {
+		id = USA_American_way
+		icon = GFX_goal_unknown
+		x = -53
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+		}
+
+	}
+			focus = {
+		id = USA_Mexico_decisions_to_be_added_soon
+		icon = GFX_goal_unknown
+		x = -51
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+		}
+
+	}
+				focus = {
+		id = USA_Enclave_directive
+		icon = GFX_goal_unknown
+		x = -49
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+		}
+
+	}
+					focus = {
+		id = USA_Our_northern_borders
+		icon = GFX_goal_unknown
+		x = -47
+		y = 9
+		cost = 10
+		completion_reward = {}
+		prerequisite = {
+		}
+
+	}
 }
+
+
 focus = {
 	id = USA_the_final_war
 	icon = GFX_focus_generic_political

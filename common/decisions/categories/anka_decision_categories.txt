@@ -3,11 +3,17 @@ USA_American_Way = {
 	allowed = {
 		tag = USA
 	}
+	visible = {
+		has_completed_focus = USA_American_way
+	}
 }
 USA_Mexico_Occupation = {
 	icon = generic_research
 	allowed = {
 		tag = USA
+	}
+	visible = {
+		has_completed_focus = USA_Mexico_decisions_to_be_added_soon
 	}
 }
 USA_Project_Safehouse = {
@@ -15,16 +21,25 @@ USA_Project_Safehouse = {
 	allowed = {
 		tag = USA
 	}
+	visible = {
+		has_completed_focus = USA_project_safe_house
+	}
 }
 USA_Enclave_Directive = {
 	icon = generic_research
 	allowed = {
 		tag = USA
 	}
+	visible = {
+		has_completed_focus = USA_Enclave_directive
+	}
 }
 USA_Our_Northern_Neighbor = {
 	icon = generic_research
 	allowed = {
 		tag = USA
+	}
+	visible = {
+		has_completed_focus = USA_Our_northern_borders
 	}
 }
