@@ -246,6 +246,16 @@ USA_Our_Northern_Neighbor = {
 			}
 		}
 	}
+	USA_invade_canada = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = CAN
+				type = annex_everything
+			}
+		}
+	}
 }
 PRC_Expansionism = {
 	PRC_coup_laos = {

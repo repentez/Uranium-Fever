@@ -146,6 +146,16 @@ European_Expansion = {
 			}
 		}
 	}
+	EUC_declare_war_middle_east = {
+		icon = generic_research
+		cost = 50
+		complete_effect = {
+			declare_war_on = {
+				target = UAR
+				type = annex_everything
+			}
+		}
+	}
 }
 EUC_The_Facade = {
 	EUC_nationalism_mission = {
