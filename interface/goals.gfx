@@ -1,5 +1,45 @@
 spriteTypes = {
 
+	SpriteType = {
+		name = "GFX_goal_vault_tec"
+		texturefile = "gfx/interface/goals/USA/vault_tec.dds"
+	}
+
+SpriteType = {
+	name = "GFX_goal_behind_closed_doors"
+	texturefile = "gfx/interface/goals/USA/behind_closed_doors.dds"
+}
+	SpriteType = {
+		name = "GFX_goal_Conservative_corps"
+		texturefile = "gfx/interface/goals/USA/Conservative_corps.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_the_best_for_the_best"
+		texturefile = "gfx/interface/goals/USA/the_best_for_the_best.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_a_few_extra_orders"
+		texturefile = "gfx/interface/goals/USA/a_few_extra_orders.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_civil_defense_founding"
+		texturefile = "gfx/interface/goals/USA/civil_defense_founding.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_friends_high_place"
+		texturefile = "gfx/interface/goals/USA/friends_high_place.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_what_makes_america_works"
+		texturefile = "gfx/interface/goals/USA/what_makes_america_works.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_Reliable_contractors"
+		texturefile = "gfx/interface/goals/USA/Reliable_contractors.dds"
+	}
+
+
+
 SpriteType = {
 		name = "GFX_goal_mexico_situation"
 		texturefile = "gfx/interface/goals/USA/mexico_situation.dds"

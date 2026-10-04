@@ -1067,7 +1067,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_conservation_corps
-		icon = GFX_goal_unknown
+		icon = GFX_goal_Conservative_corps
 		x = -55
 		y = 1
 		cost = 10
@@ -1075,7 +1075,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_comdevpro
-		icon = GFX_goal_unknown
+		icon = GFX_goal_reform_industry_3
 		x = -55
 		y = 2
 		cost = 10
@@ -1100,7 +1100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_reliable_contractors
-		icon = GFX_goal_unknown
+		icon = GFX_goal_Reliable_contractors
 		x = -53
 		y = 3
 		cost = 10
@@ -1114,21 +1114,18 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_project_safehouse
-		icon = GFX_goal_unknown
+		icon = GFX_goal_vault_tec
 		x = -55
 		y = 4
 		cost = 10
 		completion_reward = {}
 		prerequisite = {
-			focus = USA_focus_new_deal
-		}
-		prerequisite = {
-			focus = USA_focus_reliable_contractors
+			focus = USA_focus_new_deal focus = USA_focus_reliable_contractors
 		}
 	}
 	focus = {
 		id = USA_focus_behind_closed_doors
-		icon = GFX_goal_unknown
+		icon =  GFX_focus_BEL_la_dame_blanche
 		x = -53
 		y = 4
 		cost = 10
@@ -1139,7 +1136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_interesting_designs
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		x = -51
 		y = 4
 		cost = 10
@@ -1150,7 +1147,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_friends_in_high_places
-		icon = GFX_goal_unknown
+		icon = GFX_goal_friends_high_place
 		x = -49
 		y = 4
 		cost = 10
@@ -1161,7 +1158,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_civil_defense_funding
-		icon = GFX_goal_unknown
+		icon = GFX_goal_civil_defense_founding
 		x = -56
 		y = 5
 		cost = 10
@@ -1172,7 +1169,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_best_and_brightest
-		icon = GFX_goal_unknown
+		icon = GFX_goal_the_best_for_the_best
 		x = -54
 		y = 5
 		cost = 10
@@ -1183,7 +1180,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_what_makes_america_work
-		icon = GFX_goal_unknown
+		icon = GFX_goal_what_makes_america_works
 		x = -50
 		y = 5
 		cost = 10
@@ -1195,20 +1192,26 @@ focus_tree = {
 			focus = USA_focus_friends_in_high_places
 		}
 	}
+
 	focus = {
 		id = USA_focus_few_extra_orders
-		icon = GFX_goal_unknown
+		icon = GFX_goal_a_few_extra_orders
 		x = -54
 		y = 6
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			 country_event = {
+         id = USA.vaultec_exp
+         }
+			
+		}
 		prerequisite = {
 			focus = USA_focus_best_and_brightest
 		}
 	}
 	focus = {
 		id = USA_focus_arsenal_renovation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_PRC_bolshevik_urbanization_completed
 		x = -52
 		y = 6
 		cost = 10
@@ -1219,7 +1222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_stent_security_solutions
-		icon = GFX_goal_unknown
+		icon = GFX_focus_PHI_fortify_corregidor
 		x = -50
 		y = 6
 		cost = 10
@@ -1230,7 +1233,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_give_us_the_fire
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_economic_recovery
 		x = -48
 		y = 6
 		cost = 10

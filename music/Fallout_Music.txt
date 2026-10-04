@@ -1,6 +1,16 @@
 
 music_station = "Radio_America_2052"
 music = {
+	song = "Tom_Lehrer_So_Long_Mom"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_America_2052"
+music = {
 	song = "L_A_Is_My_Lady"
 	chance = {
 		factor =5

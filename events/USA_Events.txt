@@ -1,5 +1,23 @@
 add_namespace = usa
 country_event = {
+	id = USA.vaultec_exp
+	title = USA_vaultec_exp.t
+	desc = USA_vaultec_exp.d
+	picture = GFX_event_vaultec_exp
+
+	is_triggered_only = yes
+
+   trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_few_extra_orders
+    }
+
+	option = {
+		name = "It can all start now"
+		add_stability = 0.03
+	}
+}
+country_event = {
 	id = USA.caldwell
 	title = USA_caldwell.t
 	desc = USA_caldwell.d
