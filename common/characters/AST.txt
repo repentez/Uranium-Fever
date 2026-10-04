@@ -13,81 +13,6 @@ characters = {
 			id = -1
 		}
 	}
-	AST_john_curtin = {
-		instance = {
-			allowed = {
-				has_dlc = "Thunder at Our Gates"
-			}
-			name = AST_john_curtin
-			portraits = {
-				civilian = {
-					large = GFX_portrait_AST_john_curtin
-				}
-			}
-		}
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "Thunder at Our Gates"
-				}
-			}
-			name = AST_john_curtin
-			portraits = {
-				civilian = {
-					large = GFX_portrait_AST_john_curtin
-				}
-			}
-			country_leader = {
-				ideology = socialism
-				expire = "1965.1.1.1"
-				id = -1
-			}
-		}
-	}
-	AST_fred_paterson = {
-		name = AST_fred_paterson
-		portraits = {
-			civilian = {
-				large = GFX_portrait_AST_fred_paterson
-			}
-		}
-	}
-	AST_percy_stephensen = {
-		name = AST_percy_stephensen
-		portraits = {
-			civilian = {
-				large = GFX_portrait_AST_percy_stephensen
-				small = GFX_portrait_AST_percy_stephensen_small
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = AST_percy_stephensen
-			allowed = {
-				original_tag = AST
-			}
-			traits = { AST_motherland_advocate_pa }
-			available = {
-				IF = {
-					limit = {
-						OR = {
-							has_idea = AST_monarchist_intervention_spirit
-							has_completed_focus = AST_for_crown_and_empire
-						}
-					}
-					NOT = {
-						has_completed_focus = AST_for_crown_and_empire
-					}
-					is_country_leader = no
-					has_completed_focus = AST_in_from_the_cold
-				}
-				ELSE = {
-					is_country_leader = no
-					has_completed_focus = AST_in_from_the_cold
-				}
-			}
-		}
-	}
 	AST_rod_hull = {
 		name = AST_rod_hull
 		portraits = {
@@ -250,24 +175,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	AST_frank_berryman = {
-		name = AST_frank_berryman
-		portraits = {
-			army = {
-				large = GFX_portrait_AST_frank_berryman
-				small = GFX_portrait_AST_frank_berryman_small
-			}
-		}
-		corps_commander = {
-			traits = { organizer }
-			skill = 2
-			attack_skill = 1
-			defense_skill = 1
-			planning_skill = 3
-			logistics_skill = 2
-			legacy_id = -1
-		}
-	}
 	AST_george_wootten = {
 		name = AST_george_wootten
 		portraits = {
@@ -340,45 +247,6 @@ characters = {
 			coordination_skill = 3
 			maneuvering_skill = 1
 			legacy_id = -1
-		}
-	}
-	AST_john_crace = {
-		instance = {
-			allowed = {
-				has_dlc = "Thunder at Our Gates"
-			}
-			name = AST_john_crace
-			portraits = {
-				army = {
-					large = GFX_portrait_AST_john_crace
-					small = GFX_portrait_AST_john_crace_small
-				}
-			}
-		}
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "Thunder at Our Gates"
-				}
-			}
-			name = AST_john_crace
-			portraits = {
-				army = {
-					small = "GFX_idea_AST_jack_crace"
-				}
-			}
-			advisor = {
-				slot = navy_chief
-				idea_token = AST_john_crace
-				allowed = {
-					original_tag = AST
-				}
-				traits = { navy_chief_decisive_battle_2 }
-				cost = 100
-				ai_will_do = {
-					factor = 1.000
-				}
-			}
 		}
 	}
 	AST_henry_wynter = {

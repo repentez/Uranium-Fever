@@ -148,10 +148,6 @@ USA_Our_Northern_Neighbor = {
 							}
 						}
 					}
-					OWNER = {
-						set_country_flag = USA_MOC_capital_state_transferred_MOC_victim_flag
-						set_country_flag = USA_moc_puppet_flag
-					}
 				}
 				transfer_state_to = MOC
 				set_state_flag = USA_MOC_capital_state_transferred_MOC_flag
@@ -168,12 +164,6 @@ USA_Our_Northern_Neighbor = {
 						USA_is_MOC_state = yes
 						NOT = {
 							state = 473
-						}
-						OR = {
-							is_owned_by = ROOT
-							owner = {
-								is_subject_of = ROOT
-							}
 						}
 					}
 					transfer_state_to = MOC
@@ -254,6 +244,63 @@ USA_Our_Northern_Neighbor = {
 				state = 867
 				state = 1129
 			}
+		}
+	}
+}
+PRC_Expansionism = {
+	PRC_coup_laos = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			670 = {
+				IF = {
+					limit = {
+						OWNER = {
+							NOT = {
+								original_tag = PRC
+							}
+						}
+					}
+				}
+				transfer_state_to = PRC
+				add_compliance = 25
+			}
+		}
+	}
+	PRC_invade_mongolia = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = MON
+				type = annex_everything
+			}
+		}
+	}
+	PRC_subjugate_korea = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			puppet = DPK
+		}
+	}
+	PRC_reunification = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = CHI
+				type = annex_everything
+			}
+		}
+	}
+}
+YUG_breakup = {
+	YUG_civil_war = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			transfer_state = 109
 		}
 	}
 }

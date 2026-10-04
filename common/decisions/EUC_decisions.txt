@@ -1,15 +1,9 @@
-
 European_Economy = {
 	Invest_In_Mongolian_Fishing_Industries = {
-
 		icon = GFX_decision_icon_default
-
-		available = {
-		}
-
+		available = {}
 		fire_only_once = no
 		days_re_enable = 5
-
 		visible = {
 			ROOT = {
 				tag = EUC
@@ -17,44 +11,35 @@ European_Economy = {
 			}
 			is_debug = yes
 		}
-
 		cost = 0
-
 		complete_effect = {
 			custom_effect_tooltip = "DECISION_EFFECT_YAY"
 			hidden_effect = {
 				add_political_power = 100
 			}
 		}
-
 		ai_will_do = {
 			factor = 0
 		}
 	}
 }
-
 European_Expansion = {
-
-	OPERATION_ADRIATIC = {
-
+	EUC_adriatic = {
 		icon = GFX_decision_icon_default
-
 		available = {
 			has_completed_focus = EUC_focus_oil_crisis
-			NOT = { has_country_flag = operation_adriatic_done }
+			NOT = {
+				has_country_flag = operation_adriatic_done
+			}
 		}
-
 		fire_only_once = yes
 		days_remove = 75
-
 		visible = {
 			ROOT = {
 				tag = EUC
 			}
 		}
-
-		cost = 55
-
+		cost = 0
 		complete_effect = {
 			create_wargoal = {
 				type = annex_everything
@@ -68,52 +53,97 @@ European_Expansion = {
 				type = annex_everything
 				target = GRE
 			}
-
 			set_country_flag = operation_adriatic_done
 		}
-
 		ai_will_do = {
 			factor = 1
 		}
 	}
-
 	OPERATION_ANATOLIA = {
-
 		icon = GFX_decision_icon_default
-
 		available = {
 			has_completed_focus = EUC_focus_oil_crisis
-			NOT = { has_country_flag = operation_anatolia_done }
+			NOT = {
+				has_country_flag = operation_anatolia_done
+			}
 		}
-
 		fire_only_once = yes
 		days_remove = 75
-
 		visible = {
 			ROOT = {
 				tag = EUC
 			}
 		}
-
 		cost = 55
-
 		complete_effect = {
 			create_wargoal = {
 				type = annex_everything
 				target = TUR
 			}
-
 			set_country_flag = operation_anatolia_done
 		}
-
 		targeted_modifier = {
 			tag = TUR
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
 		}
-
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	EUC_middle_east_wars = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = UAR
+				type = annex_everything
+				add_unit_bonus = {
+					category_light_infantry = {
+						soft_attack = 0.05
+						name = [LOC_KEY]
+					}
+					cavalry = {
+						soft_attack = 0.05
+						hard_attack = 0.05
+						name = [LOC_KEY]
+					}
+				}
+			}
+		}
+	}
+	EUC_declare_war_eastern_europe = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = DDR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = POL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = CZE
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SLO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HUN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ROM
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BUL
+				type = annex_everything
+			}
 		}
 	}
 }
@@ -133,7 +163,6 @@ EUC_The_Facade = {
 		fire_only_once = no
 		cancel_if_not_visible = yes
 		days_mission_timeout = 30
-
 		timeout_effect = {
 			set_temp_variable = {
 				var = EUC_ISS_nationalism_var_temp
@@ -143,14 +172,12 @@ EUC_The_Facade = {
 			activate_mission = EUC_nationalism_mission
 		}
 	}
-
 	EUC_purge_separatist_sympathizers_decision = {
 		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
-		visible = {
-		}
+		visible = {}
 		available = {
 			set_temp_variable = {
 				var = EUC_ISS_nationalism_trigger_temp
@@ -158,7 +185,9 @@ EUC_The_Facade = {
 			}
 			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Security_action }
+				NOT = {
+					has_country_flag = EUC_Security_action
+				}
 			}
 		}
 		ai_will_do = {
@@ -192,14 +221,12 @@ EUC_The_Facade = {
 			EUC_add_nationalism = yes
 		}
 	}
-
 	EUC_discredit_nationalist_press_decision = {
 		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
-		visible = {
-		}
+		visible = {}
 		available = {
 			set_temp_variable = {
 				var = EUC_ISS_nationalism_trigger_temp
@@ -207,7 +234,9 @@ EUC_The_Facade = {
 			}
 			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Ministry_action }
+				NOT = {
+					has_country_flag = EUC_Ministry_action
+				}
 			}
 		}
 		ai_will_do = {
@@ -241,14 +270,12 @@ EUC_The_Facade = {
 			EUC_add_nationalism = yes
 		}
 	}
-
 	EUC_conduct_grey_operations_decision = {
 		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
-		visible = {
-		}
+		visible = {}
 		available = {
 			set_temp_variable = {
 				var = EUC_ISS_nationalism_trigger_temp
@@ -256,7 +283,9 @@ EUC_The_Facade = {
 			}
 			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Coordination_action }
+				NOT = {
+					has_country_flag = EUC_Coordination_action
+				}
 			}
 		}
 		ai_will_do = {
@@ -286,14 +315,12 @@ EUC_The_Facade = {
 			EUC_add_nationalism = yes
 		}
 	}
-
 	EUC_censor_dissident_networks_decision = {
 		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
-		visible = {
-		}
+		visible = {}
 		available = {
 			set_temp_variable = {
 				var = EUC_ISS_nationalism_trigger_temp
@@ -301,7 +328,9 @@ EUC_The_Facade = {
 			}
 			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Signals_action }
+				NOT = {
+					has_country_flag = EUC_Signals_action
+				}
 			}
 		}
 		ai_will_do = {
@@ -347,7 +376,6 @@ EUC_The_Facade = {
 			}
 		}
 	}
-
 	EUC_infiltrate_nationalist_networks_decision = {
 		icon = GFX_decision_icon_default
 		allowed = {
@@ -355,7 +383,9 @@ EUC_The_Facade = {
 		}
 		visible = {
 			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Signals_networks_infiltrated }
+				NOT = {
+					has_country_flag = EUC_Signals_networks_infiltrated
+				}
 			}
 		}
 		available = {
@@ -365,7 +395,9 @@ EUC_The_Facade = {
 			}
 			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Signals_action }
+				NOT = {
+					has_country_flag = EUC_Signals_action
+				}
 			}
 		}
 		ai_will_do = {
@@ -397,7 +429,6 @@ EUC_The_Facade = {
 			EUC_add_nationalism = yes
 		}
 	}
-
 	EUC_dismantle_nationalist_networks_decision = {
 		icon = GFX_decision_icon_default
 		allowed = {
@@ -415,7 +446,9 @@ EUC_The_Facade = {
 			}
 			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Signals_action }
+				NOT = {
+					has_country_flag = EUC_Signals_action
+				}
 			}
 		}
 		ai_will_do = {
@@ -446,14 +479,12 @@ EUC_The_Facade = {
 			EUC_add_nationalism = yes
 		}
 	}
-
 	EUC_detain_prominent_agitators_decision = {
 		icon = GFX_decision_icon_default
 		allowed = {
 			original_tag = EUC
 		}
-		visible = {
-		}
+		visible = {}
 		available = {
 			set_temp_variable = {
 				var = EUC_ISS_nationalism_trigger_temp
@@ -461,7 +492,9 @@ EUC_The_Facade = {
 			}
 			EUC_has_nationalism_greater_than_or_equals = yes
 			hidden_trigger = {
-				NOT = { has_country_flag = EUC_Order_action }
+				NOT = {
+					has_country_flag = EUC_Order_action
+				}
 			}
 		}
 		ai_will_do = {

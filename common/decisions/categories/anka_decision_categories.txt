@@ -43,3 +43,12 @@ USA_Our_Northern_Neighbor = {
 		has_completed_focus = USA_Our_northern_borders
 	}
 }
+PRC_Expansionism = {
+	icon = generic_research
+	allowed = {
+		tag = PRC
+	}
+}
+YUG_breakup = {
+	icon = generic_research
+}
