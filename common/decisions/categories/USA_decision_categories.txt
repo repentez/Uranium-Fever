@@ -17,7 +17,7 @@ USA_Mexico_Occupation = {
 	}
 }
 USA_Project_Safehouse = {
-	icon = generic_research
+	icon = GFX_decision_vaultec
 	allowed = {
 		tag = USA
 	}
