@@ -970,6 +970,7 @@ focus_tree = {
 			focus = USA_focus_last_gen
 		}
 	}
+
 	focus = {
 		id = USA_focus_petro_chico
 		icon = GFX_goal_generic_oil_refinery
@@ -1310,6 +1311,7 @@ focus_tree = {
 			focus = USA_focus_what_makes_america_work
 		}
 	}
+	
 	focus = {
 		id = USA_focus_give_us_the_fire
 		icon = GFX_focus_generic_economic_recovery

@@ -188,7 +188,7 @@ country_event = {
 	desc = USA_give_mexico_old_guns_event_desc
 	picture = GFX_event_give_mexico_old_guns
 	trigger = {
-		tag = USA
+		tag = MEX 
 		has_completed_focus = USA_focus_last_gen
 	}
 	mean_time_to_happen = {
@@ -277,7 +277,7 @@ country_event = {
 	desc = USA_mexico_advisors_event_desc
 	picture = GFX_mexico_advisors_companies_mexico
 	trigger = {
-		tag = USA
+		tag = MEX 
 		has_completed_focus = USA_focus_dia
 	}
 	mean_time_to_happen = {
@@ -294,7 +294,7 @@ country_event = {
 	desc = USA.mexico_air_focus_event_desc
 	picture = GFX_mexico_advisors_companies_mexico
 	trigger = {
-		tag = USA
+		tag = MEX 
 		has_completed_focus = USA_focus_eyes_sky
 	}
 	mean_time_to_happen = {
@@ -318,7 +318,7 @@ country_event = {
 	desc = USA.mexico_no_altere_event_desc
 	picture = GFX_mexico_advisors_companies_mexico
 	trigger = {
-		tag = USA
+		tag = MEX 
 		has_completed_focus = USA_focus_eyes_sky
 	}
 	mean_time_to_happen = {
