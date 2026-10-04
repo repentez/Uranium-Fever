@@ -1,0 +1,15 @@
+state = {
+	id = 1183
+	name = "Montgomery-AL"
+	manpower = 215458
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 492 5 }
+	}
+	provinces = { 7640 860 11942 492 }
+}

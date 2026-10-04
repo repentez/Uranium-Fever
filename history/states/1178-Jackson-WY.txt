@@ -1,0 +1,16 @@
+state = {
+	id = 1178
+	name = "Jackson-WY"
+	manpower = 20690
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 12633 1 }
+		victory_points = { 10640 1 }
+	}
+	provinces = { 12561 10640 12633 7688 7888 }
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 1197
+	name = "Pocatello"
+	manpower = 64423
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 12535 3 }
+		victory_points = { 10672 1 }
+	}
+	provinces = { 12535 17307 10672 }
+	resources = {
+		steel = 2
+		tungsten = 2
+	}
+}

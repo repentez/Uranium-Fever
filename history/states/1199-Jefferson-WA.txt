@@ -1,0 +1,17 @@
+state = {
+	id = 1199
+	name = "Jefferson-WA"
+	manpower = 149559
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 10271 1 }
+		victory_points = { 7386 10 }
+		victory_points = { 4296 3 }
+	}
+	provinces = { 4398 10242 4296 10271 7386 }
+}

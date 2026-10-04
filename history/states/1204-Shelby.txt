@@ -1,0 +1,18 @@
+state = {
+	id = 1204
+	name = "Shelby"
+	manpower = 174437
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 7797 10 }
+	}
+	provinces = { 10615 7797 7615 1987 }
+	resources = {
+		steel = 4
+	}
+}

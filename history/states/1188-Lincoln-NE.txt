@@ -1,0 +1,15 @@
+state = {
+	id = 1188
+	name = "Lincoln-NE"
+	manpower = 117530
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 10676 5 }
+	}
+	provinces = { 4830 10606 3708 10676 }
+}

@@ -2,7 +2,7 @@ state = {
 	id = 393
 	name = "STATE_393"
 	resources = {
-		steel = 58
+		steel = 45
 		oil = 6
 	}
 	state_category = metropolis
@@ -15,16 +15,11 @@ state = {
 			air_base = 4
 		}
 		add_core_of = USA
-		victory_points = { 6710 40 }
 		victory_points = { 11669 10 }
-		victory_points = { 6769 5 }
 		victory_points = { 9684 1 }
 		victory_points = { 11685 3 }
-		victory_points = { 11714 10 }
-		victory_points = { 7420 1 }
-		victory_points = { 10303 1 }
 		victory_points = { 11656 5 }
-		victory_points = { 3766 1 }
+		victory_points = { 6769 5 }
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 7
@@ -37,28 +32,16 @@ state = {
 	provinces = {
 		691
 		695
-		3766
-		6710
-		6769
-		6782
-		7420
 		9684
-		9724
-		9746
-		9747
-		10233
-		10303
 		11641
 		11656
-		11669
 		11685
-		11714
-		11731
-		13155
-		13200
-		15733
+		6769
+		11669
+		9724
+		9746
 	}
-	manpower = 7581986
+	manpower = 5670336
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.0
 }

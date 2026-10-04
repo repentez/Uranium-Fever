@@ -1,10 +1,10 @@
 state = {
 	id = 378
 	name = "STATE_378"
-	manpower = 9862785
+	manpower = 8984733
 	state_category = metropolis
 	resources = {
-		oil = 170
+		oil = 156
 		aluminium = 8
 	}
 	history = {
@@ -33,7 +33,6 @@ state = {
 			}
 		}
 		victory_points = { 4518 10 }
-		victory_points = { 14762 5 }
 		victory_points = { 3678 5 }
 		victory_points = { 941 5 }
 		victory_points = { 6694 3 }
@@ -42,10 +41,8 @@ state = {
 		victory_points = { 6681 3 }
 		victory_points = { 986 1 }
 		victory_points = { 9911 1 }
-		victory_points = { 9814 50 }
 		victory_points = { 11757 5 }
 		victory_points = { 11795 3 }
-		victory_points = { 11859 3 }
 		victory_points = { 10387 3 }
 		victory_points = { 9855 1 }
 		victory_points = { 10483 3 }
@@ -71,16 +68,13 @@ state = {
 		6881
 		7517
 		9637
-		9814
 		9855
 		9911
 		10387
 		10483
 		11757
 		11763
-		11859
 		11876
-		14762
 		17308
 		11795
 	}

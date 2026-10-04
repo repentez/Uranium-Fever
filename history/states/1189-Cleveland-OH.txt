@@ -1,0 +1,18 @@
+state = {
+	id = 1189
+	name = "Cleveland-OH"
+	manpower = 391812
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = { 6890 10 }
+	}
+	provinces = { 6890 }
+	resources = {
+		steel = 1
+	}
+}

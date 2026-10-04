@@ -1,0 +1,20 @@
+state = {
+	id = 1196
+	name = "Coeur d'Alene"
+	manpower = 49556
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 4778 1 }
+		victory_points = { 12124 1 }
+	}
+	provinces = { 4778 3781 12124 1832 }
+	resources = {
+		steel = 1
+		tungsten = 2
+	}
+}

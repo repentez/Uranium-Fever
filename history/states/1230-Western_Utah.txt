@@ -1,0 +1,19 @@
+state = {
+	id = 1230
+	name = "Western Utah"
+	manpower = 67712
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 10662 1 }
+		victory_points = { 12699 1 }
+	}
+	provinces = { 12573 12699 1740 10662 }
+	resources = {
+		tungsten = 7
+	}
+}

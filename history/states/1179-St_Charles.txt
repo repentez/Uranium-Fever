@@ -1,0 +1,15 @@
+state = {
+	id = 1179
+	name = "St. Charles"
+	manpower = 242086
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 1523 1 }
+	}
+	provinces = { 10333 10516 7449 7607 1523 }
+}

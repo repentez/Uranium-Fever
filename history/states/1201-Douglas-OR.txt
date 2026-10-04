@@ -1,0 +1,24 @@
+state = {
+	id = 1201
+	name = "Douglas-OR"
+	manpower = 76726
+	state_category = large_city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 11495 5 }
+		victory_points = { 12281 3 }
+		victory_points = { 3471 5 }
+	}
+	provinces = {
+		505
+		11733
+		11495
+		3471
+		528
+		12281
+	}
+}

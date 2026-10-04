@@ -1,12 +1,12 @@
 state = {
 	id = 379
 	name = "STATE_379"
-	manpower = 270996
+	manpower = 251640
 	state_category = town
 	resources = {
-		steel = 94
-		tungsten = 47
-		aluminium = 56
+		steel = 88
+		tungsten = 44
+		aluminium = 52
 	}
 	history = {
 		owner = USA
@@ -17,19 +17,16 @@ state = {
 				dam_mountain = 1
 			}
 		}
-		victory_points = { 1862 1 }
 		victory_points = { 4607 3 }
 		victory_points = { 4736 1 }
 		victory_points = { 10422 5 }
 		victory_points = { 10591 1 }
 	}
 	provinces = {
-		1862
 		4521
 		4607
 		4736
 		4816
-		7756
 		7827
 		7879
 		10422

@@ -1,0 +1,15 @@
+state = {
+	id = 1219
+	name = "Miami-Dade"
+	manpower = 552051
+	state_category = metropolis
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 1843 15 }
+	}
+	provinces = { 1843 }
+}

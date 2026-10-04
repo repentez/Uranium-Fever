@@ -1,0 +1,20 @@
+state = {
+	id = 1226
+	name = "Malstrom"
+	manpower = 126656
+	state_category = town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 7892 15 }
+		victory_points = { 7834 5 }
+		victory_points = { 1352 2 }
+	}
+	provinces = { 7892 1352 9802 7834 4811 }
+	resources = {
+		oil = 2
+	}
+}

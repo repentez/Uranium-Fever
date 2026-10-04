@@ -1,0 +1,15 @@
+state = {
+	id = 1182
+	name = "Mobile"
+	manpower = 201991
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 7480 5 }
+	}
+	provinces = { 10520 7480 4756 }
+}

@@ -1,7 +1,7 @@
 state = {
 	id = 381
 	name = "STATE_381"
-	manpower = 310358
+	manpower = 289668
 	resources = {
 		coal = 7
 	}
@@ -17,9 +17,7 @@ state = {
 		}
 		victory_points = { 4820 1 }
 		victory_points = { 4610 1 }
-		victory_points = { 10640 1 }
 		victory_points = { 10711 1 }
-		victory_points = { 12633 1 }
 		victory_points = { 12651 1 }
 	}
 	provinces = {
@@ -27,13 +25,8 @@ state = {
 		4610
 		4794
 		4820
-		7688
 		7814
-		7888
-		10640
 		10711
-		12633
-		12561
 		12651
 		17290
 		17295

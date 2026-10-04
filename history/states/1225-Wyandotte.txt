@@ -1,0 +1,19 @@
+state = {
+	id = 1225
+	name = "Wyandotte"
+	manpower = 90468
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 1753 1 }
+		victory_points = { 12513 3 }
+	}
+	provinces = { 4871 10532 1753 12513 4757 }
+	resources = {
+		oil = 2
+	}
+}

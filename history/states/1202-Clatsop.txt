@@ -1,0 +1,14 @@
+state = {
+	id = 1202
+	name = "Clatsop"
+	manpower = 99292
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+	}
+	provinces = { 4380 12211 10183 }
+}

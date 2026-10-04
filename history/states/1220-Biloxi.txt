@@ -1,0 +1,16 @@
+state = {
+	id = 1220
+	name = "Biloxi"
+	manpower = 148113
+	state_category = town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 7668 3 }
+		victory_points = { 4464 1 }
+	}
+	provinces = { 7668 4464 }
+}

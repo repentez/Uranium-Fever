@@ -1,0 +1,26 @@
+state = {
+	id = 1233
+	name = "Marathon"
+	manpower = 194304
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 4166 3 }
+		victory_points = { 4834 3 }
+	}
+	provinces = {
+		4738
+		703
+		4834
+		4166
+		9678
+		7829
+	}
+	resources = {
+		steel = 2
+	}
+}

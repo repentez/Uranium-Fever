@@ -1,0 +1,25 @@
+state = {
+	id = 1184
+	name = "Raleigh-NC"
+	manpower = 158513
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 7045 10 }
+	}
+	provinces = {
+		1163
+		4168
+		1077
+		9876
+		6943
+		11783
+		7045
+		12054
+		1132
+	}
+}

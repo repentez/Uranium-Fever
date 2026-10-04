@@ -1,0 +1,18 @@
+state = {
+	id = 1231
+	name = "Grand Rapids"
+	manpower = 452334
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 11714 10 }
+	}
+	provinces = { 11714 6782 }
+	resources = {
+		steel = 3
+	}
+}
