@@ -28,20 +28,13 @@ set_convoys = 5
 		despotism = 42
 	}
 }
-create_country_leader = {
-	name = "Kalju Kirsipuu"
-	desc = ""
-	picture = GFX_portrait_EST_kalju_kirsipuu
-	ideology = despotism
-	traits = {}
-}
+
 recruit_character = EST_aleksander_parn
 recruit_character = EST_kristjan_raudsepp
 recruit_character = EST_kalju_kirsipuu
 recruit_character = EST_robin
 recruit_character = EST_Artjom_von_kettler
 recruit_character = EST_indrek_juhan
-recruit_character = EST_jean_le_grand
 recruit_character = EST_vaino_kaljula
 recruit_character = EST_andres_mihkel
 recruit_character = EST_Rasmus_von_traj

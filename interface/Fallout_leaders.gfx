@@ -1,10 +1,33 @@
 spriteTypes = {
-
-
-
-
-
-
+       ########EST GENERALS AND MARSHALS##########
+	 spriteType = {
+		name = "GFX_portrait_EST_kristjan_raudsepp"
+		texturefile = "gfx/leaders/EST/portrait_EST_kristjan_raudsepp.dds"
+	}	   
+	 spriteType = {
+		name = "GFX_portrait_EST_hendrik_kivisaar"
+		texturefile = "gfx/leaders/EST/portrait_EST_hendrik_kivisaar.dds"
+	}
+	 spriteType = {
+		name = "GFX_portrait_EST_kristjan_raudsepp"
+		texturefile = "gfx/leaders/EST/portrait_EST_kristjan_raudsepp.dds"
+	}
+	 spriteType = {
+		name = "GFX_portrait_EST_andres_mihkel"
+		texturefile = "gfx/leaders/EST/portrait_EST_andres_mihkel.dds"
+	}
+	 spriteType = {
+		name = "GFX_portrait_EST_aleksander_parn"
+		texturefile = "gfx/leaders/EST/portrait_EST_aleksander_parn.dds"
+	}
+		 spriteType = {
+		name = "GFX_portrait_EST_indrek_juhan"
+		texturefile = "gfx/leaders/EST/portrait_EST_indrek_juhan.dds"
+	}
+		 spriteType = {
+		name = "GFX_portrait_EST_vaino_kaljula"
+		texturefile = "gfx/leaders/EST/portrait_EST_vaino_kaljula.dds"
+	}
 
 	########USA GENERALS AND MARSHALS##########
 

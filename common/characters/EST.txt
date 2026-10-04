@@ -1,26 +1,27 @@
 characters = {
-	EST_kalju_kirsipuu = {
-		name = EST_kalju_kirsipuu
-		portraits = {
-			civilian = {
-				large = GFX_portrait_EST_kalju_kirsipuu
-			}
+EST_kalju_kirsipuu = {
+	name = EST_kalju_kirsipuu
+	portraits = {
+		civilian = {
+			large = GFX_portrait_EST_kalju_kirsipuu
 		}
-		country_leader = {
-			ideology = provisional_government
-			expire = "1965.1.1.1"
-			traits = {}
-			id = -1
-		}
-		field_marshal = {
-			traits = { old_guard }
-			skill = 3
-			attack_skill = 2
-			defense_skill = 2
-			planning_skill = 4
-			logistics_skill = 2
+		army = {
+			large = GFX_portrait_EST_kalju_kirsipuu
 		}
 	}
+	country_leader = {
+		ideology = provisional_government
+		traits = {}
+	}
+	field_marshal = {
+		traits = { old_guard }
+		skill = 3
+		attack_skill = 2
+		defense_skill = 2
+		planning_skill = 4
+		logistics_skill = 2
+	}
+}
 	EST_Martin_Rubbin = {
 		name = "Martin Rubbin"
 		portraits = {
@@ -49,51 +50,58 @@ characters = {
 			defense_skill = 3
 			planning_skill = 4
 			logistics_skill = 3
-			legacy_id = -1
 		}
 	}
 	EST_Artjom_von_kettler = {
-		name = " Artjom von kettler "
-		advisor = {
-			slot = navy_chief
-			allowed = {
-				original_tag = EST
-			}
-			traits = { navy_chief_maneuver_2 }
-			ai_will_do = {
-				factor = 1.000
-			}
-		}
-		cost = 25
+		name = "Artjom von Kettler"
 		portraits = {
 			army = {
 				small = "GFX_portraite_EST_Artjom_advisor_small"
 			}
 		}
-	}
-	EST_Rasmus_von_traj = {
-		name = " Rasmus Von Traj  "
 		advisor = {
-			slot = high_command
+			slot = navy_chief
+			idea_token = EST_Artjom_von_kettler
 			allowed = {
 				original_tag = EST
 			}
-			traits = { army_infantry_2 }
+			traits = { navy_chief_maneuver_2 }
+			cost = 25
 			ai_will_do = {
 				factor = 1.000
 			}
 		}
-		cost = 30
+	}
+	EST_Rasmus_von_traj = {
+		name = "Rasmus Von Traj"
 		portraits = {
 			army = {
 				small = "GFX_portraite_EST_Rasmus_advisor_small"
 			}
 		}
+		advisor = {
+			slot = high_command
+			idea_token = EST_Rasmus_von_traj
+			allowed = {
+				original_tag = EST
+			}
+			traits = { army_infantry_2 }
+			cost = 30
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
 	}
 	EST_robin = {
 		name = "Robin"
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_african_4"
+			}
+		}
 		advisor = {
 			slot = army_chief
+			idea_token = EST_robin
 			allowed = {
 				original_tag = EST
 			}
@@ -102,14 +110,14 @@ characters = {
 				factor = 1.000
 			}
 		}
-		portraits = {
-			army = {
-				small = "GFX_idea_generic_army_african_4"
-			}
-		}
 	}
 	EST_kristjan_raudsepp = {
 		name = EST_kristjan_raudsepp
+		portraits = {
+			army = {
+				large = GFX_portrait_EST_kristjan_raudsepp
+			}
+		}
 		corps_commander = {
 			traits = {}
 			skill = 1
@@ -121,6 +129,11 @@ characters = {
 	}
 	EST_hendrik_kivisaar = {
 		name = EST_hendrik_kivisaar
+		portraits = {
+			army = {
+				large = GFX_portrait_EST_hendrik_kivisaar
+			}
+		}
 		corps_commander = {
 			traits = {}
 			skill = 1
@@ -132,6 +145,11 @@ characters = {
 	}
 	EST_andres_mihkel = {
 		name = EST_andres_mihkel
+		portraits = {
+			army = {
+				large = GFX_portrait_EST_andres_mihkel
+			}
+		}
 		corps_commander = {
 			traits = {}
 			skill = 1
@@ -143,6 +161,11 @@ characters = {
 	}
 	EST_aleksander_parn = {
 		name = EST_aleksander_parn
+		portraits = {
+			army = {
+				large = GFX_portrait_EST_aleksander_parn
+			}
+		}
 		corps_commander = {
 			traits = {}
 			skill = 1
@@ -154,6 +177,11 @@ characters = {
 	}
 	EST_indrek_juhan = {
 		name = EST_indrek_juhan
+		portraits = {
+			army = {
+				large = GFX_portrait_EST_indrek_juhan
+			}
+		}
 		corps_commander = {
 			traits = {}
 			skill = 1
@@ -165,6 +193,11 @@ characters = {
 	}
 	EST_vaino_kaljula = {
 		name = EST_vaino_kaljula
+		portraits = {
+			army = {
+				large = GFX_portrait_EST_vaino_kaljula
+			}
+		}
 		corps_commander = {
 			traits = {}
 			skill = 1
@@ -175,3 +208,4 @@ characters = {
 		}
 	}
 }
+
