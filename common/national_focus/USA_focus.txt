@@ -1071,7 +1071,11 @@ focus_tree = {
 		x = -55
 		y = 1
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			 country_event = {
+         id = 	USA.CWW
+                 }
+		}
 	}
 	focus = {
 		id = USA_focus_comdevpro
@@ -1104,7 +1108,20 @@ focus_tree = {
 		x = -53
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			add_ideas = USA_reliable_contractors
+							add_popularity = {
+		ideology = democratic
+		popularity = -0.03
+	}
+		custom_effect_tooltip = USA_enclave_influence_growth
+			hidden_effect = {
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.02
+				}
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_conservation_corps
 		}
@@ -1112,13 +1129,18 @@ focus_tree = {
 			focus = USA_focus_new_deal
 		}
 	}
+	
 	focus = {
 		id = USA_focus_project_safehouse
 		icon = GFX_goal_vault_tec
 		x = -55
 		y = 4
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			country_event = {
+				id = USA.LA_vault
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_new_deal focus = USA_focus_reliable_contractors
 		}
@@ -1145,17 +1167,53 @@ focus_tree = {
 			focus = USA_focus_reliable_contractors
 		}
 	}
-	focus = {
-		id = USA_focus_friends_in_high_places
-		icon = GFX_goal_friends_high_place
-		x = -49
-		y = 4
-		cost = 10
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_reliable_contractors
+focus = {
+	id = USA_focus_friends_in_high_places
+	icon = GFX_goal_friends_high_place
+	x = -49
+	y = 4
+	cost = 10
+	completion_reward = {
+		390 = {
+			add_building_construction = {
+				type = air_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		387 = {
+			add_building_construction = {
+				type = air_base
+				level = 1
+				instant_build = yes
+			}
+		}
+		391 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		394 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		395 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
 		}
 	}
+	prerequisite = {
+		focus = USA_focus_reliable_contractors
+	}
+}
 	focus = {
 		id = USA_focus_civil_defense_funding
 		icon = GFX_goal_civil_defense_founding
@@ -1226,7 +1284,29 @@ focus_tree = {
 		x = -50
 		y = 6
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+					391 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		394 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		395 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		}
 		prerequisite = {
 			focus = USA_focus_what_makes_america_work
 		}

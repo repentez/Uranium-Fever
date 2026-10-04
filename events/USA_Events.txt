@@ -1,5 +1,42 @@
 add_namespace = usa
 country_event = {
+	id = USA.CWW
+	title = USA_CWW.t
+	desc = USA_CWW.d
+	picture = GFX_event_CWW_event
+
+	is_triggered_only = yes
+
+   trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_conservation_corps
+    }
+
+	option = {
+		name = "Put them to work"
+        
+		add_ideas = USA_CWW
+	}
+}
+country_event = {
+	id = USA.LA_vault
+	title = USA_LA_vaul.t
+	desc = USA_LA_vault.d
+	picture = GFX_event_vaultec_la
+
+	is_triggered_only = yes
+
+   trigger = {
+        tag = USA
+        has_completed_focus = USA_focus_project_safehouse
+    }
+
+	option = {
+		name = "Protecte our citizents at all cost"
+        add_stability = 0.05
+	}
+}
+country_event = {
 	id = USA.vaultec_exp
 	title = USA_vaultec_exp.t
 	desc = USA_vaultec_exp.d

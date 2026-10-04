@@ -177,8 +177,21 @@ USA_crowd.t:0 "How Were You 4 Years Ago?"
  USA_crowd.d:0 "The rally has drawn thousands to the square. Banners wave, speakers climb the stage, and the crowd hangs on every word.\n\nFour years ago, the country was in a very different place. Now the factories are quiet, prices keep falling, and the promises made from the White House feel like a distant memory. The speakers ask the crowd one simple question: how were you four years ago, and how are you now?\n\nThe Democrats are asking for the crowd's support. Whether this crowd cheers or turns away could decide the next election."
  USA_focus_few_extra_orders:0 "A Few Extra Orders..."
  USA_focus_few_extra_orders_desc:0 "The Vault-Tec Corporation has proven itself a reliable partner of the government, and the Vaults are no longer just a plan on paper. With the initial contracts signed, a few additional requests have been quietly passed down to the company's leadership. They are small, discreet, and best left out of any official record."
- 
+  USA_focus_project_safehouse_desc:0 "The first Vault is nearly ready for its debut. A demonstration Vault in Los Angeles will show whether Vault-Tec's promises hold up, and Washington must decide how far to trust the company."
+
+ USA_LA_vault.t:0 "Project SAFEHOUSE" 
+ USA_LA_vault.d:0 "The Los Angeles Demonstration Vault is complete, and Vault-Tec's representatives have invited the government to inspect it. After the contracts already awarded, the question is whether Washington will commit to the company's vision of the future.\n\nThe Vault is sealed, secure and fully stocked. The public sees a safe haven, and the officials who walk through it see something reassuring."
 
  USA_vaultec_exp.t:0 "A Few Extra Orders..."
  USA_vaultec_exp.d:0 "Behind the closed doors of Vault-Tec's headquarters, the company's executives have gathered around a table covered in blueprints and classified directives. The public believes the Vaults will exist to shelter the American people, but the 'extra orders' from Washington call for something else entirely.\n\nEach Vault is to be treated as a controlled environment, with unique conditions and parameters unknown to its future residents. The executives pore over the proposals with clinical detachment, debating which Vaults will receive which experiments, and how best to keep the true purpose hidden from those who will one day live inside.\n\nThe work has begun. Whether it is for science, for profit, or for the nation, no one in the room seems willing to ask."
+USA_focus_stent_security_solutions_desc:0 "Stent Security Solutions has won the contracts to arm the nation's growing forces. New plants are opening across the Midwest, turning out rifles and equipment faster than the old arsenals ever could."
+USA_focus_friends_in_high_places_desc:0 "A few well-placed phone calls to old acquaintances in Washington and the military have opened doors that were once closed. New airfields and arms plants are rising across the country, and no one in the contracting offices is asking where the approvals came from."
+USA_focus_conservation_corps_desc:0 "The Oil Crisis has left millions without work. Reviving the old Conservation Corps from the war years will put them back to work and keep the country running."
+ USA_focus_reliable_contractors_desc:0 "Private contractors have proven they can build faster and cheaper than any government program. By handing them the nation's major projects, the work gets done on time. What they do with that trust is another matter."
+ # Idea
+ USA_CWW:0 "Conservation Corps"
+ USA_reliable_contractors:0 "Reliable Contractors"
+ # Event
+ USA_CWW.t:0 "The Conservation Corps"
+ USA_CWW.d:0 "With unemployment rising, the government has decided to revive the Conservation Corps, a program that put millions to work during the war years. Camps are being reopened across the country and men are being sent to build roads, repair infrastructure and restore public land."
 #################

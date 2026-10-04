@@ -1,6 +1,14 @@
 spriteTypes = {
 
 		spriteType = {
+		name = "GFX_event_vaultec_la"
+		texturefile = "gfx/event_pictures/vaultec_la.dds"
+	}
+		spriteType = {
+		name = "GFX_event_CWW_event"
+		texturefile = "gfx/event_pictures/CWW_event.dds"
+	}
+		spriteType = {
 		name = "GFX_event_vaultec_exp"
 		texturefile = "gfx/event_pictures/vault_tec_exp.dds"
 	}

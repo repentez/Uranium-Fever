@@ -1,6 +1,42 @@
 ideas = {
 
 	country = {
+			USA_reliable_contractors = {
+			picture = GFX_idea_USA_reliable_contractors
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = -0.05
+			}
+		}
+    USA_CWW = {
+	picture = GFX_idea_USA_CWW
+
+	allowed = {
+		always = no
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	modifier = {
+		conscription_factor = -0.05
+		production_speed_buildings_factor = 0.05
+	}
+        }
 		USA_deflation_crisis = {
 			picture = GFX_idea_USA_Deflation_Crisis
 
