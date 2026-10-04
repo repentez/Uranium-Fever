@@ -14,6 +14,8 @@ strategic_region = {
 		5554
 		20004
 		20007
+		20008
+		20009
 	}
 	weather = {
 		period = {
