@@ -12,7 +12,6 @@ strategic_region = {
 		5963
 		5986
 		6014
-		20005
 	}
 	weather = {
 		period = {
