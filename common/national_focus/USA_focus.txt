@@ -1311,7 +1311,6 @@ focus_tree = {
 			focus = USA_focus_what_makes_america_work
 		}
 	}
-	
 	focus = {
 		id = USA_focus_give_us_the_fire
 		icon = GFX_focus_generic_economic_recovery
@@ -1627,8 +1626,18 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
-			add_political_power = 15
-			add_stability = 5
+			        add_tech_bonus = {
+            name = TAG_retraining_electronics_bonus
+            bonus = 0.5
+            uses = 1
+            category = electronics
+        }
+					        add_tech_bonus = {
+            name = TAG_retraining_electronics_bonus
+            bonus = 0.5
+            uses = 1
+            category = electronics
+        }
 		}
 		prerequisite = {
 			focus = USA_focus_new_deal
@@ -1659,14 +1668,12 @@ focus_tree = {
 		y = 4
 		cost = 10
 		completion_reward = {
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.05
-			}
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
+	       add_tech_bonus = {
+            name = TAG_retraining_industry_bonus
+            bonus = 1.0
+            uses = 1
+            category = industry
+        }
 		}
 		prerequisite = {
 			focus = USA_focus_new_deal
