@@ -20,7 +20,15 @@ spriteTypes = {
 	}
 	
 	##USA##
-
+	
+	SpriteType = {
+		name = "GFX_idea_USA_a_new_better_deal"
+		texturefile = "gfx/interface/ideas/a_new_better_deal.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_USA_a_new_deal"
+		texturefile = "gfx/interface/ideas/a_new_deal.dds"
+	}
 	SpriteType = {
 		name = "GFX_idea_USA_reliable_contractors"
 		texturefile = "gfx/interface/ideas/reliable_contracters.dds"

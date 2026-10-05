@@ -1,6 +1,40 @@
 ideas = {
 
 	country = {
+
+
+	USA_a_new_better_deal = {
+    picture = GFX_idea_USA_a_new_better_deal 
+
+    allowed = { always = no }
+    allowed_civil_war = { always = yes }
+    removal_cost = -1
+
+    modifier = {
+        # kept from the original idea
+        production_speed_infrastructure_factor = 0.25
+        consumer_goods_factor = 0.05
+        political_power_factor = -0.10
+
+        # new from this focus
+        conscription_factor = 0.10          
+        research_speed_factor = 0.10        
+        industrial_capacity_factory = 0.10  
+    }
+ }
+        USA_a_new_deal = {
+            picture = GFX_idea_USA_a_new_deal  
+
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            removal_cost = -1
+
+            modifier = {
+                production_speed_infrastructure_factor = 0.25   
+                consumer_goods_factor = 0.05                    
+                political_power_factor = -0.10                  
+        }
+    }
 			USA_reliable_contractors = {
 			picture = GFX_idea_USA_reliable_contractors
 
