@@ -1,11 +1,22 @@
 leader_traits = {
+USA_militar = {
+    random = no
 
+    training_time_factor = -0.10        
+    experience_gain_army_factor = 0.10   
+    army_org_factor = 0.05            
+    army_morale_factor = 0.05            
+
+    ai_will_do = {
+        factor = 1
+    }
+}
 
 
 	Robco_employe = {
 		random = no
   
-		research_speed_factor = 0.15
+		research_speed_factor = 0.08
 		ai_will_do = {
 			factor = 1
 		}

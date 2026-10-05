@@ -277,14 +277,14 @@ country_event = {
 	desc = USA_mexico_advisors_event_desc
 	picture = GFX_mexico_advisors_companies_mexico
 	trigger = {
-		tag = MEX 
-		has_completed_focus = USA_focus_dia
 	}
 	mean_time_to_happen = {
 		days = 1
 	}
 	fire_only_once = yes
 	option = {
+		    recruit_character = USA_military_advisors_MEX
+             activate_advisor = USA_military_advisors_MEX
 		name = "Here comes the Americans"
 	}
 }
@@ -294,8 +294,6 @@ country_event = {
 	desc = USA.mexico_air_focus_event_desc
 	picture = GFX_mexico_advisors_companies_mexico
 	trigger = {
-		tag = MEX 
-		has_completed_focus = USA_focus_eyes_sky
 	}
 	mean_time_to_happen = {
 		days = 1
@@ -318,8 +316,6 @@ country_event = {
 	desc = USA.mexico_no_altere_event_desc
 	picture = GFX_mexico_advisors_companies_mexico
 	trigger = {
-		tag = MEX 
-		has_completed_focus = USA_focus_eyes_sky
 	}
 	mean_time_to_happen = {
 		days = 1

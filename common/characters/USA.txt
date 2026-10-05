@@ -1,4 +1,18 @@
 characters = {
+	USA_military_advisors_MEX = {
+		name = "Arthur Grant"
+		portraits = {
+			civilian = {
+				small = "GFX_portraite_USA_military_advisors_MEX_small"
+			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = USA_military_advisors_MEX
+			traits = { USA_militar }
+			cost = 45
+		}
+	}
 		USA_Liam_Flender = {
 		name = "Liam Flender"
 		portraits = {
