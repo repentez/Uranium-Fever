@@ -2,6 +2,14 @@ leader_traits = {
 
 
 
+	Robco_employe = {
+		random = no
+  
+		research_speed_factor = 0.15
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Ceo_of_red_rocket = {
 		random = no
   

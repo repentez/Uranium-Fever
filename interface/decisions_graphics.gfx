@@ -16,4 +16,9 @@ spriteTypes = {
 		name = "GFX_decision_vaultec"
 		texturefile = "gfx/interface/decisions/vaultec.png"
 	}
+		spriteType = {
+		name = "GFX_decision_USA_Mexico_Occupation"
+		texturefile = "gfx/interface/decisions/Mexico_decisions.dds"
+	}
+	
 }

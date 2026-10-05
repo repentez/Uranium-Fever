@@ -1,4 +1,18 @@
 characters = {
+		USA_Liam_Flender = {
+		name = "Liam Flender"
+		portraits = {
+			civilian = {
+				small = "GFX_portraite_Liam_Flender_small"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = Liam_Flender_advisor
+			traits = { Robco_employe }
+			cost = 45
+		}
+	}
 	USA_robert_house = {
 		name = "Robert House"
 		portraits = {

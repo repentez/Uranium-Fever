@@ -26,32 +26,33 @@ USA_American_Way = {
 }
 USA_Mexico_Occupation = {
 	USA_mexican_oil = {
-		icon = icon_default
-		complete_effect = {}
-	}
-	USA_expand_corridor = {
-		icon = icon_default
-		complete_effect = {}
-	}
-	USA_suppress_partisan = {
-		icon = icon_default
-		complete_effect = {}
-	}
-	USA_fund_government = {
-		icon = icon_default
-		complete_effect = {}
-	}
-	USA_advisors_mexico_city = {
-		icon = icon_default
-		complete_effect = {}
-	}
-	USA_expand_resource_rights = {
-		icon = icon_default
-		complete_effect = {}
-	}
-	USA_keep_oil_flowing_north = {
-		icon = icon_default
-		complete_effect = {}
+	icon =  GFX_decision_USA_Mexico_Occupation
+	 cost = 50            
+    days_remove = 100     
+    fire_only_once = yes
+
+    available = {
+        has_political_power > 49
+    }
+
+    complete_effect = {
+        give_resource_rights = {
+            receiver = USA
+            giver = MEX
+            state = 479
+        }
+		  give_resource_rights = {
+            receiver = USA
+            giver = MEX
+            state = 480
+        }
+    }
+
+  
+
+    ai_will_do = {
+        factor = 1
+    }
 	}
 }
 USA_Project_Safehouse = {

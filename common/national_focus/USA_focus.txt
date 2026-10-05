@@ -1159,7 +1159,15 @@ focus_tree = {
 		x = -51
 		y = 4
 		cost = 2
-		completion_reward = {}
+		completion_reward = {
+			 recruit_character = USA_Liam_Flender
+			    add_tech_bonus = {
+        name = USA_electronics_bonus
+        bonus = 1.0
+        uses = 1
+        category = electronics
+    }
+		}
 		prerequisite = {
 			focus = USA_focus_reliable_contractors
 		}
@@ -1268,7 +1276,20 @@ focus_tree = {
 		x = -52
 		y = 6
 		cost = 1
-		completion_reward = {}
+		completion_reward = {
+			    add_tech_bonus = {
+        name = USA_renovating_arsenals_support
+        bonus = 1.0
+        uses = 1
+        category = support_tech
+    }
+    add_tech_bonus = {
+        name = USA_renovating_arsenals_artillery
+        bonus = 1.0
+        uses = 1
+        category = artillery
+    }
+		}
 		prerequisite = {
 			focus = USA_focus_what_makes_america_work
 		}
@@ -1312,7 +1333,14 @@ focus_tree = {
 		x = -48
 		y = 6
 		cost = 1
-		completion_reward = {}
+		completion_reward = {
+	    add_tech_bonus = {
+        name = USA_you_give_us_the_fire_industry
+        bonus = 1.0
+        uses = 1
+        category = industry
+    }
+		}
 		prerequisite = {
 			focus = USA_focus_what_makes_america_work
 		}

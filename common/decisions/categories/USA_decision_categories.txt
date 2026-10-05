@@ -8,7 +8,7 @@ USA_American_Way = {
 	}
 }
 USA_Mexico_Occupation = {
-	icon = generic_research
+	icon = GFX_decision_USA_Mexico_Occupation
 	allowed = {
 		tag = USA
 	}

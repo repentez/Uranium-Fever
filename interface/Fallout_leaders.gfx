@@ -146,6 +146,10 @@ spriteTypes = {
 		texturefile = "gfx/leaders/EST/EST_Jean.png"
 	}
     #ADVISORS#
+	     spriteType = {
+        name = "GFX_portraite_Liam_Flender_small"
+        texturefile = "gfx/leaders/USA/liam_robco.dds"
+    }
      spriteType = {
         name = "GFX_portraite_EST_Rasmus_advisor_small"
         texturefile = "gfx/leaders/EST/EST_Rasmus_advisor.dds"
