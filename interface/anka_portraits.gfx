@@ -43,4 +43,8 @@ spriteTypes = {
 		name = "GFX_portrait_prc_leader_zhao_guowei"
 		texturefile = "gfx/leaders/PRC/portrait_prc_leader_zhao_guowei.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_CHI_lin_wei_cheng"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_lin_wei_cheng.dds"
+	}
 }
