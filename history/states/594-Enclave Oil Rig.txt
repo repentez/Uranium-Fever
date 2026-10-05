@@ -1,7 +1,7 @@
 state = {
 	id = 594
 	name = "1151"
-	manpower = 0
+	manpower = 1
 	state_category = small_island
 	history = {
 		owner = USA

@@ -79,3 +79,11 @@ recruit_character = USA_colonel_roy_blackwell
 recruit_character = USA_admiral_grath
 recruit_character = USA_colonel_a_vince
 recruit_character = USA_enclave_administration
+
+give_guarantee = CHI
+give_guarantee = KOR
+give_guarantee = JAP
+give_guarantee = PHI
+give_guarantee = AST
+give_guarantee = NZL
+give_guarantee = EUC

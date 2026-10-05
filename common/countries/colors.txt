@@ -1416,3 +1416,7 @@ MOC = {
 	color = rgb { 81 110 138 }
 	color_ui = rgb { 81 110 138 }
 }
+WND = {
+	color = rgb { 42 55 88 }
+	color_ui = rgb { 42 55 88 }
+}

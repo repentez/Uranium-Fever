@@ -72,3 +72,4 @@ recruit_character = PRC_guo_haifeng
 recruit_character = PRC_dong_zhenhai
 recruit_character = PRC_he_tianyu
 recruit_character = prc_leader_zhao_guowei
+add_ideas = { PRC_cold_war PRC_new_dragon PRC_sino_soviet_tensions }

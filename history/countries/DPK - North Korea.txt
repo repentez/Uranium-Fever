@@ -19,3 +19,4 @@ set_popularities = {
 	despotic = 0
 	authoritarian_socialist = 2
 }
+recruit_character = DPK_kang_myong_su

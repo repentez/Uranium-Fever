@@ -2,11 +2,12 @@ state = {
 	id = 1137
 	name = "STATE_1137"
 	history = {
-		owner = ENG
+		owner = WND
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 		}
+		add_core_of = WND
 	}
 	provinces = { 15745 }
 	manpower = 200
