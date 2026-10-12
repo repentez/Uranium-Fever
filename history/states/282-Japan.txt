@@ -1,22 +1,37 @@
-state={
-	id=282
-	name="STATE_282"
+state = {
+	id = 282
+	name = "STATE_282"
 	manpower = 10000001
-	
 	state_category = megalopolis
-
-	history={
+	history = {
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5
 		}
+		victory_points = { 1182 40 }
+		victory_points = { 4188 5 }
 	}
-
-	provinces={
-		993 1097 1113 4000 4100 4184 4188 7016 9998 11908 15882 16956 19734 19769 19771 19900 
+	provinces = {
+		993
+		1097
+		1113
+		1182
+		4000
+		4100
+		4184
+		4188
+		7016
+		9998
+		11908
+		15881
+		15882
+		16956
+		19734
+		19769
+		19771
+		19900
 	}
-
-	local_supplies=0.0 
+	local_supplies = 0.0
 }

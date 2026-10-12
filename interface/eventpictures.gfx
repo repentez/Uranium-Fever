@@ -1,6 +1,30 @@
 spriteTypes = {
 
 		spriteType = {
+		name = "GFX_event_vaultec_la"
+		texturefile = "gfx/event_pictures/vaultec_la.dds"
+	}
+		spriteType = {
+		name = "GFX_event_CWW_event"
+		texturefile = "gfx/event_pictures/CWW_event.dds"
+	}
+		spriteType = {
+		name = "GFX_event_vaultec_exp"
+		texturefile = "gfx/event_pictures/vault_tec_exp.dds"
+	}
+		spriteType = {
+		name = "GFX_event_where_were_during_those_years"
+		texturefile = "gfx/event_pictures/where_were_during_those_years.dds"
+	}
+		spriteType = {
+		name = "GFX_event_strikes_usa"
+		texturefile = "gfx/event_pictures/strikes_usa.dds"
+	}
+		spriteType = {
+		name = "GFX_event_president_lame_duck"
+		texturefile = "gfx/event_pictures/president_lame_duck.dds"
+	}
+		spriteType = {
 		name = "GFX_event_give_mexico_old_guns"
 		texturefile = "gfx/event_pictures/give_mexico_old_guns.dds"
 	}

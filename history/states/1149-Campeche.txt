@@ -4,6 +4,7 @@ state = {
 
 	history = {
 		owner = MEX
+		set_demilitarized_zone = yes
 		add_core_of = MEX
 		victory_points = {
 			4904 4

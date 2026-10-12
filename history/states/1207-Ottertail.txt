@@ -1,0 +1,26 @@
+state = {
+	id = 1207
+	name = "Ottertail"
+	manpower = 116543
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 1866 20 }
+	}
+	provinces = {
+		12597
+		12693
+		10618
+		6752
+		10719
+		9880
+		1866
+	}
+	resources = {
+		steel = 5
+	}
+}

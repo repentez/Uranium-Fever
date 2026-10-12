@@ -1,0 +1,14 @@
+state = {
+	id = 1223
+	name = "Dalton"
+	manpower = 214310
+	state_category = town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = { 968 5090 }
+}

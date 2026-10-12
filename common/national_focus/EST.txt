@@ -434,7 +434,7 @@ focus_tree = {
          prerequisite = { focus = EST_economic_recon }
         x = 11
         y = 6
-        cost = 10
+        cost = 6
 
         completion_reward = {
             add_ideas = EST_baltic_nature
@@ -447,7 +447,7 @@ focus_tree = {
         prerequisite = { focus = EST_baltic_environmentalism }
         x = 11
         y = 7
-        cost = 10
+        cost = 6
 
         completion_reward = {
             add_ideas = EST_legacy_war
@@ -465,7 +465,7 @@ focus_tree = {
         prerequisite = { focus = EST_legacy_phosphorite_war }
         x = 11
         y = 8
-        cost = 10
+        cost = 6
 
         completion_reward = {
             
@@ -483,7 +483,7 @@ focus_tree = {
         prerequisite = { focus = EST_economic_recon }
         x = 15
         y = 6
-        cost = 10
+        cost = 6
 
         completion_reward = {
         
@@ -499,7 +499,7 @@ focus_tree = {
         prerequisite = { focus = EST_restore_contact}
         x = 15
         y = 7
-        cost = 10
+        cost = 6
 
         completion_reward = {
           add_manpower = 1550
@@ -545,7 +545,7 @@ focus_tree = {
         prerequisite = { focus = EST_restore_contact}
         x = 17
         y = 7
-        cost = 10
+        cost = 6
 
         completion_reward = {
         add_war_support = 0.05
@@ -558,7 +558,7 @@ focus_tree = {
         prerequisite = { focus = EST_Soviet_exiles}
         x = 17
         y = 8
-        cost = 10
+        cost = 6
 
         completion_reward = {
         SOV = { remove_state_core = 13 }
@@ -581,7 +581,7 @@ focus_tree = {
         prerequisite = { focus =  EST_Baltic_resist}
         x = 17
         y = 9
-        cost = 10
+        cost = 6
 
         completion_reward = {
             add_war_support = 0.10
@@ -593,7 +593,7 @@ focus_tree = {
         prerequisite = { focus =  EST_spread_Metsavagi}
         x = 17
         y = 10
-        cost = 10
+        cost = 6
 
         completion_reward = {
 	     13 = { set_resistance = 100 }
@@ -614,7 +614,7 @@ focus_tree = {
         prerequisite = { focus =  EST_rally_to_the_cause }
         x = 17
         y = 11
-        cost = 10
+        cost = 6
 
         completion_reward = {
             add_war_support = 0.3
@@ -627,7 +627,7 @@ focus_tree = {
         prerequisite = { focus = EST_restore_contact}
         x = 19
         y = 7
-        cost = 10
+        cost = 6
 
         completion_reward = {
         add_manpower = 1000
@@ -640,7 +640,7 @@ focus_tree = {
         prerequisite = { focus = EST_restore_talinn_bunk }
         x = 17
         y = 1
-        cost = 10
+        cost = 6
 
         completion_reward = {
         army_experience = 10
@@ -654,7 +654,7 @@ focus_tree = {
         prerequisite = { focus = EST_where_were_u}
         x = 17
         y = 2
-        cost = 10
+        cost = 6
 
         completion_reward = {
          add_equipment_to_stockpile = {
@@ -671,7 +671,7 @@ focus_tree = {
         prerequisite = { focus = EST_enlist_air}
         x = 17
         y = 3
-        cost = 10
+        cost = 6
 
         completion_reward = {
          add_tech_bonus = {
@@ -690,7 +690,7 @@ focus_tree = {
         prerequisite = { focus = EST_where_were_u}
         x = 19
         y = 2
-        cost = 10
+        cost = 6
 
         completion_reward = {
                add_manpower = 1550
@@ -707,7 +707,7 @@ focus_tree = {
         prerequisite = { focus = EST_absorb_ESR }
         x = 19
         y = 3
-        cost = 10
+        cost = 6
 
         completion_reward = {
           add_tech_bonus = {
@@ -726,7 +726,7 @@ focus_tree = {
         prerequisite = { focus = EST_where_were_u}
         x = 15
         y = 2
-        cost = 10
+        cost = 6
 
         completion_reward = {
         add_equipment_to_stockpile = {
@@ -747,7 +747,7 @@ focus_tree = {
         prerequisite = { focus = EST_enlist_naval}
         x = 15
         y = 3
-        cost = 10
+        cost = 6
 
         completion_reward = {
           add_tech_bonus = {
@@ -766,7 +766,7 @@ focus_tree = {
         prerequisite = { focus = EST_restore_talinn_bunk }
         x = 21
         y = 1
-        cost = 10
+        cost = 6
 
         completion_reward = {
         recruit_character = EST_robin
@@ -780,7 +780,7 @@ focus_tree = {
         prerequisite = { focus = EST_commando_resist }
         x = 21
         y = 2
-        cost = 10
+        cost = 6
 
         completion_reward = {
         add_manpower = 2500
@@ -792,7 +792,7 @@ focus_tree = {
         prerequisite = { focus = EST_we_lived_for_est}
         x = 21
         y = 3
-        cost = 10
+        cost = 6
 
         completion_reward = {
               army_experience = 10
@@ -805,7 +805,7 @@ focus_tree = {
         prerequisite = { focus = EST_we_died_for_est}
         x = 21
         y = 4
-        cost = 10
+        cost = 6
 
         completion_reward = {
          add_ideas = EST_blood_of_patriots
@@ -817,7 +817,7 @@ focus_tree = {
         prerequisite = { focus = EST_restore_talinn_bunk }
         x = 23
         y = 1
-        cost = 10
+        cost = 6
 
         completion_reward = {
                 add_tech_bonus = {
@@ -841,7 +841,7 @@ focus_tree = {
         prerequisite = { focus =  EST_legacy_of_sign }
         x = 23
         y = 2
-        cost = 10
+        cost = 6
 
         completion_reward = {
             add_tech_bonus = {
@@ -860,7 +860,7 @@ focus_tree = {
         prerequisite = { focus =  EST_they_shall_know }
         x = 23
         y = 3
-        cost = 10
+        cost = 6
 
         completion_reward = {
             add_equipment_to_stockpile = {
@@ -878,7 +878,7 @@ focus_tree = {
         prerequisite = { focus =  EST_if_you_need_a_gun}
         x = 23
         y = 4
-        cost = 10
+        cost = 6
 
         completion_reward = {
         
@@ -901,7 +901,7 @@ focus_tree = {
         prerequisite = { focus = EST_restore_talinn_bunk }
         x = 25
         y = 1
-        cost = 10
+        cost = 6
 
         completion_reward = {
 
@@ -926,7 +926,7 @@ focus_tree = {
         prerequisite = { focus =  EST_if_you_cant_fight_build}
         x = 25
         y = 2
-        cost = 10
+        cost = 6
 
         completion_reward = {
         
@@ -944,7 +944,7 @@ focus_tree = {
         prerequisite = { focus =  EST_if_you_need_a_gun }
         x = 25
         y = 4
-        cost = 10
+        cost = 6
 
         completion_reward = {
 
@@ -969,7 +969,7 @@ focus_tree = {
         prerequisite = { focus = EST_restore_talinn_bunk }
         x = 27
         y = 1
-        cost = 10
+        cost = 6
 
         completion_reward = {
         
@@ -993,7 +993,7 @@ focus_tree = {
         prerequisite = { focus = EST_urban_jungles }
         x = 27
         y = 2
-        cost = 10
+        cost = 6
 
         completion_reward = {
         add_manpower = 250

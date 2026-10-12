@@ -1,16 +1,13 @@
-state={
-	id=689
-	name="STATE_689"
+state = {
+	id = 689
+	name = "STATE_689"
 	manpower = 1075000
-	
 	state_category = town
-
-	history={
+	history = {
 		add_core_of = JAM
-		owner = JAM
-		victory_points = {
-			12304 1 
-		}
+		add_core_of = WND
+		owner = WND
+		victory_points = { 12304 1 }
 		buildings = {
 			infrastructure = 2
 			12304 = {
@@ -18,8 +15,6 @@ state={
 			}
 		}
 	}
-	
-	provinces={ 12304 12477 }
-
-	local_supplies=0.0 
+	provinces = { 12304 12477 }
+	local_supplies = 0.0
 }

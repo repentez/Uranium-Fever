@@ -1,6 +1,76 @@
 ideas = {
 
 	country = {
+
+
+	USA_a_new_better_deal = {
+    picture = GFX_idea_USA_a_new_better_deal 
+
+    allowed = { always = no }
+    allowed_civil_war = { always = yes }
+    removal_cost = -1
+
+    modifier = {
+        # kept from the original idea
+        production_speed_infrastructure_factor = 0.25
+        consumer_goods_factor = 0.05
+        political_power_factor = -0.10
+
+        # new from this focus
+        conscription_factor = 0.10          
+        research_speed_factor = 0.10        
+        industrial_capacity_factory = 0.10  
+    }
+ }
+        USA_a_new_deal = {
+            picture = GFX_idea_USA_a_new_deal  
+
+            allowed = { always = no }
+            allowed_civil_war = { always = yes }
+            removal_cost = -1
+
+            modifier = {
+                production_speed_infrastructure_factor = 0.25   
+                consumer_goods_factor = 0.05                    
+                political_power_factor = -0.10                  
+        }
+    }
+			USA_reliable_contractors = {
+			picture = GFX_idea_USA_reliable_contractors
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				consumer_goods_factor = -0.05
+			}
+		}
+    USA_CWW = {
+	picture = GFX_idea_USA_CWW
+
+	allowed = {
+		always = no
+	}
+
+	allowed_civil_war = {
+		always = yes
+	}
+
+	removal_cost = -1
+
+	modifier = {
+		conscription_factor = -0.05
+		production_speed_buildings_factor = 0.05
+	}
+        }
 		USA_deflation_crisis = {
 			picture = GFX_idea_USA_Deflation_Crisis
 
@@ -22,8 +92,67 @@ ideas = {
 				local_resources_factor = -0.2
 			}
 		}
-			USA_Oil_Shock = {
-				picture = GFX_idea_USA_Oil_Shock
+		USA_Immigration_from_euc_and_arabe_countries = {
+			picture = GFX_idea_USA_Immigration_from_euc_and_arabe_countries
+			allowed = { always = no }
+			modifier = {
+				monthly_population = 0.07
+				non_core_manpower = 0.05
+				consumer_goods_factor = 0.02
+				  stability_factor = -0.04
+			}
+		}
+		USA_stop_the_strikes = {
+			picture = GFX_idea_USA_stop_the_strikes 
+			allowed = { always = no }
+			modifier = {
+		production_speed_industrial_complex_factor = 0.03
+		production_speed_arms_factory_factor = 0.05
+		production_speed_bunker_factor = 0.05
+    	production_speed_buildings_factor = 0.03
+				stability_factor = 0.03
+				war_support_factor = 0.03
+				production_speed_buildings_factor = 0.04
+			}
+		}
+		USA_Strikes_Mitigated = {
+			picture = GFX_idea_USA_Strikes_Mitigated
+			allowed = { always = no }
+			modifier = {
+		production_speed_industrial_complex_factor = -0.03
+		production_speed_arms_factory_factor = -0.10
+		production_speed_bunker_factor = -0.05
+    	production_speed_buildings_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				production_speed_buildings_factor = -0.04
+			}
+		}
+		USA_Strikes = {
+			picture = GFX_idea_USA_Strikes
+			allowed = { always = no }
+			modifier = {
+					production_speed_industrial_complex_factor = -0.10
+		production_speed_arms_factory_factor = -0.25
+		production_speed_bunker_factor = -0.10
+    	production_speed_buildings_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				production_speed_buildings_factor = -0.10
+			}
+		}
+		USA_Immigration_reduced = {
+			picture = GFX_idea_USA_Immigration_reduced
+			allowed = { always = no }
+			modifier = {
+				monthly_population = 0.035
+				non_core_manpower = 0.025
+				consumer_goods_factor = 0.01
+				stability_factor = -0.02
+			}
+		}
+		USA_Oil_Shock = {
+			picture = GFX_idea_USA_Oil_Shock
 
 			allowed = {
 				always = no
@@ -36,10 +165,14 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			
+				production_speed_industrial_complex_factor = -0.10
+				production_speed_arms_factory_factor = -0.25
+				production_speed_buildings_factor = -0.05
+				consumer_goods_factor = 0.15
+				stability_factor = -0.10
 			}
 		}
-			USA_Overextended_In_Mexico = {
+		USA_Overextended_In_Mexico = {
 			picture = GFX_idea_USA_Overextended_In_Mexico
 
 			allowed = {
@@ -53,10 +186,15 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
+				war_support_factor = -0.50
+				offensive_war_stability_factor = -0.5
+				justify_war_goal_time = 0.7
+				supply_consumption_factor = 0.05
+				army_org_factor = -0.1
+				compliance_growth = 0.15
 			}
 		}
-			USA_The_Armed_Forces = {
+		USA_The_Armed_Forces = {
 			picture = GFX_idea_USA_The_Armed_Forces
 
 			allowed = {
@@ -70,10 +208,13 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				
+				conscription_factor = -0.1
+				army_morale_factor = -0.1
+				army_org_factor = -0.1
+				political_power_gain = -0.70
 			}
 		}
-			USA_idea_focus_consumer_goods = {
+		USA_idea_focus_consumer_goods = {
 			picture = GFX_idea_USA_The_Armed_Forces
 
 			allowed = {
@@ -87,7 +228,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			consumer_goods_factor = 0.15
+				consumer_goods_factor = 0.15
 			}
 		}
 		

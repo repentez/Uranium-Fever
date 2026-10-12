@@ -1,59 +1,98 @@
-state={
-	id=325
-	name="STATE_325"
-	resources={
-		tungsten=2.000
+state = {
+	id = 325
+	name = "STATE_325"
+	resources = {
+		tungsten = 2.000
 	}
-
-	history={
+	history = {
 		owner = PRC
-		add_core_of = PRC
-		add_core_of = PRC
-		add_core_of = PRC
-
-		victory_points = {
-			1319 10 # Kunming
-		}
-
-		victory_points = {
-			4501 1 # Mengzi
-		}
-
-		victory_points = {
-			12262 1 # Pu'er
-		}
-
+		victory_points = { 1319 10 }
+		victory_points = { 4501 1 }
+		victory_points = { 7965 5 }
+		victory_points = { 12262 1 }
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 3
-
 		}
 		1938.10.25 = {
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger" 
+						has_dlc = "Waking the Tiger"
 					}
-
 				}
 				PRC = {
 					transfer_state = PREV
-
 				}
-
 			}
-
 		}
-
+		add_core_of = PRC
 	}
-
-	provinces={
-		1114 1172 1196 1319 1383 1522 1653 4192 4501 5072 5756 5997 7446 7606 8023 8680 10346 10776 12262 12282 12841 19492 19493 19503 19533 19558 19562 19564 19648 19761 19780 19787 19796 
+	provinces = {
+		1114
+		1172
+		1196
+		1319
+		1383
+		1522
+		1653
+		4192
+		4501
+		5072
+		5756
+		5997
+		7446
+		7606
+		8023
+		8680
+		10346
+		10776
+		12262
+		12282
+		12841
+		19492
+		19493
+		19503
+		19533
+		19558
+		19562
+		19564
+		19648
+		19761
+		19780
+		19787
+		19796
+		10413
+		19737
+		5009
+		19705
+		7976
+		19683
+		19795
+		10863
+		8425
+		19731
+		8531
+		19622
+		12898
+		7965
+		19643
+		4559
+		4937
+		19653
+		19793
+		8126
+		19665
+		12789
+		19655
+		19788
+		19745
+		19625
+		19674
 	}
-	manpower=10994500
-	buildings_max_level_factor=1.000
-	state_category=town
-
-	local_supplies=3.0 
+	manpower = 10994500
+	buildings_max_level_factor = 1.000
+	state_category = town
+	local_supplies = 3.0
 }

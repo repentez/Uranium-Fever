@@ -1,0 +1,22 @@
+state = {
+	id = 1236
+	name = "Aroostook"
+	manpower = 70571
+	state_category = town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 4287 1 }
+	}
+	provinces = {
+		4287
+		10247
+		1282
+		1619
+		12221
+		17291
+	}
+}

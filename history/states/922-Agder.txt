@@ -6,15 +6,11 @@ state = {
 	resources = {
 		aluminium = 5
 	}
-	
-
 	history = {
-		victory_points = {
-			9296 3 
-		}
-		
-		owner = NOR
+		victory_points = { 9296 3 }
+		owner = EUC
 		add_core_of = NOR
+		add_core_of = EUC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -26,10 +22,16 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
-		3049 3129 9096 9196 9296 11101 11176 11367 18375 
+		3049
+		3129
+		9096
+		9196
+		9296
+		11101
+		11176
+		11367
+		18375
 	}
-
 	local_supplies = 0.000
 }

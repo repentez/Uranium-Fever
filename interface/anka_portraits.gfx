@@ -1,0 +1,50 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_portrait_MEX_alejandro_villesenor"
+		texturefile = "gfx/leaders/MEX/portrait_MEX_alejandro_villesenor.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_USA_william_h_caldwell"
+		texturefile = "gfx/leaders/USA/portrait_USA_william_h_caldwell.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_PRC_zhao_guowei"
+		texturefile = "gfx/leaders/PRC/portrait_PRC_zhao_guowei.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_UAR_faisal_mahmoud"
+		texturefile = "gfx/leaders/UAR/portrait_UAR_faisal_mahmoud.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_JAP_koji_takemura"
+		texturefile = "gfx/leaders/JAP/portrait_JAP_koji_takemura.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_AST_edward_whitmore"
+		texturefile = "gfx/leaders/AST/portrait_AST_edward_whitmore.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_EST_kalju_kirsipuu"
+		texturefile = "gfx/leaders/EST/portrait_EST_kalju_kirsipuu.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_YUG_milan_aleksandar_vukovic"
+		texturefile = "gfx/leaders/YUG/portrait_YUG_milan_aleksandar_vukovic.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CAN_robert_macleod"
+		texturefile = "gfx/leaders/CAN/portrait_CAN_robert_macleod.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_USA_enclave_administration"
+		texturefile = "gfx/leaders/USA/portrait_USA_enclave_administration.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_prc_leader_zhao_guowei"
+		texturefile = "gfx/leaders/PRC/portrait_prc_leader_zhao_guowei.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_CHI_lin_wei_cheng"
+		texturefile = "gfx/leaders/CHI/portrait_CHI_lin_wei_cheng.dds"
+	}
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 1211
+	name = "Elko"
+	manpower = 19356
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = { 7756 1862 }
+	resources = {
+		steel = 6
+		tungsten = 3
+		aluminium = 4
+	}
+}

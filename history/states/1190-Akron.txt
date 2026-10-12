@@ -1,0 +1,29 @@
+state = {
+	id = 1190
+	name = "Akron"
+	manpower = 391812
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = { 7528 5 }
+		victory_points = { 6874 5 }
+		victory_points = { 9808 5 }
+		victory_points = { 4442 5 }
+	}
+	provinces = {
+		882
+		4442
+		9808
+		3829
+		827
+		7528
+		6874
+	}
+	resources = {
+		steel = 1
+	}
+}

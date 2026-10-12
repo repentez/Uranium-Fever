@@ -1,0 +1,26 @@
+state = {
+	id = 1237
+	name = "Alaska Panhandle"
+	manpower = 3671
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 13202 1 }
+		victory_points = { 17241 1 }
+		victory_points = { 13203 3 }
+	}
+	provinces = {
+		10707
+		17245
+		13203
+		17241
+		17242
+		17248
+		13202
+		17247
+	}
+}

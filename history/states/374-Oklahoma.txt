@@ -1,18 +1,13 @@
-
-state={
-	id=374
-	name="STATE_374"
-	manpower = 2396039
-	
+state = {
+	id = 374
+	name = "STATE_374"
+	manpower = 2246287
 	state_category = city
-	
-	resources={
-		oil=60 # was: 100
-		aluminium=20 # was: 32
+	resources = {
+		oil = 57
+		aluminium = 19
 	}
-
-
-	history={
+	history = {
 		owner = USA
 		add_core_of = USA
 		buildings = {
@@ -20,42 +15,36 @@ state={
 			industrial_complex = 2
 			air_base = 2
 		}
-		victory_points = {
-			10798 15  # Oklahoma City
-		}
-		victory_points = {
-			1806 10  # Tulsa
-		}
-		victory_points = {
-			4919 3  # Lawton
-		}
-		victory_points = {
-			6803 1  # McAlester
-		}
-		victory_points = {
-			7762 1  # Woodward
-		}
-		victory_points = {
-			1618 1  # Muskogee
-		}
-		victory_points = {
-			7904 1  # Stillwater
-		}
-		victory_points = {
-			5103 1  # Norman
-		}
-
+		victory_points = { 10798 15 }
+		victory_points = { 1806 10 }
+		victory_points = { 4919 3 }
+		victory_points = { 6803 1 }
+		victory_points = { 7762 1 }
+		victory_points = { 1618 1 }
+		victory_points = { 7904 1 }
+		victory_points = { 5103 1 }
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 3
 			}
 		}
-
 	}
-
-	provinces={
-		1618 1806 2043 4919 5103 6803 7762 7904 7945 8025 9822 10702 10798 11743 11802 12624 
+	provinces = {
+		1618
+		1806
+		2043
+		4919
+		5103
+		6803
+		7762
+		7904
+		7945
+		8025
+		10702
+		10798
+		11743
+		11802
+		9822
 	}
-
-	local_supplies=0.0 
+	local_supplies = 0.0
 }

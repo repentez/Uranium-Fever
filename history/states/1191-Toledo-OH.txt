@@ -1,0 +1,27 @@
+state = {
+	id = 1191
+	name = "Toledo-OH"
+	manpower = 563229
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = { 9825 5 }
+		victory_points = { 3685 3 }
+	}
+	provinces = {
+		9825
+		3685
+		689
+		3872
+		659
+		3853
+		11791
+	}
+	resources = {
+		steel = 1
+	}
+}

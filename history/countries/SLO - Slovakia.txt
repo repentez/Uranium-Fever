@@ -1,7 +1,5 @@
-﻿capital = 70
-
+capital = 70
 recruit_character = SLO_teodor_kocis
-
 set_technology = {
 	tech_trucks = 1
 	gw_artillery = 1
@@ -16,22 +14,24 @@ set_technology = {
 	tech_mountaineers = 1
 	tech_engineers = 1
 }
-
 set_politics = {
 	ruling_party = communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
-
 set_popularities = {
-	communism = 89
-	fascism = 11
+	democratic = 46
+	fascism = 3
+	totalitarian_socialist = 3
+	despotic = 6
+	authoritarian_socialist = 42
 }
-
 if = {
 	limit = {
-		NOT = { has_dlc = "No Step Back" }
+		NOT = {
+			has_dlc = "No Step Back"
+		}
 	}
 	set_technology = {
 		gwtank = 1
@@ -50,8 +50,10 @@ if = {
 	set_oob = "SLO_1939_nsb"
 }
 if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "SLO_1939_air_bba"
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "SLO_1939_air_bba"
 	else = {
 		set_air_oob = "SLO_1939_air_legacy"
 		set_technology = {
@@ -82,3 +84,4 @@ if = {
 		}
 	}
 }
+set_stability = 0.53

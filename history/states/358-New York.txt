@@ -2,7 +2,7 @@ state = {
 	id = 358
 	name = "STATE_358"
 	resources = {
-		steel = 13
+		steel = 10
 	}
 	state_category = megalopolis
 	history = {
@@ -10,7 +10,7 @@ state = {
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
-			industrial_complex = 7
+			industrial_complex = 6
 			dockyard = 3
 			air_base = 10
 			3878 = {
@@ -19,66 +19,10 @@ state = {
 			}
 		}
 		add_core_of = USA
-		victory_points = { 11654 25 }
 		victory_points = { 3878 80 }
-		victory_points = { 3733 15 }
-		victory_points = { 9708 15 }
-		victory_points = { 9693 5 }
-		victory_points = { 11650 1 }
-		victory_points = { 6717 3 }
-		victory_points = { 9774 1 }
-		victory_points = { 3894 1 }
-		victory_points = { 1436 5 }
-		victory_points = { 859 1 }
-		victory_points = { 3702 1 }
-		victory_points = { 15744 5 }
-		victory_points = { 6911 3 }
-		victory_points = { 11662 1 }
-		victory_points = { 6778 1 }
-		victory_points = { 6707 1 }
-		victory_points = { 15743 1 }
-		victory_points = { 11665 1 }
-		victory_points = { 598 1 }
 	}
-	provinces = {
-		598
-		706
-		734
-		859
-		1436
-		3602
-		3702
-		3733
-		3747
-		3806
-		3878
-		3894
-		6707
-		6717
-		6778
-		6795
-		6911
-		6916
-		9664
-		9673
-		9693
-		9708
-		9721
-		9754
-		9774
-		10381
-		11650
-		11654
-		11660
-		11662
-		11665
-		11680
-		11722
-		15350
-		15743
-		15744
-	}
-	manpower = 17637020
+	provinces = { 3878 }
+	manpower = 11257962
 	buildings_max_level_factor = 1.000
 	local_supplies = 0.0
 }

@@ -1,0 +1,18 @@
+state = {
+	id = 1232
+	name = "Detroit"
+	manpower = 630037
+	state_category = metropolis
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 6710 40 }
+	}
+	provinces = { 6710 }
+	resources = {
+		steel = 5
+	}
+}

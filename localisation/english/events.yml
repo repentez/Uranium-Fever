@@ -1,3 +1,20 @@
 l_english:
+
+
+
+
+
+ USA_caldwell.t:0 "A Lame Duck on a High Horse"
+ USA_caldwell.d:0 "President Caldwell has spent his term watching America decline and doing nothing about it.\n\nThe deflation crisis has gutted the economy. Prices and wages keep falling, businesses keep closing, and the administration has offered no plan to stop it. The situation in Mexico has spiraled out of control, and the President proved unable to manage it. The border is tense, refugees are pouring, and the government is always a step behind.\n\nThrough all of it, Caldwell has given speeches, held photo-ops and told the nation to stay the course. He solved nothing, and the country is paying for it."
+
+
+ USA.mexico_no_altere_event_title:0 "No Altere El Orden Establecido"
+ USA.mexico_no_altere_event_desc:0 "Mexico gets an event about Generalissimo being told to stay loyal as the US stops watching every move they make. Spend political power, as you get him a nice gift. Decrease their autonomy significantly."
+ USA.mexico_no_altere_event_option:0 "Thank u Uncle Sam"
+
+
+
+
+
   uranium_fever.1.t:0 "Welcome to Uranium Fever!"
  uranium_fever.1.desc:0 "Thank you for taking the time to playtest Uranium Fever! The mod is still in development, and your feedback, suggestions, and bug reports are incredibly valuable to us. We hope you enjoy exploring what we've created so far. If you encounter any bugs or have ideas that could help us improve the mod, please join our Discord and let us know. Your support and patience during development mean a lot to the team!"

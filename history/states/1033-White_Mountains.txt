@@ -1,0 +1,15 @@
+state = {
+	id = 1033
+	name = "White Mountains"
+	manpower = 126400
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 10481 3 }
+	}
+	provinces = { 10481 20006 }
+}

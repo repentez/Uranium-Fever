@@ -1,0 +1,19 @@
+state = {
+	id = 1170
+	name = "Philadelphia"
+	manpower = 319938
+	state_category = metropolis
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+		}
+		victory_points = { 6845 40 }
+	}
+	provinces = { 6845 }
+	resources = {
+		steel = 2
+		coal = 4
+	}
+}

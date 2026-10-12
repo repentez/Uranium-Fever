@@ -1,0 +1,19 @@
+state = {
+	id = 1212
+	name = "Los Angeles"
+	manpower = 428816
+	state_category = metropolis
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 9814 50 }
+		victory_points = { 14762 5 }
+	}
+	provinces = { 9814 14762 }
+	resources = {
+		oil = 7
+	}
+}

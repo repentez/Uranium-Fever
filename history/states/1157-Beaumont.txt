@@ -1,0 +1,28 @@
+state = {
+	id = 1157
+	name = "Beaumont"
+	manpower = 192574
+	state_category = rural
+	history = {
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 1500 5 }
+		victory_points = { 6968 1 }
+		owner = USA
+		add_core_of = USA
+	}
+	provinces = {
+		1500
+		12486
+		7628
+		4577
+		805
+		6968
+		5001
+	}
+	resources = {
+		oil = 3
+		aluminium = 1
+	}
+}

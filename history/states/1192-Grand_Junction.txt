@@ -1,0 +1,26 @@
+state = {
+	id = 1192
+	name = "Grand Junction"
+	manpower = 116696
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 1658 1 }
+		victory_points = { 6887 3 }
+	}
+	provinces = {
+		7684
+		6887
+		10535
+		1658
+		3869
+		868
+	}
+	resources = {
+		oil = 2
+	}
+}

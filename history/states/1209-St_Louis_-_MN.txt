@@ -1,0 +1,17 @@
+state = {
+	id = 1209
+	name = "St. Louis - MN"
+	manpower = 58271
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = { 6827 12550 1719 }
+	resources = {
+		steel = 2
+	}
+}

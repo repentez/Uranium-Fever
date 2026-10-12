@@ -1,0 +1,16 @@
+state = {
+	id = 1222
+	name = "Athens - GA"
+	manpower = 183695
+	state_category = large_city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 638 5 }
+		victory_points = { 9949 1 }
+	}
+	provinces = { 10394 9949 638 }
+}

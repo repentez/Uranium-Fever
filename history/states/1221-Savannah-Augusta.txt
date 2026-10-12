@@ -1,0 +1,17 @@
+state = {
+	id = 1221
+	name = "Savannah-Augusta"
+	manpower = 153079
+	state_category = large_city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 11975 10 }
+		victory_points = { 7118 3 }
+		victory_points = { 10465 1 }
+	}
+	provinces = { 11975 10465 10437 7118 }
+}

@@ -1,0 +1,17 @@
+state = {
+	id = 1181
+	name = "Ozark"
+	manpower = 123404
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = { 4597 4567 7586 10477 12778 }
+	resources = {
+		aluminium = 1
+	}
+}

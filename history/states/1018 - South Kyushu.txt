@@ -1,7 +1,7 @@
 state = {
 	id = 1018
-	name = "STATE_1018"
-	manpower = 10000
+	name = "STATE_1018" # South Kyushu
+	manpower = 3023000
 
 	state_category = rural
 
@@ -21,10 +21,19 @@ state = {
 			industrial_complex = 1
 			
 		}
+
+		victory_points = {
+			4102 15 # Kagoshima
+		}
+
+		victory_points = {
+			1020 2 # Miyazaki
+		}
+
 	}
 
 	provinces = {
-		19978 
+		1020 1183 4027 4102 4198 7178 10092 11925 11949 12006 12032 15863 15864
 	}
 
 	local_supplies = 10.0 

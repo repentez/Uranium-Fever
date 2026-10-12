@@ -1,0 +1,19 @@
+state = {
+	id = 754
+	name = "Shreveport"
+	manpower = 457578
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 12401 1 }
+		victory_points = { 1559 1 }
+	}
+	provinces = { 7599 7555 1559 12401 4522 }
+	resources = {
+		oil = 4
+	}
+}

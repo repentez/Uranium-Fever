@@ -1,0 +1,17 @@
+state = {
+	id = 1152
+	name = "Independence"
+	manpower = 318840
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = { 1432 7667 1651 }
+	resources = {
+		oil = 5
+	}
+}

@@ -30,7 +30,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = USA_northern_states
+		id = USA_cascadian_commonwealth
 		icon = GFX_goal_safehaven_washington
 		x = -6
 		y = 7
@@ -138,7 +138,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = USA_appalachian_commonwealth
+		id = USA_appalachia_commonwealth
 		icon = GFX_focus_generic_political
 		x = -23
 		y = 7
@@ -286,7 +286,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = usa_focus_northern_frontier
+		id = usa_northern_commonwealth
 		icon = GFX_goal_safehaven_montana
 		x = -25
 		y = 7
@@ -477,7 +477,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = usa_focus_columbian_commonwealth
+		id = usa_columbian_commonwealth
 		icon = GFX_goal_unknown
 		x = -20
 		y = 7
@@ -517,16 +517,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {}
 		prerequisite = {
-			focus = USA_appalachian_commonwealth
-			focus = usa_eastern_commonwealth
-			focus = USA_south_east_commonwealth
-		}
-		prerequisite = {
 			focus = USA_great_plains_commonwealth
-		}
-		prerequisite = {
-			focus = usa_focus_northern_frontier
-			focus = USA_northern_states
 		}
 		prerequisite = {
 			focus = usa_new_england_commonwealth
@@ -547,10 +538,22 @@ focus_tree = {
 			focus = USA_four_corners_commonwealth
 		}
 		prerequisite = {
-			focus = USA_northern_states
+			focus = USA_cascadian_commonwealth
 		}
 		prerequisite = {
-			focus = usa_focus_columbian_commonwealth
+			focus = usa_columbian_commonwealth
+		}
+		prerequisite = {
+			focus = USA_appalachia_commonwealth
+		}
+		prerequisite = {
+			focus = usa_eastern_commonwealth
+		}
+		prerequisite = {
+			focus = usa_northern_commonwealth
+		}
+		prerequisite = {
+			focus = USA_gulf_commonwealth
 		}
 	}
 	focus = {
@@ -733,74 +736,110 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_lame_duck
-		icon = GFX_goal_unknown
+		icon = GFX_goal_president_elections
 		x = -67
 		y = 1
-		cost = 10
-		completion_reward = {}
+		cost = 3
+		completion_reward = {
+			country_event = {
+				id = USA.caldwell
+			}
+		}
 	}
 	focus = {
 		id = USA_focus_ending_work_stoppage
-		icon = GFX_goal_unknown
+		icon = GFX_goal_protestes_usa_president
 		x = -68
 		y = 2
-		cost = 10
-		completion_reward = {}
+		cost = 2
+		completion_reward = {
+			country_event = {
+				id = USA.strikes
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_lame_duck
 		}
 	}
 	focus = {
 		id = USA_focus_regulating_influx
-		icon = GFX_goal_unknown
+		icon = GFX_limit_serfdome_laws
 		x = -65
 		y = 2
-		cost = 10
-		completion_reward = {}
+		cost = 2
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = USA_Immigration_from_euc_and_arabe_countries
+				add_idea = USA_Immigration_reduced
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_lame_duck
 		}
 	}
 	focus = {
 		id = USA_focus_guards
-		icon = GFX_goal_unknown
+		icon = GFX_goal_guards_guards_guards
 		x = -69
 		y = 3
-		cost = 10
-		completion_reward = {}
+		cost = 6
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = USA_Strikes
+				add_idea = USA_Strikes_Mitigated
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.04
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_ending_work_stoppage
 		}
 	}
 	focus = {
 		id = USA_focus_kibosh
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_support_the_left_right
 		x = -67
 		y = 3
-		cost = 10
-		completion_reward = {}
+		cost = 4
+		completion_reward = {
+			add_ideas = USA_stop_the_strikes
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.06
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_ending_work_stoppage
 		}
 	}
 	focus = {
 		id = USA_focus_distributing
-		icon = GFX_goal_unknown
+		icon = GFX_goal_usa_flag_contract
 		x = -65
 		y = 3
-		cost = 10
-		completion_reward = {}
+		cost = 7
+		completion_reward = {
+			remove_ideas = USA_Immigration_reduced
+		}
 		prerequisite = {
 			focus = USA_focus_regulating_influx
 		}
 	}
 	focus = {
 		id = USA_focus_smile_and_wave
-		icon = GFX_goal_unknown
+		icon = GFX_goal_smile_n_wave
 		x = -68
 		y = 4
-		cost = 10
-		completion_reward = {}
+		cost = 4
+		completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_guards
 		}
@@ -808,16 +847,20 @@ focus_tree = {
 			focus = USA_focus_kibosh
 		}
 		mutually_exclusive = {
-			focus = USA_focus_4_yrs_ago
+			focus = USA_focus_where_were_you_4_yrs_ago
 		}
 	}
 	focus = {
-		id = USA_focus_4_yrs_ago
-		icon = GFX_goal_unknown
+		id = USA_focus_where_were_you_4_yrs_ago
+		icon = GFX_goal_where_were_u_for_four_years
 		x = -66
 		y = 4
-		cost = 10
-		completion_reward = {}
+		cost = 5
+		completion_reward = {
+			country_event = {
+				id = USA.crowd
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_distributing
 		}
@@ -830,10 +873,10 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_mexico_situation
-		icon = GFX_goal_unknown
+		icon = GFX_goal_mexico_situation
 		x = -77
 		y = 1
-		cost = 10
+		cost = 3
 		completion_reward = {
 			country_event = {
 				id = USA.mexico_focus_event
@@ -842,27 +885,33 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_eyes_sky
-		icon = GFX_goal_unknown
+		icon = GFX_goal_dropping_last_generenation_of_air
 		x = -81
 		y = 2
-		cost = 10
-		completion_reward = {}
+		cost = 2
+		completion_reward = {
+			MEX = {
+				country_event = {
+					id = USA.mexico_air_focus_event
+				}
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
 		}
 	}
 	focus = {
 		id = USA_focus_dia
-		icon = GFX_goal_unknown
+		icon = GFX_goal_advisor_usa_to_mex
 		x = -79
 		y = 2
-		cost = 10
+		cost = 2
 		completion_reward = {
 			MEX = {
-			country_event = {
-				id = USA.mexico_advisors_focus_event
+				country_event = {
+					id = USA.mexico_advisors_focus_event
+				}
 			}
-		}
 		}
 		prerequisite = {
 			focus = USA_focus_mexico_situation
@@ -870,10 +919,10 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_last_gen
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_total_war
 		x = -77
 		y = 2
-		cost = 10
+		cost = 2
 		completion_reward = {
 			MEX = {
 				country_event = {
@@ -887,10 +936,10 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_contract_assigning
-		icon = GFX_goal_unknown
+		icon = GFX_goal_usa_flag_contract
 		x = -74
 		y = 2
-		cost = 10
+		cost = 4
 		completion_reward = {
 			country_event = {
 				id = USA.choice_companies_focus_event
@@ -902,11 +951,15 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_uncle_sam_wrath
-		icon = GFX_goal_unknown
+		icon = GFX_goal_uncle_sam
 		x = -79
 		y = 3
-		cost = 10
-		completion_reward = {}
+		cost = 1
+		completion_reward = {
+			MEX = {
+				add_stability = 0.1
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_eyes_sky
 		}
@@ -919,11 +972,18 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_petro_chico
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_oil_refinery
 		x = -75
 		y = 3
-		cost = 10
+		cost = 1
 		completion_reward = {
+			custom_effect_tooltip = USA_enclave_influence_growth
+			hidden_effect = {
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.02
+				}
+			}
 			MEX = {
 				add_resource = {
 					type = oil
@@ -941,15 +1001,15 @@ focus_tree = {
 			focus = USA_focus_contract_assigning
 		}
 		mutually_exclusive = {
-			focus = USA_focus_texaco
+			focus = USA_focus_texico
 		}
 	}
 	focus = {
-		id = USA_focus_texaco
-		icon = GFX_goal_unknown
+		id = USA_focus_texico
+		icon = GFX_goal_mexico_choice
 		x = -73
 		y = 3
-		cost = 10
+		cost = 1
 		completion_reward = {
 			MEX = {
 				add_resource = {
@@ -980,62 +1040,44 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_el_orden
-		icon = GFX_goal_unknown
-		x = -79
+		icon = GFX_focus_RAJ_red_in_the_shadows
+		x = -77
 		y = 4
-		cost = 10
-		completion_reward = {}
+		cost = 7
+		completion_reward = {
+			remove_ideas = USA_Overextended_In_Mexico
+			MEX = {
+				country_event = {
+					id = USA.mexico_no_altere_event
+				}
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_uncle_sam_wrath
 		}
 		prerequisite = {
-			focus = USA_focus_texaco
+			focus = USA_focus_texico
 			focus = USA_focus_petro_chico
-		}
-	}
-	focus = {
-		id = USA_focus_token_subsidies
-		icon = GFX_goal_unknown
-		x = -74
-		y = 4
-		cost = 10
-		completion_reward = {
-			  add_timed_idea = {
-				days = 125
-		       MEX = {
-				days = 125
-				add_ideas = Mex_idea_focus_USA
-			}
-			  }
-	
-			   add_timed_idea = {
-				days = 125
-	          USA = {
-				
-				add_ideas = USA_idea_focus_consumer_goods
-			
-			   }
-		}
-		}
-		prerequisite = {
-			focus = USA_focus_petro_chico
-			focus = USA_focus_texaco
 		}
 	}
 	focus = {
 		id = USA_focus_conservation_corps
-		icon = GFX_goal_unknown
+		icon = GFX_goal_Conservative_corps
 		x = -55
 		y = 1
-		cost = 10
-		completion_reward = {}
+		cost = 4
+		completion_reward = {
+			country_event = {
+				id = USA.CWW
+			}
+		}
 	}
 	focus = {
 		id = USA_focus_comdevpro
-		icon = GFX_goal_unknown
+		icon = GFX_goal_reform_industry_3
 		x = -55
 		y = 2
-		cost = 10
+		cost = 3
 		completion_reward = {}
 		prerequisite = {
 			focus = USA_focus_conservation_corps
@@ -1043,11 +1085,13 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_new_deal
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_economic_recovery
 		x = -57
 		y = 3
-		cost = 10
-		completion_reward = {}
+		cost = 4
+		completion_reward = {
+			add_ideas = USA_a_new_deal
+		}
 		prerequisite = {
 			focus = USA_focus_conservation_corps
 		}
@@ -1057,11 +1101,24 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_reliable_contractors
-		icon = GFX_goal_unknown
+		icon = GFX_goal_Reliable_contractors
 		x = -53
 		y = 3
-		cost = 10
-		completion_reward = {}
+		cost = 4
+		completion_reward = {
+			add_ideas = USA_reliable_contractors
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.03
+			}
+			custom_effect_tooltip = USA_enclave_influence_growth
+			hidden_effect = {
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.02
+				}
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_conservation_corps
 		}
@@ -1071,24 +1128,26 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_project_safehouse
-		icon = GFX_goal_unknown
+		icon = GFX_goal_vault_tec
 		x = -55
 		y = 4
-		cost = 10
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_new_deal
+		cost = 8
+		completion_reward = {
+			country_event = {
+				id = USA.LA_vault
+			}
 		}
 		prerequisite = {
+			focus = USA_focus_new_deal
 			focus = USA_focus_reliable_contractors
 		}
 	}
 	focus = {
 		id = USA_focus_behind_closed_doors
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BEL_la_dame_blanche
 		x = -53
 		y = 4
-		cost = 10
+		cost = 2
 		completion_reward = {}
 		prerequisite = {
 			focus = USA_focus_reliable_contractors
@@ -1096,32 +1155,76 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_interesting_designs
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_civ_factory
 		x = -51
 		y = 4
-		cost = 10
-		completion_reward = {}
+		cost = 2
+		completion_reward = {
+			 recruit_character = USA_Liam_Flender
+			    add_tech_bonus = {
+        name = USA_electronics_bonus
+        bonus = 1.0
+        uses = 1
+        category = electronics
+    }
+		}
 		prerequisite = {
 			focus = USA_focus_reliable_contractors
 		}
 	}
 	focus = {
 		id = USA_focus_friends_in_high_places
-		icon = GFX_goal_unknown
+		icon = GFX_goal_friends_high_place
 		x = -49
 		y = 4
-		cost = 10
-		completion_reward = {}
+		cost = 2
+		completion_reward = {
+			390 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			387 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			391 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			394 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			395 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_reliable_contractors
 		}
 	}
 	focus = {
 		id = USA_focus_civil_defense_funding
-		icon = GFX_goal_unknown
+		icon = GFX_goal_civil_defense_founding
 		x = -56
 		y = 5
-		cost = 10
+		cost = 2
 		completion_reward = {}
 		prerequisite = {
 			focus = USA_focus_project_safehouse
@@ -1129,10 +1232,10 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_best_and_brightest
-		icon = GFX_goal_unknown
+		icon = GFX_goal_the_best_for_the_best
 		x = -54
 		y = 5
-		cost = 10
+		cost = 2
 		completion_reward = {}
 		prerequisite = {
 			focus = USA_focus_project_safehouse
@@ -1140,10 +1243,10 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_what_makes_america_work
-		icon = GFX_goal_unknown
+		icon = GFX_goal_what_makes_america_works
 		x = -50
 		y = 5
-		cost = 10
+		cost = 2
 		completion_reward = {}
 		prerequisite = {
 			focus = USA_focus_interesting_designs
@@ -1154,44 +1257,90 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_few_extra_orders
-		icon = GFX_goal_unknown
+		icon = GFX_goal_a_few_extra_orders
 		x = -54
 		y = 6
-		cost = 10
-		completion_reward = {}
+		cost = 1
+		completion_reward = {
+			country_event = {
+				id = USA.vaultec_exp
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_best_and_brightest
 		}
 	}
 	focus = {
 		id = USA_focus_arsenal_renovation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_PRC_bolshevik_urbanization_completed
 		x = -52
 		y = 6
-		cost = 10
-		completion_reward = {}
+		cost = 1
+		completion_reward = {
+			    add_tech_bonus = {
+        name = USA_renovating_arsenals_support
+        bonus = 1.0
+        uses = 1
+        category = support_tech
+    }
+    add_tech_bonus = {
+        name = USA_renovating_arsenals_artillery
+        bonus = 1.0
+        uses = 1
+        category = artillery
+    }
+		}
 		prerequisite = {
 			focus = USA_focus_what_makes_america_work
 		}
 	}
 	focus = {
 		id = USA_focus_stent_security_solutions
-		icon = GFX_goal_unknown
+		icon = GFX_focus_PHI_fortify_corregidor
 		x = -50
 		y = 6
-		cost = 10
-		completion_reward = {}
+		cost = 1
+		completion_reward = {
+			391 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			394 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			395 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_what_makes_america_work
 		}
 	}
 	focus = {
 		id = USA_focus_give_us_the_fire
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_economic_recovery
 		x = -48
 		y = 6
-		cost = 10
-		completion_reward = {}
+		cost = 1
+		completion_reward = {
+	    add_tech_bonus = {
+        name = USA_you_give_us_the_fire_industry
+        bonus = 1.0
+        uses = 1
+        category = industry
+    }
+		}
 		prerequisite = {
 			focus = USA_focus_what_makes_america_work
 		}
@@ -1495,44 +1644,73 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_retraining_program
-		icon = GFX_goal_unknown
+		icon = GFX_focus_PRC_bolshevik_urbanization_completed
 		x = -61
 		y = 4
-		cost = 10
-		completion_reward = {}
+		cost = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = TAG_retraining_electronics_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+			add_tech_bonus = {
+				name = TAG_retraining_electronics_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_new_deal
 		}
 	}
 	focus = {
 		id = USA_focus_she
-		icon = GFX_goal_unknown
+		icon = GFX_focus_USA_focus_she
 		x = -57
 		y = 4
-		cost = 10
-		completion_reward = {}
+		cost = 2
+		completion_reward = {
+		    add_political_power = -75
+   swap_ideas = {
+    remove_idea = USA_a_new_deal
+    add_idea = USA_a_new_better_deal
+}
+		}
 		prerequisite = {
 			focus = USA_focus_new_deal
 		}
 	}
 	focus = {
 		id = USA_focus_rebuild_nra
-		icon = GFX_goal_unknown
+		icon = GFX_focus_RAJ_i_am_death
 		x = -59
 		y = 4
-		cost = 10
-		completion_reward = {}
+		cost = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = TAG_retraining_industry_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_new_deal
 		}
 	}
 	focus = {
 		id = USA_focus_arms_factories
-		icon = GFX_goal_unknown
+		icon = GFX_focus_JAP_further_urban_investments
 		x = -59
 		y = 5
-		cost = 10
-		completion_reward = {}
+		cost = 3
+		completion_reward = {
+			add_political_power = 30
+			add_stability = 5
+		}
 		prerequisite = {
 			focus = USA_focus_rebuild_nra
 		}
@@ -1545,33 +1723,44 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_guns
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_total_war
 		x = -60
 		y = 6
-		cost = 10
-		completion_reward = {}
+		cost = 1
+		completion_reward = {
+			add_political_power = 15
+		}
 		prerequisite = {
 			focus = USA_focus_arms_factories
 		}
 	}
 	focus = {
 		id = USA_focus_butter
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_attack_allies
 		x = -58
 		y = 6
-		cost = 10
-		completion_reward = {}
+		cost = 1
+		completion_reward = {
+			add_political_power = 15
+		}
 		prerequisite = {
 			focus = USA_focus_arms_factories
 		}
 	}
 	focus = {
 		id = USA_focus_breads_and_circuses
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BEL_legacy_of_the_great_war
 		x = -59
 		y = 7
-		cost = 10
-		completion_reward = {}
+		cost = 1
+		completion_reward = {
+			add_stability = 5
+			add_political_power = 15
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+		}
 		prerequisite = {
 			focus = USA_focus_guns
 		}
@@ -1716,6 +1905,22 @@ focus_tree = {
 		prerequisite = {
 			focus = USA_focus_desert_logistics
 		}
+	}
+	focus = {
+		id = USA_Enclave_directive
+		icon = GFX_goal_unknown
+		x = -49
+		y = 9
+		cost = 10
+		completion_reward = {}
+	}
+	focus = {
+		id = USA_Our_northern_borders
+		icon = GFX_goal_unknown
+		x = -47
+		y = 9
+		cost = 10
+		completion_reward = {}
 	}
 }
 focus = {

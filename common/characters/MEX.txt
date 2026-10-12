@@ -1,0 +1,16 @@
+characters = {
+	MEX_alejandro_villesenor = {
+		name = MEX_alejandro_villesenor
+		country_leader = {
+			ideology = provisional_government
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_MEX_alejandro_villesenor
+			}
+		}
+	}
+}

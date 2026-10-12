@@ -1,16 +1,7 @@
-﻿capital = 107
-
-
-
+capital = 107
 set_research_slots = 3
-
-
-
-
-
-
 set_technology = {
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
 	infantry_weapons = 1
@@ -21,33 +12,33 @@ set_technology = {
 	interwar_antiair = 1
 	basic_train = 1
 }
-
-
 set_convoys = 10
-
-
-
-1939.1.1 = {
+2052.1.1 = {
 	set_politics = {
-		ruling_party = communism
-		last_election = "1936.1.1"
+		ruling_party = authoritarian_socialist
+		last_election = "2048.1.1"
 		election_frequency = 48
 		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 0
-		fascism = 0
-		communism = 100
-		neutrality = 0
+		democratic = 6
+		fascism = 2
+		totalitarian_socialist = 3
+		despotic = 3
+		authoritarian_socialist = 86
 	}
 }
-
-create_country_leader = {
-	name = "Horvat"
-	desc = ""
-	picture = GFX_portrait_Horvat
-	ideology = leninism
-	traits = {
-		#
-	}
+recruit_character = YUG_milan_aleksandar_vukovic
+set_politics = {
+	ruling_party = authoritarian_socialist
+	last_election = "2048.1.1"
+	election_frequency = 4
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 6
+	fascism = 2
+	totalitarian_socialist = 3
+	despotic = 3
+	authoritarian_socialist = 86
 }

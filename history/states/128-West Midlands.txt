@@ -8,7 +8,7 @@ state = {
 		coal = 13
 	}
 	history = {
-		owner = ENG
+		owner = EUC
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
@@ -17,6 +17,7 @@ state = {
 		}
 		victory_points = { 9297 25 }
 		add_core_of = ENG
+		add_core_of = EUC
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 3

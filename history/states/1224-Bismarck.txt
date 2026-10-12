@@ -1,0 +1,29 @@
+state = {
+	id = 1224
+	name = "Bismarck"
+	manpower = 52402
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = { 4759 1 }
+		victory_points = { 1836 3 }
+		victory_points = { 10709 1 }
+		victory_points = { 6722 1 }
+	}
+	provinces = {
+		4759
+		7877
+		6722
+		12566
+		1836
+		10709
+	}
+	resources = {
+		steel = 1
+		coal = 1
+	}
+}

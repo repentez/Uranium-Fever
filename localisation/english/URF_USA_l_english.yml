@@ -1,27 +1,19 @@
 ﻿l_english:
-
-#Ideas###
-
+ USA_Overextended_In_Mexico:0 "Overextended in Mexico"
+ USA_The_Armed_Forces:0 "The Armed Forces"
  USA_deflation_crisis:0 "Deflation Crisis"
  USA_Oil_Shock:0 "The Oil Shock"
-
-###Focuses###
-
  usa_focus_commonwealth_hq:0 "A Dying System"
  usa_focus_commonwealth_hq_desc:0 "The Commonwealth system was never meant to last this long. What began as an emergency measure to keep the regions functioning has calcified into the way the country actually runs - and Washington can no longer pretend otherwise. If the Union is to mean anything more than a name on a map, it has to be built, region by region, starting now."
  usa_focus_commonwealth_affairs:0 "Department of Commonwealth Affairs"
  usa_focus_commonwealth_affairs_desc:0 "Washington cannot govern a dozen semi-autonomous Commonwealths through improvisation and goodwill forever. A dedicated department is stood up to coordinate federal investment, settle disputes between the regions, and keep Washington's hand on the wheel - however lightly it may need to rest there."
  usa_focus_pacific_rim:0 "Defense of the Pacific Rim"
  usa_focus_pacific_rim_desc:0 "Fortify the Pacific coast against Chinese naval power. Expand our ports, harden our shores, and prepare the Northwest for the war we hope never comes."
- usa_focus_northern_frontier:0 "Watch of the Northern Frontier"
- usa_focus_northern_frontier_desc:0 "Build a radar and air defense network across our northern states. If China ever strikes from across the Pole, we'll see it coming."
- USA_northern_states:0 "Cascadia and Northern Rockies"
- USA_northern_states_desc:0 "Our northern territories remain dangerously exposed, both by sea and by air. Before tensions with China boil over, Washington must invest in their defense — securing the Pacific coast and watching the skies to the north."
  USA_texas_commonwealth:0 "The Lone Star Commonwealth"
  USA_texas_commonwealth_desc:0 "Texas sits atop some of the richest oil and gas reserves in the country, largely untouched since the reserves were first surveyed decades ago. With energy demand only climbing and tensions abroad threatening our supply lines, Washington can no longer afford to leave that wealth in the ground.\n\nInvestment in the Texas Commonwealth's extraction industry could secure our energy independence for a generation — provided we're willing to commit the capital."
  usa_focus_energy_expansion:0 "Drill, Baby, Drill!"
  usa_focus_energy_expansion_desc:0 "Drill deeper, build wider. With federal backing, Texas oil fields can be brought to full production, feeding refineries and reactors from coast to coast and fr USA_midwest_commonwealth_desc:0 "The Midwest was once the industrial heart of America, but decades of neglect have left its factories aging and its infrastructure crumbling. If the Commonwealth is to pull its weight in the coming years, it needs to be rebuilt from the ground up."
- USA_midwest_commonwealth:0 "The Rustbelt Commonwealth"
+ USA_midwest_commonwealth:0 "The Midwest Commonwealth"
  USA_midwest_commonwealth_desc:0 "The Midwest was once the industrial heart of America, but decades of neglect have left its factories aging and its infrastructure crumbling. If the Commonwealth is to pull its weight in the coming years, it needs to be rebuilt from the ground up."
  usa_focus_heartland_reindustrialization:0 "Address Industrial Decline"
  usa_focus_heartland_reindustrialization_desc:0 "Federal investment pours back into the Midwest, modernizing factories and rebuilding the roads and rails that connect them. The heartland rises again."
@@ -64,8 +56,6 @@
  usa_focus_asean_upgrade_pact_desc:0 "With the Chinese looming over Indochina, it is best if we now upgrade our existing treaty with the Kingdom of Thailand to ensure our mutual securities and the stability of the Southeast Asia region."
  usa_focus_east_asian_relationship:0 "Sunrise in Tokyo"
  usa_focus_east_asian_relationship_desc:0 "Referred to the unsinkable carrier, Japan has been one of our important allies after WW2, now it is time that we upgrade a new pact to ensure the security of our interests in the Pacific region."
-
-
  Ceo_of_red_rocket:0 "CEO of Red Rocket"
  Ceo_of_Robco:0 "CEO of RobCo Industries"
  lame_duck:0 "Lame Duck"
@@ -74,3 +64,46 @@
  Representative:0 "Representative"
  chief_financial_officer:0 "Chief Financial Officer"
  vice_president_of_repconn:0 "Vice President of RepConn"
+ USA_cascadian_commonwealth:0 "The Northwest Commonwealth"
+ USA_cascadian_commonwealth_desc:0 "Our northern territories remain dangerously exposed, both by sea and by air. Before tensions with China boil over, Washington must invest in their defense — securing the Pacific coast and watching the skies to the north."
+ usa_northern_commonwealth:0 "The Northern Commonwealth"
+ usa_northern_commonwealth_desc:0 "Build a radar and air defense network across our northern states. If China ever strikes from across the Pole, we'll see it coming."
+ USA_focus_mexico_situation_desc:0 "Mexico is draining our resources and manpower, and the cost keeps growing."
+
+ USA_mexico_event_title:0 "Mexico Is Bleeding Us Dry"
+  USA_mexico_event_desc:0 "Mexico is draining our resources and manpower, and the bill keeps growing. Should we press on and tighten our grip, or keep good relations and ease off? The decision is ours."
+ USA_focus_contract_assigning_desc:0 "Mexico's oil is up for grabs. Two companies want the contracts, and we have to pick one."
+
+ USA_choice_companies_event_title:0 "Assigning the Contracts"
+ USA_choice_companies_event_desc:0 "Two companies are competing for the Mexican oil contracts.\n\n§YPetro Chico§! is a local company that would develop Mexico's fields for the Mexicans. It would make certain people in the Enclave very happy, and their influence would grow.\n\n§YTexaco§! is an American giant. Besides developing Mexico's oil, it would also bring extra oil production to Central Texas.\n\nWhich one gets the contracts?"
+
+ USA_focus_texico_desc:0 "Texaco gets the contracts. Mexico's oil flows north, and Central Texas benefits too."
+  USA_focus_petro_chico_desc:0 "Petro Chico gets the contracts. Mexico develops its own fields, and certain people are pleased."
+ USA_focus_last_gen_desc:0 "Our warehouses are full of old rifles and surplus weapons we no longer need. Mexico is fighting a revolt, so we will send them south to help."
+
+ USA_give_mexico_old_guns_event_title:0 "Old Guns from the USA"
+ USA_give_mexico_old_guns_event_desc:0 "The United States is sending us crates of old weapons from its warehouses. They are not new, but they are enough to arm our soldiers and help us fight the revolt."
+ USA_focus_dia_desc:0 "The Defense Intelligence Agency will send a team of army advisors to Mexico. They will train the Mexican troops, help plan operations and teach them how to fight the revolt."
+
+ USA_mexico_advisors_event_title:0 "American Advisors Arrive"
+ USA_mexico_advisors_event_desc:0 "A team of American army advisors has arrived in our country. They will help train our soldiers and plan our operations against the revolt."
+ USA_focus_eyes_sky_desc:0 "Mexico has no real air force, and the rebels move freely. We will send them aircraft so they can watch the skies and strike from above."
+
+ USA.mexico_air_focus_event_title:0 "American Aircraft for Mexico"
+ USA.mexico_air_focus_event_desc:0 "The United States is giving us a batch of aircraft. With them we can scout the rebels, support our troops and strike from the air."
+ USA_focus_uncle_sam_wrath_desc:0 "With aircraft, advisors and weapons delivered, Mexico is finally getting back on its feet. Uncle Sam's help is making the government stronger and the country more stable."
+ USA_focus_el_orden_desc:0 "The revolt is under control and the oil is flowing. It is time to bring our soldiers home and let Mexico keep the order we helped build. No one should disturb it now."
+
+ USA.mexico_no_altere_event_title:0 "The Established Order"
+ USA.mexico_no_altere_event_desc:0 "The revolt has been crushed, and the United States is pulling back its forces. Order has returned to the country, and the government stands firmer than before. Let no one disturb it."
+ USA_focus_lame_duck_desc:0 "President Caldwell's term is nearly over. The economy is broken, Mexico is out of control, and the nation has lost faith in him. He can only give speeches and watch his last months in office slip away."
+ USA_focus_regulating_influx_desc:0 "Too many newcomers are arriving from Europe and the Arab World. We will put limits in place and control who comes in. It will cost us some manpower and population, but the country will be more stable."
+
+ USA_focus_ending_work_stoppage_desc:0 "The strikes are paralyzing the factories and rail yards. The government will send strikebreakers and pass new laws against the work stoppages. Order must be restored, whatever it takes."
+ USA_focus_guards_desc:0 "Guards, and more guards. We will put armed men in front of every factory and rail yard to keep the strikes contained. The work continues, even if people dislike how."
+
+ USA_focus_kibosh_desc:0 "The press keeps feeding the unrest, so we will shut it down. No more headlines about strikes or shortages. Only what the government wants people to read."
+
+ USA_focus_smile_and_wave_desc:0 "Smile, wave and say that everything is fine. The cameras will love it, even if the country does not feel like it is."
+
+ USA_focus_where_were_you_4_yrs_ago_desc:0 "The Democrats are holding rallies and asking one question: how were you four years ago, and how are you now? We will let the crowd decide."

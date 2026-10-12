@@ -1,0 +1,15 @@
+state = {
+	id = 1210
+	name = "San Francisco"
+	manpower = 238472
+	state_category = metropolis
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 9671 30 }
+	}
+	provinces = { 9671 }
+}

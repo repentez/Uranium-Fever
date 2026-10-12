@@ -1,0 +1,91 @@
+state = {
+	id = 593
+	name = "STATE_593"
+	manpower = 8685200
+	state_category = town
+	resources = {
+		tungsten = 15
+		steel = 15
+		chromium = 3
+	}
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		add_core_of = PRC
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+		victory_points = { 10404 5 }
+		victory_points = { 1597 1 }
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+					}
+				}
+				PRC = {
+					transfer_state = PREV
+				}
+			}
+		}
+	}
+	provinces = {
+		1023
+		1597
+		4134
+		4152
+		7095
+		7128
+		7168
+		7210
+		10039
+		10404
+		10431
+		12407
+		12436
+		17000
+		19473
+		19506
+		19532
+		19540
+		19572
+		19686
+		4028
+		19545
+		19451
+		7044
+		19486
+		10050
+		4628
+		10459
+		4085
+		19568
+		1625
+		19544
+		4656
+		19497
+		4077
+		1469
+		4121
+		19476
+		4177
+		7650
+		10004
+		19464
+		7137
+		1018
+		4023
+		11926
+		14739
+		12023
+		7192
+		11983
+		14740
+	}
+	local_supplies = 0.0
+}

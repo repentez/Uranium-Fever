@@ -1,0 +1,317 @@
+USA_American_Way = {
+	USA_keep_america_working = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_calm_the_markets = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_address_deflation_crisis = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_emergency_petroleum = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_presidential_address = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_buy_american = {
+		icon = icon_default
+		complete_effect = {}
+	}
+}
+USA_Mexico_Occupation = {
+	USA_mexican_oil = {
+	icon =  GFX_decision_USA_Mexico_Occupation
+	 cost = 50            
+    days_remove = 100     
+    fire_only_once = yes
+
+    available = {
+        has_political_power > 49
+    }
+
+    complete_effect = {
+        give_resource_rights = {
+            receiver = USA
+            giver = MEX
+            state = 479
+        }
+		  give_resource_rights = {
+            receiver = USA
+            giver = MEX
+            state = 480
+        }
+    }
+
+  
+
+    ai_will_do = {
+        factor = 1
+    }
+	}
+}
+USA_Project_Safehouse = {
+	USA_review_civil_defense = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_issue_contracts = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_select_sites = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_authorize_vaults = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_expand_funding = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_approve_experimental_designs = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_accelerate_construction = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_classify_program = {
+		icon = icon_default
+		complete_effect = {}
+	}
+}
+USA_Enclave_Directive = {
+	USA_chain_of_command = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_pentagon = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_DoE = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_Intelligence = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_secure_poseidon = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_classified_funding = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_strategic_tech = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_monitor_vault_tec = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_influence_safehouse = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_establish_remote_research_sites = {
+		icon = icon_default
+		complete_effect = {}
+	}
+	USA_prepare_oil_rig = {
+		icon = icon_default
+		complete_effect = {}
+	}
+}
+USA_Our_Northern_Neighbor = {
+	USA_occupation_zone = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			473 = {
+				IF = {
+					limit = {
+						OWNER = {
+							NOT = {
+								original_tag = USA
+							}
+						}
+					}
+				}
+				transfer_state_to = MOC
+				set_state_flag = USA_MOC_capital_state_transferred_MOC_flag
+				add_compliance = 25
+			}
+			custom_effect_tooltip = USA_moc_annexation_effect_tt
+			set_autonomy = {
+				target = MOC
+				autonomy_state = autonomy_integrated_puppet
+			}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						USA_is_MOC_state = yes
+						NOT = {
+							state = 473
+						}
+					}
+					transfer_state_to = MOC
+					add_compliance = 25
+				}
+				every_state = {
+					limit = {
+						USA_is_MOC_state = yes
+						NOT = {
+							state = 473
+						}
+						NOT = {
+							OR = {
+								is_owned_by = ROOT
+								any_country = {
+									is_subject_of = ROOT
+									owns_state = PREV
+								}
+							}
+						}
+					}
+					add_contested_owner = MOC
+					set_state_controller_to = MOC
+					add_claim_by = MOC
+					add_compliance = 25
+				}
+				MOC = {
+					add_manpower = 60000
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 7000
+						producer = USA
+					}
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 600
+						producer = USA
+					}
+					inherit_technology = USA
+					add_offsite_building = {
+						type = arms_factory
+						level = 3
+					}
+					load_oob = "MOC_OOB"
+				}
+			}
+			country_event = {
+				id = usa_moc_annexation.1
+				hours = 0
+			}
+		}
+		highlight_states = {
+			highlight_state_targets = {
+				state = 276
+				state = 331
+				state = 332
+				state = 464
+				state = 465
+				state = 466
+				state = 467
+				state = 468
+				state = 469
+				state = 470
+				state = 471
+				state = 472
+				state = 473
+				state = 682
+				state = 683
+				state = 739
+				state = 740
+				state = 860
+				state = 861
+				state = 862
+				state = 863
+				state = 864
+				state = 865
+				state = 866
+				state = 867
+				state = 1129
+			}
+		}
+	}
+	USA_invade_canada = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = CAN
+				type = annex_everything
+			}
+		}
+	}
+}
+PRC_Expansionism = {
+	PRC_coup_laos = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			670 = {
+				IF = {
+					limit = {
+						OWNER = {
+							NOT = {
+								original_tag = PRC
+							}
+						}
+					}
+				}
+				transfer_state_to = PRC
+				add_compliance = 25
+			}
+		}
+	}
+	PRC_invade_mongolia = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = MON
+				type = annex_everything
+			}
+		}
+	}
+	PRC_subjugate_korea = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			puppet = DPK
+		}
+	}
+	PRC_reunification = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			declare_war_on = {
+				target = CHI
+				type = annex_everything
+			}
+		}
+	}
+}
+YUG_breakup = {
+	YUG_civil_war = {
+		icon = icon_default
+		cost = 0
+		complete_effect = {
+			transfer_state = 109
+		}
+	}
+}

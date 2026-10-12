@@ -1,11 +1,9 @@
-
-state={
-	id=390
-	name="STATE_390"
-	manpower = 1605063
+state = {
+	id = 390
+	name = "STATE_390"
+	manpower = 1471308
 	state_category = town
-
-	history={
+	history = {
 		owner = USA
 		buildings = {
 			infrastructure = 2
@@ -13,24 +11,15 @@ state={
 			air_base = 1
 		}
 		add_core_of = USA
-		victory_points = {
-			1747 5 #Rapid City
-		}
-        victory_points = {
-			10595 5 #Sioux Falls
-		}
-        victory_points = {
-			12620 5 #Pierre
-		}
-        victory_points = {
-			12667 5 #Brookings
-		}
-
+		victory_points = { 1747 5 }
 	}
-
-	provinces={
-		1747 1875 3750 4839 4880 7745 7771 7862 10569 10595 12620 12667 
+	provinces = {
+		1747
+		1875
+		3750
+		4839
+		7745
+		7771
 	}
-
-	local_supplies=0.0 
+	local_supplies = 0.0
 }

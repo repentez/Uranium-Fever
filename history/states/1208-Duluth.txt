@@ -1,0 +1,24 @@
+state = {
+	id = 1208
+	name = "Duluth"
+	manpower = 116543
+	state_category = large_town
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces = {
+		11667
+		12588
+		17285
+		7896
+		1734
+		6767
+	}
+	resources = {
+		steel = 5
+	}
+}

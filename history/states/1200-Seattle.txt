@@ -1,0 +1,15 @@
+state = {
+	id = 1200
+	name = "Seattle"
+	manpower = 177499
+	state_category = metropolis
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 5
+		}
+		victory_points = { 7315 25 }
+	}
+	provinces = { 7315 }
+}

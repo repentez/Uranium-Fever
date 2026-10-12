@@ -1,0 +1,27 @@
+state = {
+	id = 1161
+	name = "Hudson Valley"
+	manpower = 489917
+	state_category = city
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+		victory_points = { 3894 1 }
+		victory_points = { 9774 1 }
+		victory_points = { 3806 5 }
+		victory_points = { 6911 1 }
+		victory_points = { 15744 3 }
+	}
+	provinces = {
+		3894
+		15744
+		6911
+		706
+		9774
+		9673
+		3806
+	}
+}

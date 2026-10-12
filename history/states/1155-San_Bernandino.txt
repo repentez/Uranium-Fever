@@ -1,0 +1,28 @@
+state = {
+	id = 1155
+	name = "San Bernandino"
+	manpower = 340096
+	state_category = rural
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = { 7986 1 }
+		victory_points = { 823 1 }
+		victory_points = { 1562 25 }
+	}
+	provinces = {
+		4657
+		4727
+		7986
+		12303
+		823
+		12374
+		1562
+	}
+	resources = {
+		oil = 5
+	}
+}
