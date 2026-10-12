@@ -2,7 +2,7 @@
 European_Economy = {
 	Invest_In_Mongolian_Fishing_Industries = {
 
-		icon = GFX_decision_cat_picture_EUC_Default
+		icon = GFX_decision_icon_default
 
 		available = {
 		}
@@ -119,7 +119,7 @@ European_Expansion = {
 }
 EUC_The_Facade = {
 	EUC_nationalism_mission = {
-		icon = GFX_decision_cat_picture_EUC_Default
+		icon = n/a
 		allowed = {
 			original_tag = EUC
 		}
