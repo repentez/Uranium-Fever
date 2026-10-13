@@ -1,4 +1,11 @@
 ﻿l_english:
+ USA_build_vaults_in_southwest_commonwealth:0 "Build Vaults in the Southwest Commonwealth"
+ USA_build_vaults_in_northwest_commonwealth:0 "Build Vaults in the Northwest Commonwealth"
+ USA_build_vaults_in_four_states_commonwealth:0 "Build Vaults in the Four States Commonwealth"
+ USA_build_vaults_in_texas_commonwealth:0 "Build Vaults in the Texas Commonwealth"
+ USA_build_vaults_in_columbia_commonwealth:0 "Build Vaults in the Columbia Commonwealth"
+ USA_build_vaults_in_eastern_commonwealth:0 "Build Vaults in the Eastern Commonwealth"
+ 
 
 ###################
  USA_enclave_influence_growth:0 "Enclave influence will §Ggrow§!."

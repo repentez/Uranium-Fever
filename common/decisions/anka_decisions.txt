@@ -56,37 +56,270 @@ USA_Mexico_Occupation = {
 	}
 }
 USA_Project_Safehouse = {
-	USA_review_civil_defense = {
+USA_build_vaults_in_southwest_commonwealth = {
+	cost = 125
 		icon = icon_default
-		complete_effect = {}
+		complete_effect = {
+			  379 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+			  379 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+			  379 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+			  379 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+			  1211 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+				  1211 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+				  1211 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+				  1211 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+		}
 	}
-	USA_issue_contracts = {
+ 
+	USA_build_vaults_in_northwest_commonwealth = {
 		icon = icon_default
-		complete_effect = {}
+		cost = 25
+		complete_effect = {
+				1122 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+			386 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+		}
 	}
-	USA_select_sites = {
+ 	USA_build_vaults_in_northwest_commonwealth = {
 		icon = icon_default
-		complete_effect = {}
+		cost = 125
+		complete_effect = {
+				1210 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+			1122 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+				378 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+					1212= {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+						1212= {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+						1212= {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+						1212= {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+		}
 	}
-	USA_authorize_vaults = {
+	USA_build_vaults_in_four_states_commonwealth = {
 		icon = icon_default
-		complete_effect = {}
+		cost = 50 
+		complete_effect = {
+					  380 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+					  382 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+					  382 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+		}
 	}
-	USA_expand_funding = {
+ 
+	USA_build_vaults_in_texas_commonwealth = {
 		icon = icon_default
-		complete_effect = {}
+		cost = 15
+		complete_effect = {
+			375 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+		}
 	}
-	USA_approve_experimental_designs = {
+ 
+	USA_build_vaults_in_columbia_commonwealth = {
 		icon = icon_default
-		complete_effect = {}
+		cost = 75
+		complete_effect = {
+							 1186 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+								 1186 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+								 362 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+								 362 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+								 361 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+									 361 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+		}
 	}
-	USA_accelerate_construction = {
+ 
+	USA_build_vaults_in_eastern_commonwealth = {
 		icon = icon_default
-		complete_effect = {}
-	}
-	USA_classify_program = {
-		icon = icon_default
-		complete_effect = {}
+		cost = 50
+		complete_effect = {
+			816 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+				816 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+				816 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+				816 = {
+            add_building_construction = {
+                type = bunker
+                level = 1
+                instant_build = yes
+            }
+        }
+		
+		}
+		
 	}
 }
 USA_Enclave_Directive = {
