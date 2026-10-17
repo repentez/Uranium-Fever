@@ -1,6 +1,26 @@
 
 music_station = "Radio_Europe_station"
 music = {
+	song = "Je_me_voyais_déjà"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_Europe_station"
+music = {
+	song = "Douce_France"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_Europe_station"
+music = {
 	song = "For_Me_Formidable"
 	chance = {
 		factor =5
