@@ -4,4 +4,9 @@ spriteTypes = {
 		textureFile = "gfx/radio_station_cover.dds"
 		noOfFrames = 2
 	}
+		spriteType = {
+		name = "GFX_radio_europe_station_cover"
+		textureFile = "gfx/radio_europe_station.dds"
+		noOfFrames = 2
+	}
 }
