@@ -1,5 +1,13 @@
 
 music = {
+	name = "There_Would_be_No_New_China"
+	file = "There_Would_be_No_New_China.ogg"
+}
+music = {
+	name = "Katioucha"
+	file = "Katioucha.ogg"
+}
+music = {
 	name = "Je_me_voyais_déjà"
 	file = "Je_me_voyais_déjà.ogg"
 }

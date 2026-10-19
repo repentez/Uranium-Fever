@@ -9,4 +9,15 @@ spriteTypes = {
 		textureFile = "gfx/radio_europe_station.dds"
 		noOfFrames = 2
 	}
+			spriteType = {
+		name = "GFX_radio_communist_station"
+		textureFile = "gfx/radio_communist_station.dds"
+		noOfFrames = 2
+	}
+				spriteType = {
+		name = "GFX_radio_china_station"
+		textureFile = "gfx/radio_china_station.dds"
+		noOfFrames = 2
+	}
+	
 }

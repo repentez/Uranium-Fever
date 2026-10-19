@@ -1,4 +1,25 @@
 
+music_station = "Radio_China_station"
+music = {
+	song = "There_Would_be_No_New_China"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_Eastern_Block_station"
+music = {
+	song = "Katioucha"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
 music_station = "Radio_Europe_station"
 music = {
 	song = "Je_me_voyais_déjà"
