@@ -1,17 +1,16 @@
 characters = {
 	SOV_viktor_sokolov = {
-        portraits = {
+		portraits = {
 			civilian = {
-				large = "gfx/leaders/SOV/SOV_viktor_sokolov.dds"
+				large = GFX_portrait_SOV_viktor_sokolov
 			}
 		}
-	    country_leader = {
-			desc = "POLITICS_VIKTOR_SOKOLOV_DESC"
+		country_leader = {
 			ideology = marxism_leninism
+			expire = "1965.1.1.1"
 			traits = {}
-			expire = "2053.1.1.1"
 			id = -1
 		}
-		name = "Viktor Sokolov"
+		name = SOV_viktor_sokolov
 	}
 }

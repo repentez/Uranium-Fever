@@ -1066,27 +1066,6 @@ characters = {
 			}
 		}
 	}
-	CHI_chen_jitang = {
-		name = CHI_chen_jitang
-		portraits = {
-			army = {
-				large = GFX_portrait_GXC_chen_jitang
-				small = "GFX_idea_generic_army_asia_5"
-			}
-		}
-		advisor = {
-			slot = army_chief
-			idea_token = CHI_chen_jitang
-			allowed = {
-				original_tag = CHI
-			}
-			traits = { army_chief_organizational_2 }
-			cost = 100
-			ai_will_do = {
-				base = 1.000
-			}
-		}
-	}
 	CHI_li_zongren = {
 		name = CHI_li_zongren
 		portraits = {
@@ -1841,27 +1820,6 @@ characters = {
 				has_dlc = "No Compromise, No Surrender"
 			}
 			traits = { CHI_former_police_officer }
-		}
-	}
-	CHI_chu_minying = {
-		name = CHI_chu_minying
-		portraits = {
-			civilian = {
-				small = GFX_portrait_CHI_chu_minyi_small
-			}
-		}
-		gender = male
-		advisor = {
-			slot = political_advisor
-			idea_token = CHI_chu_minying
-			visible = {
-				has_completed_focus = CHI_look_for_allies
-			}
-			allowed = {
-				original_tag = CHI
-				has_dlc = "No Compromise, No Surrender"
-			}
-			traits = { education_reformer }
 		}
 	}
 	CHI_mei_siping = {

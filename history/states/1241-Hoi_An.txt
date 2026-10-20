@@ -1,0 +1,14 @@
+state = {
+	id = 1241
+	name = "Hoi An"
+	manpower = 166666
+	state_category = large_town
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = { 1302 4379 10309 7229 10137 }
+}

@@ -47,4 +47,12 @@ spriteTypes = {
 		name = "GFX_portrait_CHI_lin_wei_cheng"
 		texturefile = "gfx/leaders/CHI/portrait_CHI_lin_wei_cheng.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_SOV_viktor_sokolov"
+		texturefile = "gfx/leaders/SOV/portrait_SOV_viktor_sokolov.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_EUC_henri_delacroix"
+		texturefile = "gfx/leaders/EUC/portrait_EUC_henri_delacroix.dds"
+	}
 }

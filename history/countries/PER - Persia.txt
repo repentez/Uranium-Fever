@@ -1,6 +1,6 @@
 ﻿capital = 266
 
-oob = "PER_1936"
+oob = "PER_2052"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "PER_1936_air_bba"
