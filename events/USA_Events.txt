@@ -335,3 +335,65 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = USA.euc_island_event
+	title = USA.euc_island_event_title
+	desc = USA.euc_island_event_desc
+	picture = GFX_euc_island
+
+	trigger = {
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		hidden_effect = {
+					EUC = {
+	country_event = {
+					id = USA.euc_side_island_event
+				}
+		}
+		}
+
+	
+		name = "Good operation soldiers !"
+
+		add_manpower = -200
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -150
+		}
+		696 = {
+			set_state_owner_to = USA
+		set_state_controller_to = USA
+		}
+	}
+}
+country_event = {
+	id = USA.euc_side_island_event
+	title = USA.euc_sideisland_event_title
+	desc = USA.euc_sideisland_event_desc
+	picture = GFX_euc_island
+
+	trigger = {
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "Fuck, WE will take it back one day !"
+		add_manpower = -75
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -25
+		}
+	}
+}

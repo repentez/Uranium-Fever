@@ -786,7 +786,12 @@ focus_tree = {
 		x = -37
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+	         country_event = {
+					id = USA.euc_island_event
+				}
+
+		}
 		prerequisite = {
 			focus = USA_focus_time_of_monsters
 		}
@@ -844,7 +849,11 @@ focus_tree = {
 		x = -36
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+				696 = {
+		add_core_of = USA
+	}
+		}
 		prerequisite = {
 			focus = USA_focus_on_white_horse
 		}

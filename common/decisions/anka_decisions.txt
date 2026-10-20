@@ -24,304 +24,212 @@ USA_American_Way = {
 		complete_effect = {}
 	}
 }
+
 USA_Mexico_Occupation = {
 	USA_mexican_oil = {
-	icon =  GFX_decision_USA_Mexico_Occupation
-	 cost = 50            
-    days_remove = 100     
-    fire_only_once = yes
+		icon = GFX_decision_USA_Mexico_Occupation
+		cost = 50
+		days_remove = 100
+		fire_only_once = yes
 
-    available = {
-        has_political_power > 49
-    }
+		available = {
+			has_political_power > 49
+		}
 
-    complete_effect = {
-        give_resource_rights = {
-            receiver = USA
-            giver = MEX
-            state = 479
-        }
-		  give_resource_rights = {
-            receiver = USA
-            giver = MEX
-            state = 480
-        }
-    }
-
-  
-
-    ai_will_do = {
-        factor = 1
-    }
-	}
-}
-USA_Project_Safehouse = {
-USA_build_vaults_in_southwest_commonwealth = {
-	cost = 125
-		icon = icon_default
 		complete_effect = {
-			  379 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-			  379 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-			  379 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-			  379 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-			  1211 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-				  1211 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-				  1211 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-				  1211 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
+			give_resource_rights = {
+				receiver = USA
+				giver = MEX
+				state = 479
+			}
+			give_resource_rights = {
+				receiver = USA
+				giver = MEX
+				state = 480
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
 		}
 	}
- 
+}
+
+# NOTE: bunkers are province buildings, so each one needs a "province" block.
+# This uses the victory point province of each state. If the game complains,
+# replace it with: province = 1234   (a real province ID inside that state)
+USA_Project_Safehouse = {
+	USA_build_vaults_in_southwest_commonwealth = {
+		icon = icon_default
+		cost = 125
+		complete_effect = {
+			379 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
+			1211 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
+		}
+	}
+
 	USA_build_vaults_in_northwest_commonwealth = {
 		icon = icon_default
 		cost = 25
 		complete_effect = {
-				1122 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
+			1122 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
 			386 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
 		}
 	}
- 	USA_build_vaults_in_northwest_commonwealth = {
+
+	# was a duplicate of USA_build_vaults_in_northwest_commonwealth, renamed
+	USA_build_vaults_in_northern_commonwealth = {
 		icon = icon_default
 		cost = 125
 		complete_effect = {
-				1210 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
+			1210 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
 			1122 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-				378 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-					1212= {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-						1212= {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-						1212= {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-						1212= {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
+			378 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
+			1212 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
 		}
 	}
+
 	USA_build_vaults_in_four_states_commonwealth = {
 		icon = icon_default
-		cost = 50 
+		cost = 50
 		complete_effect = {
-					  380 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-					  382 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-					  382 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
+			380 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
+			382 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
 		}
 	}
- 
+
 	USA_build_vaults_in_texas_commonwealth = {
 		icon = icon_default
 		cost = 15
 		complete_effect = {
 			375 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
+				add_building_construction = {
+					type = bunker
+					level = 1
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
 		}
 	}
- 
+
 	USA_build_vaults_in_columbia_commonwealth = {
 		icon = icon_default
 		cost = 75
 		complete_effect = {
-							 1186 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-								 1186 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-								 362 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-								 362 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-								 361 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-									 361 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
+			1186 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
+			362 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
+			361 = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
 		}
 	}
- 
+
 	USA_build_vaults_in_eastern_commonwealth = {
 		icon = icon_default
 		cost = 50
 		complete_effect = {
 			816 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-				816 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-				816 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-				816 = {
-            add_building_construction = {
-                type = bunker
-                level = 1
-                instant_build = yes
-            }
-        }
-		
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = { all_provinces = yes limit_to_victory_point = yes }
+					instant_build = yes
+				}
+			}
 		}
-		
 	}
 }
+
 USA_Enclave_Directive = {
 	USA_chain_of_command = {
 		icon = icon_default
@@ -368,61 +276,60 @@ USA_Enclave_Directive = {
 		complete_effect = {}
 	}
 }
+
 USA_Our_Northern_Neighbor = {
 	USA_occupation_zone = {
 		icon = icon_default
 		cost = 0
 		complete_effect = {
-			473 = {
-				IF = {
-					limit = {
-						OWNER = {
-							NOT = {
-								original_tag = USA
-							}
-						}
-					}
-				}
-				transfer_state_to = MOC
-				set_state_flag = USA_MOC_capital_state_transferred_MOC_flag
-				add_compliance = 25
-			}
 			custom_effect_tooltip = USA_moc_annexation_effect_tt
 			set_autonomy = {
 				target = MOC
 				autonomy_state = autonomy_integrated_puppet
 			}
 			hidden_effect = {
+				473 = {
+					set_state_flag = USA_MOC_capital_state_transferred_MOC_flag
+				}
+				# explicit state list instead of the USA_is_MOC_state trigger,
+				# so it can never match every state on the map
 				every_state = {
 					limit = {
-						USA_is_MOC_state = yes
-						NOT = {
+						OR = {
+							state = 276
+							state = 331
+							state = 332
+							state = 464
+							state = 465
+							state = 466
+							state = 467
+							state = 468
+							state = 469
+							state = 470
+							state = 471
+							state = 472
 							state = 473
+							state = 682
+							state = 683
+							state = 739
+							state = 740
+							state = 860
+							state = 861
+							state = 862
+							state = 863
+							state = 864
+							state = 865
+							state = 866
+							state = 867
+							state = 1129
 						}
+						NOT = { is_owned_by = MOC }
 					}
 					transfer_state_to = MOC
-					add_compliance = 25
-				}
-				every_state = {
-					limit = {
-						USA_is_MOC_state = yes
-						NOT = {
-							state = 473
-						}
-						NOT = {
-							OR = {
-								is_owned_by = ROOT
-								any_country = {
-									is_subject_of = ROOT
-									owns_state = PREV
-								}
-							}
-						}
+					if = {
+						limit = { has_resistance = yes }
+						add_compliance = 25
 					}
-					add_contested_owner = MOC
-					set_state_controller_to = MOC
-					add_claim_by = MOC
-					add_compliance = 25
 				}
 				MOC = {
 					add_manpower = 60000
@@ -441,7 +348,6 @@ USA_Our_Northern_Neighbor = {
 						type = arms_factory
 						level = 3
 					}
-					load_oob = "MOC_OOB"
 				}
 			}
 			country_event = {
@@ -497,17 +403,13 @@ PRC_Expansionism = {
 		cost = 0
 		complete_effect = {
 			670 = {
-				IF = {
+				if = {
 					limit = {
-						OWNER = {
-							NOT = {
-								original_tag = PRC
-							}
-						}
+						NOT = { is_owned_by = PRC }
 					}
+					transfer_state_to = PRC
+					add_compliance = 25
 				}
-				transfer_state_to = PRC
-				add_compliance = 25
 			}
 		}
 	}
@@ -539,6 +441,7 @@ PRC_Expansionism = {
 		}
 	}
 }
+
 YUG_breakup = {
 	YUG_civil_war = {
 		icon = icon_default
