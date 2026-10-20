@@ -134,3 +134,5 @@ create_country_leader = {
 	add_to_faction = TUR
 	add_to_faction = JOR
 }
+
+puppet = AET

@@ -7,6 +7,11 @@ characters = {
 			traits = {}
 			id = -1
 		}
+		portraits = {
+			civilian = {
+				large = GFX_portrait_DPK_kang_myong_su
+			}
+		}
 		field_marshal = {
 			traits = {}
 			skill = 1

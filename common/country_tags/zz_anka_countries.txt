@@ -1,0 +1,3 @@
+EET = "countries/East Africa Expedition.txt"
+AET = "countries/Arabian Expedition.txt"
+UDJ = "countries/American Djibouti.txt"

@@ -8,9 +8,8 @@ state = {
 	}
 	history = {
 		victory_points = { 3136 3 }
-		owner = EUC
+		owner = NOR
 		add_core_of = NOR
-		add_core_of = EUC
 		buildings = {
 			infrastructure = 2
 		}

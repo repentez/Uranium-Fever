@@ -87,3 +87,5 @@ give_guarantee = PHI
 give_guarantee = AST
 give_guarantee = NZL
 give_guarantee = EUC
+
+puppet = UDJ

@@ -1,5 +1,4 @@
-﻿capital = 1
-# Recruit Characters
+capital = 1
 oob = "EAF_1936"
 starting_train_buffer = 0
 set_research_slots = 3
@@ -7,8 +6,6 @@ set_stability = 0.5
 set_war_support = 0.5
 add_command_power = 0
 set_convoys = 0
-
-# Politics for 1936.1.1
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.1.1"
@@ -16,12 +13,8 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 25
-	fascism = 25
-	communism = 25
-	neutrality = 25
+	democratic = 100
 }
-# Government/National Spirits
 add_ideas = {
 	scraping_the_barrel
 	all_adults_serve
@@ -30,7 +23,6 @@ add_ideas = {
 	volunteer_only
 	civilian_economy
 }
-
 1939.1.1 = {
 	oob = "EAF_1939"
 	starting_train_buffer = 0
@@ -39,8 +31,6 @@ add_ideas = {
 	set_war_support = 0.5
 	add_command_power = 0
 	set_convoys = 0
-
-	# Politics for 1939.1.1
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1934.1.1"
@@ -48,3 +38,5 @@ add_ideas = {
 		elections_allowed = yes
 	}
 }
+
+puppet = EET

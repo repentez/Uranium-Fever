@@ -55,4 +55,12 @@ spriteTypes = {
 		name = "GFX_portrait_EUC_henri_delacroix"
 		texturefile = "gfx/leaders/EUC/portrait_EUC_henri_delacroix.dds"
 	}
+	SpriteType = {
+		name = "GFX_portrait_KOR_han_seung_ho"
+		texturefile = "gfx/leaders/KOR/portrait_KOR_han_seung_ho.dds"
+	}
+	SpriteType = {
+		name = "GFX_portrait_DPK_kang_myong_su"
+		texturefile = "gfx/leaders/DPK/portrait_DPK_kang_myong_su.dds"
+	}
 }

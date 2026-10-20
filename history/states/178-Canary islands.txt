@@ -1,16 +1,11 @@
-
-state={
-	id=178
-	name="STATE_178"
+state = {
+	id = 178
+	name = "STATE_178"
 	manpower = 561347
-	
 	state_category = small_island
-
-	history={
-		owner = EUC
-		victory_points = {
-			13071 1
-		}
+	history = {
+		owner = SPR
+		victory_points = { 13071 1 }
 		buildings = {
 			infrastructure = 2
 			13071 = {
@@ -20,13 +15,8 @@ state={
 		strategic_province_location = {
 			natural_harbor = 13071
 		}
-		add_core_of = EUC
 		add_core_of = SPR
 	}
-
-	provinces={
-		13071 
-	}
-
-	local_supplies=0.0 
+	provinces = { 13071 }
+	local_supplies = 0.0
 }

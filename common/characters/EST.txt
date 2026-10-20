@@ -1,27 +1,29 @@
 characters = {
-EST_kalju_kirsipuu = {
-	name = EST_kalju_kirsipuu
-	portraits = {
-		civilian = {
-			large = GFX_portrait_EST_kalju_kirsipuu
+	EST_kalju_kirsipuu = {
+		name = EST_kalju_kirsipuu
+		portraits = {
+			civilian = {
+				large = GFX_portrait_EST_kalju_kirsipuu
+			}
+			army = {
+				large = GFX_portrait_EST_kalju_kirsipuu
+			}
 		}
-		army = {
-			large = GFX_portrait_EST_kalju_kirsipuu
+		country_leader = {
+			ideology = provisional_government
+			expire = "1965.1.1.1"
+			traits = {}
+			id = -1
+		}
+		field_marshal = {
+			traits = { old_guard }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
 		}
 	}
-	country_leader = {
-		ideology = provisional_government
-		traits = {}
-	}
-	field_marshal = {
-		traits = { old_guard }
-		skill = 3
-		attack_skill = 2
-		defense_skill = 2
-		planning_skill = 4
-		logistics_skill = 2
-	}
-}
 	EST_Martin_Rubbin = {
 		name = "Martin Rubbin"
 		portraits = {
@@ -208,4 +210,3 @@ EST_kalju_kirsipuu = {
 		}
 	}
 }
-

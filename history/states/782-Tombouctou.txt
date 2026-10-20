@@ -1,25 +1,28 @@
 state = {
 	id = 782
-	name = "STATE_782" # Tombouctou
+	name = "STATE_782"
 	manpower = 79243
-	
 	state_category = wasteland
-
 	history = {
-
 		owner = UAW
 		add_core_of = UAW
-		add_core_of = MLI
-
 		buildings = {
 			infrastructure = 0
 		}
-
 	}
-
 	provinces = {
-		2068 10725 10838 10868 14214 14244 14250 14255 14267 14283 14291 14319 
+		2068
+		10725
+		10838
+		10868
+		14214
+		14244
+		14250
+		14255
+		14267
+		14283
+		14291
+		14319
 	}
-
-	local_supplies = 0.0 
+	local_supplies = 0.0
 }

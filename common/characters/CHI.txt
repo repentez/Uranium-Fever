@@ -500,24 +500,6 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	CHI_gu_zhutong = {
-		name = CHI_gu_zhutong
-		portraits = {
-			army = {
-				large = "GFX_portrait_chi_gu_zhutong"
-				small = "GFX_idea_CHI_gu_zhutong"
-			}
-		}
-		corps_commander = {
-			traits = { career_officer }
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-		}
-	}
 	CHI_zhang_xueliang = {
 		instance = {
 			allowed = {
@@ -566,23 +548,6 @@ characters = {
 				logistics_skill = 2
 				legacy_id = -1
 			}
-		}
-	}
-	CHI_fu_zuoyi = {
-		name = CHI_fu_zuoyi
-		portraits = {
-			army = {
-				large = "GFX_portrait_chi_fu_zuoyi"
-				small = "GFX_idea_CHI_fu_zuoyi"
-			}
-		}
-		corps_commander = {
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
 		}
 	}
 	CHI_zhang_fakui = {
@@ -664,23 +629,6 @@ characters = {
 			}
 		}
 	}
-	CHI_feng_yuxiang = {
-		name = CHI_feng_yuxiang
-		portraits = {
-			army = {
-				large = GFX_portrait_CHI_feng_yuxiang
-				small = GFX_portrait_CHI_feng_yuxiang_small
-			}
-		}
-		corps_commander = {
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-		}
-	}
 	CHI_jiang_guangnai = {
 		name = CHI_jiang_guangnai
 		portraits = {
@@ -722,35 +670,6 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = -1
-		}
-	}
-	CHI_chen_mingshu = {
-		name = CHI_chen_mingshu
-		portraits = {
-			army = {
-				large = GFX_portrait_CHI_chen_mingxu
-				small = GFX_portrait_CHI_chen_mingxu_military_small
-			}
-			civilian = {
-				small = GFX_portrait_CHI_chen_mingxu_civilian_small
-			}
-		}
-		corps_commander = {
-			visible = {
-				has_completed_focus = CHI_revive_the_chinese_action_committee
-			}
-			skill = 3
-			attack_skill = 3
-			defense_skill = 3
-			planning_skill = 2
-			logistics_skill = 2
-			legacy_id = -1
-		}
-		country_leader = {
-			ideology = marxism
-			traits = { anti_soviet_socialist }
-			expire = "1965.1.1.1"
-			id = -1
 		}
 	}
 	CHI_zheng_qi = {
@@ -943,27 +862,6 @@ characters = {
 			traits = { military_theorist }
 		}
 	}
-	CHI_fang_zeyi = {
-		name = CHI_fang_zeyi
-		portraits = {
-			army = {
-				small = "GFX_idea_generic_air_asia_2"
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = CHI_fang_zeyi
-			ledger = air
-			allowed = {
-				original_tag = CHI
-				NOT = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-			}
-			traits = { air_warfare_theorist }
-		}
-	}
 	CHI_shen_honglie = {
 		name = CHI_shen_honglie
 		portraits = {
@@ -980,27 +878,6 @@ characters = {
 				original_tag = CHI
 			}
 			traits = { naval_theorist }
-		}
-	}
-	CHI_chen_qingyun = {
-		name = CHI_chen_qingyun
-		portraits = {
-			army = {
-				small = GFX_portrait_CHI_chen_qingyun_small
-			}
-		}
-		advisor = {
-			cost = 100
-			slot = theorist
-			idea_token = CHI_chen_qingyun
-			ledger = air
-			allowed = {
-				original_tag = CHI
-			}
-			available = {
-				has_completed_focus = CHI_officialize_the_rocaf
-			}
-			traits = { air_warfare_theorist }
 		}
 	}
 	CHI_huang_shen = {
@@ -1427,60 +1304,6 @@ characters = {
 			}
 		}
 	}
-	CHI_chiang_ching_kuo = {
-		instance = {
-			allowed = {
-				has_dlc = "No Compromise, No Surrender"
-			}
-			name = CHI_chiang_ching_kuo
-			portraits = {
-				civilian = {
-					small = "GFX_idea_CHI_chiang_ching_kuo"
-				}
-			}
-			advisor = {
-				slot = political_advisor
-				idea_token = CHI_chiang_ching_kuo
-				available = {
-					OR = {
-						has_country_leader = {
-							ruling_only = yes
-							character = CHI_chiang_kaishek
-						}
-						has_country_leader = {
-							ruling_only = yes
-							character = CHI_soong_mei_ling
-						}
-					}
-				}
-				allowed = {
-					original_tag = CHI
-				}
-				traits = { silent_workhorse }
-			}
-		}
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-			}
-			name = CHI_chiang_ching_kuo
-			portraits = {
-				civilian = {
-					small = "GFX_idea_CHI_chiang_ching_kuo"
-				}
-			}
-			advisor = {
-				slot = political_advisor
-				idea_token = CHI_chiang_ching_kuo
-				allowed = {
-					original_tag = CHI
-				}
-				traits = { silent_workhorse }
-			}
-		}
-	}
 	CHI_mao_renfeng = {
 		name = CHI_mao_renfeng
 		portraits = {
@@ -1539,57 +1362,6 @@ characters = {
 			traits = { CHI_president_of_examination_yuan }
 			ai_will_do = {
 				base = 7.5
-			}
-		}
-	}
-	CHI_h_h_kung = {
-		instance = {
-			allowed = {
-				has_dlc = "No Compromise, No Surrender"
-			}
-			name = CHI_h_h_kung
-			portraits = {
-				civilian = {
-					small = "GFX_idea_CHI_h_h_kung"
-				}
-			}
-			advisor = {
-				slot = political_advisor
-				idea_token = CHI_h_h_kung
-				allowed = {
-					original_tag = CHI
-				}
-				traits = { captain_of_industry }
-				visible = {
-					NOT = {
-						has_completed_focus = CHI_strengthening_our_resolve
-						has_completed_focus = CHI_end_military_primacy
-					}
-				}
-				available = {
-					has_completed_focus = CHI_draw_support_from_the_big_families
-				}
-			}
-		}
-		instance = {
-			allowed = {
-				NOT = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-			}
-			name = CHI_h_h_kung
-			portraits = {
-				civilian = {
-					small = "GFX_idea_CHI_h_h_kung"
-				}
-			}
-			advisor = {
-				slot = political_advisor
-				idea_token = CHI_h_h_kung
-				allowed = {
-					original_tag = CHI
-				}
-				traits = { captain_of_industry }
 			}
 		}
 	}
@@ -2136,30 +1908,6 @@ characters = {
 			traits = { finance_graduate }
 		}
 	}
-	CHI_chen_bijun = {
-		name = CHI_chen_bijun
-		portraits = {
-			civilian = {
-				small = GFX_portrait_CHI_chen_bijun_small
-			}
-		}
-		gender = female
-		advisor = {
-			slot = political_advisor
-			idea_token = CHI_chen_bijun
-			visible = {
-				has_country_leader = {
-					ruling_only = yes
-					character = CHI_wang_jingwei
-				}
-			}
-			allowed = {
-				original_tag = CHI
-				has_dlc = "No Compromise, No Surrender"
-			}
-			traits = { first_lady }
-		}
-	}
 	CHI_chen_gongbo = {
 		name = CHI_chen_gongbo
 		portraits = {
@@ -2182,30 +1930,6 @@ characters = {
 				has_dlc = "No Compromise, No Surrender"
 			}
 			traits = { economist }
-		}
-	}
-	CHI_gao_zongwu = {
-		name = CHI_gao_zongwu
-		portraits = {
-			civilian = {
-				small = GFX_portrait_CHI_gao_zongwu_small
-			}
-		}
-		gender = male
-		advisor = {
-			slot = political_advisor
-			idea_token = CHI_gao_zongwu
-			visible = {
-				has_country_leader = {
-					ruling_only = yes
-					character = CHI_wang_jingwei
-				}
-			}
-			allowed = {
-				original_tag = CHI
-				has_dlc = "No Compromise, No Surrender"
-			}
-			traits = { modernizer_and_diplomat }
 		}
 	}
 	CHI_wang_chonghui = {
@@ -2276,25 +2000,6 @@ characters = {
 			traits = { scientist_trait_armored_specialist }
 			skills = {
 				specialization_land = 2
-			}
-		}
-	}
-	CHI_chu_chia_jen = {
-		name = CHI_chu_chia_jen
-		portraits = {
-			army = {
-				large = GFX_portrait_CHI_chu_chia_jen
-			}
-		}
-		scientist = {
-			traits = { scientist_trait_helicopter_expert }
-			skills = {
-				specialization_air = 2
-			}
-			visible = {
-				owner = {
-					has_completed_focus = CHI_VTOL_experiments
-				}
 			}
 		}
 	}
