@@ -1,5 +1,29 @@
 
 music = {
+	name = "Ukochany_kraj"
+	file = "Ukochany_kraj.ogg"
+}
+music = {
+	name = "Partenaire_Particulier"
+	file = "Partenaire_Particulier.ogg"
+}
+music = {
+	name = "Wouldnt_It_Be_Nice"
+	file = "Wouldnt_It_Be_Nice.ogg"
+}
+music = {
+	name = "Cossacks_Unsaddle_Your_Horses"
+	file = "Cossacks_Unsaddle_Your_Horses.ogg"
+}
+music = {
+	name = "Indochine"
+	file = "Indochine.ogg"
+}
+music = {
+	name = "Red_Army_Choir_Moscow_Nights"
+	file = "Red_Army_Choir_Moscow_Nights.ogg"
+}
+music = {
 	name = "There_Would_be_No_New_China"
 	file = "There_Would_be_No_New_China.ogg"
 }

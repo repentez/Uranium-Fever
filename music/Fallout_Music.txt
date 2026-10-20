@@ -1,4 +1,45 @@
 
+music_station = "Radio_Eastern_Block_station"
+music = {
+	song = "Cossacks_Unsaddle_Your_Horses"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music_station = "Radio_Eastern_Block_station"
+music = {
+	song = "Ukochany_kraj"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_Europe_station"
+music = {
+	song = "Indochine"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+music_station = "Radio_Eastern_Block_station"
+music = {
+	song = "Red_Army_Choir_Moscow_Nights"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
 music_station = "Radio_China_station"
 music = {
 	song = "There_Would_be_No_New_China"
@@ -23,6 +64,17 @@ music = {
 music_station = "Radio_Europe_station"
 music = {
 	song = "Je_me_voyais_déjà"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music_station = "Radio_Europe_station"
+music = {
+	song = "Partenaire_Particulier"
 	chance = {
 		factor =5
 		modifier = {
@@ -63,6 +115,17 @@ music = {
 music_station = "Radio_America_2052"
 music = {
 	song = "L_A_Is_My_Lady"
+	chance = {
+		factor =5
+		modifier = {
+			factor = 100
+		}
+	}
+}
+
+music_station = "Radio_America_2052"
+music = {
+	song = "Wouldnt_It_Be_Nice"
 	chance = {
 		factor =5
 		modifier = {
