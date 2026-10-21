@@ -25,6 +25,8 @@ country_event = {
 		has_completed_focus = USA_focus_project_safehouse
 	}
 	option = {
+		complete_national_focus = USA_focus_best_and_brightest
+		complete_national_focus = USA_focus_civil_defense_funding
 		custom_effect_tooltip =  USA_vaultec_decisions
 		name = Protect our citizens at all cost
 		add_stability = 0.05

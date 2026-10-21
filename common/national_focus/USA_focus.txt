@@ -15,9 +15,13 @@ focus_tree = {
 	focus = {
 		id = usa_focus_commonwealth_review
 		icon = GFX_goal_auld_lang_syne
-		x = -29
-		y = 1
+		x = -55
+		y = 2
 		cost = 10
+			prerequisite = {
+			focus = USA_focus_conservation_corps
+		}
+		
 		completion_reward = {
 			country_event = {
 				id = USA.dying_systeme_focus_event
@@ -362,17 +366,7 @@ focus_tree = {
 			}
 		}
 	}
-	focus = {
-		id = USA_focus_comdevpro
-		icon = GFX_goal_reform_industry_3
-		x = -55
-		y = 2
-		cost = 3
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_conservation_corps
-		}
-	}
+
 	focus = {
 		id = USA_focus_new_deal
 		icon = GFX_focus_generic_economic_recovery
@@ -537,7 +531,13 @@ focus_tree = {
 		x = -50
 		y = 5
 		cost = 2
-		completion_reward = {}
+		completion_reward = {
+				12 = {
+		add_extra_state_shared_building_slots = 5
+		add_building_construction = { type = industrial_complex level = 3 instant_build = yes }
+		add_building_construction = { type = arms_factory level = 2 instant_build = yes }
+	}
+		}
 		prerequisite = {
 			focus = USA_focus_interesting_designs
 		}
@@ -701,8 +701,27 @@ focus_tree = {
 		y = 5
 		cost = 3
 		completion_reward = {
-			add_political_power = 30
-			add_stability = 5
+			
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
 		}
 		prerequisite = {
 			focus = USA_focus_rebuild_nra
@@ -721,7 +740,11 @@ focus_tree = {
 		y = 6
 		cost = 1
 		completion_reward = {
-			add_political_power = 15
+				add_equipment_to_stockpile = {
+		type = infantry_equipment_1
+		amount = 1000
+		producer = USA
+	}
 		}
 		prerequisite = {
 			focus = USA_focus_arms_factories
@@ -734,7 +757,11 @@ focus_tree = {
 		y = 6
 		cost = 1
 		completion_reward = {
-			add_political_power = 15
+				add_equipment_to_stockpile = {
+		type = support_equipment_1
+		amount = 500
+		producer = USA
+	}
 		}
 		prerequisite = {
 			focus = USA_focus_arms_factories
@@ -742,17 +769,31 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_breads_and_circuses
-		icon = GFX_focus_BEL_legacy_of_the_great_war
+		icon = GFX_goal_reform_industry_3
 		x = -59
 		y = 7
 		cost = 1
 		completion_reward = {
-			add_stability = 5
-			add_political_power = 15
-			add_popularity = {
-				ideology = democratic
-				popularity = 0.05
-			}
+		random_owned_controlled_state = {
+		limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } }
+		add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+	}
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } }
+		add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+	}
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = industrial_complex size > 0 include_locked = yes } }
+		add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+	}
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
+	random_owned_controlled_state = {
+		limit = { free_building_slots = { building = arms_factory size > 0 include_locked = yes } }
+		add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+	}
 		}
 		prerequisite = {
 			focus = USA_focus_guns
