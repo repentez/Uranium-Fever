@@ -1,6 +1,5 @@
 capital = 277
 oob = "MEX_2052"
-
 IF = {
 	limit = {
 		has_dlc = "By Blood Alone"

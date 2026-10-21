@@ -39,10 +39,7 @@ set_technology = {
 }
 set_grand_doctrine = superior_firepower
 set_grand_doctrine = new_base_strike
-2052.1.1 = {
-	create_faction = "American Treaty Organization"
-	add_to_faction = MEX
-}
+
 create_country_leader = {
 	name = "William H. Caldwell"
 	desc = "POLITICS_WILLIAM_H_CALDWELL_DESC"
@@ -80,12 +77,6 @@ recruit_character = USA_admiral_grath
 recruit_character = USA_colonel_a_vince
 recruit_character = USA_enclave_administration
 
-give_guarantee = CHI
-give_guarantee = KOR
-give_guarantee = JAP
-give_guarantee = PHI
-give_guarantee = AST
-give_guarantee = NZL
-give_guarantee = EUC
-
+puppet = CUB
+puppet = MEX
 puppet = UDJ

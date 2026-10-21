@@ -1,14 +1,13 @@
 state = {
 	id = 2
-	name = "STATE_2" # Latium
+	name = "STATE_2"
 	manpower = 2781971
-	
 	state_category = city
-
 	history = {
 		owner = EUC
-		victory_points = { 9904 40 } #Rome
-		victory_points = { 11846 1 } #Anzio (was 5)
+		victory_points = { 9904 40 }
+		victory_points = { 11846 1 }
+		victory_points = { 14478 1 }
 		buildings = {
 			infrastructure = 4
 			air_base = 8
@@ -29,10 +28,21 @@ state = {
 			}
 		}
 	}
-
 	provinces = {
-		923 3885 6862 9750 9794 9904 11751 11846 11882 14652 14653 14654 14655 14478
- 	}
-
-	local_supplies = 0.0 
+		923
+		3885
+		6862
+		9750
+		9794
+		9904
+		11751
+		11846
+		11882
+		14652
+		14653
+		14654
+		14655
+		14478
+	}
+	local_supplies = 0.0
 }

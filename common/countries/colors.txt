@@ -323,8 +323,8 @@ PAR = {
 	color_ui = rgb { 91 114 124 }
 }
 CUB = {
-	color = rgb { 82 70 87 }
-	color_ui = rgb { 82 70 87 }
+	color = rgb { 123 141 168 }
+	color_ui = rgb { 123 141 168 }
 }
 DOM = {
 	color = rgb { 54 63 98 }
@@ -379,8 +379,8 @@ BOS = {
 	color_ui = rgb { 74 88 71 }
 }
 PRC = {
-	color = rgb { 155 85 99 }
-	color_ui = rgb { 155 85 99 }
+	color = rgb { 194 165 109 }
+	color_ui = rgb { 194 165 109 }
 }
 LBA = {
 	color = rgb { 55 118 88 }

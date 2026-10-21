@@ -90,7 +90,7 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = authoritarian_socialist
+	ruling_party = despotic
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -99,7 +99,7 @@ set_popularities = {
 	democratic = 8
 	fascism = 1
 	totalitarian_socialist = 0
-	despotic = 2
-	authoritarian_socialist = 89
+	despotic = 89
+	authoritarian_socialist = 2
 }
 recruit_character = VIN_trans_minh_quang
