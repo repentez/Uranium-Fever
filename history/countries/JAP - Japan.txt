@@ -189,7 +189,6 @@ recruit_character = JAP_takeo_takagi
 recruit_character = JAP_soemu_toyoda
 recruit_character = JAP_jisaburo_ozawa
 recruit_character = JAP_tadashige_daigo
-recruit_character = JAP_yoshitoshi_tokugawa
 recruit_character = JAP_fushimi_hiroyasu
 recruit_character = JAP_korechika_anami
 recruit_character = JAP_mitsuo_fuchida

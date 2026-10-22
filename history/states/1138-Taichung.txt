@@ -1,11 +1,9 @@
-state={
-	id=1138
-	name="STATE_1138"
+state = {
+	id = 1138
+	name = "STATE_1138"
 	manpower = 310310
-	
 	state_category = city
-
-	history={
+	history = {
 		owner = CHI
 		add_core_of = CHI
 		add_claim_by = PRC
@@ -13,14 +11,9 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
-                victory_points = {
-			11959 5 
-		}
+		victory_points = { 11959 20 }
+		victory_points = { 7214 10 }
 	}
-
-	provinces={
-		7214 11959 15889 15892 15896
-	}
-
-	local_supplies=0.0 
+	provinces = { 7214 11959 15889 15892 15896 }
+	local_supplies = 0.0
 }

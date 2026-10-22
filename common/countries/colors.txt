@@ -379,8 +379,8 @@ BOS = {
 	color_ui = rgb { 74 88 71 }
 }
 PRC = {
-	color = rgb { 194 165 109 }
-	color_ui = rgb { 194 165 109 }
+	color = rgb { 196 111 108 }
+	color_ui = rgb { 196 111 108 }
 }
 LBA = {
 	color = rgb { 55 118 88 }

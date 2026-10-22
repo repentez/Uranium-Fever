@@ -1,0 +1,6 @@
+scripted_gui = {
+	anarchy = {
+		context_type = selected_country_context
+		window_name = AST_cabinet_trust_ui_window
+	}
+}
