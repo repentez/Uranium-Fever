@@ -16,6 +16,15 @@ USA_Mexico_Occupation = {
 		has_completed_focus = USA_focus_mexico_situation
 	}
 }
+USA_EUC_WAR = {
+	icon = GFX_decision_USA_Mexico_Occupation
+	allowed = {
+		tag = USA
+	}
+	visible = {
+		has_completed_focus = USA_focus_on_red_horse
+	}
+}
 USA_Project_Safehouse = {
 	icon = GFX_decision_vaultec
 	allowed = {

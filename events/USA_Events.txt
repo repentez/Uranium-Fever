@@ -399,3 +399,94 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = USA.ask_to_buy_oil_event
+	title = USA.ask_to_buy_oil_event_title
+	desc = USA.ask_to_buy_oil_event_desc
+	picture = GFX_ask_to_buy_oil
+
+	trigger = {
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = "We need theire support and guns we cant refuse"
+		USA = {
+			country_event = {
+				id = USA.ask_to_buy_oil_accepte_event
+				days = 20
+			}
+		}
+	}
+
+	option = {
+		name = "We need this oil for the front!"
+		USA = {
+			country_event = {
+				id = USA.ask_to_buy_oil_refuse_event
+				days = 20
+			}
+		}
+	}
+}
+country_event = {
+	id = USA.ask_to_buy_oil_refuse_event
+	title = USA.ask_to_buy_oil_event_refuse_title
+	desc = USA.ask_to_buy_oil_event_refuse_desc
+	picture = GFX_ask_to_buy_oil_refuse
+
+	trigger = {
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+
+	option = {
+		name = "Ehh"
+	}
+		
+}
+}
+country_event = {
+	id = USA.ask_to_buy_oil_accepte_event
+	title = USA.ask_to_buy_oil_event_accepte_title
+	desc = USA.ask_to_buy_oil_event_accepte_desc
+	picture = GFX_ask_to_buy_oil_accepte
+
+	trigger = {
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	fire_only_once = yes
+
+	option = {
+
+	option = {
+		give_resource_rights = {
+				receiver = USA
+				giver = UAR
+				state = 293
+			}
+			give_resource_rights = {
+				receiver = USA
+				giver = UAR
+				state = 294
+			}
+		name = "GREAT"
+	}
+		
+}
+}

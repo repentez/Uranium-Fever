@@ -25,6 +25,121 @@ USA_American_Way = {
 	}
 }
 
+USA_EUC_WAR = {
+
+	USA_send_support_equipment_to_euc = {
+		icon = GFX_decision_USA_Mexico_Occupation
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			has_completed_focus = USA_focus_pikes_pale_horse
+		}
+
+		available = {
+			country_exists = EUC
+			has_equipment = { support_equipment > 499 }
+		}
+
+		complete_effect = {
+			send_equipment = {
+				equipment = support_equipment
+				amount = 500
+				target = EUC
+			}
+			add_political_power = 25
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	USA_sell_weapons_to_euc = {
+		icon = GFX_decision_USA_Mexico_Occupation
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			has_completed_focus = USA_focus_on_red_horse
+		}
+
+		available = {
+			country_exists = EUC
+			has_equipment = { infantry_equipment > 499 }
+		}
+
+		complete_effect = {
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 500
+				target = EUC
+			}
+			add_political_power = 25
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	USA_send_support_equipment_to_uar = {
+		icon = GFX_decision_USA_Mexico_Occupation
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			has_completed_focus = USA_focus_pikes_pale_horse
+		}
+
+		available = {
+			country_exists = UAR
+			has_equipment = { support_equipment > 499 }
+		}
+
+		complete_effect = {
+			send_equipment = {
+				equipment = support_equipment
+				amount = 500
+				target = UAR
+			}
+			add_political_power = 25
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	USA_sell_weapons_to_uar = {
+		icon = GFX_decision_USA_Mexico_Occupation
+		cost = 0
+		fire_only_once = yes
+
+		visible = {
+			has_completed_focus = USA_focus_on_red_horse
+		}
+
+		available = {
+			country_exists = UAR
+			has_equipment = { infantry_equipment > 499 }
+		}
+
+		complete_effect = {
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 500
+				target = UAR
+			}
+			add_political_power = 25
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
 USA_Mexico_Occupation = {
 	USA_mexican_oil = {
 		icon = GFX_decision_USA_Mexico_Occupation

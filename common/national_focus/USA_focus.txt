@@ -813,7 +813,7 @@ focus_tree = {
 	focus = {
 		id = USA_focus_on_red_horse
 		icon = GFX_goal_the_best_for_the_best
-		x = -43
+		x = -42
 		y = 2
 		cost = 10
 		completion_reward = {}
@@ -824,7 +824,7 @@ focus_tree = {
 	focus = {
 		id = USA_focus_on_white_horse
 		icon = GFX_goal_advisor_usa_to_mex
-		x = -37
+		x = -38
 		y = 2
 		cost = 10
 		completion_reward = {
@@ -838,23 +838,18 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = USA_focus_testing_our_metal
-		icon = GFX_focus_generic_total_war
-		x = -44
-		y = 3
-		cost = 10
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_on_red_horse
-		}
-	}
-	focus = {
 		id = USA_focus_fend_off_black_horse
 		icon = GFX_goal_generic_oil_refinery
-		x = -42
+		x = -43
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			UAR = {
+	country_event = {
+					id = USA.ask_to_buy_oil_event
+				}
+		}
+		}
 		prerequisite = {
 			focus = USA_focus_on_red_horse
 		}
@@ -862,10 +857,12 @@ focus_tree = {
 	focus = {
 		id = USA_focus_studying_horsemen
 		icon = GFX_focus_BEL_la_dame_blanche
-		x = -40
+		x = -41
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			add_ideas = USA_studying_the_horsemen
+		}
 		prerequisite = {
 			focus = USA_focus_on_red_horse
 		}
@@ -900,17 +897,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
-		id = USA_focus_ahead_of_curve
-		icon = GFX_goal_eng_uk_tory_party
-		x = -40
-		y = 4
-		cost = 10
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_studying_horsemen
-		}
-	}
+
 	focus = {
 		id = USA_Enclave_directive
 		icon = GFX_goal_unknown
