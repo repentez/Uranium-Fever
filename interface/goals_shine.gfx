@@ -63,7 +63,126 @@ SpriteType = {
 	}
 	legacy_lazy_load = no
 }
-
+SpriteType = {
+	name = "GFX_goal_FairDeal_shine"
+	texturefile = "gfx/interface/goals/USA/GFX_FairDeal.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+	animation = {
+		animationmaskfile = "gfx/interface/goals/USA/GFX_FairDeal.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = -90.0
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = { x = 0.0 y = 0.0 }
+		animationtexturescale = { x = 1.0 y = 1.0 }
+	}
+	animation = {
+		animationmaskfile = "gfx/interface/goals/USA/GFX_FairDeal.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = 90.0
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = { x = 0.0 y = 0.0 }
+		animationtexturescale = { x = 1.0 y = 1.0 }
+	}
+	legacy_lazy_load = no
+}
+SpriteType = {
+	name = "GFX_goal_Ending_Truamnism_shine"
+	texturefile = "gfx/interface/goals/USA/GFX_Ending_Truamnism.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+	animation = {
+		animationmaskfile = "gfx/interface/goals/USA/GFX_Ending_Truamnism.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = -90.0
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = { x = 0.0 y = 0.0 }
+		animationtexturescale = { x = 1.0 y = 1.0 }
+	}
+	animation = {
+		animationmaskfile = "gfx/interface/goals/USA/GFX_Ending_Truamnism.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = 90.0
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = { x = 0.0 y = 0.0 }
+		animationtexturescale = { x = 1.0 y = 1.0 }
+	}
+	legacy_lazy_load = no
+}
+SpriteType = {
+	name = "GFX_goal_Healthcare_Reform_shine"
+	texturefile = "gfx/interface/goals/USA/GFX_Healthcare_Reform.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+	animation = {
+		animationmaskfile = "gfx/interface/goals/USA/GFX_Healthcare_Reform.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = -90.0
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = { x = 0.0 y = 0.0 }
+		animationtexturescale = { x = 1.0 y = 1.0 }
+	}
+	animation = {
+		animationmaskfile = "gfx/interface/goals/USA/GFX_Healthcare_Reform.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = 90.0
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = { x = 0.0 y = 0.0 }
+		animationtexturescale = { x = 1.0 y = 1.0 }
+	}
+	legacy_lazy_load = no
+}
+SpriteType = {
+	name = "GFX_goal_eng_uk_tory_party_shine"
+	texturefile = "gfx/interface/goals/USA/eng_uk_tory_party.dds"
+	effectFile = "gfx/FX/buttonstate.lua"
+	animation = {
+		animationmaskfile = "gfx/interface/goals/USA/eng_uk_tory_party.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = -90.0
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = { x = 0.0 y = 0.0 }
+		animationtexturescale = { x = 1.0 y = 1.0 }
+	}
+	animation = {
+		animationmaskfile = "gfx/interface/goals/USA/eng_uk_tory_party.dds"
+		animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+		animationrotation = 90.0
+		animationlooping = no
+		animationtime = 0.75
+		animationdelay = 0
+		animationblendmode = "add"
+		animationtype = "scrolling"
+		animationrotationoffset = { x = 0.0 y = 0.0 }
+		animationtexturescale = { x = 1.0 y = 1.0 }
+	}
+	legacy_lazy_load = no
+}
 	SpriteType = {
 		name = "GFX_goal_Conservative_corps_shine"
 		texturefile = "gfx/interface/goals/USA/Conservative_corps.dds"

@@ -804,7 +804,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_time_of_monsters
-		icon = GFX_goal_unknown
+		icon = GFX_goal_FairDeal
 		x = -40
 		y = 1
 		cost = 10
@@ -812,7 +812,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_on_red_horse
-		icon = GFX_goal_unknown
+		icon = GFX_goal_the_best_for_the_best
 		x = -43
 		y = 2
 		cost = 10
@@ -823,7 +823,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_on_white_horse
-		icon = GFX_goal_unknown
+		icon = GFX_goal_advisor_usa_to_mex
 		x = -37
 		y = 2
 		cost = 10
@@ -839,7 +839,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_testing_our_metal
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_total_war
 		x = -44
 		y = 3
 		cost = 10
@@ -850,7 +850,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_fend_off_black_horse
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_oil_refinery
 		x = -42
 		y = 3
 		cost = 10
@@ -861,7 +861,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_studying_horsemen
-		icon = GFX_goal_unknown
+		icon = GFX_focus_BEL_la_dame_blanche
 		x = -40
 		y = 3
 		cost = 10
@@ -875,7 +875,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_pikes_pale_horse
-		icon = GFX_goal_unknown
+		icon = GFX_goal_Healthcare_Reform
 		x = -38
 		y = 3
 		cost = 10
@@ -886,7 +886,7 @@ focus_tree = {
 	}
 	focus = {
 		id = USA_focus_huddled_masses_yearning
-		icon = GFX_goal_unknown
+		icon = GFX_goal_Ending_Truamnism
 		x = -36
 		y = 3
 		cost = 10
@@ -899,54 +899,16 @@ focus_tree = {
 			focus = USA_focus_on_white_horse
 		}
 	}
-	focus = {
-		id = USA_focus_upgrade_camouflage
-		icon = GFX_goal_unknown
-		x = -42
-		y = 5
-		cost = 10
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_studying_horsemen
-		}
-	}
-	focus = {
-		id = USA_focus_warship_electrification
-		icon = GFX_goal_unknown
-		x = -40
-		y = 5
-		cost = 10
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_studying_horsemen
-		}
-	}
-	focus = {
-		id = USA_focus_desert_logistics
-		icon = GFX_goal_unknown
-		x = -38
-		y = 5
-		cost = 10
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_studying_horsemen
-		}
-	}
+
 	focus = {
 		id = USA_focus_ahead_of_curve
-		icon = GFX_goal_unknown
+		icon = GFX_goal_eng_uk_tory_party
 		x = -40
-		y = 6
+		y = 4
 		cost = 10
 		completion_reward = {}
 		prerequisite = {
-			focus = USA_focus_upgrade_camouflage
-		}
-		prerequisite = {
-			focus = USA_focus_warship_electrification
-		}
-		prerequisite = {
-			focus = USA_focus_desert_logistics
+			focus = USA_focus_studying_horsemen
 		}
 	}
 	focus = {

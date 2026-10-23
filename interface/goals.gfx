@@ -1,5 +1,20 @@
 spriteTypes = {
-
+SpriteType = {
+	name = "GFX_goal_FairDeal"
+	texturefile = "gfx/interface/goals/USA/GFX_FairDeal.dds"
+}
+SpriteType = {
+	name = "GFX_goal_Ending_Truamnism"
+	texturefile = "gfx/interface/goals/USA/GFX_Ending_Truamnism.dds"
+}
+SpriteType = {
+	name = "GFX_goal_Healthcare_Reform"
+	texturefile = "gfx/interface/goals/USA/GFX_Healthcare_Reform.dds"
+}
+SpriteType = {
+	name = "GFX_goal_eng_uk_tory_party"
+	texturefile = "gfx/interface/goals/USA/eng_uk_tory_party.dds"
+}
 	SpriteType = {
 		name = "GFX_goal_vault_tec"
 		texturefile = "gfx/interface/goals/USA/vault_tec.dds"
