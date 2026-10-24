@@ -69,11 +69,17 @@
  usa_northern_commonwealth:0 "The Northern Commonwealth"
  usa_northern_commonwealth_desc:0 "Build a radar and air defense network across our northern states. If China ever strikes from across the Pole, we'll see it coming."
  USA_focus_mexico_situation_desc:0 "Mexico is draining our resources and manpower, and the cost keeps growing."
-
+ USA_studying_the_horsemen:0 "Studying the Horsemen"
  USA_mexico_event_title:0 "Mexico Is Bleeding Us Dry"
   USA_mexico_event_desc:0 "Mexico is draining our resources and manpower, and the bill keeps growing. Should we press on and tighten our grip, or keep good relations and ease off? The decision is ours."
  USA_focus_contract_assigning_desc:0 "Mexico's oil is up for grabs. Two companies want the contracts, and we have to pick one."
-
+ USA_EUC_WAR:0 "EUC War"
+ USA_send_support_equipment_to_euc:0 "Send Support Equipment to EUC"
+ USA_sell_weapons_to_euc:0 "Sell Weapons to EUC"
+ USA_send_support_equipment_to_uar:0 "Send Support Equipment to Arabian Republic"
+ USA_sell_weapons_to_uar:0 "Sell Weapons to Arabian Republic"
+ USA.ask_to_buy_oil_event_title:0 "USA Asks to Buy Oil"
+ USA.euc_island_event_title:0 "USA Attacks Bermuda"
  USA_choice_companies_event_title:0 "Assigning the Contracts"
  USA_choice_companies_event_desc:0 "Two companies are competing for the Mexican oil contracts.\n\n§YPetro Chico§! is a local company that would develop Mexico's fields for the Mexicans. It would make certain people in the Enclave very happy, and their influence would grow.\n\n§YTexaco§! is an American giant. Besides developing Mexico's oil, it would also bring extra oil production to Central Texas.\n\nWhich one gets the contracts?"
 

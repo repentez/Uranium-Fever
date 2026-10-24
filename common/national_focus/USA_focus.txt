@@ -426,17 +426,7 @@ focus_tree = {
 			focus = USA_focus_reliable_contractors
 		}
 	}
-	focus = {
-		id = USA_focus_behind_closed_doors
-		icon = GFX_focus_BEL_la_dame_blanche
-		x = -53
-		y = 4
-		cost = 2
-		completion_reward = {}
-		prerequisite = {
-			focus = USA_focus_reliable_contractors
-		}
-	}
+
 	focus = {
 		id = USA_focus_interesting_designs
 		icon = GFX_goal_generic_construct_civ_factory
@@ -810,13 +800,16 @@ focus_tree = {
 		cost = 10
 		completion_reward = {}
 	}
+
 	focus = {
 		id = USA_focus_on_red_horse
 		icon = GFX_goal_the_best_for_the_best
 		x = -42
 		y = 2
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+				custom_effect_tooltip = USA_send_guns_to_uar_euc
+		}
 		prerequisite = {
 			focus = USA_focus_time_of_monsters
 		}
@@ -876,7 +869,9 @@ focus_tree = {
 		x = -38
 		y = 3
 		cost = 10
-		completion_reward = {}
+		completion_reward = {
+			custom_effect_tooltip = USA_send_aid_to_uar_euc
+		}
 		prerequisite = {
 			focus = USA_focus_on_white_horse
 		}

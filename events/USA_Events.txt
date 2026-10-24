@@ -377,8 +377,8 @@ country_event = {
 }
 country_event = {
 	id = USA.euc_side_island_event
-	title = USA.euc_sideisland_event_title
-	desc = USA.euc_sideisland_event_desc
+	title = USA.euc_side_island_event_title
+	desc = USA.euc_side_island_event_desc
 	picture = GFX_euc_island
 
 	trigger = {

@@ -8,6 +8,8 @@
  
 
 ###################
+USA_send_aid_to_uar_euc:0 "Unlock decisions to send aid to §GEUC§! or §GUAR§!"
+USA_send_guns_to_uar_euc:0 "Unlock decisions to send guns to §GEUC§! or §GUAR§!"
  USA_enclave_influence_growth:0 "Enclave influence will §Ggrow§!."
 ###################
 
